@@ -9,6 +9,7 @@ This package contains standalone scripts for running Ollama-based experiments on
 - (Optional) set `PYTHONPATH` if running from a different working directory:
   ```bash
   export PYTHONPATH="./Outline_Guided_Generation/src:${PYTHONPATH}"
+  export PYTHONPATH="./Outline_Guided_Generation:${PYTHONPATH}"
   ```
 
 All scripts read data from `Pap2Pat/data/` and write results under the repository root `outputs/runs/` folder.
@@ -46,6 +47,18 @@ python ipmai/generate_ollama_single.py \
 - Useful for replicating the “Single LLM-call” baseline in the paper
 - `--max_tokens` 控制单次调用允许的最大输出长度（token 数）。
   建议根据“输入 outline+paper 的长度”预留总上下文（例如 Qwen2.5 72B 支持 32k token，可设置 12000~15000 作为输出上限）。
+
+### 3. `evaluate_subset.py`
+Evaluate only the predictions you generated (no need to cover the full split).
+```
+python ipmai/evaluate_subset.py \
+    --run_dir "outputs/runs/ollama-single-test" \
+    --split "val" \
+    --scores "bleu,rouge,tokens,rr" \
+    --sample_ids "W2048923264-US20050037009,W4230060112-US20050065064"
+```
+- Omit `--sample_ids` to evaluate all IDs present in `predictions/<split>/`.
+- Results are saved per-sample (in each prediction folder) and aggregated under `<run_dir>/metrics_subset.json`.
 
 ### Outline Options
 `--outline_suffix` can be `long`, `medium`, `short`, or `empty`, corresponding to different prompt granularity (`patent_outline_*.md`).

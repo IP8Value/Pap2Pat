@@ -55,6 +55,7 @@ cfg = Config(
     top_k=-1,
     frequency_penalty=0.0,
     presence_penalty=0.0,
+    max_tokens=Field(default=32768, type=int, help="Maximum tokens to generate per sample"),
     run_dir=Field(default_factory=default_run_dir),
 )
 
@@ -83,8 +84,10 @@ def build_prompt(outline_text: str, paper_text: str, outline_suffix: str, tokeni
     user_content = (
         f"{Prompt.OUTLINE_INTRO}\n\n"
         f"```md\n{outline_text.strip()}\n```\n\n"
-        f"请根据以上大纲生成完整的专利描述，并确保风格和细节符合专利要求。\n\n"
-        f"以下是研究论文正文，可作为参考：\n\n"
+        "你需要撰写一份完整的专利说明书，严格按照上述大纲的章节顺序与标题组织内容。\n"
+        "每个章节都要展开详细描述，不要跳过大纲中的任何 bullet point。\n"
+        "确保采用正式专利语言，篇幅与大纲中 bullet 的数量成比例，整体长度接近真实专利。\n\n"
+        "以下是相关技术论文，可作为参考资料：\n\n"
         f"```md\n{paper_text.strip()}\n```\n"
         f"{length_info}"
     )
@@ -142,6 +145,7 @@ def run(cfg: Config) -> None:
                     messages=messages,
                     temperature=cfg.temperature,
                     top_p=cfg.top_p,
+                    max_tokens=cfg.max_tokens,
                     frequency_penalty=cfg.frequency_penalty,
                     presence_penalty=cfg.presence_penalty,
                 )
