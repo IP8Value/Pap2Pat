@@ -46,7 +46,7 @@ cfg = Config(
     ollama_api_base=Field(default=None, help="Ollama API base URL, e.g. http://localhost:11434"),
     ollama_model=Field(default=None, help="Ollama model name, e.g. qwen2.5:72b-instruct"),
     tokenizer_model=Field(default="Qwen/Qwen2.5-7B-Instruct", help="Tokenizer used to format prompts"),
-    outline_suffix=Field(default="long", choices=["long", "medium", "short", "empty"], help="Which outline variant to use"),
+    outline_suffix=Field(default="long", help="Which outline variant to use (long/medium/short/empty)"),
     split=Field(default="val", help="Dataset split to process"),
     max_samples=Field(default=None, type=int, help="Limit number of samples (useful for quick tests)"),
     seed=Field(default=42),
@@ -127,7 +127,7 @@ def run(cfg: Config) -> None:
     (run_dir / "config.yaml").write_text(cfg.to_yaml())
     (run_dir / "overrides.txt").write_text(" ".join(sys.argv[1:]))
 
-    with redirect_stdout_stderr(run_dir / "output.log"):
+    with redirect_stdout_stderr((run_dir / "output.log").open("w", encoding="utf-8")):
         sample_ids = list(iter_samples(cfg.split, cfg.max_samples))
         for sample_id in tqdm(sample_ids, desc=f"Generating {cfg.split}"):
             sample_dir = DATA_DIR / sample_id
