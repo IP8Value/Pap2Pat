@@ -38,11 +38,14 @@ python ipmai/generate_ollama_single.py \
     --ollama_model "qwen2.5:72b-instruct" \
     --outline_suffix "long" \
     --temperature 0.6 \
+    --max_tokens 15000 \
     --max_samples 3 \
     --run_dir "outputs/runs/ollama-single-test"
 ```
 - Writes `generated.md`, `reference.md`, `outline.md`, `paper.md` for each sample
 - Useful for replicating the “Single LLM-call” baseline in the paper
+- `--max_tokens` 控制单次调用允许的最大输出长度（token 数）。
+  建议根据“输入 outline+paper 的长度”预留总上下文（例如 Qwen2.5 72B 支持 32k token，可设置 12000~15000 作为输出上限）。
 
 ### Outline Options
 `--outline_suffix` can be `long`, `medium`, `short`, or `empty`, corresponding to different prompt granularity (`patent_outline_*.md`).
