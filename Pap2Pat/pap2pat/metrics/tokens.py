@@ -4,8 +4,18 @@ from pap2pat.clustering import ClusteredPatent
 
 
 class Tokens:
-    def __init__(self, tokenizer_path: str = "meta-llama/Meta-Llama-3-8B-Instruct"):
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+    def __init__(
+        self,
+        tokenizer_path: str = "meta-llama/Meta-Llama-3-8B-Instruct",
+        fallback_tokenizer: str = "gpt2",
+    ):
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+        except Exception:
+            if fallback_tokenizer:
+                self.tokenizer = AutoTokenizer.from_pretrained(fallback_tokenizer)
+            else:
+                raise
 
     def compute(self, doc: ClusteredPatent) -> dict:
         return {

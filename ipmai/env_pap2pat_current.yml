@@ -19,6 +19,7 @@ dependencies:
   - tk=8.6.13=hf689a15_2
   - wheel=0.45.1=pyhd8ed1ab_1
   - pip:
+    - accelerate==1.11.0
     - aiohappyeyeballs==2.6.1
     - aiohttp==3.13.2
     - aiosignal==1.4.0
@@ -92,6 +93,7 @@ dependencies:
     - preshed==3.0.11
     - prompt-toolkit==3.0.52
     - propcache==0.4.1
+    - psutil==7.1.3
     - ptyprocess==0.7.0
     - pure-eval==0.2.3
     - pyarrow==22.0.0
@@ -112,7 +114,10 @@ dependencies:
     - rouge-metric==1.0.1
     - sacrebleu==2.5.1
     - safetensors==0.6.2
+    - scale-score==0.1.0
+    - scikit-learn==1.7.2
     - scipy==1.15.3
+    - sentencepiece==0.2.1
     - setproctitle==1.3.7
     - sglang==0.5.2
     - six==1.17.0
@@ -129,6 +134,7 @@ dependencies:
     - sympy==1.14.0
     - tabulate==0.9.0
     - thinc==8.3.8
+    - threadpoolctl==3.6.0
     - tokenizers==0.22.1
     - torch==2.2.2
     - tqdm==4.67.1

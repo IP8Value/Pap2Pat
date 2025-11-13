@@ -21,7 +21,11 @@ def identity_iterator(it, *args, **kwargs):
         yield i
 
 
-sm.stylo_metrix.tqdm = identity_iterator
+try:
+    sm.stylo_metrix.tqdm = identity_iterator  # type: ignore[attr-defined]
+except AttributeError:  # older stylo_metrix versions expose tqdm at top level
+    if hasattr(sm, "tqdm"):
+        sm.tqdm = identity_iterator  # type: ignore[attr-defined]
 
 
 def compute_metrics(worker_state: dict, doc: str) -> tuple[list[dict], list[int]]:
