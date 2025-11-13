@@ -7,9 +7,16 @@ class RR:
     def __init__(
         self,
         tokenizer_path: str = "meta-llama/Meta-Llama-3-8B-Instruct",
+        fallback_tokenizer: str = "gpt2",
         max_n: int = 4,
     ):
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
+        except Exception:
+            if fallback_tokenizer:
+                self.tokenizer = AutoTokenizer.from_pretrained(fallback_tokenizer)
+            else:
+                raise
         self.max_n = max_n
 
     @staticmethod
