@@ -1,0 +1,325 @@
+\appendix
+
+\input{sections/091_dataset_appendix.tex}
+
+
+\FloatBarrier
+\section{Document Parsing Pipeline}\label{sec:parsing_appendix}
+\FloatBarrier
+
+In total, we use three different data sources for the full texts.
+For the patents, we use the USPTO bulk downloads\footnote{\url{https://bulkdata.uspto.gov/}}.
+For the papers, we use PubMed if available and PDF otherwise.
+The goal is to extract a clean representation of the full text into a common JSON format.
+In this format, every section has a title, a list of paragraphs and a list of subsections.
+We write parsers for the XML formats from USPTO, PubMed and the PDF parser Grobid\footnote{\url{https://github.com/kermitt2/grobid}}.
+In addition, we perform several cleaning steps:\begin{enumerate}
+  \item \textbf{PDF Hierarchy Reconstruction. } The JSON format is hierarchical by nature,  for instance to enable better chunking of patents and section-based retrieval from papers. However, Grobid does not detect section levels if the sections are not numbered. To reconstruct the levels in these cases, we implement a solution that searches for the headings in the PDF file, extracts their font properties, orders them by size, boldness and capitalization, and infers the levels from that.
+  \item \textbf{Patent Hierarchy Reconstruction. } In USPTO's patent XML files, there is a level attribute associated with every heading, but we find that it is rarely correct; most headings are placed on the same level. To reconstruct the levels, we pass the list of headings to an LLM and instruct it to infer the levels based on their names (e.g., "Example 1" and "Example 2" and likely children of "EXAMPLES").
+  \item \textbf{Formula Conversion. } Many patents and papers include formulas that can be an important part of the document. However, in USPTO's and PubMed's XML formats, formulas are represented in MathML syntax, which is extremely hard to read and arguably hard to generate. To that end, we convert all MathML formulas to latex using pandoc\footnote{\url{https://github.com/jgm/pandoc}}.
+  \item \textbf{Metadata Section Filtering. } Patents usually contain a number of metadata sections in the full text, such as information regarding funding or cross-references to related patents. To filter out these sections, we collect a list of such heading names and remove a section if its heading has a Levenshtein distance less than 3 to any one of the blacklisted headings.
+\end{enumerate}
+
+
+
+\FloatBarrier
+\clearpage
+\section{Repetition Removal}\label{sec:rep_removal}
+\FloatBarrier
+
+\begin{algorithm*}[ht!]
+  \small
+  \caption{Repetition Detection}
+  \label{alg:rep_removal}
+  \begin{algorithmic}[1]
+    \Function{matches}{l1, l2}
+      \State $n\_match \gets 0$
+      \For{$i \gets 0$ \textbf{to} $\text{len}(l1) - 1$}
+        \If{$l1[i] = l2[i$]}
+          \State $n\_match \gets n\_match + 1$
+        \EndIf
+      \EndFor
+      \State \Return n\_match / len(l1) $>$ 0.9
+    \EndFunction
+    \\
+    \Function{detect\_repetitions}{words, min\_length, max\_cycle\_length}
+        \State $n \gets len(words)$
+        \For{$k = 1$ to max\_cycle\_length}
+            \If{matches(words[-k:], words[-2 * k : -k])} \Comment{Check for repetition of length k}
+                \State $i \gets 2$ \Comment{Number of times the pattern is repeated}
+                \While{matches(words[-k:], words[-(i + 1) * k : -i * k])} \Comment{Search for additional occurrences}
+                    \State $i \gets i + 1$
+                \EndWhile
+                
+                \State remove\_indices $\gets$ [n - (i - 1) * k, ..., n]
+                \State total\_length $\gets i * k$
+
+                \If{total\_length $\ge$ min\_length}
+                    \State words $\gets$ words[: n - (i - 1) * k]  \Comment{Keep only first occurrence of pattern}
+                    \State remove\_rest $\gets$ detect\_repetitions(words, min\_length, max\_cycle\_length) \Comment{Recursive call for remaining text}
+                    \State \Return remove\_indices + remove\_rest \Comment{Return indices to remove}
+                \EndIf
+            \EndIf
+        \EndFor
+        \State \Return []
+    \EndFunction
+  \end{algorithmic}
+\end{algorithm*}
+\FloatBarrier
+We design a procedure to remove infinite repetitions from generated outputs to study their effect on evaluation metrics.  
+In that context, we characterize an infinite repetition as a sequence of tokens that appears multiple times until the end of the generation.  
+To find such repetitions, we apply the following recursive algorithm in \Cref{alg:rep_removal} to each chunk and remove the returned indices.
+To account for reptitions where the model alters the patterns slightly (e.g., incrementing a number) in each iteration, we consider two word sequences equal if 90\% of their positions are equal.
+By default, we use min\_length = 50 and max\_cycle\_length = 300. 
+
+\FloatBarrier
+\section{Contamination Results}\label{sec:nc-test-results}
+\FloatBarrier
+
+\input{sections/main_table_nc-test}
+
+
+\FloatBarrier
+\renewcommand{\sparqlbasicstyle}{\tiny\tt}
+\begin{figure*}
+  \section{Patent Outline Example}\label{sec:patent_outline_appendix}
+  \begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=markdown, style=markdownstyle, caption={Example patent outline (short variant) for the pair W6364285-US20140112582. The outline corresponds to more than 5 pages. This example was randomly selected.}]{sections/outline_example.txt}
+\end{minipage}
+\end{figure*}
+\renewcommand{\sparqlbasicstyle}{\small\tt}
+
+
+\FloatBarrier
+
+
+
+\begin{figure*}
+  \section{Patent Structure}\label{sec:patent_structure_appendix}
+  \begin{minipage}{\textwidth}
+  \includegraphics[width=\linewidth]{img/patent.png}
+  \caption{Illustration of the structure of a patent from \citet{jiangArtificialIntelligenceExploring2024}. Note that multiple pages from the detailed description are omitted. The description includes all sections except the front matter and claims. In our experiments, we exclude sections containing only metadata, such as statements regarding funding.}
+\end{minipage}
+\end{figure*}
+
+
+\FloatBarrier
+
+
+\begin{table*}
+\begin{minipage}{\textwidth}
+  \section{Hyperparameters}\label{sec:hyperparameter_appendix}
+  \centering
+  \begin{tabular}{llcll}
+    \toprule
+    \multicolumn{2}{c}{Generation} &       & \multicolumn{2}{c}{Training}                                    \\
+    \cmidrule{1-2}\cmidrule{4-5}
+    Parameter                      & Value &                              & Parameter           & Value      \\
+    \midrule
+    max sequence length            & 8192  &                              & max sequence length & 8192       \\
+    temperature                    & 0.6   &                              & learning rate       & 0.00031622 \\
+                                   &       &                              & scheduler           & cosine     \\
+                                   &       &                              & warmup ratio        & 0.1        \\
+                                   &       &                              & epochs              & 3          \\
+                                   &       &                              & batch size          & 32         \\
+                                   &       &                              & lora alpha          & 60         \\
+                                   &       &                              & lora dropout        & 0.05       \\
+                                   &       &                              & lora r              & 128        \\
+    \bottomrule
+  \end{tabular}
+  \caption{Hyperparameters during generation and training. Training parameters are adopted from \citet{tribesHyperparameterOptimizationLarge2024}. We run the experiments on Nvidia H100 80GB GPUs. We use a single H100 for inference and training of the 8B model and 4xH100 for the inference of the larger models using tensor parallel. We estimate the total number of GPU-hours to be 720.}
+\end{minipage}
+\end{table*}
+
+
+\FloatBarrier
+
+
+\renewcommand{\sparqlbasicstyle}{\tiny\tt}
+\begin{figure*}
+  \section{SPARQL Query}\label{sec:sparql_appendix}
+  \begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={SPARQL query template used to retrieve papers for a given patent from SemOpenAlex. Template variables \texttt{<var>} are filled based on the query patent.}]{sections/sparql_query.txt}
+\end{minipage}
+\end{figure*}
+\renewcommand{\sparqlbasicstyle}{\small\tt}
+
+
+\FloatBarrier
+
+
+\renewcommand{\sparqlbasicstyle}{\tiny\tt}
+\begin{figure*}
+  \section{Summary Generation Prompt}\label{sec:summary_prompt_appendix}
+  \begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={Prompt used to generate bullet point summaries with Llama-3 70B}]{sections/summary_prompt.txt}
+\end{minipage}
+\end{figure*}
+\renewcommand{\sparqlbasicstyle}{\small\tt}
+
+\FloatBarrier
+
+
+\renewcommand{\sparqlbasicstyle}{\tiny\tt}
+\begin{figure*}
+  \section{Patent Generation Prompt}\label{sec:generation_prompt_appendix}
+  \begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={System prompt used for outline-guided paper-to-patent generation}]{sections/generation_prompt_system.txt}
+\end{minipage}
+\end{figure*}
+
+\FloatBarrier
+
+
+\begin{figure*}
+\begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={User prompt used for outline-guided paper-to-patent generation (Part 1)}]{sections/generation_prompt_user_0.txt}
+\end{minipage}
+\end{figure*}
+
+\begin{figure*}
+\begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={User prompt used for outline-guided paper-to-patent generation (Part 2)}]{sections/generation_prompt_user_1.txt}
+\end{minipage}
+\end{figure*}
+
+\begin{figure*}
+\begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={User prompt used for outline-guided paper-to-patent generation (Part 3)}]{sections/generation_prompt_user_2.txt}
+\end{minipage}
+\end{figure*}
+
+\begin{figure*}
+\begin{minipage}{\textwidth}
+  \centering
+  \lstinputlisting[language=SPARQL, style=sparqlstyle, caption={User prompt used for outline-guided paper-to-patent generation (Part 4)}]{sections/generation_prompt_user_3.txt}
+\end{minipage}
+\end{figure*}
+
+\renewcommand{\sparqlbasicstyle}{\small\tt}
+
+
+\FloatBarrier
+
+\begin{figure*}[!ht]
+  \section{Dataset Statistics}\label{sec:dataset_stats_appendix}
+  \begin{minipage}{\textwidth}
+  \centering
+  \input{img/dataset_fields.pgf}
+  \caption{Distribution of domains across dataset splits. Domains are extracted from OpenAlex.}
+\end{minipage}
+\end{figure*}
+
+\FloatBarrier
+
+\begin{figure*}[!ht]
+\begin{minipage}{\textwidth}
+  \centering
+  \input{img/domains_over_time.pgf}
+  \caption{Distribution of domains over time. Domains are extracted from OpenAlex.}
+\end{minipage}
+\end{figure*}
+
+
+\begin{figure*}[!ht]
+\begin{minipage}{\textwidth}
+  \centering
+  \input{img/licenses.pgf}
+  \caption{Fraction of permissive licenses over time.}
+\end{minipage}
+\end{figure*}
+
+
+\begin{figure*}[!ht]
+\begin{minipage}{\textwidth}
+  \centering
+  \input{img/dates_compared.pgf}
+  \caption{Date offsets between patents and papers. Negative offset means paper was published first.}
+\end{minipage}
+\end{figure*}
+
+
+\begin{table}[t]
+  \centering
+  \small
+  \resizebox{\linewidth}{!}{
+    \begin{tabular}{lccccccccccccccc}
+      \toprule
+      & Style & Length & Coverage & Factuality \\
+      \midrule
+      \multicolumn{5}{l}{\textbf{Biology (n=152)}} \\
+      Llama-3 8B 
+                  & 41.7
+                  & 12.2k / 23.0k
+                  & 39.3 $\pm$ 1.4
+                  & 61.0 $\pm$ 0.5
+      \\
+      Llama-3 70B 
+                  & 48.9
+                  & \phantom{1}7.7k / 23.0k
+                  & 42.0 $\pm$ 0.9
+                  & 66.2 $\pm$ 1.2
+      \\
+      Mixtral-8x7B 
+                  & 47.7
+                  & \phantom{1}7.4k / 23.0k
+                  & 41.3 $\pm$ 1.1
+                  & 63.7 $\pm$ 0.6
+      \\
+      Qwen2-72B 
+                  & 48.3
+                  & 10.0k / 23.0k
+                  & 42.9 $\pm$ 1.1
+                  & 63.2 $\pm$ 1.0
+      \\
+      \cmidrule{1-5}
+      \multicolumn{5}{l}{\textbf{Computer Science (n=130)}} \\
+      Llama-3 8B 
+                  & 37.5
+                  & \phantom{1}7.0k / 13.1k
+                  & 42.5 $\pm$ 1.2
+                  & 61.0 $\pm$ 0.6
+      \\
+      Llama-3 70B 
+                  & 44.5
+                  & \phantom{1}4.6k / 13.1k
+                  & 44.2 $\pm$ 0.8
+                  & 63.4 $\pm$ 0.7
+      \\
+      Mixtral-8x7B 
+                  & 44.7
+                  & \phantom{1}4.0k / 13.1k
+                  & 43.5 $\pm$ 0.9
+                  & 61.2 $\pm$ 0.5
+      \\
+      Qwen2-72B 
+                  & 45.4
+                  & \phantom{1}5.3k / 13.1k
+                  & 46.7 $\pm$ 0.8
+                  & 61.6 $\pm$ 1.0
+      \\
+      \bottomrule
+    \end{tabular}
+  }
+  \caption{Domain comparison. We report the style score, the length of the generated and reference patents (Length, generated/reference), coverage \textit{Gen \textrightarrow{} Ref}, and factuality \textit{Ref \textrightarrow{} Gen}.}
+  \label{tab:domains}
+\end{table}
+
+\noindent\textbf{Differences between Domains. }
+We analyze the performance across domains (see Appendix \ref{sec:dataset_stats_appendix} for domain distributions) and show the results in \Cref{tab:domains}.
+We include the two most represented domains in the dataset: computer science (CS) and biology (Bio).
+Reference patents from the biology domain are much longer than computer science patents.
+We find that generated Bio patents achieve better factuality but lower coverage across models, despite relative lengths being very similar.
+Stylistic similarity is also higher for Bio patents.
+Furthermore, model ranking differ between the domains: while Llama-3 70B performs best on Bio patents, Qwen2-72B is highly competitive on CS patents.
+However, further analysis is needed due to limited sample sizes.
+
+
+\FloatBarrier

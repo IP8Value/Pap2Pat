@@ -1,0 +1,58 @@
+\section{Introduction}
+
+\begin{figure}[!t]
+  \centering
+  \includesvg[width=1.0\linewidth]{img/dataset_creation_2} %
+  \caption{
+    \DatasetName dataset creation (left) and experimental setup (right). 
+  }
+  \label{fig:dataset_creation}
+\end{figure}
+
+Securing intellectual property is a long and costly process that requires both deep technical knowledge and expertise in patent law.
+This motivates the use of technology to boost patent attorney productivity.
+Natural language processing (NLP) already assists prior art search \cite{shalabyPatentRetrievalLiterature2019,stamatisEndEndNeural2022,pujariMultitaskApproachNeural2021} and patent landscaping \citep{CHOI2022121413,pujariThreeRealWorldDatasets2022}.
+Research on Large Language Models (LLMs) in the patent domain has recently gained momentum \cite{shomeeComprehensiveSurveyAIbased2024,jiangArtificialIntelligenceExploring2024,casolaSummarizationSimplificationGeneration2022,wangIPEvalBilingualIntellectual2024}, but patent drafting remains a largely manual task.
+
+A patent typically consists of claims, which define the invention and
+the legally relevant scope of protection, and a description, which provides technical details in sections like \textit{Field of the Invention}, \textit{Background}, \textit{Summary}, and \textit{Detailed Description}.
+Prior work has primarily focused on generating abstracts and claims \cite{Hamborg2017Autom-41994,leePatentTransformer2ControllingPatent2020,christofidellisPGTPromptBased2022,leeEvaluatingGenerativePatent2023,zuoPatentEvalUnderstandingErrors2024,leeInstructPatentGPTTrainingPatent2024,baiPatentGPTLargeLanguage2024}.
+The description makes up over 90\% of the document,
+\footnote{Measured on our dataset using the Llama-3 tokenizer: 0.7\% abstract, 91.8\% description, 7.5\% claims.}
+implying that large productivity gains are expected from writing support for this section.
+Yet, generating them remains a significant challenge for LLMs due to their length, technical complexity, and specialized language
+\cite{wangPatentformerNovelMethod2024,wangAutoPatentMultiAgentFramework2024}.
+Existing work on automatic patent generation suffers from a number of shortcomings, such as ill-posed task setups, lack of open benchmarks, and disregard for patent descriptions \citep{jiangArtificialIntelligenceExploring2024}.
+In this paper, we tackle all of these issues: we propose a novel setup, evaluation metrics, and outline-guided models for description generation %
+in a realistic setting using open and human-created data.
+
+Inventors typically submit invention reports (IRs), which patent attorneys formalize into patent applications.
+In many research labs, it is common to use a pre-publication paper as invention report, which leads to so-called \textit{patent-paper pairs} (PPPs, \citet{murrayInnovationCoevolutionScientific2002}), an unrecognized treasure for AI research. %
+To facilitate the study of LLMs on patent drafting, we create \DatasetName, a new benchmark of 1.8k carefully identified PPPs and patent outlines.
+We develop and validate a method for reliably matching patents and papers describing the same invention (see \Cref{fig:dataset_creation}).
+For LLM-supported patent drafting, we envision a practical setting in which the attorney, given a paper, %
+provides an outline for the patent.
+This outline acts as a flexible mechanism to control the document structure and content while keeping manual effort low.
+
+A major challenge of the proposed task is document length: patent descriptions in \DatasetName are on average 18k tokens long, some exceeding 180k tokens.
+While current LLMs increasingly support long context windows, they struggle to generate similarly long outputs \cite{liuLongGenBenchLongcontextGeneration2024,baiLongWriterUnleashing102024,wuLongGenBenchBenchmarkingLongForm2025,yeLongProcBenchmarkingLongContext2025}.
+As a remedy, we propose \textit{chunk-based outline-guided patent generation} (\MethodName), which effectively generates long patent documents in chunks.
+
+Evaluating generated patents poses significant challenges due to their length, their technical complexity, and the high cost of manual evaluation.
+No standard evaluation metrics are established in the literature, and prior work \cite{wangAutoPatentMultiAgentFramework2024,wangPatentformerNovelMethod2024} commonly resorts to standard text similarity metrics which do not work well on long documents \cite{lattimerFastAccurateFactual2023,queHelloBenchEvaluatingLong2024}. 
+We adapt a suite of metrics based on natural language inference (NLI) and authorship attribution to the specific case of evaluating factual correctness, coverage, and language style for long-form patent generation on \DatasetName.
+Our main contributions are:
+\begin{enumerate}[label={(\arabic*)},itemsep=0mm,wide,labelindent=0pt,topsep=0pt,partopsep=0ex,parsep=0ex]
+  \item We create and release \DatasetName, a new benchmark for patent drafting based on open data that closely aligns with real-world settings.
+
+  \item We derive a comprehensive suite of automatic evaluation metrics for evaluating generated patents.
+
+  \item We propose a chunk-based outline-guided patent generation approach with effectively controllable output length. 
+  Our method increases coverage considerably while keeping factuality high.
+
+  \item We conduct extensive evaluations finding that state-of-the-art LLMs can effectively use information from the papers, but still struggle to provide the necessary level of detail,
+  and that fine-tuning leads to much higher stylistic similarity with patents, but substantially decreased factuality.
+
+  \item Our human evaluation confirms these findings and indicates promising potential for productivity gains of patent attorneys.
+\end{enumerate}
+

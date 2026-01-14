@@ -1,0 +1,562 @@
+\begin{thebibliography}{68}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Bai et~al.(2024{\natexlab{a}})Bai, Zhang, Lv, Zheng, Zhu, Hou, Dong,
+  Tang, and Li}]{baiLongWriterUnleashing102024}
+Yushi Bai, Jiajie Zhang, Xin Lv, Linzhi Zheng, Siqi Zhu, Lei Hou, Yuxiao Dong,
+  Jie Tang, and Juanzi Li. 2024{\natexlab{a}}.
+\newblock \href {https://doi.org/10.48550/arXiv.2408.07055} {{{LongWriter}}:
+  {{Unleashing}} 10,000+ {{Word Generation}} from {{Long Context LLMs}}}.
+
+\bibitem[{Bai et~al.(2024{\natexlab{b}})}]{baiPatentGPTLargeLanguage2024}
+Zilong Bai et~al. 2024{\natexlab{b}}.
+\newblock \href {http://arxiv.org/abs/2404.18255} {{{PatentGPT}}: {{A Large
+  Language Model}} for {{Intellectual Property}}}.
+
+\bibitem[{Beltagy et~al.(2019)Beltagy, Lo, and
+  Cohan}]{beltagySciBERTPretrainedLanguage2019}
+Iz~Beltagy, Kyle Lo, and Arman Cohan. 2019.
+\newblock \href {https://doi.org/10.18653/v1/D19-1371} {{{SciBERT}}: {{A
+  Pretrained Language Model}} for {{Scientific Text}}}.
+\newblock In \emph{Proceedings of the 2019 {{Conference}} on {{Empirical
+  Methods}} in {{Natural Language Processing}} and the 9th {{International
+  Joint Conference}} on {{Natural Language Processing}} ({{EMNLP-IJCNLP}})},
+  pages 3615--3620, Hong Kong, China. Association for Computational
+  Linguistics.
+
+\bibitem[{Casola and
+  Lavelli(2022)}]{casolaSummarizationSimplificationGeneration2022}
+Silvia Casola and Alberto Lavelli. 2022.
+\newblock \href {https://doi.org/10.1016/j.eswa.2022.117627} {Summarization,
+  simplification, and generation: {{The}} case of patents}.
+\newblock \emph{Expert Systems with Applications}, 205:117627.
+
+\bibitem[{Cettolo et~al.(2014)Cettolo, Bertoldi, and
+  Federico}]{cettoloRepetitionRateText2014}
+Mauro Cettolo, Nicola Bertoldi, and Marcello Federico. 2014.
+\newblock The repetition rate of text as a predictor of the effectiveness of
+  machine translation adaptation.
+\newblock In \emph{Proceedings of the 11th {{Conference}} of the
+  {{Association}} for {{Machine Translation}} in the {{Americas}}: {{MT
+  Researchers Track}}}, pages 166--179, Vancouver, Canada. Association for
+  Machine Translation in the Americas.
+
+\bibitem[{Choi et~al.(2022)Choi, Lee, Park, and Choi}]{CHOI2022121413}
+Seokkyu Choi, Hyeonju Lee, Eunjeong Park, and Sungchul Choi. 2022.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.techfore.2021.121413} {Deep
+  learning for patent landscaping using transformer and graph embedding}.
+\newblock \emph{Technological Forecasting and Social Change}, 175:121413.
+
+\bibitem[{Christofidellis et~al.(2022)Christofidellis, Torres, Dave, Roveri,
+  Schmidt, Swaminathan, Vandierendonck, Zubarev, and
+  Manica}]{christofidellisPGTPromptBased2022}
+Dimitrios Christofidellis, Antonio~Berrios Torres, A.~Dave, M.~Roveri, Kristin
+  Schmidt, Sarath Swaminathan, Hans Vandierendonck, D.~Zubarev, and Matteo
+  Manica. 2022.
+\newblock {{PGT}}: A prompt based generative transformer for the patent domain.
+\newblock In \emph{International Conference on Machine Learning}.
+
+\bibitem[{Devlin et~al.(2019)Devlin, Chang, Lee, and
+  Toutanova}]{devlin-etal-2019-bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019.
+\newblock \href {https://doi.org/10.18653/v1/N19-1423} {{BERT}: Pre-training of
+  deep bidirectional transformers for language understanding}.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota. Association for Computational Linguistics.
+
+\bibitem[{Drissi et~al.(2018)Drissi, Watkins, and
+  Kalita}]{drissiHierarchicalTextGeneration2018}
+Mehdi Drissi, Olivia Watkins, and Jugal Kalita. 2018.
+\newblock Hierarchical text generation using an outline.
+\newblock In \emph{15th International Conference on Natural Language
+  Processing}.
+
+\bibitem[{Dubey et~al.(2024)}]{dubeyLlamaHerdModels2024}
+Abhimanyu Dubey et~al. 2024.
+\newblock \href {http://arxiv.org/abs/2407.21783} {The {{Llama}} 3 {{Herd}} of
+  {{Models}}}.
+
+\bibitem[{Fang et~al.(2021)Fang, Zeng, Liu, Bo, Dong, and
+  Chen}]{fangOutlineStoryFinegrained2021a}
+Le~Fang, Tao Zeng, Chao-Ning Liu, Liefeng Bo, Wen Dong, and Changyou Chen.
+  2021.
+\newblock Outline to {{Story}}: {{Fine-grained Controllable Story Generation}}
+  from {{Cascaded Events}}.
+\newblock \emph{ArXiv}.
+
+\bibitem[{F{\"a}rber et~al.(2023)F{\"a}rber, Lamprecht, Krause, Aung, and
+  Haase}]{farberSemOpenAlexScientificLandscape2023a}
+Michael F{\"a}rber, David Lamprecht, Johan Krause, Linn Aung, and Peter Haase.
+  2023.
+\newblock \href {https://doi.org/10.1007/978-3-031-47243-5_6} {{{SemOpenAlex}}:
+  {{The Scientific Landscape}} in~26 {{Billion RDF Triples}}}.
+\newblock In \emph{The {{Semantic Web}} -- {{ISWC}} 2023}, pages 94--112, Cham.
+  Springer Nature Switzerland.
+
+\bibitem[{Gans et~al.(2017)Gans, Murray, and
+  Stern}]{gansPatentsPapersPairs2008}
+Joshua~S. Gans, Fiona~E. Murray, and Scott Stern. 2017.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.respol.2017.02.005}
+  {Contracting over the disclosure of scientific knowledge: Intellectual
+  property and academic publication}.
+\newblock \emph{Research Policy}, 46(4):820--835.
+
+\bibitem[{{Goldfarb-Tarrant} et~al.(2019){Goldfarb-Tarrant}, Feng, and
+  Peng}]{goldfarb-tarrant-etal-2019-plan}
+Seraphina {Goldfarb-Tarrant}, Haining Feng, and Nanyun Peng. 2019.
+\newblock \href {https://doi.org/10.18653/v1/N19-4016} {Plan, write, and
+  revise: An interactive system for open-domain story generation}.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {{American}}
+  Chapter of the Association for Computational Linguistics (Demonstrations)},
+  pages 89--97, Minneapolis, Minnesota. Association for Computational
+  Linguistics.
+
+\bibitem[{Grosz et~al.(1995)Grosz, Joshi, and
+  Weinstein}]{grosz-etal-1995-centering}
+Barbara~J. Grosz, Aravind~K. Joshi, and Scott Weinstein. 1995.
+\newblock \href {https://aclanthology.org/J95-2003/} {{C}entering: A framework
+  for modeling the local coherence of discourse}.
+\newblock \emph{Computational Linguistics}, 21(2):203--225.
+
+\bibitem[{Hamborg et~al.(2017)Hamborg, Elmaghraby, Breitinger, and
+  Gipp}]{Hamborg2017Autom-41994}
+Felix Hamborg, Moustafa Elmaghraby, Corinna Breitinger, and Bela Gipp. 2017.
+\newblock Automated generation of timestamped patent abstracts at scale to
+  outsmart patent-trolls.
+\newblock In \emph{Proceedings of the 2nd Joint Workshop on
+  Bibliometric-Enhanced Information Retrieval and Natural Language Processing
+  for Digital Libraries ({{BIRNDL}} 2017) : {{Tokyo}} : {{Japan}}}, number 1888
+  in {{CEUR}} Workshop Proceedings, pages 101--106. SunSITE Central Europe.
+
+\bibitem[{Hu et~al.(2022)Hu, yelong shen, Wallis, Allen-Zhu, Li, Wang, Wang,
+  and Chen}]{huLoRALowRankAdaptation2021}
+Edward~J Hu, yelong shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+  Wang, Lu~Wang, and Weizhu Chen. 2022.
+\newblock \href {https://openreview.net/forum?id=nZeVKeeFYf9} {Lo{RA}: Low-rank
+  adaptation of large language models}.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Jiang et~al.(2024)Jiang, Sablayrolles, Roux, Mensch, Savary, Bamford,
+  Chaplot, de~las Casas, Hanna, Bressand, Lengyel, Bour, Lample, Lavaud,
+  Saulnier, Lachaux, Stock, Subramanian, Yang, Antoniak, Scao, Gervet, Lavril,
+  Wang, Lacroix, and Sayed}]{jiangMixtralExperts2024}
+Albert~Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche
+  Savary, Chris Bamford, Devendra~Singh Chaplot, Diego de~las Casas, Emma~Bou
+  Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample,
+  L{\'e}lio~Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock,
+  Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven~Le Scao,
+  Th{\'e}ophile Gervet, Thibaut Lavril, Thomas Wang, Timoth{\'e}e Lacroix, and
+  William~El Sayed. 2024.
+\newblock \href {http://arxiv.org/abs/2401.04088} {Mixtral of {{Experts}}}.
+
+\bibitem[{Jiang and Goetz(2024)}]{jiangArtificialIntelligenceExploring2024}
+Lekang Jiang and Stephan Goetz. 2024.
+\newblock \href {http://arxiv.org/abs/2403.04105} {Artificial {{Intelligence
+  Exploring}} the {{Patent Field}}}.
+
+\bibitem[{Keselj et~al.(2003)Keselj, Peng, Cercone, and
+  Thomas}]{kesVeljNGRAMBASEDAUTHORPROFILES2003}
+Vlado Keselj, Fuchun Peng, Nick Cercone, and Calvin Thomas. 2003.
+\newblock N-{{GRAM-BASED AUTHOR PROFILES FOR AUTHORSHIP ATTRIBUTION}}.
+\newblock In \emph{Proceedings of the Conference Pacific Association for
+  Computational Linguistics}.
+
+\bibitem[{Konski and Wu(2015)}]{konskiInventorshipAuthorship2015}
+Antoinette~F. Konski and Linda~X. Wu. 2015.
+\newblock \href {https://doi.org/10.1101/cshperspect.a020859} {Inventorship and
+  {{Authorship}}}.
+\newblock \emph{Cold Spring Harbor Perspectives in Medicine}, 5(11):a020859.
+
+\bibitem[{Lattimer et~al.(2023)Lattimer, CHen, Zhang, and
+  Yang}]{lattimerFastAccurateFactual2023}
+Barrett Lattimer, Patrick CHen, Xinyuan Zhang, and Yi~Yang. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.105} {Fast and
+  {{Accurate Factual Inconsistency Detection Over Long Documents}}}.
+\newblock In \emph{Proceedings of the 2023 {{Conference}} on {{Empirical
+  Methods}} in {{Natural Language Processing}}}, pages 1691--1703, Singapore.
+  Association for Computational Linguistics.
+
+\bibitem[{Lee(2020)}]{leePatentTransformer2ControllingPatent2020}
+Jieh-Sheng Lee. 2020.
+\newblock Controlling patent text generation by structural metadata.
+\newblock In \emph{Proceedings of the 29th ACM International Conference on
+  Information \& Knowledge Management}, pages 3241--3244.
+
+\bibitem[{Lee(2023)}]{leeEvaluatingGenerativePatent2023}
+Jieh-Sheng Lee. 2023.
+\newblock \href {https://doi.org/10.1016/j.wpi.2023.102173} {Evaluating
+  generative patent language models}.
+\newblock \emph{World Patent Information}, 72:102173.
+
+\bibitem[{Lee(2024)}]{leeInstructPatentGPTTrainingPatent2024}
+Jieh-Sheng Lee. 2024.
+\newblock \href {https://doi.org/10.1007/s10506-024-09401-1}
+  {{{InstructPatentGPT}}: Training patent language models to follow
+  instructions with human feedback}.
+\newblock \emph{Artificial Intelligence and Law}.
+
+\bibitem[{Lee et~al.(2024)Lee, Ka, Son, Kang, and
+  Kang}]{leeNavigatingPathWriting2024}
+Yukyung Lee, Soonwon Ka, Bokyung Son, Pilsung Kang, and Jaewook Kang. 2024.
+\newblock \href {https://doi.org/10.48550/ARXIV.2404.13919} {Navigating the
+  {{Path}} of {{Writing}}: {{Outline-guided Text Generation}} with {{Large
+  Language Models}}}.
+
+\bibitem[{Li et~al.(2023{\natexlab{a}})Li, Lan, Fu, Cai, Liu, Collier,
+  Watanabe, and Su}]{liRepetitionRepetitionOut2023}
+Huayang Li, Tian Lan, Zihao Fu, Deng Cai, Lemao Liu, Nigel Collier, Taro
+  Watanabe, and Yixuan Su. 2023{\natexlab{a}}.
+\newblock \href {https://openreview.net/forum?id=WjgCRrOgip} {Repetition in
+  repetition out: Towards understanding neural text degeneration from the data
+  perspective}.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing
+  Systems}.
+
+\bibitem[{Li et~al.(2023{\natexlab{b}})Li, Chen, Yan, Wang, Zhang, and
+  Sundaram}]{liAdvancingPreciseOutlineConditioned2023}
+Yunzhe Li, Qian Chen, Weixiang Yan, Wen Wang, Qinglin Zhang, and Hari Sundaram.
+  2023{\natexlab{b}}.
+\newblock Advancing {{Precise Outline-Conditioned Text Generation}} with {{Task
+  Duality}} and {{Explicit Outline Control}}.
+\newblock In \emph{Conference of the {{European Chapter}} of the
+  {{Association}} for {{Computational Linguistics}}}.
+
+\bibitem[{Lin(2004)}]{linROUGEPackageAutomatic2004}
+Chin-Yew Lin. 2004.
+\newblock {{ROUGE}}: {{A Package}} for {{Automatic Evaluation}} of
+  {{Summaries}}.
+\newblock In \emph{Text {{Summarization Branches Out}}}, pages 74--81,
+  Barcelona, Spain. Association for Computational Linguistics.
+
+\bibitem[{Liu et~al.(2024)Liu, Dong, Hu, and
+  Chu}]{liuLongGenBenchLongcontextGeneration2024}
+Xiang Liu, Peijie Dong, Xuming Hu, and Xiaowen Chu. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.48}
+  {{{LongGenBench}}: {{Long-context Generation Benchmark}}}.
+\newblock In \emph{Findings of the {{Association}} for {{Computational
+  Linguistics}}: {{EMNLP}} 2024}, pages 865--883, Miami, Florida, USA.
+  Association for Computational Linguistics.
+
+\bibitem[{Magerman et~al.(2011)Magerman, van Looy, and
+  Debackere}]{magermanSearchAnticommonsPatentpaper2011}
+T~Magerman, Bart van Looy, and K~Debackere. 2011.
+\newblock In search of anti-commons: patent paper pairs in biotechnology. an
+  analysis of citation flows.
+\newblock In \emph{European Network of Indicator Designers (ENID) STI
+  Indicators Conference}.
+
+\bibitem[{Magerman et~al.(2015)Magerman, Looy, and
+  Debackere}]{magermanDoesInvolvementPatenting2015}
+Tom Magerman, Bart~Van Looy, and Koenraad Debackere. 2015.
+\newblock \href {https://doi.org/10.1016/j.respol.2015.06.005} {Does
+  involvement in patenting jeopardize one's academic footprint? {{An}} analysis
+  of patent-paper pairs in biotechnology}.
+\newblock \emph{Research Policy}, 44(9):1702--1713.
+
+\bibitem[{Magerman et~al.(2010)Magerman, Van~Looy, and
+  Song}]{magermanExploringFeasibilityAccuracy2010}
+Tom Magerman, Bart Van~Looy, and Xiaoyan Song. 2010.
+\newblock \href {https://doi.org/10.1007/s11192-009-0046-6} {Exploring the
+  feasibility and accuracy of {{Latent Semantic Analysis}} based text mining
+  techniques to detect similarity between patent documents and scientific
+  publications}.
+\newblock \emph{Scientometrics}, 82(2):289--306.
+
+\bibitem[{Marx and Fuegi(2020)}]{marxRelianceScienceWorldwide2020}
+Matt Marx and Aaron Fuegi. 2020.
+\newblock \href {https://doi.org/10.1002/smj.3145} {Reliance on science:
+  {{Worldwide}} front-page patent citations to scientific articles}.
+\newblock \emph{Strategic Management Journal}, 41(9):1572--1594.
+
+\bibitem[{Marx and Fuegi(2022)}]{marxRelianceScienceInventors2022}
+Matt Marx and Aaron Fuegi. 2022.
+\newblock \href {https://doi.org/10.1111/jems.12455} {Reliance on science by
+  inventors: {{Hybrid}} extraction of in-text patent-to-article citations}.
+\newblock \emph{Journal of Economics \& Management Strategy}, 31(2):369--392.
+
+\bibitem[{Mikros and Perifanos(2013)}]{Mikros2013AuthorshipAI}
+George~K. Mikros and Kostas Perifanos. 2013.
+\newblock \href {https://api.semanticscholar.org/CorpusID:13241703} {Authorship
+  attribution in greek tweets using author's multilevel n-gram profiles}.
+\newblock In \emph{AAAI Spring Symposium: Analyzing Microtext}.
+
+\bibitem[{Murray(2002)}]{murrayInnovationCoevolutionScientific2002}
+Fiona Murray. 2002.
+\newblock \href {https://doi.org/10.1016/S0048-7333(02)00070-7} {Innovation as
+  co-evolution of scientific and technological networks: Exploring tissue
+  engineering}.
+\newblock \emph{Research Policy}, 31(8):1389--1403.
+
+\bibitem[{Murray and Stern(2005)}]{murrayFormalIntellectualProperty2005}
+Fiona Murray and Scott Stern. 2005.
+\newblock \href {https://doi.org/10.3386/w11465} {Do {{Formal Intellectual
+  Property Rights Hinder}} the {{Free Flow}} of {{Scientific Knowledge}}? {{An
+  Empirical Test}} of the {{Anti-Commons Hypothesis}}}.
+\newblock w11465, page w11465, Cambridge, MA. National Bureau of Economic
+  Research.
+
+\bibitem[{Okulska et~al.(2023)Okulska, Stetsenko, Ko{\l}os, Karli{\'n}ska,
+  G{\l}{\k a}bi{\'n}ska, and
+  Nowakowski}]{okulskaStyloMetrixOpenSourceMultilingual2023}
+Inez Okulska, Daria Stetsenko, Anna Ko{\l}os, Agnieszka Karli{\'n}ska, Kinga
+  G{\l}{\k a}bi{\'n}ska, and Adam Nowakowski. 2023.
+\newblock \href {https://doi.org/10.48550/arXiv.2309.12810} {{{StyloMetrix}}:
+  {{An Open-Source Multilingual Tool}} for {{Representing Stylometric
+  Vectors}}}.
+
+\bibitem[{Pujari et~al.(2022)Pujari, Str{\"o}tgen, Giereth, Gertz, and
+  Friedrich}]{pujariThreeRealWorldDatasets2022}
+Subhash Pujari, Jannik Str{\"o}tgen, Mark Giereth, Michael Gertz, and Annemarie
+  Friedrich. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.emnlp-main.791} {Three
+  {{Real-World Datasets}} and {{Neural Computational Models}} for
+  {{Classification Tasks}} in {{Patent Landscaping}}}.
+\newblock In \emph{Proceedings of the 2022 {{Conference}} on {{Empirical
+  Methods}} in {{Natural Language Processing}}}, pages 11498--11513, Abu Dhabi,
+  United Arab Emirates. Association for Computational Linguistics.
+
+\bibitem[{Pujari et~al.(2021)Pujari, Friedrich, and
+  Str{\"o}tgen}]{pujariMultitaskApproachNeural2021}
+Subhash~Chandra Pujari, Annemarie Friedrich, and Jannik Str{\"o}tgen. 2021.
+\newblock \href {https://doi.org/10.1007/978-3-030-72113-8_34} {A {{Multi-task
+  Approach}} to {{Neural Multi-label Hierarchical Patent Classification Using
+  Transformers}}}.
+\newblock In \emph{Advances in {{Information Retrieval}}}, pages 513--528,
+  Cham. Springer International Publishing.
+
+\bibitem[{Que et~al.(2024)Que, Duan, He, Mou, Zhou, Liu, Rong, Wang, Yang,
+  Zhang, Peng, Zhang, Zhang, and Chen}]{queHelloBenchEvaluatingLong2024}
+Haoran Que, Feiyu Duan, Liqun He, Yutao Mou, Wangchunshu Zhou, Jiaheng Liu,
+  Wenge Rong, Zekun~Moore Wang, Jian Yang, Ge~Zhang, Junran Peng, Zhaoxiang
+  Zhang, Songyang Zhang, and Kai Chen. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2409.16191} {{{HelloBench}}:
+  {{Evaluating Long Text Generation Capabilities}} of {{Large Language
+  Models}}}.
+
+\bibitem[{Ravaut et~al.(2024)Ravaut, Ding, Jiao, Chen, Li, Zhao, Qin, Xiong,
+  and Joty}]{ravaut2024much}
+Mathieu Ravaut, Bosheng Ding, Fangkai Jiao, Hailin Chen, Xingxuan Li, Ruochen
+  Zhao, Chengwei Qin, Caiming Xiong, and Shafiq Joty. 2024.
+\newblock \href {http://arxiv.org/abs/2404.00699} {How much are llms
+  contaminated? a comprehensive survey and the llmsanitize library}.
+\newblock \emph{arXiv preprint arXiv:2404.00699}.
+
+\bibitem[{Robertson and
+  Zaragoza(2009)}]{robertsonProbabilisticRelevanceFramework2009}
+Stephen Robertson and Hugo Zaragoza. 2009.
+\newblock \href {https://doi.org/10.1561/1500000019} {The {{Probabilistic
+  Relevance Framework}}: {{BM25}} and {{Beyond}}}.
+\newblock \emph{Foundations and Trends{\textregistered} in Information
+  Retrieval}, 3(4):333--389.
+
+\bibitem[{Shalaby and Zadrozny(2019)}]{shalabyPatentRetrievalLiterature2019}
+Walid Shalaby and Wlodek Zadrozny. 2019.
+\newblock \href {https://doi.org/10.1007/s10115-018-1322-7} {Patent retrieval:
+  A literature review}.
+\newblock \emph{Knowledge and Information Systems}, 61(2):631--660.
+
+\bibitem[{Shao et~al.(2024)Shao, Jiang, Kanell, Xu, Khattab, and
+  Lam}]{shaoAssistingWritingWikipedialike2024}
+Yijia Shao, Yucheng Jiang, Theodore Kanell, Peter Xu, Omar Khattab, and Monica
+  Lam. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.naacl-long.347} {Assisting in
+  {{Writing Wikipedia-like Articles From Scratch}} with {{Large Language
+  Models}}}.
+\newblock In \emph{Proceedings of the 2024 {{Conference}} of the {{North
+  American Chapter}} of the {{Association}} for {{Computational Linguistics}}:
+  {{Human Language Technologies}} ({{Volume}} 1: {{Long Papers}})}, pages
+  6252--6278, Mexico City, Mexico. Association for Computational Linguistics.
+
+\bibitem[{Shomee et~al.(2024)Shomee, Wang, Ravi, and
+  Medya}]{shomeeComprehensiveSurveyAIbased2024}
+Homaira~Huda Shomee, Zhu Wang, Sathya~N. Ravi, and Sourav Medya. 2024.
+\newblock \href {http://arxiv.org/abs/2404.08668} {A {{Comprehensive Survey}}
+  on {{AI-based Methods}} for {{Patents}}}.
+
+\bibitem[{Spangher et~al.(2022)Spangher, Ming, Hua, and
+  Peng}]{spangher-etal-2022-sequentially}
+Alexander Spangher, Yao Ming, Xinyu Hua, and Nanyun Peng. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.findings-emnlp.509}
+  {Sequentially controlled text generation}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2022}, pages 6848--6866, Abu Dhabi, United Arab Emirates. Association
+  for Computational Linguistics.
+
+\bibitem[{Stamatis(2022)}]{stamatisEndEndNeural2022}
+Vasileios Stamatis. 2022.
+\newblock \href {https://doi.org/10.1007/978-3-030-99739-7_66} {End to {{End
+  Neural Retrieval}} for {{Patent Prior Art Search}}}.
+\newblock In \emph{Advances in {{Information Retrieval}}}, volume 13186, pages
+  537--544, Cham. Springer International Publishing.
+
+\bibitem[{Sun et~al.(2022)Sun, Sun, Meng, Li, and
+  Fan}]{sunSummarizeOutlineElaborate2022a}
+Xiaofei Sun, Zijun Sun, Yuxian Meng, Jiwei Li, and Chun Fan. 2022.
+\newblock Summarize, {{Outline}}, and {{Elaborate}}: {{Long-Text Generation}}
+  via {{Hierarchical Supervision}} from {{Extractive Summaries}}.
+\newblock In \emph{Proceedings of the 29th {{International Conference}} on
+  {{Computational Linguistics}}}, pages 6392--6402, Gyeongju, Republic of
+  Korea. International Committee on Computational Linguistics.
+
+\bibitem[{Tribes et~al.(2024)Tribes, {Benarroch-Lelong}, Lu, and
+  Kobyzev}]{tribesHyperparameterOptimizationLarge2024}
+Christophe Tribes, Sacha {Benarroch-Lelong}, Peng Lu, and Ivan Kobyzev. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2312.00949} {Hyperparameter
+  {{Optimization}} for {{Large Language Model Instruction-Tuning}}}.
+
+\bibitem[{van Dam(2013)}]{Dam2013ABC}
+Michiel van Dam. 2013.
+\newblock \href {https://api.semanticscholar.org/CorpusID:85791} {A basic
+  character n-gram approach to authorship verification notebook for pan at clef
+  2013}.
+\newblock In \emph{Conference and Labs of the Evaluation Forum}.
+
+\bibitem[{Van~Looy et~al.(2011)Van~Looy, Baesens, Magerman, and
+  Debackere}]{vanlooyAssessmentLatentSemantic2011}
+Bart Van~Looy, Bart Baesens, Tom Magerman, and Koenraad Debackere. 2011.
+\newblock \href {https://doi.org/10.2139/ssrn.2096159} {Assessment of {{Latent
+  Semantic Analysis}} ({{LSA}}) {{Text Mining Algorithms}} for {{Large Scale
+  Mapping}} of {{Patent}} and {{Scientific Publication Documents}}}.
+\newblock \emph{SSRN Electronic Journal}.
+
+\bibitem[{Wang et~al.(2024{\natexlab{a}})Wang, Mudhiganti, and
+  Sharma}]{wangPatentformerNovelMethod2024}
+Juanyan Wang, Sai Krishna~Reddy Mudhiganti, and Manali Sharma.
+  2024{\natexlab{a}}.
+\newblock Patentformer: {{A Novel Method}} to {{Automate}} the {{Generation}}
+  of {{Patent Applications}}.
+\newblock In \emph{Proceedings of the 2024 {{Conference}} on {{Empirical
+  Methods}} in {{Natural Language Processing}}: {{Industry Track}}}, pages
+  1361--1380, Miami, Florida, US. Association for Computational Linguistics.
+
+\bibitem[{Wang et~al.(2024{\natexlab{b}})Wang, Huang, Lu, Lin, Xu, Yang, and
+  Lin}]{wangIPEvalBilingualIntellectual2024}
+Qiyao Wang, Jianguo Huang, Shule Lu, Yuan Lin, Kan Xu, Liang Yang, and Hongfei
+  Lin. 2024{\natexlab{b}}.
+\newblock \href {http://arxiv.org/abs/2406.12386} {{{IPEval}}: {{A Bilingual
+  Intellectual Property Agency Consultation Evaluation Benchmark}} for {{Large
+  Language Models}}}.
+
+\bibitem[{Wang et~al.(2024{\natexlab{c}})Wang, Ni, Liu, Lu, Chen, Feng, Wei,
+  Qu, {Alinejad-Rokny}, Lin, and Yang}]{wangAutoPatentMultiAgentFramework2024}
+Qiyao Wang, Shiwen Ni, Huaren Liu, Shule Lu, Guhong Chen, Xi~Feng, Chi Wei,
+  Qiang Qu, Hamid {Alinejad-Rokny}, Yuan Lin, and Min Yang. 2024{\natexlab{c}}.
+\newblock \href {https://doi.org/10.48550/arXiv.2412.09796} {{{AutoPatent}}:
+  {{A Multi-Agent Framework}} for {{Automatic Patent Generation}}}.
+
+\bibitem[{Wang et~al.(2024{\natexlab{d}})Wang, Guo, Yao, Zhang, Zhang, Wu,
+  Zhang, Dai, zhang, Wen, Ye, Zhang, and Zhang}]{wangAutoSurveyLargeLanguage}
+Yidong Wang, Qi~Guo, Wenjin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan
+  Zhang, Xinyu Dai, Min zhang, Qingsong Wen, Wei Ye, Shikun Zhang, and Yue
+  Zhang. 2024{\natexlab{d}}.
+\newblock \href
+  {https://proceedings.neurips.cc/paper_files/paper/2024/file/d07a9fc7da2e2ec0574c38d5f504d105-Paper-Conference.pdf}
+  {Autosurvey: Large language models can automatically write surveys}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pages 115119--115145. Curran Associates, Inc.
+
+\bibitem[{Wu et~al.(2025)Wu, Hee, Hu, and
+  Lee}]{wuLongGenBenchBenchmarkingLongForm2025}
+Yuhao Wu, Ming~Shan Hee, Zhiqing Hu, and Roy Ka-Wei Lee. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2409.02076} {{{LongGenBench}}:
+  {{Benchmarking Long-Form Generation}} in {{Long Context LLMs}}}.
+
+\bibitem[{Yang et~al.(2024)Yang, Yang, Hui, Zheng, Yu, Zhou, Li, Li, Liu,
+  Huang, Dong, Wei, Lin, Tang, Wang, Yang, Tu, Zhang, Ma, Yang, Xu, Zhou, Bai,
+  He, Lin, Dang, Lu, Chen, Yang, Li, Xue, Ni, Zhang, Wang, Peng, Men, Gao, Lin,
+  Wang, Bai, Tan, Zhu, Li, Liu, Ge, Deng, Zhou, Ren, Zhang, Wei, Ren, Liu, Fan,
+  Yao, Zhang, Wan, Chu, Liu, Cui, Zhang, Guo, and
+  Fan}]{yangQwen2TechnicalReport2024}
+An~Yang, Baosong Yang, Binyuan Hui, Bo~Zheng, Bowen Yu, Chang Zhou, Chengpeng
+  Li, Chengyuan Li, Dayiheng Liu, Fei Huang, Guanting Dong, Haoran Wei, Huan
+  Lin, Jialong Tang, Jialin Wang, Jian Yang, Jianhong Tu, Jianwei Zhang,
+  Jianxin Ma, Jianxin Yang, Jin Xu, Jingren Zhou, Jinze Bai, Jinzheng He,
+  Junyang Lin, Kai Dang, Keming Lu, Keqin Chen, Kexin Yang, Mei Li, Mingfeng
+  Xue, Na~Ni, Pei Zhang, Peng Wang, Ru~Peng, Rui Men, Ruize Gao, Runji Lin,
+  Shijie Wang, Shuai Bai, Sinan Tan, Tianhang Zhu, Tianhao Li, Tianyu Liu,
+  Wenbin Ge, Xiaodong Deng, Xiaohuan Zhou, Xingzhang Ren, Xinyu Zhang, Xipin
+  Wei, Xuancheng Ren, Xuejing Liu, Yang Fan, Yang Yao, Yichang Zhang, Yu~Wan,
+  Yunfei Chu, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, Zhifang Guo, and Zhihao Fan.
+  2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2407.10671} {Qwen2 {{Technical
+  Report}}}.
+
+\bibitem[{Yang et~al.(2023)Yang, Klein, Peng, and
+  Tian}]{yangDOCImprovingLong2023}
+Kevin Yang, Dan Klein, Nanyun Peng, and Yuandong Tian. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.190} {{{DOC}}:
+  {{Improving Long Story Coherence With Detailed Outline Control}}}.
+\newblock In \emph{Proceedings of the 61st {{Annual Meeting}} of the
+  {{Association}} for {{Computational Linguistics}} ({{Volume}} 1: {{Long
+  Papers}})}, pages 3378--3465, Toronto, Canada. Association for Computational
+  Linguistics.
+
+\bibitem[{Yang et~al.(2022)Yang, Tian, Peng, and Klein}]{yang-etal-2022-re3}
+Kevin Yang, Yuandong Tian, Nanyun Peng, and Dan Klein. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.emnlp-main.296} {Re3:
+  Generating longer stories with recursive reprompting and revision}.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in
+  Natural Language Processing}, pages 4393--4479, Abu Dhabi, United Arab
+  Emirates. Association for Computational Linguistics.
+
+\bibitem[{Yao et~al.(2019)Yao, Peng, Weischedel, Knight, Zhao, and
+  Yan}]{yaoPlanandWriteBetterAutomatic2019}
+Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, and Rui
+  Yan. 2019.
+\newblock \href {https://doi.org/10.1609/aaai.v33i01.33017378}
+  {Plan-and-{{Write}}: {{Towards Better Automatic Storytelling}}}.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  33(01):7378--7385.
+
+\bibitem[{Ye et~al.(2025)Ye, Yin, He, Zhang, Yen, Gao, Durrett, and
+  Chen}]{yeLongProcBenchmarkingLongContext2025}
+Xi~Ye, Fangcong Yin, Yinghui He, Joie Zhang, Howard Yen, Tianyu Gao, Greg
+  Durrett, and Danqi Chen. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2501.05414} {{{LongProc}}:
+  {{Benchmarking Long-Context Language Models}} on {{Long Procedural
+  Generation}}}.
+
+\bibitem[{Zecevic(2011)}]{Zecevic2011NgramBT}
+Andelka Zecevic. 2011.
+\newblock \href {https://api.semanticscholar.org/CorpusID:3248825} {N-gram
+  based text classification according to authorship}.
+\newblock In \emph{Recent Advances in Natural Language Processing}.
+
+\bibitem[{Zhang et~al.(2020)Zhang, Kishore, Wu, Weinberger, and
+  Artzi}]{zhangBERTScoreEvaluatingText2020}
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian~Q. Weinberger, and Yoav Artzi.
+  2020.
+\newblock \href {https://openreview.net/forum?id=SkeHuCVFDr} {Bertscore:
+  Evaluating text generation with bert}.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Zhao et~al.(2023)Zhao, Strube, and Eger}]{zhao-etal-2023-discoscore}
+Wei Zhao, Michael Strube, and Steffen Eger. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.eacl-main.278}
+  {{D}isco{S}core: Evaluating text generation with {BERT} and discourse
+  coherence}.
+\newblock In \emph{Proceedings of the 17th Conference of the European Chapter
+  of the Association for Computational Linguistics}, pages 3865--3883,
+  Dubrovnik, Croatia. Association for Computational Linguistics.
+
+\bibitem[{Zheng et~al.(2023)Zheng, Yin, Xie, Huang, Sun, Yu, Cao, Kozyrakis,
+  Stoica, Gonzalez, Barrett, and Sheng}]{zhengEfficientlyProgrammingLarge2023}
+Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Jeff Huang, Chuyue Sun, Cody~Hao
+  Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph~E. Gonzalez, Clark
+  Barrett, and Ying Sheng. 2023.
+\newblock \href {http://arxiv.org/abs/2312.07104} {Efficiently {{Programming
+  Large Language Models}} using {{SGLang}}}.
+
+\bibitem[{Zuo et~al.(2024)Zuo, Gerdes, {Villemonte de La Clergerie}, and
+  Sagot}]{zuoPatentEvalUnderstandingErrors2024}
+You Zuo, Kim Gerdes, Eric {Villemonte de La Clergerie}, and Beno{\^i}t Sagot.
+  2024.
+\newblock {{PatentEval}}: {{Understanding Errors}} in {{Patent Generation}}.
+\newblock In \emph{{{NAACL2024}} - 2024 {{Annual Conference}} of the {{North
+  American Chapter}} of the {{Association}} for {{Computational Linguistics}}},
+  Mexico City, Mexico.
+
+\end{thebibliography}

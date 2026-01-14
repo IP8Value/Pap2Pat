@@ -1,0 +1,68 @@
+
+\newcommand{\sref}[1]{Sec.~\ref{#1}}
+\newcommand{\aref}[1]{Appendix~\ref{#1}}
+\newcommand{\srefplural}[1]{Sections~\ref{#1}}
+\newcommand{\srefshort}[1]{\ref{#1}}
+\newcommand{\tref}[1]{Table~\ref{#1}}
+\newcommand{\fref}[1]{Figure~\ref{#1}}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+
+
+\setlist[description]{leftmargin=\parindent,itemsep=0mm,labelindent=0pt,topsep=0pt,partopsep=0ex,parsep=0ex}
+
+
+\definecolor{anne}{rgb}{0,0.5,0.9}
+\definecolor{valentin}{rgb}{0.998,0.722,0.635}
+\definecolor{anna}{rgb}{0,0.5,0.9}
+\definecolor{simon}{rgb}{0.998,0.722,0.635}
+
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+
+\ifreviewcopy
+    \paperwidth=\dimexpr \paperwidth + 20cm\relax
+    \oddsidemargin=\dimexpr\oddsidemargin + 10cm\relax
+    \evensidemargin=\dimexpr\evensidemargin + 10cm\relax
+    \marginparsep=2.5cm
+    \marginparwidth=\dimexpr \marginparwidth + 10cm - \marginparsep\relax
+
+    \newcommand{\valentintodo}[2][valentin]{\todo[color=#1,size=\footnotesize]{\textbf{VK:} #2}}
+    \newcommand{\annetodo}[2][anne!30]{\todo[color=#1,size=\footnotesize]{\textbf{AF:} #2}}
+    \newcommand{\annatodo}[2][anna]{\todo[color=#1,size=\footnotesize]{\textbf{AH:} #2}}
+    \newcommand{\simontodo}[2][simon!30]{\todo[color=#1,size=\footnotesize]{\textbf{SR:} #2}}
+
+    \newcommand{\valentintodofigure}[2][0cm]{\marginnote{\todo[color=valentin,size=\footnotesize,inline]{\textbf{VK:} #2}}[#1] }
+    \newcommand{\annetodofigure}[2][0cm]{\marginnote{\todo[color=anne!30,size=\footnotesize,inline]{\textbf{AF:} #2}}[#1] }
+    \newcommand{\annatodofigure}[2][0cm]{\marginnote{\todo[color=anna,size=\footnotesize,inline]{\textbf{AH:} #2}}[#1] }
+    \newcommand{\simontodofigure}[2][0cm]{\marginnote{\todo[color=simon!30,size=\footnotesize,inline]{\textbf{SR:} #2}}[#1] }
+
+    \newcommand{\red}[1]{\textcolor{red}{#1}}
+    \newcommand{\blue}[1]{\textcolor{blue}{#1}}
+    \newcommand{\green}[1]{\textcolor{ForestGreen}{#1}}
+    \newcommand{\purple}[1]{\textcolor{purple}{#1}}
+
+\else
+    \newcommand{\valentintodo}[2][valentin]{}
+    \newcommand{\annetodo}[2][anne!30]{}
+    \newcommand{\annatodo}[2][anna]{}
+    \newcommand{\simontodo}[2][simon!30]{}
+
+    \newcommand{\valentintodofigure}[2][0cm]{}
+    \newcommand{\annetodofigure}[2][anne!30]{}
+    \newcommand{\annatodofigure}[2][anna]{}
+    \newcommand{\simontodofigure}[2][simon!30]{}
+
+    \newcommand{\red}[1]{#1}
+    \newcommand{\blue}[1]{#1}
+    \newcommand{\green}[1]{#1}
+    \newcommand{\purple}[1]{#1}
+\fi
+
+
+
+
+\def\mathdefault#1{#1}
+
+\pgfplotsset{compat=1.16}
+

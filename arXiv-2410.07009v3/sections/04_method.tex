@@ -1,0 +1,38 @@
+\section{\MethodName: Chunk-based Outline-guided Patent Generation}
+
+Since LLMs cannot yet generate sufficiently long documents in a single call, we instead choose to generate patents in chunks. 
+\Cref{fig:generation_approach} summarizes the approach.
+We chunk the outline, select the most relevant parts of the paper (\textit{paper context})
+depending on the chunks' outline bullet points, and prompt an LLM to generate the patent text for that chunk.
+The outlines of previous chunks are included for global document context.
+Finally, we concatenate the generated outputs and apply only a lightweight post-processing to remove duplicate headings at chunk boundaries.
+This framework enables generating a long document in parallel, with customized context per chunk and controllable length.
+
+\input{sections/main_table}
+
+
+\noindent\textbf{Token Allocation and Chunking. } 
+In the default setting, we allocate per chunk 2k tokens for the instruction, 3k tokens for the paper context, and 2k tokens for the output patent ($\mathcal{T}$\textit{$\{$inst=2k; pap=3k; pat=2k$\}$}).
+We choose this setting because preliminary experiments show that on our task, LLMs only generate up to roughly 2-3k tokens regardless of the requested amount of content,
+and because this allows comparing with models that support up to 8k tokens.
+The chunking procedure segments the outline into chunks depending on the token allocation.
+In particular, it determines the number of outline bullet points per chunk using the reserved number of patent tokens and the average number of characters per outline bullet point\footnote{We translate between number of tokens and number of characters using average corpus statistics of patents in \DatasetName.}.
+It keeps sections intact whenever possible.
+
+\noindent\textbf{Length Control Mechanism. }
+\citet{baiLongWriterUnleashing102024} find that LLMs' response lengths are constrained within a certain range and only moderately adjust to length requests in the prompt, making instructions unreliable for controlling length. 
+However, as the requested length decreases, the LLM is more likely to meet it.
+Hence, in \MethodName, we decrease the number of allocated patent tokens per chunk, thereby increasing the number of chunks, until the desired total length is reached.
+In our experimental setting, we do this on a corpus-level, i.e., we search for a setting where the average length matches that of the references, leading to the calibrated token allocation $\mathcal{T}$\textit{$\{$inst=2k; pap=3k; pat=400$\}$}.
+
+
+\noindent\textbf{Paper Context Selection. }
+For each chunk $i$, the retriever selects relevant paragraphs from the paper to create the paper context $\text{c}_i$.
+We use BM25 \cite{robertsonProbabilisticRelevanceFramework2009} with the chunk's outline $\text{o}_i$ as query.
+We always include the abstract of the paper and all headings, adding paper paragraphs successively %
+in the order of their relevance ranking until the token limit is reached.
+
+
+\noindent\textbf{Patent Generation. } 
+The paper context $\text{c}_i$, the current outline $\text{o}_i$ and prior outlines $\text{o}_{j<i}$ are combined to a prompt (see Appendix \ref{sec:generation_prompt_appendix}). 
+The LLM generates patent chunk $\text{p}_i$, using constrained decoding to adhere to the outline's headings.

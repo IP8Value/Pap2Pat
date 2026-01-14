@@ -1,0 +1,93 @@
+\pdfoutput=1
+
+\documentclass[11pt]{article}
+
+\newif\ifreviewcopy
+\reviewcopyfalse
+
+\usepackage{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{marginnote}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage[inkscapearea=page]{svg}
+\usepackage{amsmath}
+\usepackage[nameinlink]{cleveref}
+\usepackage{float}
+\usepackage{afterpage}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{ulem}
+\usepackage[multiple,hang,flushmargin]{footmisc}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{xspace}
+\usepackage{csquotes}
+\usepackage{tabularx}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\input{sparql_style.tex}
+\input{markdown_style.tex}
+\input{commands.tex}
+
+
+\def\DatasetNameTitle{Pap2Pat\xspace}
+\def\DatasetName{{\sc{\DatasetNameTitle}}\xspace}
+
+\def\MethodName{{\mbox{\textsc{COPGen}}}\xspace}
+
+\title{\DatasetName: Benchmarking Outline-Guided Long-Text\\Patent Generation with Patent-Paper Pairs}  %
+
+\author{
+ \textbf{Valentin Knappich\textsuperscript{1,2}}\hfill
+ \textbf{Anna Hätty\textsuperscript{1}}\hfill
+ \textbf{Simon Razniewski\textsuperscript{3}}\hfill
+ \textbf{Annemarie Friedrich\textsuperscript{2}}
+\\
+\\
+ \textsuperscript{1}Bosch Center for AI, Germany\\
+ \textsuperscript{2}University of Augsburg, Germany\\
+ \textsuperscript{3}ScaDS.AI \& TU Dresden, Germany
+\\
+    \small{
+        \{\href{mailto:valentin.knappich@de.bosch.com}{valentin.knappich},\href{mailto:anna.haetty@de.bosch.com}{anna.haetty}\}@de.bosch.com,
+        \href{mailto:simon.razniewski@tu-dresden.de}{simon.razniewski@tu-dresden.de},
+        \href{mailto:annemarie.friedrich@uni-a.de}{annemarie.friedrich@uni-a.de}
+    }
+}
+
+\begin{document}
+\maketitle
+
+
+
+\input{sections/00_abstract}
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_dataset}
+\input{sections/04_method}
+\input{sections/05_experiments}
+\input{sections/06_human_eval}
+\input{sections/07_conclusion}
+\input{sections/08_limitations_and_acknowledgements}
+
+\bibliography{zotero}
+\bibliographystyle{acl_natbib}
+
+\input{sections/09_appendix}
+
+\end{document}

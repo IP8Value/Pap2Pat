@@ -1,0 +1,26 @@
+\section{Human Evaluation}\label{sec:human_eval}
+
+To gain further insight into the practical applicability beyond the automatic metrics, we conduct a human case study with two patent attorneys for the field of AI.
+We randomly select 10 samples from the NLP
+field out of the \DatasetName test set and use the outputs of Qwen2-72B with \MethodName and default token allocation.
+For each of the samples, the attorneys are provided with the paper, the outline, the generated patent and the reference patent.
+They are then tasked to evaluate the quality of the generated patent based on the hypothetical scenario that they got the paper, wrote the outline and sent both to the LLM.
+We ask about strengths, weaknesses and potential for time savings.
+The attorneys evaluated 10 and 5 samples, respectively, yielding 15 total evaluations and spending about 30 minutes per sample on average.
+
+Among the 15 evaluations, the attorneys saw substantial time savings in 8 cases, showing promising potential to increase their productivity. 
+However, they also identify two main limitations that could hinder such time savings, which are consistent with observations from our automatic evaluation, further validating our chosen metrics. 
+These limitations are:
+
+\begin{enumerate}[label=(\arabic*),itemsep=5pt,topsep=5pt,leftmargin=*,wide,labelindent=0pt]
+     
+\item
+\textbf{Style}: The model often fails to use non-limiting language, which is essential in the patent description to avoid unnecessary limitations.
+For instance, stating that \textit{\enquote{the system includes a crucial component}} may be too limiting, whereas rephrasing it as \textit{\enquote{the system may include a preferred component}} provides more flexibility to adapt claims in the grant procedure and does not narrow the claims' interpreted scope of protection. 
+Furthermore, the model occasionally uses promotional phrases like \textit{\enquote{have revolutionized}} that are common in NLP papers but inappropriate in patents.
+
+\item
+\textbf{Level of detail}: The patent description should describe the invention precisely enough to enable an ordinary person skilled in the art to reproduce it.
+This level of detail is often still not generated, which is also in line with the lower absolute scores for coverage compared to those for factuality.
+
+\end{enumerate}

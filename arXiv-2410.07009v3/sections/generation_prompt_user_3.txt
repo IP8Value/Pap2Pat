@@ -1,0 +1,64 @@
+Here is the outline of the desired patent application. Per bullet point, write roughly 1 paragraphs or 71 words.
+
+
+First, here is the outline of what you have already written:
+
+```md
+# DESCRIPTION
+
+## FIELD OF THE INVENTION
+
+- define field of invention
+
+## BACKGROUND OF THE INVENTION
+
+- describe heart failure
+- limitations of current therapy
+
+## SUMMARY OF THE INVENTION
+
+- motivate invention
+- introduce HDCP and LCA
+- describe subtypes and stages of non-ischemic HF
+- correlate subtypes and stages with clinical course and β-blocker response
+- describe retrospective analysis of BEST data
+- compare results with SHFM predictions
+- assess utility of SHFM in predicting response to β-blocker
+- list exemplary β-blockers
+- describe calculated SHFM Score
+- evaluate β-blocker treatment, HF subtype, HF stage, and SHFM
+- identify 6 HF subtypes and 5 HF stages
+- associate HF subtype, HF stage, and SHFM with mortality and EF improvement
+- perform multivariate analysis
+- improve predictive performance with HF subtype and HF stage information
+- describe method for predicting response to β-blocker therapy
+- determine HF subtype and HF stage
+- use HDCP to identify HF subtypes and HF stages
+- describe method for treating non-ischemic HF patient
+- determine treatment procedure for non-ischemic HF patient
+- describe apparatus for determining HF subtype, HF stage, or combination thereof
+```
+
+Now, continue drafting and add the following points:
+
+```md
+# DESCRIPTION
+
+## DETAILED DESCRIPTION OF THE INVENTION
+
+- introduce non-ischemic HF patient prediction methods
+- motivate classification of patients into subtypes
+- describe clinical features influencing HF subtype and stage
+- list clinical conditions used to determine HF subtype and stage
+- outline steps to determine HF subtype
+- explain calculation of HF subtype probability
+- describe determination of HF stage
+- outline apparatuses for determining HF subtype and stage
+- describe input device for entering clinical condition information
+- explain database for storing coefficients
+- outline output device for displaying HF subtype and stage
+- discuss updating coefficients with additional data
+- describe high-throughput phenotyping method
+- outline CPU and microprocessor for calculating HF subtype and stage
+```
+Limit your response to the sections mentioned in the summary: "DETAILED DESCRIPTION OF THE INVENTION". Remember what you have already written and do not repeat yourself.

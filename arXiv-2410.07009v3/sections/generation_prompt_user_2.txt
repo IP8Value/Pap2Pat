@@ -1,0 +1,36 @@
+
+# Discussion
+
+Using the combination of high-dimensional clinical phenotyping and latent class analysis, we have identified a number of HFREF subtypes with distinct clinical profiles that demonstrate significant variation in prognosis as measured by all-cause mortality and response to bucindolol as measured by reduction in mortality and increased likelihood of LVEF response (Figure 4). Several of the LCM A subtypes resemble previously described nonischemic HFREF phenotypes, while LCM B subtypes model HF progression and severity. The latent class models, particularly LCM A, remained significantly associated with certain outcomes after combining them with the SHFM, suggesting that the information in the latent class models is different from the information in the SHFM Score. Taken together, these results suggest that our approach to HFREF subtype identification may be useful for identifying patients with potentially ‘reversible’ HFREF as well as those more likely to benefit from bucindolol.
+
+
+## Insight Into Mechanisms Of Disease And Treatment Response
+
+...
+
+
+## Identification Of Hfref Subtypes Using Latent Class Analysis
+
+This analysis demonstrates the potential utility of combining high-dimensional clinical phenotyping and latent class analysis for identifying relevant subtypes of HFREF. It is impossible to determine multivariate odds ratios for all of the variables included in the latent class models presented here using a traditional regression model, as the number of possible interactions (26,542,080 and 432,000,000 for LCM A and LCM B, respectively) prevents calculation using realistic sample sizes. Latent class analysis provides a quantitative mechanism of reducing the number of comparisons by aggregating individuals with similar clinical profiles. Our approach produces data-driven definitions of HFREF subtypes that integrate a large number of clinical features but are not dependent on any one feature for classification. Consequently, a feature like age may not have the same implications among all individuals. For example, subtype A4 is associated with worse outcomes than subtypes A2 or A6 despite younger age and lower burden of comorbid diseases. Clinical features may therefore be associated with a conditional probability for different outcomes depending on their context, capturing relevant interactions between comorbid conditions without direct calculation of all possible interactions. The added value of LCM A and B membership to SHFM for predicting survival despite sharing several common variables suggests that LCM A and B subtype may provide additional prognostic information to the SHFM Score. Finally, the variability in clinical outcomes observed between subtypes suggests that this approach could be useful in identifying patients with higher likelihood of HFREF reversibility in the absence of an obvious reversible etiology or conversely for identifying high risk patients for accelerated advanced HFREF therapy.
+
+
+## Implementation And Sharing
+
+...
+
+
+## Limitations
+
+...
+
+Another important limitation is the generalizability of these latent class definitions. Utilization of the coefficients derived in this analysis to determine LCM subtype for other patients assumes that the patient population is the same as the nonischemic patients enrolled in BEST. This assumption may be particularly problematic for LCM B, which includes LVEF in its definition. Like all clinical trials, the inclusion and exclusion criteria of the BEST study are a critical source of selection bias and limit the generalizability of any predictive models developed from BEST to patients that do not meet those entry criteria. [14] This is especially relevant for data-driven latent class models like those presented here, as subtype definitions are by definition dependent on the original study population, and patient subtypes not present in the derivation population might be misidentified. It must also be remembered that latent classes only represent patterns of the variables included in the models, and that those latent classes may not necessarily exist as recognizable patient types in an independent population, [6] due in part to other variables that may be important in a disease process. The utility of these models must therefore be validated further in other patient populations, and the definitions of subtypes will need to be revised over time as more diverse patient populations are incorporated.
+
+...
+
+
+## Conclusion
+
+High-dimensional phenotyping combined with latent class analysis provide a method of identifying subtypes of nonischemic HFREF patients who may have shared pathophysiology with implications for prognosis and response to bucindolol therapy. Significant reduction in all-cause mortality and increase in likelihood of LVEF response was associated with bucindolol treatment in specific groups identified using these classification methods. Identification of patients’ HFREF subtype may provide a means of personalizing clinical prognosis and estimating likelihood of responding to medical treatment.
+
+
+```

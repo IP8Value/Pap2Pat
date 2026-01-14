@@ -1,0 +1,135 @@
+\section{\DatasetName{} Benchmark}
+
+We present the \DatasetName dataset containing 1.8k PPPs, each annotated with three outlines for generation.
+We describe the steps taken to construct \DatasetName, analyse the obtained corpus, and propose evaluation metrics for our new benchmark.
+
+\subsection{Dataset Construction}
+We here give an overview of the construction of \DatasetName (for details, see \Cref{sec:dataset_appendix}).
+
+\noindent\textbf{Scraping PPPs. }
+The patent and paper in a PPP typically do not cite each other, so we cannot rely on front-page or in-text citations \cite{marxRelianceScienceWorldwide2020, marxRelianceScienceInventors2022} to find PPPs.
+Therefore, prior work has developed heuristics to match patents and papers based on document metadata \cite{magermanExploringFeasibilityAccuracy2010,vanlooyAssessmentLatentSemantic2011}.
+We use the USPTO dataset\footnote{\url{https://bulkdata.uspto.gov}} containing 6.7M patent applications from 2005 to April 2024.
+For each patent, we query SemOpenAlex \cite{farberSemOpenAlexScientificLandscape2023a} using SPARQL and retrieve papers with overlapping authors lists and publication dates.
+We filter the results based on titles, abstracts, other candidate matches for the same patent, and paper licenses.
+\Cref{tab:dataset_filters} shows the remaining number of candidates after each filtering step.
+A major limiting factor for our benchmark size are the restrictive licenses of many scientific articles.\footnote{ACL with its CC-BY license being a positive exception.}
+
+
+\noindent\textbf{Manual Validation. }
+To verify the precision of our matching pipeline, the first author performs a manual validation.
+We randomly sample 60 PPPs, read both abstracts, skim the documents, compare the figures and get an overview of the authors' related work. 
+We spend a total of 5 hours, i.e., 5 minutes per pair on average.
+In 55/60 ($91.7\%$) pairs, the paper describes the invention as a core contribution.
+In three pairs, the best match for the patent would have been a prior paper by the same authors.
+In two pairs, the paper would have been best matched to a related but different patent by the same inventors.
+In these five imperfect matching cases, the papers still provide meaningful training and evaluation signals, as they are highly relevant to the invention and contextualized by the outline.
+Overall, the precision of our matching approach is high.
+
+
+
+\noindent\textbf{Outline Generation. }
+Outlines consist of target headings and short bullet points summarizing the document structure and high-level content of every section (see \Cref{fig:generation_approach} and \Cref{sec:patent_outline_appendix}).
+For \DatasetName, we generate them automatically from the original patents using Llama-3 70B \cite{dubeyLlamaHerdModels2024}.
+In practice, they are provided by the user.
+To ensure that the model adheres to the desired output format, we use SGLang \cite{zhengEfficientlyProgrammingLarge2023} for constrained decoding.
+We enforce a fixed number of bullet points
+$n_\text{bullets}$ per section, where $n_\text{bullets}$ is proportional to the length of the text in that section ($n_\text{chars}$) and defined as
+\begin{align*}
+  n_\text{bullets} = \begin{cases}
+                       \text{max}(1, \lfloor n_\text{chars}/l \rfloor) & \text{if }n_\text{chars} > 0 \\
+                       0                                               & \text{else}
+                     \end{cases}
+\end{align*}
+\noindent where $l$ is the number of characters that each bullet point summarizes on average. We create outlines with three levels of granularity: \textit{long} ($l$=500, avg.\ 150 items), \textit{medium} ($l$=1000, avg.\ 74 items) and \textit{short} ($l$=2000, avg.\ 37 items), see \Cref{tab:dataset_stats}.
+The average bullet point length is 5.4 $\pm$ 2.3 words.
+For each section, we additionally provide the number of characters in the original patent to signal the desired content lengths during generation.
+
+\begin{table}[t]
+  \centering
+  \setlength{\tabcolsep}{10pt}
+  \begin{tabular}[t]{lc}
+    \toprule
+      Filter                              & \# pairs \\
+      \midrule
+      \makecell[tl]{Authors + Date}       & 930k       \\
+      \makecell[tl]{+ Term Overlap}       & 100k       \\
+      \makecell[tl]{+ Distinctiveness}    & 21k        \\
+      \makecell[tl]{+ Permissive License} & 1.8k       \\
+      \bottomrule
+  \end{tabular}
+  \captionof{table}{Filter criteria and remaining number of candidates.}
+  \label{tab:dataset_filters}
+\end{table}
+
+\subsection{Task Description and Data Splits}
+We propose the following generation task for \DatasetName: Given a patent outline $O$ and a research paper $C$
+containing a specification of the invention, models should output a patent $P$. 
+The input data provides the desired output length in characters per section.
+We split our dataset randomly into \textit{train} (n=1000), \textit{test} (n=500) and \textit{validation} (n=242), see \Cref{tab:dataset_stats}.
+We additionally create a non-contaminated test set (\textit{nc-test}) that contains all pairs with patents published in 2024 (n=71), i.e., after the pretraining cut-off date of all evaluated open-weight LLMs, addressing the concern that LLMs might have seen test data during pretraining \cite{ravaut2024much}.
+
+
+\subsection{Corpus Statistics and Analysis}
+Dataset statistics are presented in \Cref{tab:dataset_stats} (further statistics and plots in \Cref{sec:dataset_stats_appendix}).
+Papers typically include details and analyses regarding experiments;
+patents usually contain more information on applications and practical benefits.
+We analyze the lexical overlap between the respective documents and find that only 8.3\% of the 4-grams are shared.
+This highlights the complexity of the task: 
+the two documents describe the same invention from different perspectives, using different linguistic styles.
+
+
+
+\subsection{Proposed Evaluation Metrics}\label{sec:new_metrics}
+
+We adapt a suite of metrics to analyze the performance of patent generation models from multiple perspectives.
+The length and specialized domain of patent documents make automatic evaluation challenging.
+We thus propose to disentangle factual content overlap from stylistic similarity using established metrics that are well-suited for long documents. 
+
+\subsubsection{Content-level metrics}
+
+To assess the factual consistency and coverage of the generated patent, we measure semantic overlap with the reference patent and the provided paper.
+The NLI-based metric SCALE \cite{lattimerFastAccurateFactual2023} estimates factual consistency between two documents by computing pairwise entailment scores between \textit{premise chunks} and \textit{hypothesis sentences}.
+While premise chunks can be large, SCALE still requires a quadratic computation.
+To make this feasible on long documents, we sample 10 sentences from every hypothesis document.
+For each sentence, we retrieve the 5 most relevant premise chunks according to BM25 and then compute the maximum NLI score across these chunks.
+For system-level scores, we average the scores obtained for all sampled sentences.
+For \DatasetName, we propose two variants of SCALE: %
+
+\begin{description}[topsep=7pt,itemsep=7pt]
+    \item[Factuality.] \textit{Ref} \textrightarrow{} \textit{Gen} and \textit{Ref+Pap} \textrightarrow{} \textit{Gen} quantify to what extent the semantic content of the generated patent (\textit{Gen}) is supported by the reference patent (\textit{Ref}), and by the reference patent and the paper (\textit{Ref+Pap}), respectively. %
+    \item[Coverage.] To measure the degree to which the generated patent covers the information content of the reference patent, we use the generated patent as premise document and the reference patent as the hypothesis (\textit{Gen} \textrightarrow{} \textit{Ref}). %
+\end{description}
+
+\noindent We confirm the applicability of these scores to our benchmark by computing a few trivial baselines (see \Cref{tab:results}): taking the reference patent itself as the hypothesis document results in an upper bound of around 89\%; using the most similar patent from the train set according to BM25 similarity to the paper
+results in a score of less than 30\%.
+Taken together with the low standard deviations across 5 executions, this demonstrates that the score is able to differentiate and that the sample size is sufficient to make meaningful system-level comparisons.
+
+
+\begin{figure*}[t]
+  \centering
+  \includesvg[width=\linewidth]{img/generation_method}
+  \caption{
+    Overview of chunk-based outline-guided patent generation (\MethodName). 
+    We chunk the outline, retrieve the parts of the paper that are most relevant for that chunk, prompt the LLM, and concatenate the results.
+    The desired output length and the number of allocated patent tokens per chunk determine the number of chunks.
+  }
+  \label{fig:generation_approach}
+\end{figure*}
+
+\subsubsection{Language-level metrics}
+
+Patents are written in special \textbf{style}, including the use of partially legally relevant phrases and constructions. 
+To estimate to what extent the generated patents adhere to this style, we compare corpus-wide n-gram profiles, an established method for authorship attribution \cite{kesVeljNGRAMBASEDAUTHORPROFILES2003,Zecevic2011NgramBT,Dam2013ABC,Mikros2013AuthorshipAI}.
+Here, we use the set of all reference patents from the same split as basis to extract the profile of a typical patent attorney $P^n_\text{ref}$ and compare it to the profile extracted from the generated patents $P^n_\text{gen}$.
+Each profile contains the 1000 most frequent n-grams for $n \in \{1,2,3,4\}$.
+To compute the similarity between $P^n_\text{ref}$ and $P^n_\text{gen}$, we adopt the formula from \citet{kesVeljNGRAMBASEDAUTHORPROFILES2003}:
+\[sim_n = \sum_{g \in P^n_\text{ref} \cup P^n_\text{gen}} 1 - \left(\frac{P^n_\text{ref}(g) - P^n_\text{gen}(g)}{P^n_\text{ref}(g) + P^n_\text{gen}(g)}\right)^2\]
+We additionally integrate a profile from StyloMetrix\footnote{\href{https://github.com/ZILiAT-NASK/StyloMetrix}{https://github.com/ZILiAT-NASK/StyloMetrix}} \cite{okulskaStyloMetrixOpenSourceMultilingual2023},
+which implements rule-based detection of 196 linguistic features, including e.g. verb tenses, modal verbs, POS tags, lexical items, figures of speech, and linguistic constructions such as fronting or similes.
+We compute the final score as the average of the four n-gram profile similarities and the StyloMetrix profile similarity, i.e., $Style = \frac{1}{5} ((\sum_{i=1}^4 {sim_n}) + sim_{stylo})$. 
+
+To measure the \textbf{repetitiveness}, we compute the \textit{repetition rate} RR \cite{cettoloRepetitionRateText2014}, i.e., the fraction of n-grams that appear more than once.
+We compute RR over sliding windows of 256 tokens and average the scores.
+To differentiate between repetitive language and unintended infinite repetitions, we additionally report the fraction of windows with an RR score greater than 80 (RR>80).
+

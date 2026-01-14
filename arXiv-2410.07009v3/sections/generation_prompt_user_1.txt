@@ -1,0 +1,59 @@
+## Identification And Definition Of Latent Classes
+
+Patients were scored according to 27 clinical features (Tables 1 and 2). Criteria were encoded and applied in a MySQL server environment (Oracle Corporation, Redwood Shores, CA). [17] Patient clinical profiles were analyzed collectively using latent class analysis [18] applied to two sets of clinical variables we designated as Latent Class Models (LCM) A and B (Tables 1 and 2). LCM A and B differed only in the clinical variables included in each model. LCM A included variables that describe a patient’s non-cardiac characteristics that can contribute to the pathogenesis of HFREF including age, gender, race, body mass index, and presence of comorbidities such as diabetes, atrial fibrillation, or valvular disease. [19]–[23] LCM B included variables that describe cardiac function, progression, and severity of HFREF including right- and left-ventricular function, hemodynamic parameters such as heart rate and blood pressure, end-organ function such as estimated creatinine clearance, and signs of venous congestion such as jugular venous distension and alanine aminotransferase levels. [24]–[33] In total, 3 variables were included in both models: body mass index, creatinine clearance, and hematocrit. All 3 variables have been implicated in the pathogenesis of HFREF and can also be markers of severity of HFREF. [34], [35] They were included in both models to illustrate that the variable implications of clinical features in different contexts may be represented using this approach. [34], [36]–[40] Two sets of related variables were also included: age of HF onset (LCM A) vs. chronologic age (LCM B) and presence of hypertension (LCM A) vs. presence of hypotension (LCM B). Age of HF onset, a static value, may be relevant to the HFREF etiology, while chronologic age may be related to HF progression. Similarly, presence of hypertension (LCM A) may be related to HF etiology while hypotension (LCM B) may be a marker of advanced HF.
+
+...
+
+
+## Association Between Latent Class Models And Outcomes
+
+...
+
+
+## Validation Of Multivariate Models
+
+...
+
+
+# Results
+
+
+## Patient Characteristics
+
+...
+
+
+## Latent Class Model A (Table 1)
+
+LCM A subtypes were characterized by distinct collections of clinical features that frequently resembled known HFREF syndromes. Subtype A1 was characterized by advanced age of onset, non-Caucasian race, male gender, HTN, mild-moderate renal insufficiency, and elevated rates of atrial fibrillation (24.5%). Subtype A2 was characterized by middle age of onset, female gender, moderate renal insufficiency, anemia, high body mass index, and very high rates of diabetes mellitus (74.6%), hypertension (95.0%), hyperlipidemia (93.8%), and hypertriglyceridemia (91.1%). Subtype A3 was characterized by middle age of onset, female gender, Caucasian race, hyperlipidemia, hypertriglyceridemia, anemia, and the presence of left bundle branch block (LBBB). Subtype A4 was characterized by young age of onset, non-Caucasian race, obesity, anemia, and lower rates of traditional cardiac risk factors such as hyperlipidemia, hypertriglyceridemia, and diabetes mellitus. Subtype A5 was characterized by advanced age of onset, Caucasian race, atrial fibrillation (86.2%), mitral valve disease (48.3%), aortic valve disease (21.8%), history of pacemaker placement (42.5%), and a significantly higher rate of prior sudden cardiac death (16.1%). This subtype had the smallest number of subjects (7.8%), whereas subtype A6 was the largest with 28.3% of subjects. Subtype A6 was characterized by middle age of onset, Caucasian race, male gender (100%), high body mass index, hypertension, hyperlipidemia, and hypertriglyceridemia with less associated diabetes mellitus (32.8%) than was seen in Subtype A2.
+
+
+## Latent Class Model B (Table 2)
+
+...
+
+
+## Association With Outcomes
+
+...
+
+
+## Differences In Treatment Effects Between Latent Classes
+
+...
+
+
+## Combined Models
+
+...
+
+
+## Model Comparisons
+
+...
+
+
+## Validation
+
+...
+

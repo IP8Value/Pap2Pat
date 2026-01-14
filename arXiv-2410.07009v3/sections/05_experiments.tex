@@ -1,0 +1,128 @@
+\section{Experiments}
+
+In this section, we describe our experiments using \DatasetName{} to assess the capabilities and limitations of current LLMs with \MethodName.
+
+\subsection{Evaluation Metrics}
+We primarily focus on the evaluation metrics proposed in \Cref{sec:new_metrics}.
+For the sake of completeness, we also report ROUGE-L F1 \cite{linROUGEPackageAutomatic2004} and BERTScore F1 \cite{zhangBERTScoreEvaluatingText2020}.
+For BERTScore, we circumvent the limit of 512 tokens with a sliding window, and use SciBERT \cite{beltagySciBERTPretrainedLanguage2019},
+which has been shown to be effective in the patent domain \cite{pujariMultitaskApproachNeural2021}.
+We also report DiscoScore \cite{zhao-etal-2023-discoscore}, a state-of-the-art \textbf{coherence} metric rooted in Centering Theory \cite{grosz-etal-1995-centering} and based on BERT \citep{devlin-etal-2019-bert}.
+We use the DS-SENT-NN variant since the authors report that it performs best on long texts.
+We extend the published implementation\footnote{\url{https://github.com/AIPHES/DiscoScore}} with a sliding window to obtain BERT embeddings.
+
+
+\subsection{Models}
+
+\noindent\textbf{Choice of LLMs. }
+To make our work reproducible, we only leverage recently published open-weight LLMs with state-of-the-art results on other generation tasks.
+We include Llama-3 8B and 70B \cite{dubeyLlamaHerdModels2024}, Mixtral-8x7B \cite{jiangMixtralExperts2024}, and Qwen2-72B \cite{yangQwen2TechnicalReport2024}.
+
+\noindent\textbf{Baselines.}
+We include four baselines, upper bounds, and sanity checks for the evaluation setup. 
+In particular, we consider the paper, the outline, the reference patent and the most similar patent from the train set (highest BM25 similarity to the paper) as the generated document. %
+Mixtral-8x7B and Qwen2-72B support 32k tokens, thus we use them to determine the performance without \MethodName by prompting them with the complete paper and outline (\textbf{Single LLM-call}).
+
+
+\noindent\textbf{Fine-tuning. }
+We fine-tune Llama-3 8B on the training split of \DatasetName using LoRA \cite{huLoRALowRankAdaptation2021}. 
+We adopt the hyperparameters proposed by \citet{tribesHyperparameterOptimizationLarge2024}, see \Cref{sec:hyperparameter_appendix}. 
+Since the fine-tuned model frequently generates infinite repetitions, we design a post-processing procedure that detects and removes them (see \Cref{sec:rep_removal}).
+
+
+\subsection{Main Findings}
+
+\Cref{tab:results} shows our main evaluation results.
+Overall, we find that \textbf{\MethodName} strongly improves upon using a \textbf{Single LLM-call},
+in which the generated patents are much too short (on average less than one fifth of the reference patents).
+\MethodName provides an effective remedy, creating much longer and length-controllable outputs with higher coverage (correlating with higher text similarity scores).
+In terms of language style, \MethodName also has a clear advantage.
+For RR, values around 12-14\% %
+seem to be ideal according to the scores of the reference and similar patents.
+
+While the fine-tuned models produce more repetitions, both the Single LLM-call and zero-shot \MethodName have similar repetition rates and only the smaller and fine-tuned Llama models get stuck in infinite repetitions.
+All models achieve very high coherence scores, indicating that all LLMs in the study do not suffer from generating incoherent text.
+
+\noindent\textbf{Impact of Outline and Paper as Input.}
+Ablating the paper or the outline from the prompt in the Single LLM-call baseline leads to lower coverage.
+When ablating the outline, the output drops markedly in length and sticks closely to the paper (as shown by the high score for \textit{Ref+Pap$\rightarrow$Gen}), but without producing the content desired for the patent (\textit{Ref$\rightarrow$Gen} drops by almost 10pp.).
+\MethodName is able to leverage the outline and paper context effectively, as demonstrated by its much higher coverage.
+
+
+\noindent\textbf{Length Control and Coverage-Factuality Tradeoff.}
+\Cref{fig:length_control} shows that
+allocating fewer tokens per chunk for the patent, i.e.,
+generating more chunks, leads to a near-linear increase in output length.
+Our length control mechanism is able to find an optimal setting in which the average output length corresponds to that of the reference patents (last row of \Cref{tab:results}), resulting in the overall best text similarity and coverage scores, while keeping factuality high (as opposed to the fine-tuned models that produce similar length).
+Coverage and factuality are intuitively antagonistic (see \Cref{fig:length_control}), similar to precision and recall:
+as the generated text becomes longer, it becomes increasingly difficult to maintain factuality but easier to achieve higher coverage.
+This also explains why the Single LLM-call baselines achieve higher factuality scores than \MethodName runs that generate more than five times as much text.
+
+
+\subsection{Analysis of \MethodName Settings}
+
+We now study various settings of \MethodName.
+
+
+\noindent\textbf{Impact of Outline Granularity.}
+In \Cref{fig:granularity}, we observe a consistent improvement across coverage, factuality and BERTScore with more detailed outlines:
+users can directly improve output quality by providing more details. %
+Notably, contrary to our experiments on length control, the improvements in coverage are achieved without longer outputs and without decreasing factuality.
+
+
+\begin{figure}[t]
+  \input{img/length_control.pgf}
+  \caption{
+    Controlling output length.
+    Each point on the x-axis represents a run of Qwen2-72B with varying token allocation \mbox{$\mathcal{T}$\textit{$\{$inst=2k; pap=3k; pat=$l_{pat}\}$}} where $l_{pat}$ ranges from 200 to 10,000. 
+    A lower $l_{pat}$ results in more chunks. 
+    The dashed blue line represents the average reference patent length. 
+  }
+  \label{fig:length_control}
+\end{figure}
+
+
+\noindent\textbf{Impact of Selection of Paper Context.}
+We study how providing informative context taken from the paper influences results.
+In \Cref{fig:retrievers}, we show retriever ablation results including two baselines: 
+\textit{NoPaper} does not add any context from the paper, and \textit{AbstractOnly} uses only the abstract.
+As an upper bound, we use \textit{BM25Oracle,} where the BM25 query is the original patent text instead of the outline.
+We observe a monotonically increasing performance, demonstrating that associated papers provide valuable information.
+There is only a small gap between \textit{BM25} and \textit{BM25Oracle}, suggesting that the outline is an effective BM25 query and that more elaborate retrieval methods could close the gap further.
+
+\noindent\textbf{Test Data Contamination. }
+If patents are (partially) memorized during pre-training, one would expect a sudden drop in performance when evaluating on patents published after the pre-training cutoff date, i.e., on the non-contaminated test set.
+We see only minor differences in text similarity and SCALE metrics, though the style scores drop significantly (see \Cref{sec:nc-test-results}). 
+This is likely due to domain distribution shifts (see \Cref{sec:dataset_stats_appendix}).
+Overall, the results do not indicate systematic issues with memorization.
+
+
+\noindent\textbf{Fine-tuning. }
+Fine-tuning results in significantly longer outputs, which is consistent with the findings of \citet{baiLongWriterUnleashing102024}.
+However, this increased length is partially due to infinite repetitions, an issue also observed in concurrent work on patent generation by \citet{wangAutoPatentMultiAgentFramework2024}.
+Prior work has identified repetitive training data as a key factor contributing to infinite repetitions \cite{liRepetitionRepetitionOut2023}.
+We hence hypothesize that the cause is patents' inherently repetitive style.
+Patents often present numerous variations of the invention, each introduced with similar phrasing and detailing different combinations of components.
+This also results in a 71\% higher RR than for papers.
+Despite these repetitions, fine-tuning improves standard text similarity metrics like ROUGE-L and BERTScore.
+\citet{wangAutoPatentMultiAgentFramework2024} find the same, along with much lower scores in their human evaluation, concluding that the repetitions lead to over-rewarding in n-gram-based metrics.
+We find contrary evidence that removing many repetitions from the generated patents in post-processing actually further improves ROUGE-L by 6.8pp.
+Our evaluation instead reveals that the improvement achieved by fine-tuning is likely mainly due to stylistic similarity: style scores increase by over 20pp. while factuality metrics decrease by over 10pp.
+
+
+\begin{figure}[t]
+  \input{img/granularity.pgf}
+  \caption{
+    Outline granularity ablation of Qwen2-72B with default token allocation. 
+  }
+  \label{fig:granularity}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \resizebox{\linewidth}{!}{
+    \input{img/retrievers.pgf}
+  }
+  \caption{Retriever ablation. The plot depicts the results of Qwen2-72B using the long outline and default token allocation.}
+  \label{fig:retrievers}
+\end{figure}

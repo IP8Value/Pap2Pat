@@ -1,0 +1,48 @@
+{
+   "stamp" : true,
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "acl_latex.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "acl_latex.fdb_latexmk"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "acl_latex.fls"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "acl_natbib.bst"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "svg-inkscape/dataset_creation_2_svg-tex.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "svg-inkscape/dataset_creation_2_svg-tex.pdf_tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "svg-inkscape/dataset_creation_svg-tex.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "svg-inkscape/dataset_creation_svg-tex.pdf_tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "svg-inkscape/generation_method_svg-tex.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "svg-inkscape/generation_method_svg-tex.pdf_tex"
+      }
+   ],
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

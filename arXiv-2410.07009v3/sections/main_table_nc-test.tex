@@ -1,0 +1,242 @@
+
+\begin{table*}[t]
+    \centering
+    \small
+    \resizebox{\textwidth}{!}{
+      \setlength{\tabcolsep}{3pt}
+      \begin{tabular}{lccccccccccc}
+        \toprule
+                              & \multirow{4}{*}{Tokens}
+                              & \multicolumn{2}{c}{\multirow{3}{*}{Text Sim $\uparrow$}}
+                              & \multicolumn{3}{c}{Content-Level Metrics (SCALE) $\uparrow$}
+                              & \multicolumn{2}{c}{\multirow{3}{*}{Language $\uparrow$}}
+                              & \multicolumn{2}{c}{\multirow{3}{*}{Repetitions}}
+        \\
+        \cmidrule(lr){5-7}
+                              &
+                              &
+                              &
+                              & Coverage
+                              & \multicolumn{2}{c}{Factuality}
+                              &
+                              &
+                              &
+                              &
+                              &
+        \\
+        \cmidrule(lr){3-4}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+                              &
+                              & BS
+                              & R-L
+                              & \textit{Gen} \textrightarrow{} \textit{Ref}
+                              & \textit{Ref} \textrightarrow{} \textit{Gen}
+                              & \textit{Ref} + \textit{Pap} \textrightarrow{} \textit{Gen}
+                              & Style
+                              & DiscoScore
+                              & RR
+                              & RR>80
+        \\
+        \midrule
+    
+        \multicolumn{8}{l}{\textbf{Heuristic Baselines / Skylines}}\vspace{.4em}                                                                                                      \\
+        Reference Patent
+                              & \textit{18.4k (100.0\%)}
+                              & \textit{100.0}
+                              & \textit{100.0}
+                              & \textit{88.6 $\pm$ .57}
+                              & \textit{88.5 $\pm$ .23}
+                              & \textit{88.7 $\pm$ .21}
+                              & \textit{99.8}
+                              & \textit{100.0}
+                              & 15.2
+                              & 0.1
+        \\
+        Similar Patent
+                              & 26.1k (141.8\%)
+                              & 66.0
+                              & 35.3
+                              & 31.4 $\pm$ .93
+                              & 28.0 $\pm$ .64
+                              & 28.3 $\pm$ .68
+                              & 53.9
+                              & 98.1
+                              & 12.5
+                              & 0.1
+        \\
+        Outline
+                              & 1.4k (7.6\%)
+                              & 56.7
+                              & 10.2
+                              & 42.1 $\pm$ .94
+                              & 63.4 $\pm$ .88
+                              & 63.8 $\pm$ .86
+                              & 25.9
+                              & 85.1
+                              & 19.4
+                              & 0.0
+        \\
+        Paper
+                              & 9.5k (51.7\%)
+                              & 69.6
+                              & 42.2
+                              & 46.7 $\pm$ 1.01
+                              & 46.5 $\pm$ .87
+                              & \textit{88.8 $\pm$ .41}
+                              & 37.2
+                              & 98.0
+                              & 8.2
+                              & 0.0
+        \\
+        \cmidrule{1-11}
+        \multicolumn{8}{l}{\textbf{Single LLM-call} ($\mathcal{T}$\textit{$\{$inst=2k; pap=$\infty$; pat=$\infty\}$})}\vspace{.4em}                                                                                                          \\
+        Mixtral-8x7B
+                              & 3.0k (16.3\%)
+                              & \textbf{\itshape 66.5}
+                              & 21.7
+                              & 40.7 $\pm$ 1.16
+                              & \textbf{67.2 }$\pm$ 1.19
+                              & 73.9 $\pm$ 1.16
+                              & \textbf{\itshape 36.5}
+                              & 96.8
+                              & 15.9
+                              & 0.1
+        \\
+        Qwen2-72B
+                              & 2.9k (15.5\%)
+                              & 66.4
+                              & 21.2
+                              & \textbf{\itshape 42.0 }$\pm$ 1.21
+                              & 65.0 $\pm$ .76
+                              & 71.9 $\pm$ .23
+                              & 34.5
+                              & \textbf{\itshape 96.9}
+                              & \textbf{8.9}
+                              & \textbf{0.0}
+        \\
+        $\quad$w/o Paper
+                              & 3.4k (18.2\%)
+                              & 65.9
+                              & \textbf{\itshape 21.8}
+                              & 41.4 $\pm$ 1.25
+                              & 66.3 $\pm$ 1.04
+                              & 67.0 $\pm$ .99
+                              & 34.1
+                              & 96.1
+                              & 9.0
+                              & 0.2
+        \\
+        $\quad$w/o Outline
+                              & 2.0k (11.0\%)
+                              & 63.7
+                              & 15.8
+                              & 36.7 $\pm$ 1.27
+                              & 56.5 $\pm$ .67
+                              & \textbf{75.7 }$\pm$ 1.13
+                              & 30.3
+                              & 96.8
+                              & \textbf{\itshape 8.2}
+                              & \textbf{0.0}
+        \\
+    
+        \cmidrule{1-11}
+        \multicolumn{8}{l}{\textbf{\MethodName} ($\mathcal{T}$\textit{$\{$inst=2k; pap=3k; pat=2k$\}$})}\vspace{.4em}                                                                                \\
+        Llama-3 8B
+                              & 9.6k (52.1\%)
+                              & 68.8
+                              & 41.4
+                              & 42.3 $\pm$ 1.11
+                              & 60.3 $\pm$ 1.60
+                              & 65.6 $\pm$ 1.23
+                              & 36.8
+                              & 96.6
+                              & 25.4
+                              & 2.7
+        \\
+        Llama-3 8B SFT
+                              & 27.0k (146.8\%)
+                              & 71.2
+                              & 44.0
+                              & 44.0 $\pm$ 1.47
+                              & 49.4 $\pm$ 1.42
+                              & 52.1 $\pm$ 1.36
+                              & 45.0
+                              & 97.8
+                              & 53.7
+                              & 27.6
+        \\
+        $\quad$w/ rep. removal
+                              & 18.2k (99.1\%)
+                              & \textbf{\itshape 72.1}
+                              & \textbf{51.1}
+                              & 44.7 $\pm$ 1.03
+                              & 52.0 $\pm$ 1.13
+                              & 55.4 $\pm$ 1.15
+                              & \textbf{50.7}
+                              & \textbf{98.2}
+                              & 39.6
+                              & 8.3
+        \\
+        Mixtral-8x7B
+                              & 6.3k (34.4\%)
+                              & 68.8
+                              & 34.4
+                              & 45.1 $\pm$ 2.00
+                              & 64.4 $\pm$ 1.40
+                              & \textbf{\itshape 70.6 }$\pm$ 1.24
+                              & 39.5
+                              & 96.9
+                              & 14.4
+                              & 0.1
+        \\
+        Llama-3 70B
+                              & 6.1k (33.4\%)
+                              & 70.5
+                              & 39.5
+                              & 45.9 $\pm$ 1.15
+                              & 64.7 $\pm$ 1.06
+                              & 68.7 $\pm$ .87
+                              & 44.6
+                              & 97.0
+                              & 17.2
+                              & 0.1
+        \\
+        Qwen2-72B
+                              & 8.2k (44.7\%)
+                              & 70.4
+                              & 40.1
+                              & \textbf{\itshape 46.9 }$\pm$ 1.26
+                              & \textbf{\itshape 65.3 }$\pm$ .83
+                              & 69.8 $\pm$ .42
+                              & 44.3
+                              & 97.0
+                              & \textbf{\itshape 10.9}
+                              & \textbf{0.0}
+        \\
+        \cmidrule{1-11}
+        \multicolumn{8}{l}{\textbf{\MethodName} ($\mathcal{T}$\textit{$\{$inst=2k; pap=3k; pat=400$\}$})}\vspace{.4em}                                                                                    \\
+        Qwen2-72B
+                              & 17.2k (93.2\%)
+                              & \textbf{\itshape 71.5}
+                              & \textbf{\itshape 50.5}
+                              & \textbf{49.9 }$\pm$ 1.70
+                              & 59.2 $\pm$ 1.00
+                              & 64.9 $\pm$ .43
+                              & 41.9
+                              & 96.6
+                              & 8.8
+                              & 0.2
+        \\
+        \bottomrule
+    \end{tabular}
+    
+    }
+    \caption{
+      Experimental Results on the non-contaminated test set. 
+      \textit{Italic values} represent upper bounds that used test data in the prediction. 
+      The best value per column is \textbf{bold}, the best per section \textbf{\itshape bold italics}.
+      Tokens are reported as absolute and relative to the reference.
+      BS = BERTScore. R-L = ROUGE-L. Text Sim = Standard Text Similarity Metrics.
+    }
+    \label{tab:results-nc-test}
+\end{table*}
+  

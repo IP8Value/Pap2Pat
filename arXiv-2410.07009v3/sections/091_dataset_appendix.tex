@@ -1,0 +1,133 @@
+\section{\DatasetName{} Dataset}\label{sec:dataset_appendix}
+
+\begin{table*}[t]
+  \small
+  \centering
+  \setlength{\tabcolsep}{7pt}
+  \begin{tabular}{lllll}
+    \toprule
+
+    \multicolumn{2}{c}{\textbf{Field}} & \textbf{Patent}                        & \textbf{Paper Candidate 1 (\textcolor{darkgreen}{\checkmark})} & \textbf{Paper Candidate 2 (\textcolor{red}{\ding{55}})}                           \\
+    \midrule
+    \multirow{2}{*}[-1em]{Authors}
+                                       & Content
+                                       & Ge Wang, Wenxiang Cong
+                                       & \makecell[tl]{Wenxiang Cong, Yan Xi,                                                                                                                                                        \\Bruno De Man, Ge Wang}
+                                       & \makecell[tl]{Wenxiang Cong, Yan Xi,                                                                                                                                                        \\Peter Fitzgerald,\\Bruno De Man, Ge Wang}
+    \\
+                                       & $\text{sim}_\text{author}$             &                                                                & 1.0                                                     & 1.0                     \\
+    \cmidrule{1-5}
+    \multirow{2}{*}[-2em]{Title}
+                                       & Content
+                                       & \makecell[tl]{Monochromatic CT Image                                                                                                                                                        \\Reconstruction from Current-\\Integrating Data via Machine Learning}
+                                       & \makecell[tl]{Monochromatic image                                                                                                                                                           \\reconstruction via\\machine learning}
+                                       & \makecell[tl]{Virtual Monoenergetic                                                                                                                                                         \\CT Imaging via\\Deep Learning}
+    \\
+                                       & $\text{sim}_\text{term}$               &                                                                & 1.0 / 0.63                                              & 0.39 / 0.32             \\
+    \cmidrule{1-5}
+    \multirow{2}{*}[-1.5em]{Abstract}
+                                       & Content
+                                       & \makecell[tl]{A machine-learning-based                                                                                                                                                      \\monochromatic CT image\\reconstruction method is described ...}
+                                       & \makecell[tl]{X-ray computed                                                                                                                                                                \\tomography (CT) is a\\ nondestructive imaging ...}
+                                       & \makecell[tl]{The physical process                                                                                                                                                          \\of X-ray CT imaging\\is described ...}
+    \\
+                                       & $\text{sim}_\text{term}$               &                                                                & 0.71 / 0.19                                             & 0.50 / 0.23             \\
+    \cmidrule{1-5}
+    Date                               &                                        & 2021-08-30                                                     & 2020-11-01 (\checkmark)                                 & 2021-04-14 (\checkmark) \\
+    \bottomrule
+  \end{tabular}
+  \caption{Example for the matching of a PPP. The scores correspond to the respective metrics, the term metrics are shown as $\min$-normalized / $\max$-normalized. Both papers have author lists that contain all the inventors, were published inside the date range, and have titles and abstracts with sufficiently high absolute term similarity to the patent. Since the term similarity scores of paper 1 are higher than those of paper 2 by the specified margin (see Distinctiveness filtering step), paper 1 is correctly matched to the patent.}
+  \label{tab:match_example}
+\end{table*}
+
+We present the \DatasetName dataset containing 1.8k PPPs from a variety of domains, each annotated with multiple outlines.
+It serves two main purposes.
+First, it is a challenging benchmark for LLMs that requires long-text generation capabilities and deep understanding of the technical domain as well as patent law. Second, it facilitates the development of AI-powered tools for patent drafting, where the patent attorney only performs post-editing rather than writing from scratch, potentially incurring massive cost savings. In the following, we describe the steps taken for constructing the \DatasetName{} dataset: scraping and filtering PPPs, parsing the full-text documents and generating the patent outlines.
+
+\subsection{Scraping Patent-Paper Pairs}\label{sec:matching}
+
+The patent and paper in a PPP typically do not cite each other, so we cannot rely on front-page or in-text citations \cite{marxRelianceScienceWorldwide2020, marxRelianceScienceInventors2022} to find PPPs. 
+The matching must rely on document metadata and content alone. 
+We start out with the USPTO dataset\footnote{\url{https://bulkdata.uspto.gov}} containing 6.7M patent applications from 2005 to April 2024.
+For each patent, we query SemOpenAlex \cite{farberSemOpenAlexScientificLandscape2023a} using SPARQL and retrieve papers with overlapping authors lists and publication dates.
+Next, we filter the results based on their titles, abstracts, other candidate matches for the same patent, and %
+paper licenses, as elaborated below. Table \ref{tab:dataset_filters} shows the remaining number of candidates after each filtering step.
+As can be seen, the major limiting factor for our benchmark size is the issue of scientific articles being published under restrictive licenses.
+An example match is shown in Table \ref{tab:match_example}.
+We perform a systematic manual post-hoc evaluation of the heuristics to validate their precision (see Section \ref{sec:validation}).
+
+
+\noindent\textbf{Author Overlap. } The patent and the paper of a PPP are by definition authored by overlapping sets of individuals. The overlap of author lists have therefore been identified as an effective (yet not sufficient) criteria for matching PPPs \cite{magermanExploringFeasibilityAccuracy2010}.
+The requirements for paper authorship are typically much lower than those for patent inventorship \cite{konskiInventorshipAuthorship2015}.
+In many cases, only the main author(s) and the senior author(s) are listed as inventors.
+We accordingly employ an asymmetric score that only measures the fraction of inventors $i \in I$ that are also authors $a \in A$, not vice versa:
+\begin{align*}
+  \text{sim}_\text{author} & = \frac{|I \cap A|}{|I|} \geq 0.8
+\end{align*}
+This score's effectiveness increases with the number of inventors, so we only consider patents with at least two inventors.
+Implementing $\text{sim}_\text{author}$ requires some form of author name disambiguation to avoid false negatives (different spellings, e.g., with, without, or with abbreviated middle name) and false positives (e.g., very common names like John Smith).
+There are no author identifiers shared between the patent and paper datasets, so our disambiguation uses the surface names only.
+To account for false negatives, we use the aliases stored in SemOpenAlex and consider an inventor to be an author if their name matches exactly with one of the aliases.
+False positives are marginalized by author combinations and subsequent filters: it is highly unlikely that there exist two groups of people with the same set of names working on the same topic at the same time.
+
+\noindent\textbf{Date Range. } We require the paper's publication date to be within one year before and two years after the patent application date. The former corresponds to the USPTO's grace period,\footnote{\url{https://www.uspto.gov/web/offices/pac/mpep/s2153.html}} which allows inventors to file patent applications up to one year after they disclosed the invention to the public.
+The two-year period after the application date was selected because qualitative analyses identified it as the point of diminishing returns, beyond which the incidence of true positives notably decreases, while the rate of false positives significantly increases.
+
+\noindent\textbf{Term Overlap.} We compare titles and abstracts of patents and papers using term overlap metrics.
+We first obtain a set of terms $T$ using removal of stopwords and punctuation\footnote{based on spaCy's \texttt{en\_core\_web\_sm}} and stemming.\footnote{based on NLTK's PorterStemmer}
+The score is then computed as the number of shared terms, normalized by the minimum or maximum number of terms, following \citet{magermanDoesInvolvementPatenting2015}. We additionally weight each term using its IDF value across all titles and abstracts of patents and papers.
+\par\noindent
+{
+  \small
+  \setlength{\abovedisplayskip}{0pt}
+  \setlength{\abovedisplayshortskip}{0pt}
+  \begin{align*}
+    \text{sim}_\text{term}(pat, pap) & = \frac{
+      \displaystyle\sum_{t \in T(pat) \cap T(pap)} \text{idf}(t)
+    }{
+      \displaystyle\text{agg}\Big(\sum_{t \in T(pat)} \text{idf}(t), \sum_{t \in T(pap)} \text{idf}(t)\Big)
+    }
+  \end{align*}
+  \par
+}
+\noindent where $pat$ and $pap$ are either the titles or the abstracts of the documents, and $\text{agg}\in\{\min, \max\}$.
+Thus, we have 4 scores in total, for which we set the thresholds to be 0.15 with $\min$ normalization and 0.1 with $\max$ normalization.
+We choose the values based on interactive experimentation, but perform a post-hoc validation of the matching precision.
+
+\noindent\textbf{Distinctiveness. }
+In the remaining candidate pairs, there are still many cases where one patent is matched to multiple papers or vice versa. We disambiguate these cases by comparing the term overlap metrics among these ambiguous candidate groups. We only keep a pair if 3 out of 4 term metrics are higher than those of any other candidate in the group by a margin of 0.15 and 0.1, for $\min$ and $\max$, respectively.
+
+\noindent\textbf{License. } We filter the matches for licenses that allow redistribution and commercial use, i.e., 
+CC-BY,%
+CC0,%
+and public domain.
+We use the license information provided by SemOpenAlex and by the ArXiv API.
+
+\subsection{Manual Validation}\label{sec:validation}
+
+To verify the precision of our matching pipeline, we perform a manual validation, conducted by the first author of this paper.
+We randomly sample 60 PPPs, read both abstracts, skim the documents, compare the figures and get an overview of the authors' related work. We spend roughly 5 minutes per pair on average.
+We find that in 55/60 ($91.7\%$) pairs, the paper indeed describes the invention as one of the core contributions.
+In three pairs, the best match for the patent would have been a prior paper by the same authors.
+In two pairs, the paper would have been best matched to a related but different patent by the same inventors.
+This result validates the precision of our matching approach.
+In the five imperfect matching cases, the papers still provide meaningful training and evaluation signals, as they are still closely related to the invention and contextualized by the outline.
+
+\subsection{Document Parsing}
+
+We parse all patents and papers into a nested JSON schema where each section has a title, paragraphs and subsections field. We make considerable efforts to obtain clean data: we perform LLM-based section hierarchy reconstruction for patents, font-based section hierarchy reconstruction for paper PDFs and formula conversion for patents and papers. We provide more details in Appendix \ref{sec:parsing_appendix}.
+
+
+\subsection{Dataset Characteristics}
+
+We split our dataset randomly into \textit{train} (n=1000), \textit{test} (n=500) and \textit{validation} (n=242). We additionally create a non-contaminated test set (\textit{nc-test}) that contains all pairs with a patent published in 2024 (n=71), i.e., after the pretraining cut-off date of all evaluated open-weight LLMs. 
+Thus, we address the concern that LLMs might have seen test data during pretraining \cite{ravaut2024much}.
+Table \ref{tab:dataset_stats} shows dataset statistics across the splits. Appendix \ref{sec:dataset_stats_appendix} shows further statistics and plots, including the distribution over domains and the number of pairs over time.
+
+In general, both patents and papers contain information not present in the other.
+The paper typically includes more experimental details and insights drawn from the experiments.
+The patent usually contains more information on the applications and practical benefits of the invention.
+We analyze the lexical overlaps between the documents and find that only 2.1\% of the 4-grams are shared.
+This underlines the complexity of the task: the two documents describe the same invention from a different perspective using different language.
+Nevertheless, we find that it is common for attorneys to copy content from the paper to the patent (or vice versa). 
+For instance, many patents and papers share a portion of the figures, as well as verbatim copied text.

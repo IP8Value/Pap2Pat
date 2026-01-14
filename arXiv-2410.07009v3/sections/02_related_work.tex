@@ -1,0 +1,70 @@
+\section{Related Work}
+
+\noindent\textbf{Patent-Paper Pairs (PPPs). }
+Many research labs practice concurrent patenting and academic publishing.
+\citet{murrayFormalIntellectualProperty2005} find that almost 50\% of their sampled academic papers from \textit{Nature Biotechnology} have a corresponding US patent.
+In economics, PPPs have been used to study innovation dynamics, like whether patenting promotes or hinders the free flow of innovations \cite{murrayFormalIntellectualProperty2005,magermanSearchAnticommonsPatentpaper2011}.
+In that context, several approaches to finding PPPs have been proposed:
+\citet{murrayInnovationCoevolutionScientific2002} and \citet{murrayFormalIntellectualProperty2005} identify pairs manually by analyzing their full texts and citation networks.
+\citet{magermanExploringFeasibilityAccuracy2010} and \citet{vanlooyAssessmentLatentSemantic2011} explore several data mining techniques.
+We refine and extend their approach, and add criteria for author overlaps, date ranges, competing candidates, and licenses.
+\citet{gansPatentsPapersPairs2008} propose a taxonomy of PPPs that includes both to 1-to-1 matches and m-to-n matches.
+To ensure that papers are a solid source of information about the invention, we design our matching procedure to find only 1-to-1 matches.
+We publish, to the best of our knowledge, the first PPPs dataset for NLP research.
+
+
+\begin{figure*}
+  \small
+  \setlength{\tabcolsep}{10pt}
+  \begin{tabularx}{\textwidth}{p{.95\textwidth} p{0\textwidth}}
+    \centering
+    \begin{tabular}[t]{ccccccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Split}} & \multirow{2}{*}{\textbf{\# pairs}} & \multirow{2}{*}{\textbf{\# patent tokens}} & \multirow{2}{*}{\textbf{\# paper tokens}} & \multicolumn{3}{c}{\textbf{\# outline bullets}}                                       \\
+      \cmidrule(lr){5-7}
+                                      &                                    &                                            &                                           & short                                           & medium          & long              \\
+      \midrule
+      train                           & 1000                               & 17.8k $\pm$ 15.1k                      & 7.9k $\pm$ 4.5k                       & 36.8 $\pm$ 29.2                                 & 73.5 $\pm$ 60.0 & 149.0 $\pm$ 122.0 \\
+      val                             & 242                                & 18.2k $\pm$ 16.3k                      & 8.0k $\pm$ 4.1k                       & 37.4 $\pm$ 30.8                                 & 74.4 $\pm$ 62.9 & 150.6 $\pm$ 127.5 \\
+      test                            & 500                                & 18.1k $\pm$ 13.2k                      & 8.1k $\pm$ 3.9k                       & 37.5 $\pm$ 24.7                                 & 74.9 $\pm$ 50.9 & 151.6 $\pm$ 103.7 \\
+      nc-test                         & 71                                 & 18.4k $\pm$ 13.9k                      & 9.5k $\pm$ 4.6k                       & 37.8 $\pm$ 22.7                                 & 76.0 $\pm$ 46.4 & 154.4 $\pm$ \phantom{0}94.8  \\
+      \midrule
+      all                             & 1813                               & 17.9k $\pm$ 14.7k                      & 8.1k $\pm$ 4.3k                       & 37.1 $\pm$ 28.0                                 & 74.1 $\pm$ 57.5 & 150.1 $\pm$ 117.0 \\
+      \bottomrule
+    \end{tabular}
+    \captionof{table}{\DatasetName statistics. Values are reported as mean $\pm$ std. Token counts correspond to the Llama-3 tokenizer.}
+    \label{tab:dataset_stats} &
+  \end{tabularx}
+\end{figure*}
+
+
+
+\noindent\textbf{Patent Generation. }
+Most prior work on patent generation has focused on titles, abstracts, and claims.
+\citet{christofidellisPGTPromptBased2022} train a multi-task GPT2 model to generate these parts.
+\citet{leeEvaluatingGenerativePatent2023} pre-trains a GPT-J-6B architecture on entire patents and evaluates it on claim generation.
+\citet{zuoPatentEvalUnderstandingErrors2024} use GPT-3.5-turbo and Llama-2 to generate abstracts from claims, and claims from previous claims.
+\citet{wangPatentformerNovelMethod2024} experiment with the generation of individual description paragraphs based on patent claims and drawing descriptions.
+In practice, it is not likely that claims are already finalized at the time of writing of the description section.
+In their work concurrent to ours, \citet{wangAutoPatentMultiAgentFramework2024} leverage an agent framework to generate complete patents based on purely automatically generated invention specifications.
+They share our core principle of using a divide-and-conquer strategy for long-document generation, but evaluate only using surface-level metrics.
+Our more realistic setting relies on real-world invention specifications and provides deeper insights due to more sophisticated evaluation metrics.
+
+\noindent\textbf{Outline-guided Generation}
+is a paradigm in which LLMs use an outline to produce longer, more structured and coherent text.
+Outlines are either generated in a planning stage 
+\cite{drissiHierarchicalTextGeneration2018,yaoPlanandWriteBetterAutomatic2019,sunSummarizeOutlineElaborate2022a,yang-etal-2022-re3,leeNavigatingPathWriting2024,wangAutoSurveyLargeLanguage,shaoAssistingWritingWikipedialike2024} 
+or provided as input 
+\cite{fangOutlineStoryFinegrained2021a,spangher-etal-2022-sequentially,yangDOCImprovingLong2023,liAdvancingPreciseOutlineConditioned2023}.
+They are created using extraction of key words 
+\cite{yaoPlanandWriteBetterAutomatic2019}, 
+phrases 
+\cite{fangOutlineStoryFinegrained2021a}, 
+or sentences 
+\cite{drissiHierarchicalTextGeneration2018,sunSummarizeOutlineElaborate2022a,yang-etal-2022-re3,liAdvancingPreciseOutlineConditioned2023}, 
+generated using LLMs 
+\cite{yangDOCImprovingLong2023} or 
+defined interactively 
+\cite{goldfarb-tarrant-etal-2019-plan}.
+In our work, we posit that outlines should be provided by the patent attorney to satisfy the high demand for user control. %
+
