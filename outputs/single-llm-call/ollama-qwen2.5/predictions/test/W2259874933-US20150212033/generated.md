@@ -1,0 +1,11 @@
+- **Multi-Channel Capacitive Sensor Arrays**: We explored multi-channel capacitive sensor arrays where each element is connected to an inductive component to create distinct resonances. These resonances are isolated in the frequency domain, ensuring that changes in one channel do not affect others. This design allows for simultaneous and independent sensing of multiple events.
+
+- **Inductive Components**: Various inductive components can be used, including surface-mounted inductors, integrated microstrip inductors, and metamaterial-based structures like split-ring resonators (SRRs). Each type offers different advantages, such as ease of fabrication or higher quality factors, enhancing the flexibility and performance of the sensor array.
+
+- **Proof-of-Concept Designs**: The designs presented are primarily for proof-of-concept purposes. They demonstrate multi-directional sensing with a single array, linear position sensing in a microstrip line configuration, and improved resonance quality using SRRs. These examples show the versatility and potential of the design principles introduced.
+
+- **Split-Ring Resonators (SRRs)**: By integrating capacitive patches with SRRs, we achieved sharp resonances and significantly higher quality factors compared to conventional designs. This approach allows more sensors to be integrated within a given frequency band, enhancing the array's capability and performance.
+
+- **Performance Comparison**: The proposed sensor arrays outperform commercially available sensors in terms of figure-of-merit (FOM), which is defined as the ratio of corrected sensing range to effective sensor dimension. Our design achieved an FOM of 0.25, placing it above most commercial sensors.
+
+- **Future Directions**: While the designs presented serve as proof-of-concept demonstrations, they can be adapted for specific applications by optimizing operating frequencies and sensor structures. The principles introduced can guide the development of more advanced and tailored sensing solutions in various fields.

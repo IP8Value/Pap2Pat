@@ -1,0 +1,15 @@
+For fluorescence microscopy, a spinning disk confocal microscope with 40× and 10× objectives was used. Multichannel volumetric imaging at 0.4 µm per Z step ensured consistent imaging parameters across samples. RNA-seq involved extracting RNA from neuron cultures using Trizol and purifying it with an RNeasy Mini Kit, followed by cDNA generation and library preparation for sequencing on a MiSeq.
+
+Image analysis was conducted in ImageJ and MATLAB. Neuron somata were identified using Nissl or anti-NeuN staining, and XRI(s) within each soma were selected based on length criteria in the anti-HA channel. Intensity profiles along the XRI centerline were measured for various channels, including HA, FLAG, and V5.
+
+For intensity profile measurements, a curved centerline was drawn along the longitudinal direction of XRIs. The centerline width was set to half the XRI width, and intensity profiles were measured in the anti-HA, anti-FLAG, and anti-V5 channels. Each XRI's HA line profile was split into two halves using the geometric center point as a reference.
+
+To extract information from intensity profiles, each HA, FLAG, or V5 line profile was divided into half-line profiles at the geometric center point. Line integrals of HA were calculated and normalized to the maximum integral value. Line integrals of FLAG (or V5) were also calculated but not normalized. These integrals were then converted to a function of the fraction of HA intensity line integral.
+
+The FLAG (or V5) signal was derived by calculating the derivative of the line integral of FLAG (or V5) with respect to the fraction of HA intensity line integral. An optimal split point near the geometric center was found to minimize differences between the two halves' signals. The final extracted FLAG (or V5) signal was the average of the two halves using this optimal split point.
+
+The fraction of HA line integral when the FLAG signal begins to rise was calculated by fitting the initial rising phase of the FLAG signal as a linear function and extrapolating it to the axis of the fraction of HA line integral. The intersection point on this axis defined the fraction of HA line integral at which the FLAG signal started increasing.
+
+Statistical analysis was performed using Prism, MATLAB, and DESeq2 in R. Details for each statistical analysis are provided in figure legends and supplementary tables. RNA-seq data were analyzed using DESeq2 to assess gene expression raw counts, normalize them, and perform differential expression analysis. Statistical details of RNA-seq analysis are found in the figure legends and Supplementary Table 4.
+
+The reporting summary provides additional information on research design, methods, and statistical analyses used in the study. This includes details on data availability, code availability, author contributions, competing interests, and peer review information. Further supplementary materials are available at the provided DOI link.

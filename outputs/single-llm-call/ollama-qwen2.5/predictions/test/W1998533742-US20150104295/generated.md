@@ -1,0 +1,21 @@
+- The RL shunt damping technique for rotationally periodic structures like bladed drums is explored. Using an array of regularly spaced piezoelectric patches on the inner side of the blade support rim can significantly reduce blade vibrations without disturbing compressor flow. Independent loops for each transducer allow damping of multiple modes but require impractical synthetic inductors.
+
+- For critical modes with n nodal diameters, organizing 4n piezoelectric patches into two parallel loops reduces inductor demand by 4n² compared to independent loops. This allows using passive components instead of synthetic inductors. The method was tested on circular plates and a bladed drum with 76 blades, showing effectiveness for nearly harmonic mode shapes.
+
+- Performance is maintained even with moderate blade mistuning but degrades significantly with substantial mistuning due to additional spatial frequency components. Further investigation into the effects of mistuning is ongoing. Overall, parallel RL shunting shows promise for targeted damping in rotating machinery applications when mode shapes are sufficiently harmonic and mistuning is limited.
+  
+- The research was funded by the "Skywin" program of Région Wallonne as part of the HM+ project. The authors declare no conflicts of interest regarding this publication. The study demonstrates a practical approach to reducing vibrations in complex, rotationally periodic structures using piezoelectric damping techniques optimized for specific modes and mistuning levels.
+  
+- For more information or to submit related research, interested parties can visit http://www.hindawi.com to access the journal's submission portal. This work contributes valuable insights into optimizing vibration control strategies for rotating machinery through targeted piezoelectric shunt damping tailored to mode shapes and structural characteristics.
+   
+- The findings have implications for improving reliability and efficiency in turbomachinery applications by mitigating harmful vibrations that can lead to fatigue damage and performance degradation over time, especially when mistuning is present but not excessive. Further refinement of the technique could expand its applicability to a wider range of industrial settings.
+  
+- This study highlights the importance of mode shape analysis and careful transducer placement in achieving effective parallel RL shunt damping for specific vibration modes in complex rotational structures like bladed drums, even when mistuning is present but not severe. The results provide a foundation for developing practical vibration control solutions for rotating machinery.
+   
+- The authors acknowledge the support of the "Skywin" program and Région Wallonne through the HM+ project funding that enabled this research into targeted piezoelectric shunt damping techniques for complex, rotationally periodic structures like bladed drums. They also declare no conflicts of interest related to this work or its publication.
+   
+- For researchers interested in exploring similar topics or submitting their own studies on vibration control and smart materials for rotating machinery applications, the journal's submission portal at http://www.hindawi.com is available to facilitate manuscript submissions and peer review processes.
+   
+- The effectiveness of parallel RL shunt damping for targeted modes with harmonic circumferential shapes highlights the potential of this technique to improve the performance and longevity of turbomachinery by reducing harmful vibrations that can lead to fatigue damage, especially in lightly mistuned systems. Further optimization could broaden its applicability.
+   
+- This work demonstrates a promising approach to addressing vibration challenges in complex rotational structures by leveraging targeted piezoelectric shunt damping optimized for specific modes and structural characteristics, even when mild mistuning is present. The results provide valuable insights for developing practical solutions in industrial applications involving bladed drums and similar machinery.

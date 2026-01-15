@@ -1,0 +1,11 @@
+- Ilantide is a novel 10-amino acid peptide antagonist of IL-1 that binds to IL-1RI, inhibiting NF-κB activation and TNF-α secretion by macrophages. It protected pancreatic islets from IL-1β-induced apoptosis and reduced inflammation in collagen-induced arthritis (CIA). Unlike IL-1Ra, Ilantide's effect was not associated with inhibition of nitric oxide production.
+
+- The peptide crossed the blood-brain barrier (BBB), reducing deficits in social activity and memory induced by LPS and amyloid. It also delayed experimental autoimmune encephalomyelitis (EAE) development in rats. These findings suggest Ilantide as a promising alternative to other IL-1 blockers for treating inflammatory conditions.
+
+- In vitro, Ilantide promoted neuritogenesis and neuronal survival, effects likely mediated by inhibiting trace amounts of IL-1 on IL-1RI. This mechanism could explain the peptide's protective role in neuroinflammation models, including LPS-induced deficits and amyloid-induced cognitive impairments.
+
+- The study compared Ilantide to IL-1Ra, showing that a more profound effect of IL-1Ra required a 26× higher dose per kilogram. This indicates Ilantide's potential as a more efficient treatment for conditions like multiple sclerosis, where IL-1 activation plays a significant role in disease progression.
+
+- Pharmacokinetic studies revealed a plasma/CSF ratio of 55 for Ilantide, consistent with its BBB penetration and cerebroprotective effects. This ratio is comparable to other peptides previously studied, suggesting that reasonable BBB penetration may contribute to the therapeutic efficacy of Ilantide in neuroinflammatory conditions.
+
+- The authors propose that Ilantide's ability to cross the BBB and its potent anti-inflammatory effects make it a promising candidate for treating various inflammatory conditions, including neurodegenerative diseases. Further clinical studies are needed to validate these findings and explore the full therapeutic potential of this novel IL-1 antagonist.

@@ -1,0 +1,13 @@
+- **Citation and Publication Details**: The article titled "Novel method for the high-throughput production of phosphorylation site-specific monoclonal antibodies" was authored by N. Kurosawa et al. and published in Scientific Reports (Sci. Rep.) in 2016, with the article number 25174 and DOI: 10.1038/srep25174.
+
+- **Method Overview**: The study introduces a novel method for the high-throughput production of phosphorylation site-specific monoclonal antibodies (mAbs). This method combines flow cytometry with molecular cloning techniques to efficiently identify and clone antibody genes from single cells, enabling rapid generation of mAbs specific to phosphorylated epitopes.
+
+- **Flow Cytometry Technique**: The researchers utilized a JSAN flow cytometer equipped with an automatic cell deposition unit for single-cell sorting. Cells were stained with multiple fluorophores to detect intracellular IgG, peptides, and DAPI, allowing precise selection of cells expressing the desired antibodies. This approach significantly enhances the throughput and accuracy of mAb production.
+
+- **Molecular Cloning and Expression**: VH and VL genes from sorted single cells were amplified using 5′ RACE PCR and assembled into full-length immunoglobulin genes through TS-jPCR. These constructs were then subcloned into mammalian expression vectors and transfected into Expi293 cells for antibody production. The resulting mAbs were purified and characterized for their binding specificity to phosphorylated peptides.
+
+- **Validation of Antibodies**: The generated mAbs were validated using ELISA, immunofluorescence, and Western blotting. Peptide competition assays and phosphatase treatment experiments confirmed the specificity of the antibodies to phosphorylated epitopes. These validations demonstrated that the method produces high-quality, site-specific mAbs suitable for various applications in research and diagnostics.
+
+- **Application and Impact**: The novel method offers a significant advancement in the production of phosphorylation site-specific mAbs, which are crucial for studying post-translational modifications and signaling pathways. By streamlining the process, this technique has the potential to accelerate research in areas such as cancer biology, neurodegenerative diseases, and drug development.
+
+- **Conclusion**: The high-throughput method developed by Kurosawa et al. provides a robust and efficient platform for generating phosphorylation site-specific mAbs. This approach not only enhances the speed and scale of antibody production but also ensures the quality and specificity required for advanced biological research and clinical applications.

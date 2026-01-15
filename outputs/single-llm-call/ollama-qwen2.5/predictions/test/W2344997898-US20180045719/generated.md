@@ -1,0 +1,8 @@
+- The study describes a novel technique for trapping mammalian protein complexes in viral particles to enable their purification and analysis.
+- Virotrap utilizes HIV-based lentiviral vectors engineered to incorporate FLAG-tagged proteins of interest into virus-like particles (VLPs).
+- The VLPs can be affinity purified using anti-FLAG antibodies, allowing isolation of the incorporated protein complex without cell lysis.
+- This approach enables identification of interaction partners by mass spectrometry and preserves native complexes.
+- The method was validated by identifying known interactors for several bait proteins including A20 and RNF41.
+- Virotrap allows study of dynamic protein interactions, as demonstrated using TNFα stimulation to capture induced A20 complexes.
+- The technique can also be used to identify small molecule targets, as shown with bivalent MTX-modified probes for simvastatin and reversine.
+- Overall, virotrap represents a powerful tool for purifying and characterizing mammalian protein complexes in their native context.

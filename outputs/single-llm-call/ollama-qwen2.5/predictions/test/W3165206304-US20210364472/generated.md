@@ -1,0 +1,4 @@
+- A technique using immersion pulse-echo ultrasound was developed for accurately measuring foreign objects in fiber laminates. The average error across all sizes was 4.9%, with a differential error of 0.00-0.32 mm and an average of 0.11 mm.
+- The method uses edge detection based on gradient calculation to quantify defect size. It showed no significant difference between defects at the 6|7 and 9|10 interfaces, but slightly decreased accuracy for those at the 3|4 interface due to consistent scan parameters.
+- This represents a significant improvement over recent published works in sizing Teflon foreign objects in carbon fiber laminates. Future work will investigate other defect materials and automate the process.
+- The technique could be important for manufacturing quality control, maintenance inspection, and modeling components with more accurate information on defects to aid safety decisions.

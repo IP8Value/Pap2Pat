@@ -1,0 +1,13 @@
+- The study utilized a novel remote-focusing technique to improve axial scanning speed and optical quality. This method involved aligning a tertiary imaging objective along the optical axis of OBJ2 and capturing images of the laser spot using a camera. Three-dimensional datasets were acquired by stepping the tertiary objective with an objective piezo, achieving isotropic voxel sizes.
+
+- To fabricate micro step mirrors for testing the remote-focusing technique, SU-8 3005 was spin-coated onto a silicon wafer and exposed to UV light through a microfluidic mask. This process created a staircase structure with varying step widths, which were then coated with platinum to make them reflective. The heights of the steps were measured using a profilometer.
+
+- Mammalian cell cultures, including hTERT-RPE-1 and MV3 cells, were grown under specific conditions and labeled for imaging. hTERT-RPE-1 cells were tagged with mEmerald-vimentin using TALEN genome editing, while MV3 cells were infected to express GEMs (Golgi Exit Markers) using a lentiviral construct. The cells were imaged after being embedded in collagen or cultured in DMEM.
+
+- Animal protocols for the study were approved by local Institutional Animal Care and Use Committees. Zebrafish embryos labeled with Tg(kdrl:EGFP) were used to demonstrate fast axial scanning on the two-photon microscope. These embryos were embedded in 5% methylcellulose on an agarose-coated dish for imaging.
+
+- A fixed mouse brain sample from a Thy1-GFP mouse was perfused and fixed, then imaged using the remote-focusing technique. The brain was transcardially perfused with cold PBS followed by 4% PFA in PBS to ensure thorough fixation. This preparation allowed for high-resolution structural imaging of the brain tissue.
+
+- To reconstruct the zebrafish heart, two strategies were employed: acquiring a small stack encompassing 21 y-slices and building a large three-dimensional stack from time series of XZ planes. The latter required aligning slices in time to correct for heartbeat variability. Post-processing involved projecting images in the XY view and reslicing stacks to show the time dimension, resulting in smooth reconstructed images.
+
+- GEMs were detected and tracked using uTrack software, a MATLAB-based package. Detection was performed using the 'Watershed Applegate' method on Gaussian-filtered data, with intensity thresholds set empirically. Tracking utilized a Brownian motion model with a maximum gap closing of one frame and a minimum track length of six frames. This approach effectively captured the expected Brownian motion of GEMs.

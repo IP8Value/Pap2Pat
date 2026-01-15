@@ -1,0 +1,11 @@
+The provided text appears to be an excerpt from a scientific paper, detailing methods and results related to the study of protein tyrosine phosphatases (PTPs) and terpene synthases. The research focuses on identifying novel inhibitors for PTPs, specifically PTP1B, using a bacterial two-hybrid system and molecular dynamics simulations. The study also involved the creation of a cladogram to select uncharacterized genes from terpene synthase families.
+
+The authors used a B2H system to screen for spectinomycin resistance conferred by selected genes in combination with pMBISCmR and the B2H system. They identified hits that showed robust growth at high spectinomycin concentrations, indicating potential inhibitors of PTP1B. One of these hits, A0A0C9VSL7, was found to produce (+)-δ-cadinene as a dominant product.
+
+The research involved molecular dynamics simulations of the PTP1B-amorphadiene complex using GROMACS software and the CHARMM36m protein force field. The simulations were conducted with 30 independent MD trajectories to reduce sampling bias, each trajectory lasting 5 ns in the NPT ensemble. The results provided insights into the binding interactions between amorphadiene and PTP1B.
+
+To assess the biological activity of identified inhibitors, the researchers performed an ELISA to measure insulin receptor (IR) phosphorylation in HEK293T cells. They found that -bisabolene and amorphadiene inhibited IR phosphorylation at concentrations of 405 μM and 930 μM, respectively. These concentrations were chosen based on their ability to produce the highest signal in the ELISA assay.
+
+The study also included sequence alignments of the catalytic domain of PTP1B with other PTPs using EMBOSS Needle. The calculated sequence identities were 32% for PTP1B and PTPN12, 33% for PTP1B and SHP1, and 68% for PTP1B and TCPTP. These alignments provided a basis for understanding the structural similarities and differences among these proteins.
+
+The research was supported by grants from the National Science Foundation (NSF) and the National Research Foundation of Korea (NRF). The plasmids generated in this study are available on Addgene, and crystal structures determined are deposited in the RCSB Protein Data Bank. This work contributes to the understanding of PTP1B inhibition and may have implications for therapeutic development.

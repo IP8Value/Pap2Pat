@@ -1,0 +1,4 @@
+- GF, SS, MP, and MH were the primary authors of the paper. GF conducted computational experiments and analyzed microarray data. GF and FP handled quality control.
+- SS developed protocols for amplifying and labeling RNA from LCM samples, and supervised LCM, RNA isolation, labeling, and microarray hybridizations.
+- MS performed immunohistochemistry experiments and collected stromal cellularity data. FH, AO, and KK classified tissues for microdissection and reviewed pathology.
+- BZ gathered patient history information. SM played a key role in collecting tissue samples used in the study.

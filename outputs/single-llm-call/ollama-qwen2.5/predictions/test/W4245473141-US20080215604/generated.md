@@ -1,0 +1,5 @@
+- Pedigree data can be represented in layers for pipelined parallel simulation, allowing one sample per clock cycle regardless of pedigree size, provided it fits on the FPGA. This results in significant speed improvements over sequential implementations.
+- Gene dropping algorithms benefit greatly from this approach, achieving up to 17,500 times faster sampling with high-performance FPGA compared to CPUs for large pedigrees. 
+- More complex algorithms like Metropolis Hastings can also be implemented on FPGA, potentially offering similar speedups if the necessary circuitry fits.
+- Hybrid boards combining FPGA and CPU could enable even more efficient pedigree analyses by leveraging each processor's strengths.
+- As FPGA technology advances, larger pedigrees will become feasible for parallel processing, potentially outpacing sequential algorithms in both speed and scalability.

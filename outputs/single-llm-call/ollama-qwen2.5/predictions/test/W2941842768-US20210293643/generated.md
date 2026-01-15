@@ -1,0 +1,9 @@
+- The multi-modal prosthetic fingertip sensor integrates an IR proximity sensor and a barometer within an elastic polymer to provide rich sensory information for prosthetic hands. This compact design includes all necessary circuitry for reliable signal quality using I²C communication, enabling durable object manipulation while measuring interactions accurately.
+
+- Characterization of the sensor involved testing loads from 1 to 50 N applied at various spatial and angular positions relative to the fingertip’s surface. The study encompassed 28 distinct loading scenarios, demonstrating the system's robust response across a wide range of conditions and orientations.
+
+- A Gaussian Process (GP) model was developed to fuse raw barometer and IR sensor readings into an accurate force measurement with an R² value of 0.99. Supervised learning methods were then employed to classify the location and angle of applied loads, achieving high accuracies: 96% for spatial location using SVM, 92% using CNN, 89% for probing angle using SVM, and 83% using CNN.
+
+- The sensor’s multiple modalities—proximity, contact, force, location, and direction—offer significant potential in prosthetic and robotic grasping applications. Proximity sensing can enhance grasp planning and shared control methods, while the calibrated force signal provides reliable tactile feedback. Future work will focus on integrating these sensors with neural interfaces to restore rich sensory information for upper limb amputees.
+
+- The researchers declared no conflicts of interest regarding this study. Financial support was provided by the U.S. Department of Veterans Affairs Rehabilitation Research and Development Service, the Airforce Office of Scientific Research, and the Colorado Advanced Industry Accelerator Grant, enabling comprehensive research, authorship, and publication of this article.

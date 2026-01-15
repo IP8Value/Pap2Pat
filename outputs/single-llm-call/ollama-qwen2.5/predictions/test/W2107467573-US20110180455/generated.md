@@ -1,0 +1,13 @@
+- **Introduction to Zeolites in Bifunctional Catalysis:** Zeolites are essential in bifunctional catalysis, particularly for upgrading long-chain paraffins from the Fischer-Tropsch process. These catalysts combine hydrogenation/dehydrogenation and acidic functions, crucial for hydrocracking and selective hydroisomerization. The optimal zeolite properties vary depending on the desired product, whether middle distillates or lubricant base oil.
+
+- **Hydrocracking Catalyst Requirements:** For hydrocracking, the catalyst should favor cracking towards isomerized middle distillates by promoting multibranching of olefinic intermediates to achieve optimal β-scission configurations. Mesoporous solids with mild Brönsted acidity are ideal to avoid overcracking and strong adsorption.
+
+- **Selective Hydroisomerization Catalyst Requirements:** In selective hydroisomerization, the catalyst should maximize isomerization while minimizing cracking. Monodimensional 10-ring zeolites, such as ZSM-22, excel in this role due to pore mouth and key lock catalysis, which favor specific monobranched and dibranched isomers.
+
+- **Impact of Fischer-Tropsch Effluent:** The presence of oxygenates in Fischer-Tropsch effluent can alter the balance between acidic and hydrogenation/dehydrogenation functions in bifunctional catalysts. This property can be leveraged to fine-tune the catalyst's performance, optimizing the reaction conditions for either hydrocracking or hydroisomerization.
+
+- **Comparative Study of ZSM-48, ZBM-30, EU-2, and EU-11:** A comparative study of these zeolites revealed significant differences in catalytic activity and selectivity despite similar XRD patterns. ZBM-30 synthesized with triethylenetetramine showed the highest isomerization selectivity and lower cracking, highlighting the importance of crystal termination, morphology, and aluminum location.
+
+- **Conclusion on Zeolite Performance:** The study confirmed that pore mouth topology is crucial for skeletal isomerization selectivity. ZBM-30 catalysts, particularly those synthesized with triethylenetetramine, outperformed others in hydroisomerization, demonstrating the sensitivity of catalytic performance to minor variations in zeolite properties.
+
+- **Acknowledgements:** The research was supported by the Flemish government through a concerted action on heterogeneous catalysis (GOA). This support was crucial for advancing the understanding and optimization of bifunctional catalysts for upgrading Fischer-Tropsch products.

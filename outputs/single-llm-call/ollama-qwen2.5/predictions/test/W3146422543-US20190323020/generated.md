@@ -1,0 +1,4 @@
+- KP, ZD, NM, Y-MK, YG, SD, JK, BH, JC, EP, B-JW-R, JZ, HD, SB, KB-J, NH, and JM collaborated on designing experiments for 3HP production in A. pseudoterreus using multi-omic analyses to understand metabolic pathways and identify targets for improvement.
+- KP, ZD, NM, Y-MK, YG, SD, JK, BH, MS, TL, JC, EP, B-JW-R, CN, and KB-J conducted the experiments, analyzed data on metabolites and proteins involved in 3HP production and competing pathways.
+- KP, ZD, NM, Y-MK, YG, and JM drafted the manuscript detailing findings from multi-omic analyses to improve 3HP yield by eliminating competing degradation pathways.
+- All authors reviewed and approved the final manuscript summarizing how multi-omic approaches enhanced understanding of 3HP production in A. pseudoterreus for sustainable chemical manufacturing.

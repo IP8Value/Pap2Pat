@@ -1,0 +1,13 @@
+- **Introduction**: The study aims to develop advanced enzymatic methods for the large-scale manufacturing of glycosylated proteins, focusing on trastuzumab, a therapeutic antibody. By optimizing endoglycosidase (Endo-S) mutants and developing a novel one-pot transglycosylation reaction, the research addresses the challenge of high donor-to-acceptor ratios in chemoenzymatic processes.
+
+- **Mutagenesis and Expression**: Site-directed mutagenesis was used to introduce specific mutations into Endo-S from *Streptococcus pyogenes*. The mutated genes were expressed in *E. coli* BL21(DE3), and the recombinant proteins were purified using affinity chromatography with Glutathione Sepharose 4B, followed by buffer exchange and concentration.
+
+- **Deglycosylation of Trastuzumab**: Commercial trastuzumab was deglycosylated using Endo-S. The reaction mixture was incubated at 37°C for 4 hours, after which the deglycosylated antibody was purified using protein A affinity chromatography and hydroxyapatite chromatography, yielding a high recovery rate.
+
+- **Enzyme Assays**: Hydrolysis and transglycosylation activities of Endo-S mutants were evaluated using trastuzumab as a substrate. The reactions were performed at 30°C in Tris-HCl buffer, with aliquots sampled at various time points to monitor the progress of deglycosylation or transglycosylation using capillary electrophoresis.
+
+- **One-Pot Transglycosylation**: A one-pot reaction was developed for the transglycosylation of deglycosylated trastuzumab using SGP as a donor. The reaction, involving Endo-S and Endo-M mutants, was optimized at 28°C in Tris-HCl buffer. The efficiency of the reaction was monitored by capillary electrophoresis, showing significant transglycosylation within 48 hours.
+
+- **Medium-Scale Transglycosylation**: For medium-scale production, a reaction mixture containing deglycosylated trastuzumab, SGP, and Endo-S/Endo-M mutants was incubated at 28°C. The product was purified using protein A and hydroxyapatite chromatography, yielding high-purity glycosylated trastuzumab. LC-MS confirmed the successful transglycosylation with a precise mass match.
+
+- **Conclusion**: The study successfully developed highly efficient Endo-S mutants and a one-pot transglycosylation reaction, significantly reducing the donor-to-acceptor ratio required for large-scale manufacturing. These advancements pave the way for more cost-effective and scalable chemoenzymatic processes in biopharmaceutical production.

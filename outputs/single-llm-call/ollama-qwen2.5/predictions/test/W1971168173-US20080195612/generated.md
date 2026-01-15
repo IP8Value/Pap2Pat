@@ -1,0 +1,11 @@
+The software package RECOVIR efficiently identifies strains of highly divergent caliciviruses and picornaviruses. Unlike current methods relying on sequence similarity, RECOVIR creates partitioned residue databases that distinguish among numerous reference strains. It rapidly compares target capsid residues with these databases to identify strain information for both complete and partial sequences.
+
+RECOVIR's approach is based on a method previously indicated for noroviruses. The software constructs partitioned databases of key capsid residues from reference strains. These residues unambiguously distinguish between different calicivirus and picornavirus strains. Target sequence residues are then efficiently compared against the database to determine strain identity.
+
+The software successfully identified strains for over 300 complete and partial capsid sequences, with an average processing time of around 5 seconds per sequence. This includes both caliciviruses and picornaviruses. The method is general enough to apply to nucleotide sequences as well as amino acid sequences.
+
+RECOVIR provides a rapid alternative for strain determination that complements existing techniques. It can characterize emerging strains without requiring complete genome information. The software's tree-based search algorithms allow it to rapidly identify subtle differences between closely related strains, providing functional insights not available with current classification methods.
+
+A limitation is the databases may become outdated as new strains emerge. However, upgrades should only be implemented when changes are statistically significant across at least 50% of emerging sequences. The software is available for Windows XP and Linux operating systems. It can run remotely under Linux with X-Windows support like Cygwin.
+
+RECOVIR was developed by DZ who coded the software and designed the GUI, along with SC who conceived the concept, designed the algorithm, created initial databases and performed troubleshooting. GEF contributed to writing the manuscript. All authors provided input during preparation and approved the final version.

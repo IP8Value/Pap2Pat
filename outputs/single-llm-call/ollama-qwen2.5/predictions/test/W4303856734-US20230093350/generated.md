@@ -1,0 +1,13 @@
+The SCISCCO system measures changes in metabolism and hemodynamics by monitoring concentrations of HbO, HbR, and CCO. It uses a high-brightness all-fiber integrated modulational instability-initiated SCL covering 670-2500 nm, with measurements focused on the 750-900 nm range for optimal sensitivity to CCO and independence from skin color.
+
+A cart-based prototype integrates hardware and software into a portable system suitable for hospital or lab use. The three-level cart houses the SCL, optical components, electronics, and lock-in amplifiers, with a GUI enabling user input and real-time data visualization.
+
+Initial validation experiments included in vitro CCO measurements and in vivo tests on healthy participants. Results during blood pressure and breath-holding tests matched literature values, demonstrating feasibility. Cognitive attention tests showed expected HbO increases and CCO decreases, validating the system's ability to measure both hemodynamic and metabolic responses non-invasively.
+
+A pilot human study of 25 participants performing cognitive attention tasks found that 67% of the time, CCO levels decreased while HbO increased. This aligns with prior research showing HbO increases in the frontal lobe during attention tasks, and supports interpreting CCO redox state as an indicator of cellular ATP demand and metabolism.
+
+In animal studies, the SCISCCO system monitored swine undergoing hemorrhagic shock followed by pREBOA or pREBOA with VPA treatment. Data were validated against arterial blood gas and mean arterial pressure measurements. The 8-hour continuous recordings showed HbR and HbO concentration changes consistent with expected physiological responses across different clinical phases.
+
+The SCISCCO system's potential applications include screening for concussions, monitoring organ response to treatments in intensive care units, and providing a practical, cost-effective means of non-invasively assessing brain and organ oxygenation and metabolism. The all-fiber integrated SCL enables portability while maintaining high signal-to-noise ratios.
+
+The processing algorithm uses least-squares regression with extinction coefficients, differential pathlength factors, and fiber distances to calculate chromophore concentrations from intensity changes across 47 wavelengths between 759-897 nm. Two data screening methods were applied: "best of six" selected the six blocks per participant showing largest HbO increases; "HbO increasing" used only blocks where HbO rose during attention tasks. Both methods yielded consistent results.

@@ -1,0 +1,7 @@
+- The study explores using genetically encoded death indicators (GEDI) to detect neuronal cell death. GEDI signals were tested in both 2D cultures and live zebrafish embryos.
+- In 2D cultures, GEDI ratios effectively distinguished between live and dead neurons, allowing for precise survival analysis over time.
+- When applied to zebrafish, immobilization with tricaine allowed stable long-term imaging of neuronal death processes in vivo.
+- The study also highlights the potential of using GEDI signals in induced pluripotent stem cell (iPSC)-derived motor neurons, offering a new tool for neurodegenerative disease research.
+- Automated high-content 4D imaging was crucial for quantifying GEDI signals and analyzing neuronal morphology over time in zebrafish embryos.
+- Kaplan-Meier survival curves derived from GEDI data provided insights into the risk of death for individual neurons, enhancing understanding of neurodegeneration dynamics.
+- The study concludes that GEDI is a robust tool for monitoring neuronal health and death, with applications in both basic research and disease modeling.

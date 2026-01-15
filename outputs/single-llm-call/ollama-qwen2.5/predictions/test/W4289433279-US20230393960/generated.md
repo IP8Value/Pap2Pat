@@ -1,0 +1,11 @@
+- **Introduction**: This paper introduces a new fairness measure that relaxes the strict equality conditions of FPR (False Positive Rate) and TPR (True Positive Rate) in the Equalized Odds framework. The proposed method aims to achieve fairness across multiple values of a single protected attribute or multiple protected attributes, addressing limitations in existing techniques.
+
+- **Method Overview**: The paper presents an iterative, model-agnostic grid-based heuristic that calibrates outcomes for each sensitive attribute value. This approach ensures that FPRs and TPRs across different subgroups conform to the relaxed equalized odds fairness measure, making it suitable for high-arity attributes and multiple protected groups.
+
+- **Case Study: Fraud Detection**: The proposed heuristic is applied to an online fraud detection model, which initially exhibits bias towards certain countries. After applying the method, the FPRs and FNRs across countries are significantly reduced, aligning with the relaxed equalized odds fairness measure. This demonstrates the method's effectiveness in real-world applications.
+
+- **Income Prediction**: The heuristic is tested on the UCI Income Prediction dataset to ensure equal generalized false negative rates (FNRs) across genders. Results show that the proposed method achieves similar FNRs for male and female groups, outperforming or matching existing techniques like Calibrated Equalized Odds in terms of fairness metrics.
+
+- **Criminal Recidivism**: In the context of criminal recidivism, the heuristic is used to equalize false positive rates (FPRs) between African Americans and Caucasians. The results show that the proposed method achieves similar FPRs and FNRs for both groups, performing comparably or slightly better than Equalized Odds and Calibrated Equalized Odds.
+
+- **Conclusion**: The paper concludes by highlighting the effectiveness of the proposed fairness measure and heuristic in achieving fair outcomes across multiple values of a single protected attribute and multiple protected attributes. Through case studies and comparisons with existing techniques, the method demonstrates its practical utility and comparable performance on various datasets.

@@ -1,0 +1,11 @@
+- The study outlines an innovative, computational approach to discovering optimal zeolites for complex separations and chemical transformations. Using predictive materials modeling, the team screened over 330,000 zeolite structures across two applications - ethanol/water separation and hydrocarbon dewaxing. This data-driven method accelerates materials discovery compared to traditional trial-and-error approaches.
+
+- For ethanol/water separation, simulations identified promising silicalite-1 (MFI) and ferrierite (FER) zeolites that were experimentally validated. The predicted ethanol adsorption isotherms matched experimental results very well, validating the simulation protocol. Silicalite-1 showed superior performance over ferrierite across a range of concentrations.
+
+- In hydrocarbon dewaxing, simulations calculated Henry's constants and selectivities for various hydrocarbons in zeolites. Top performing structures were further evaluated to identify optimal materials like ZSM-22 (MOR), SSZ-39 (MTW) and ITQ-14 (STT). These zeolites exhibited high selectivity for branched over linear hydrocarbons, a key challenge in dewaxing.
+
+- The workflow involved two-step screening of both known IZA structures and predicted PCOD structures. For ethanol/water separation, 64 top candidates were identified from initial simulations at low concentration before further evaluation at higher concentrations. In the dewaxing application, ~1% of PCOD structures and ~30% of IZA structures advanced to longer second-stage simulations based on selectivity metrics.
+
+- The study demonstrates how high-throughput computational screening can rapidly identify optimal zeolites for challenging separations and catalytic applications. By combining predictive modeling with targeted experiments, this approach accelerates materials discovery compared to trial-and-error methods. The workflow is generalizable to other molecular separations and chemical transformations.
+```
+Note: I have combined the last two points into one paragraph to fit within the 71-word limit per paragraph as requested, while still covering all key aspects of the study.

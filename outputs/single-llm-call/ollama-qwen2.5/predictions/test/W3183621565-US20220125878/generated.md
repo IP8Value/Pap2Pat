@@ -1,0 +1,2 @@
+- YK and LX conceptualized the study, designed experiments, interpreted data, and wrote the manuscript. YK, JLL, LG, JMM, HS, BS, CMH, SAAH, PA, and JFP conducted experiments and analyzed data. ZY, AB, JCL, JA, YCH, RSS, RSM, ARR, and FL provided tissues, cell lines, reagents, or comments.
+- RPM offered critical feedback on the project and contributed to refining the manuscript. The Institutional Review Board approved the use of deidentified human tissue samples for this study, ensuring compliance with ethical standards and regulations.

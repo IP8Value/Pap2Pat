@@ -1,0 +1,11 @@
+- **L-Methionine Oxidation Analysis**: L-methionine was dissolved in PBS and treated with the plasma for varying durations. The samples were analyzed by LC-MS to quantify the formation of methionine sulfoxide, a marker of oxidation. The signal intensity at m/z 166 was used to determine the extent of oxidation, which increased linearly with treatment time, validating the plasma's oxidizing capability.
+
+- **BSA Treatment and Digestion**: BSA in PBS was treated with plasma for 0, 15, 30, or 60 seconds. After treatment, proteins were precipitated, reduced, alkylated, and digested with trypsin and Lys-C. The peptides were desalted, concentrated, and analyzed by LC-MS to identify oxidation sites on BSA peptides.
+
+- **EGFR and EGF Reaction**: The ecto domain of human EGFR was mixed with EGF at a 3:1 molar ratio and incubated for 15 minutes at room temperature. The mixture was then treated with plasma for 0, 5, or 10 seconds. Samples were processed similarly to BSA, digested, and analyzed by LC-MS to identify changes in oxidation patterns upon EGF binding.
+
+- **Peptide Mass Spectral Analysis**: Peptides from the treated samples were injected onto a reversed-phase column and eluted with a gradient of acetonitrile and formic acid. The peptides were ionized and analyzed using an Orbitrap Elite mass spectrometer. Data-dependent acquisition was used to select the top 20 ions for MS/MS analysis, and the data was searched against a database of contaminants and proteins of interest.
+
+- **Data Processing and Analysis**: Raw data from LC-MS was processed using Proteome Discoverer 2.1 and Mascot search algorithm. The data was filtered for high-confidence peptides, and oxidation events were quantified by summing areas under the precursor ion chromatograms. Statistical tests were performed to compare modification levels between treated and control samples, and results were visualized using Excel and Illustrator.
+
+- **Electronic Supplementary Material**: Additional figures and tables are provided in the supplementary material, including detailed methods for sample preparation, LC-MS settings, and data analysis. Crystal structure images of BSA and EGFR were created using Pymol to illustrate the sites of oxidation and structural changes upon treatment with plasma.

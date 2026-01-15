@@ -1,0 +1,15 @@
+SPADE addresses semi-supervised learning with distribution mismatches, a common issue in practical scenarios like fraud detection. Unlike standard supervised learning that ignores unlabeled data, SPADE leverages both labeled and unlabeled datasets to enhance performance. This approach is crucial when the training and testing distributions differ, which can negatively impact test results if not addressed.
+
+OCCs are powerful for anomaly detection but have limitations. They typically use only normal samples, discarding valuable information from labeled anomalies and unlabeled data. While some OCC variations incorporate unlabeled data, they still miss out on using labeled abnormal samples, limiting their effectiveness in real-world applications.
+
+Semi-supervised learning methods aim to utilize both labeled and unlabeled data but often assume the same distribution for both. This assumption is unrealistic in many practical scenarios where labeled data can be biased. SPADE addresses this by handling distribution mismatches, making it more robust and applicable to a wider range of problems.
+
+SPADE shares some similarities with SRR (Yoon et al., 2022) but differs significantly in problem setting and approach. SRR focuses on fully unsupervised settings, while SPADE tackles semi-supervised learning with distribution mismatches. SPADE also introduces critical elements like using positive and negative samples for pseudo-labeler training and determining thresholds without true anomaly ratios or validation sets.
+
+SPADE's architecture is designed to handle various data types efficiently. For image data, it uses ResNet-18 and CutPaste for representation learning, following established practices. For tabular data, a two-layer perceptron with GDE-based OCCs is employed. The model updates the ensemble of OCCs per epoch, balancing computational complexity and performance.
+
+In practical scenarios like fraud detection, SPADE can handle labeled high-risk samples effectively. It first estimates anomaly scores using a logistic regression model and then manually checks high-risk samples. This approach ensures that most labeled data are high-risk, reflecting real-world conditions where high-risk samples are prioritized for labeling.
+
+SPADE's computational efficiency is another key advantage. Experiments run on a single V100 GPU, with training and inference times ranging from 1 to 4 hours depending on the dataset size and complexity. The use of shallow OCCs (GDE) further reduces computational overhead, making SPADE scalable for large datasets.
+
+SPADE outperforms various baselines across different scenarios, including new types of anomalies, labeling based on sample easiness, PU learning, and high-risk sample labeling. It consistently achieves superior or similar performance to the best alternatives, demonstrating its robustness and effectiveness in handling distribution mismatches and biased labeled data.

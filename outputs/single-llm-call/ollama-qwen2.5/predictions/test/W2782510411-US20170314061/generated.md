@@ -1,0 +1,19 @@
+- **In Vitro Characterization of Luciferase Variants:** Luciferase variants (Luc2 and CBR2opt) were characterized in vitro to evaluate their bioluminescent properties using different substrates. The Km and Vmax values for each substrate were determined, revealing that CBR2opt had higher activity with D-LH2 and NH2-NpLH2 compared to Luc2. These findings highlight the optimized performance of CBR2opt in various applications.
+
+- **Cell Line Development:** Stable cell lines expressing either Luc2 or CBR2opt fused with copGFP were generated in HEK cells. These cell lines were validated for consistent expression and bioluminescent activity, ensuring their utility in both in vitro and in vivo imaging studies. The stable integration of the constructs was confirmed by fluorescence microscopy.
+
+- **In Vitro Bioluminescence Imaging:** In vitro bioluminescence imaging of the stable cell lines demonstrated that CBR2opt-expressing cells produced significantly higher photon flux with D-LH2 and NH2-NpLH2 compared to Luc2. The results were consistent across multiple experiments, validating the superior performance of CBR2opt in live cell imaging.
+
+- **Substrate Solubility and Stability:** The solubility and stability of different luciferase substrates (D-LH2, NH2-NpLH2, OH-NpLH2, Aka-HCl) were evaluated. D-LH2 and NH2-NpLH2 showed the highest solubility and stability in cell culture medium, making them suitable for in vivo applications. These properties are crucial for achieving optimal bioluminescent signals in living systems.
+
+- **In Vivo Subcutaneous Imaging:** In vivo subcutaneous imaging of mice injected with HEK-EF1-Luc2-T2A-copGFP and HEK-EF1-CBR2opt-T2A-copGFP cells demonstrated that CBR2opt-expressing cells produced significantly higher bioluminescent signals with D-LH2 and NH2-NpLH2. The signals were quantified using ROI analysis, confirming the enhanced sensitivity of CBR2opt in vivo.
+
+- **In Vivo Deep Brain Imaging:** For deep brain imaging, HEK-EF1-Luc2-T2A-copGFP and HEK-EF1-CBR2opt-T2A-copGFP cells were stereotactically injected into the striatum of nude mice. Intravenous injection of D-LH2 and NH2-NpLH2 resulted in detectable bioluminescent signals, with CBR2opt-expressing cells showing significantly higher photon flux. This indicates the potential of CBR2opt for deep tissue imaging.
+
+- **Bioluminescence Tomography:** Bioluminescence tomography was performed to reconstruct 3D images of CBR2opt-expressing cells transplanted into the mouse brain. The use of specific bandpass filters allowed for the differentiation of signals from D-LH2 and NH2-NpLH2, confirming the spatial localization of the bioluminescent source. This technique provides a non-invasive method to visualize deep tissue structures.
+
+- **Histological Validation:** Histological analysis of brain sections confirmed the presence and localization of CBR2opt-expressing cells in the striatum. DAPI staining for nuclear visualization and copGFP fluorescence imaging were used to validate the cell distribution. The results were consistent with the bioluminescence imaging data, providing a comprehensive understanding of the cellular environment.
+
+- **Statistical Analysis:** Data from all experiments were analyzed using one-way ANOVA followed by Tukey’s t-test for multiple comparisons. Significant differences (p < 0.05) were observed between groups, confirming the statistical robustness of the findings. The data are presented as means ± standard deviation, providing a clear and concise representation of the results.
+
+- **Data Availability:** All relevant data supporting the study are included in the paper and supplementary information files. Additional data can be obtained from the corresponding author upon request. This ensures transparency and reproducibility of the research findings.

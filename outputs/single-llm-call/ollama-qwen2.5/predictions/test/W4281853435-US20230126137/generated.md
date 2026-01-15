@@ -1,0 +1,13 @@
+For the calculation of enrichment of peaks across different background inputs, CLIPper was used to identify peaks from IP libraries. Read counts overlapping these peaks and identical genomic regions in 'background' samples were normalized by total usable reads for calculating fold enrichment using Yates’ chi-squared test or Fisher’s exact test, with minimum reportable P values of 10−88 and 2.2 × 10−16, respectively.
+
+To ensure the removal of repetitive elements, peak files were reverse-intersected with a repeatmasker bed file from UCSC. For specific analyses like RBFOX2 splicing, highly abundant background RNAs (mitochondrial and snoRNAs) were excluded. Peaks overlapping regions were defined based on exon and intron positions.
+
+For motif analysis, significant peaks (P < 0.001 and greater than eightfold change) were analyzed using an in-house pipeline that wraps around HOMER. Background regions of matched size and GC content were generated for comparison. HOMER was used to identify significant motifs by comparing sequences in peaks versus the background.
+
+To compare peaks between ABC and eCLIP, BedTools was utilized to calculate the overlap coefficient, defined as the number of overlapping peaks per total number of peaks in the smaller dataset. This method quantified the similarity in peak distribution between the two methods, providing insights into their consistency and reliability.
+
+Library complexity estimation involved downsampling uniquely mapped reads to various depths and following the preprocessing pipeline to deduplicate reads. This process helped ensure that ABC had consistent efficiency in capturing uniquely bound RNAs across different sequencing depths, validating its performance relative to other methods.
+
+For target ranking, peaks were ranked by P value, with duplicate gene names dropped. For SLBP, histone genes were assigned a value of 1 instead of 0. A similar strategy was used for the ten RBPs in the multiplex, using RNA feature labels and assigning values only to the correct feature for each RBP.
+
+To evaluate background peak removal, peaks from eCLIP datasets that did not pass thresholds (P < 0.001 and greater than eightfold change) after accounting for SMI reads were considered nonspecific interactions. The effectiveness of ABC in removing these nonspecific peaks was compared to the experimental background, providing a measure of its specificity.

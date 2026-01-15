@@ -1,0 +1,13 @@
+- The study examined the effects of visuomotor training on wrist proprioceptive acuity and motor performance in both trained and untrained limbs. Participants underwent a task-specific motor learning assessment using a wrist robot, with proprioceptive acuity evaluated through a position sense discrimination task. Motor performance was assessed via an untrained pointing task.
+
+- A three-degree-of-freedom wrist exoskeleton provided precise haptic feedback during training, where participants balanced a virtual ball by making small-amplitude wrist movements. The training session included 90 trials or 45 minutes, with difficulty levels adjusted based on performance to challenge the participant's motor skills and proprioception.
+
+- Proprioceptive acuity was measured using a psychophysical forced-choice paradigm, where participants discriminated between two passively presented stimulus positions. An adaptive psi-marginal algorithm determined the Just-Noticeable Difference (JND) threshold, reflecting the participant’s ability to detect small changes in wrist position. This method ensured reliable and accurate assessment of proprioceptive function.
+
+- Motor performance was evaluated through a discrete pointing task where participants moved their wrist to a perceived target position without visual feedback. The mean absolute angular error (MAE) between the target and final joint position was calculated as a measure of untrained motor accuracy, providing insights into the transfer effects of training on both trained and untrained limbs.
+
+- Data analysis involved paired t-tests to determine significant differences in JND and MAE across pre-, post-, and retention assessments. Outliers were identified and removed, and normality was confirmed using the Shapiro–Wilk test. False discovery rate corrections were applied to account for multiple comparisons, ensuring robust statistical conclusions.
+
+- The correlation between trained motor performance and trial number was analyzed using Spearman and Pearson correlations for cumulative spatial error (CSE) and movement time (MT), respectively. This analysis aimed to quantify improvements in task-specific motor learning over the course of training, providing a comprehensive understanding of the training's effectiveness.
+
+- Effect size calculations using Cohen's d and power analyses were conducted to assess the practical significance of the findings. These analyses provided additional context to the statistical results, helping to interpret the magnitude of changes in proprioceptive acuity and motor performance due to visuomotor training.

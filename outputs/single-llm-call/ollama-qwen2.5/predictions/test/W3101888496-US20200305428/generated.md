@@ -1,0 +1,17 @@
+- **Introduction**: Since the mid-twentieth century, numerous studies have shown that plants use small molecules to defend against plant-parasitic nematodes (PPN). Despite this, only a few antimicrobial natural products (ANPs) have been conclusively linked to PPN resistance. This review explores the role of ANPs in plant-nematode interactions and highlights recent advancements.
+
+- **Historical Context**: Early studies on ANPs focused on targeted approaches, examining extracts from plants known for their nematode-suppressive properties or metabolites with established roles in resistance to other pests. As analytical techniques like GC/LC-MS and NMR advanced, researchers shifted towards untargeted methods, enabling the identification of novel ANPs.
+
+- **Metabolomics in ANP Research**: Metabolomics approaches have become increasingly important in identifying novel ANPs. These methods are untargeted, independent of prior knowledge, and capable of examining individual metabolites. Recent studies using metabolomics have already hinted at new ANPs in various plant species, suggesting a potential revival of interest in ANP research.
+
+- **Causal Evidence for ANP Resistance**: Conclusively proving the causal role of an ANP in PPN resistance requires demonstrating correlation with resistance, showing anti-nematode activity in vitro, accumulating to biologically relevant concentrations near interaction sites, and reducing resistance through gene silencing or chemical inhibition. While many studies provide some evidence, few meet all criteria.
+
+- **Declining Attention**: The attention given to ANPs has declined over the past decades, as reflected in recent reviews on plant immunity to nematodes. Revisiting ANPs using modern techniques such as targeted mutagenesis, transcriptomics, and metabolomics could advance plant nematology and revitalize interest in this field.
+
+- **Specific Metabolites vs. Classes**: Several studies report that the total concentration of a class of secondary metabolites is uncorrelated with PPN resistance, while specific low-abundance metabolites within that class show strong correlations. This highlights the importance of using analytical methods that can identify individual metabolites rather than relying on less discriminatory techniques.
+
+- **Untargeted Studies**: Untargeted studies have become more feasible with advancements in GC/LC-MS and NMR. These studies have already identified putative novel ANPs, suggesting their potential to uncover new mechanisms of plant resistance to PPN. The early success of these approaches may lead to a resurgence in ANP research.
+
+- **Future Perspectives**: The integration of metabolomics with other -omics techniques could usher in a "golden age" for ANP research. Rapid growth in biological databases and the development of user-friendly data analysis tools are enhancing the ability to identify and study ANPs, potentially leading to significant advancements in plant nematology.
+
+- **Conclusion**: Despite challenges, the study of ANPs remains crucial for understanding plant resistance to PPN. Modern metabolomics approaches offer promising avenues for identifying novel ANPs and may lead to a resurgence in interest and research in this field.

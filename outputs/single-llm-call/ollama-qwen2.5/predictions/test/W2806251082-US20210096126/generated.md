@@ -1,0 +1,15 @@
+- **Introduction to Organoids**: Organoids are three-dimensional tissue cultures derived from stem cells that mimic the architecture and function of native organs. They serve as powerful tools for studying human development, disease mechanisms, and drug responses. However, tracking individual organoids in large-scale studies poses significant challenges.
+
+- **RFID Integration**: The integration of RFID (Radio-Frequency Identification) chips into organoids allows for unique identification and tracking. These micro-chips are seamlessly incorporated during the self-assembling cavitation process, ensuring that they do not compromise the organoid's structure or function.
+
+- **Cryopreservation Potential**: Cryopreservation is crucial for banking multiple donor-derived organoids. The RFID-integrated organoids (RiOs) demonstrated robust viability after freezing and thawing cycles, maintaining their morphology and functional capabilities, such as lipid accumulation in steatohepatitis models.
+
+- **High-Throughput Detection System**: A custom device was developed to simultaneously measure fluorescence intensity and detect RFID signals from RiOs. This system enables high-throughput phenotyping assays, significantly enhancing the efficiency of large-scale studies by identifying specific organoids based on their unique EPC (Electronic Product Code) numbers.
+
+- **Phenotypic Screening Application**: The RiO-based approach was validated through a proof-of-concept screen for steatohepatitis. Pooled RiOs from multiple donors, including those with Wolman disease, were treated with fatty acids and assessed for lipid accumulation. The system successfully identified the organoids derived from Wolman disease patients, demonstrating its potential for precision medicine applications.
+
+- **Cost-Efficiency and Scalability**: The RFID-based strategy is cost-effective compared to single-cell genomics approaches, making it scalable for large-scale studies. With an RFID market price around US$0.1–0.2 per chip, the overall cost for analysis remains low, even when using large numbers of stem cell or primary cell lines.
+
+- **Forward Cellomics Approach**: The "forward cellomics" approach leverages pooled organoids to identify phenotypic variations before determining the underlying genetic and cellular bases. This method is particularly useful for drug screening and precision medicine, offering a scalable and efficient alternative to traditional reverse genetics approaches.
+
+- **Future Perspectives**: The methodology presented is versatile and can be extended to other organoid systems and diseases. Further development of high-throughput phenotyping assays will enhance the potential of digitalized organoids in studying disease mechanisms, drug safety, and efficacy across extensive population cohorts.

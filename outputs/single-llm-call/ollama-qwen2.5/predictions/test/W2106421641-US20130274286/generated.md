@@ -1,0 +1,9 @@
+- RB and ES conducted the molecular docking studies and related analyses as part of the virtual screening process to identify potential lead compounds for inhibiting NMPRTase in glioblastoma. This involved using AutoDock software to screen a library of small molecules against the crystal structure of NMPRTase.
+
+- PS performed the enzyme inhibition assays and cell growth assays to experimentally validate the top compounds identified through docking. This included measuring the ability of the selected lead compounds to inhibit NMPRTase activity from glioma cells and their effects on proliferation of PBEF1-overexpressing U87 glioblastoma cells.
+
+- NC and KS conceived of the overall study, designed the experiments, coordinated between the computational and experimental teams, analyzed the results, and drafted the manuscript. They provided scientific oversight throughout the project to identify promising lead compounds for glioblastoma treatment.
+
+- The authors collectively identified compound 5 as a potent inhibitor of both NMPRTase enzyme activity and U87 cell growth. This demonstrates the utility of structure-based virtual screening approaches for drug discovery in cancer, providing a new lead scaffold beyond existing FK866 analogs for further development against glioblastoma.
+
+- The study highlights how integrating computational docking with experimental validation can efficiently identify novel small molecule inhibitors targeting key enzymes like NMPRTase that are upregulated in cancers. This may inform future structure-based drug design efforts to optimize compound 5 and related molecules as potential therapeutic candidates for glioblastoma.

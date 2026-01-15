@@ -1,0 +1,7 @@
+- The study reveals that a wide range of living bacteria can attach to an electrode with a negative applied potential in non-nutritive media, as demonstrated through various experiments and analyses. This suggests the electrode acts as an energy source for diverse microorganisms, potentially enabling novel microbial metagenomic studies.
+
+- AFM and SEM images showed E. coli producing adherent short fibrous materials upon contact with the negatively charged electrode, indicating a possible mechanism for attachment. The weak electrical currents observed during experiments further support the idea that the electrode serves as an electron donor for the microorganisms.
+
+- Phylogenetic analysis of deep-sea sediment samples collected using the electrical retrieval method revealed 19 phyla and 23 classes of bacteria, closely matching results from direct DNA extraction. This indicates the technique's effectiveness in collecting a broad range of living microorganisms from complex environmental samples.
+
+- The ability to electrically modulate the spatial configuration of E. coli cells suggests potential applications in microbial battery and sensor technologies. Further research is needed to understand how negative potentials induce attachment across diverse microorganism phylotypes, which could lead to optimized methods for rapid detachment and retrieval of living microorganisms from electrodes.

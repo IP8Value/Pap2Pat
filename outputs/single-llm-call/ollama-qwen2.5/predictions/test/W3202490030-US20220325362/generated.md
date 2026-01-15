@@ -1,0 +1,14 @@
+The Csm complex of CRISPR-Cas systems can be repurposed for sensitive and specific detection of target RNA. This method, termed MORIARTY (Multiplexed Observation of RNA via Inhibition of Ribonuclease Activity in Real Time with Trans reporting), leverages the co-transcriptional activation of the Csm6 ribonuclease by cyclic oligoadenylate molecules produced upon target recognition. The system can detect as little as 5 fM of target RNA, making it highly sensitive.
+
+MORIARTY uses a dual-fluorescence reporter system to monitor the cleavage of both DNA and RNA probes in real time. This allows for simultaneous detection and quantification of target RNA. The method is adaptable for multiplexing, enabling the detection of multiple targets within a single reaction. This feature enhances its utility in diagnostic applications.
+
+The amplification-free version of MORIARTY operates efficiently with minimal reagents and simple equipment, making it suitable for point-of-care testing. It requires only a fluorescence reader and can be performed at 37°C without the need for thermal cycling or specialized instruments. This simplicity reduces costs and time required for sample processing.
+
+T7-MORIARTY combines the MORIARTY system with T7 RNA polymerase-driven transcription to amplify signals from target DNA templates. This approach increases sensitivity and allows detection of low-abundance targets. The method is particularly useful when working with complex samples, such as clinical specimens, where direct RNA detection may be challenging.
+
+The RT-RPA (Reverse Transcription-Recombinase Polymerase Amplification) step is used to amplify viral RNA from patient samples before T7-MORIARTY detection. This two-step process ensures high sensitivity and specificity. The RT-RPA reaction is performed at 42°C for 30 minutes, followed by immediate T7-MORIARTY detection, which provides rapid results suitable for clinical diagnostics.
+
+qRT-PCR (quantitative Real-Time Polymerase Chain Reaction) was used to validate the results obtained from MORIARTY and T7-MORIARTY. This gold-standard method quantifies viral RNA copy numbers and confirms the presence of SARS-CoV-2 in patient samples. The qRT-PCR assay follows a standardized protocol, ensuring reliable and reproducible results for clinical diagnosis.
+
+The research design adheres to rigorous standards, including detailed methodology descriptions, data analysis protocols, and adherence to ethical guidelines. The study includes both in vitro and clinical sample testing, providing comprehensive validation of the MORIARTY system. Supplementary information and a reporting summary are provided to ensure transparency and reproducibility of the results.
+```

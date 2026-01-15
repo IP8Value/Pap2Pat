@@ -1,0 +1,6 @@
+- BGB-A1217, an anti-TIGIT antibody, demonstrates robust immune activation and antitumor activity in preclinical models. It activates NK cells more effectively than its Fc-silent version and depletes tumor-infiltrating Tregs through ADCC/ADCP.
+- The study reveals that BGB-A1217 can induce trogocytosis of TIGIT on human T cells via monocytes and DCs, which may enhance effector cell function by preventing DNAM-1 disruption.
+- Preclinical data supports the use of BGB-A1217 in combination with anti-PD-1/PD-L1 mAbs for cancer treatment. However, further clinical studies are needed to validate these mechanisms in humans and assess their translational potential.
+- The research highlights the importance of Fc engagement for optimal TIGIT targeting, including myeloid cell activation and trogocytosis, providing a strong rationale for using wild-type IgG1 Fc as the preferred format.
+- BGB-A1217 elicits significant antitumor efficacy in mouse models, both as monotherapy and in combination with anti-PD-1 mAbs. The competent Fc function is crucial for its therapeutic activity, which correlates with pharmacodynamic changes such as Treg depletion.
+- The study underscores the complexity of FcγR polymorphisms in human responses to anti-TIGIT therapies, suggesting a need for patient stratification based on genetic profiles to optimize treatment outcomes and safety.

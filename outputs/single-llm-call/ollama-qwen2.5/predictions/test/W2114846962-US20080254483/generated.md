@@ -1,0 +1,9 @@
+- The study identified pro-MMP-7 as an immunogenic protein in RCC cell line supernatant using a combination of secretome analysis and serological screening. This is the first demonstration of antibodies to pro-MMP-7 in cancer patients, which may be associated with N-terminal neoepitopes created in renal carcinoma cells that elicit T-cell activity.
+
+- A novel homogeneous fluorescent immunoassay for MMP-7 was developed using two monoclonal antibodies recognizing both active and pro-MMP-7. Western blot analysis showed only pro-MMP-7 circulating in healthy and RCC human sera, suggesting active MMP-7 levels may be below detection limits or that pro-MMP-7 is the sole form circulating.
+
+- The study found significantly elevated serum MMP-7 concentrations in patients with localized (median 7.26 ng/mL) and metastasized (median 7.87 ng/mL) RCC compared to healthy controls (median 2.13 ng/mL). However, due to small sample sizes, no statistically significant correlation was observed between MMP-7 levels and different stages of RCC.
+
+- While serum MMP-7 is not specific to renal cancer, its high sensitivity in RCC patients could allow for routine screening of high-risk populations, such as those with Von Hippel-Lindau disease or on hemodialysis. It may also serve as a prognostic marker for tumor recurrence after nephrectomy and help predict therapeutic responses to new targeted therapies.
+
+- The study was supported by a grant from the Languedoc-Roussillon Region (France). Despite its potential, further studies with larger samples are needed to determine MMP-7's specificity in various tumors and benign renal diseases, as well as its utility as a prognostic marker for RCC progression.

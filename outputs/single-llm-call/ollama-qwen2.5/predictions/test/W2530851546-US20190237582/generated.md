@@ -1,0 +1,13 @@
+- **Material and Device Fabrication**: The high voltage thin film transistors (HVTFTs) were fabricated on commercial glass substrates with a 50 nm chromium gate electrode. A 200 nm SiO2 layer served as the gate dielectric, followed by MOCVD-deposited ZnO, Mg0.03Zn0.97O (MZO), and modulation-doped Mg0.03Zn0.97O (m-MZO) channel layers. Source and drain metallization were deposited using electron beam evaporation.
+
+- **Electrical Testing**: Electrical measurements under low bias were conducted using an HP-4156C with a pulse generator, while high voltage testing was done using a Tektronix 370 system. Devices were immersed in Fluorinert FC-40 during high voltage measurements to prevent arcing and tracking issues. Temperature-dependent measurements were performed using an Agilent 1500B.
+
+- **Material Analysis**: Samples for material analysis were prepared without patterning or metallization. Structural and interfacial properties were analyzed using TEM, EDS, and XPS. TEM samples were prepared with a FEI HELIOS 600 Dual Beam FIB to ensure high-resolution imaging of the device interfaces.
+
+- **Performance Enhancement**: The addition of a modulation-doped MZO transition layer significantly improved subthreshold slope and on-current values by reducing interface trap density and trapped charges. This led to a reduction in the maximum electric field near the channel-gate dielectric interface, enabling higher blocking voltages up to 609 V with an on/off ratio of 3.3 × 10^8.
+
+- **Thermal Stability**: Doping ZnO with a small amount of Mg (MZO) enhanced thermal stability compared to pure ZnO. The m-MZO HVTFTs showed improved performance under different temperature conditions, making them suitable for applications in building-integrated photovoltaics (BIPV).
+
+- **Simulation and Electric Field Distribution**: SILVACO software simulations revealed that the reduction of positive oxide charges near the interface in m-MZO HVTFTs led to a decrease in the maximum electric field. This improvement allowed the devices to operate at higher drain biases, contributing to their enhanced blocking voltage capabilities.
+
+- **Conclusion and Applications**: The MgZnO-based HVTFTs on glass demonstrated high performance with thermal stability, high blocking voltages, and suitable operating conditions for BIPV applications. These transistors are promising candidates for solar inverters in PV-SOG technology, facilitating the integration of self-powered smart glass systems.

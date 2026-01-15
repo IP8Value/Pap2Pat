@@ -1,0 +1,5 @@
+- The study aimed to develop a protocol for differentiating human embryonic stem cells (hESCs) into hypothalamic neurons expressing vasopressin (AVP). Aggregates were cultured in defined medium with BMP4, SAG, and Akt-inhibitor from day 6.
+- On day 60, aggregates were dissociated and plated on coated coverslips. Immunohistochemistry showed expression of AVP, OXT, OTP, BRN2, and other hypothalamic markers at high rates.
+- Vasopressin release was stimulated by high K+ aCSF, with measurable levels detected using radioimmunoassay. MCH expression increased in response to NGF, dexamethasone, and LiCl treatment.
+- qPCR confirmed upregulation of pro-MCH mRNA after treatment. FACS analysis showed RAX::Venus+ cells at day 20. Statistical analyses were performed using Student's t-test or one-way ANOVA as appropriate.
+- The protocol successfully generated functional hypothalamic neurons from hESCs, providing a valuable tool for studying development and disorders of this brain region.

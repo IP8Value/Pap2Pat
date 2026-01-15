@@ -1,0 +1,5 @@
+- The study explores quantum logic-enhanced (QLE) AC magnetometry using nitrogen-vacancy (NV) centers in diamond. By integrating nuclear spin memory with electronic NV spins, the technique achieves enhanced sensitivity and coherence times.
+- The optimal sequence duration for XY8 and DROID-60 decoupling sequences was characterized to maximize AC sensitivity. DROID-60 outperformed XY8 by extending the NV electronic spin coherence time (T2).
+- The experimental setup uses a high-purity diamond chip with a nitrogen-doped layer, irradiated and annealed to create an NV ensemble. A 3700 G magnetic field is applied using a feedback-stabilized electromagnet.
+- Laser power affects the nuclear spin lifetime (T1) under optical illumination. Lower laser powers extend T1 but require longer re-polarization pulses. A balance was struck at 130 mW, where 75% of NV spins are re-polarized within 3 µs.
+- The QLE protocol is broadly applicable to various sensing applications beyond magnetometry, including NMR spectroscopy and dark matter searches. It can be integrated with techniques for sample hyperpolarization and advanced quantum error correction algorithms.

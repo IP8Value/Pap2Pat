@@ -1,0 +1,67 @@
+{
+    "bleu": {
+        "bp": 0.000654214373692003,
+        "gen_words": 1060,
+        "precisions": [
+            51.22641509433962,
+            10.596026490066226,
+            1.8975332068311195,
+            0.9514747859181731
+        ],
+        "ref_words": 8832,
+        "score": 0.0036603785260285924,
+        "score_without_bp": 5.595075059833306
+    },
+    "clustered_bleu": {
+        "Background": null,
+        "Detailed Description": null,
+        "Summary": null
+    },
+    "clustered_rouge": {
+        "Background": null,
+        "Detailed Description": null,
+        "Summary": null
+    },
+    "clustered_tokens": {
+        "Background": null,
+        "Detailed Description": null,
+        "Summary": null
+    },
+    "rouge": {
+        "rouge-1": {
+            "f": 0.04762541806020067,
+            "p": 0.5798045602605864,
+            "r": 0.024832589285714284
+        },
+        "rouge-2": {
+            "f": 0.007761273919443329,
+            "p": 0.09477124183006536,
+            "r": 0.004046323426817358
+        },
+        "rouge-3": {
+            "f": 0.0002677017802168385,
+            "p": 0.003278688524590164,
+            "r": 0.00013954786491766677
+        },
+        "rouge-4": {
+            "f": 0.0,
+            "p": 0.0,
+            "r": 0.0
+        },
+        "rouge-l": {
+            "f": 0.043076923076923075,
+            "p": 0.5244299674267101,
+            "r": 0.0224609375
+        }
+    },
+    "rr": {
+        "generated": 0.15897571156804857,
+        "paper": 0.35850890053607015,
+        "reference": 0.3826380775606775
+    },
+    "tokens": {
+        "fraction": 0.03952802359882006,
+        "generated": 469,
+        "reference": 11865
+    }
+}

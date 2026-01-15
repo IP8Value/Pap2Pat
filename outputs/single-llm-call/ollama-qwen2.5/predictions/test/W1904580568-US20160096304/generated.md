@@ -1,0 +1,7 @@
+- We developed a novel slit-fixture electrospinning process for producing core-sheath fibers at significantly higher throughputs than traditional needle-based systems. This method offers enhanced stability with fewer maintenance and clogging issues compared to coaxial needles.
+
+- The slit-fixture process maintains the versatility of needle-based coaxial electrospinning, enabling the fabrication of particle-encapsulating, bicomponent, hollow, and unelectrospinnable fibers. This flexibility is crucial for applications across multiple industries such as textiles, medical, energy, and diagnostics.
+
+- Core-sheath cone-jet morphology can be controlled by adjusting slit size, flow rate, and solution viscosity. These parameters are inter-dependent and must be optimized to maximize the shear stress between the sheath and core solutions, ensuring proper entrainment and distinct jet formation.
+
+- Ongoing work involves scaling the slit-fixtures to longer lengths for even higher throughput benchmarks and developing systems with extended or continuous run-time. This will enhance efficiency and manufacturability, bringing us closer to realizing the commercial potential of electrospun core-sheath fibers.

@@ -1,0 +1,7 @@
+- ThermoCas9 purification involved expression in E. coli followed by Ni-NTA affinity chromatography and size exclusion chromatography to obtain a highly pure protein suitable for biochemical assays and structural studies.
+- The PDB structure of ThermoCas9 (PDB ID: 6Q21) revealed a two-lobe architecture typical of Type II CRISPR-Cas systems, with the HNH and RuvC nuclease domains positioned to cleave target DNA strands.
+- Biochemical assays demonstrated that ThermoCas9 has robust DNA cleavage activity at high temperatures (up to 65°C), making it suitable for genome editing applications in thermophilic organisms or thermostable processes.
+- Electrophoretic mobility shift assays (EMSAs) confirmed specific binding of ThermoCas9 to target DNA sequences, with dissociation constants (Kd) in the low nanomolar range, indicating high affinity and specificity.
+- Cas9 protein expression levels were optimized by varying inducer concentrations and induction times in E. coli cultures, achieving maximum yields after 4 hours of induction with 1 mM IPTG at 37°C.
+- The thermostability of ThermoCas9 was assessed using differential scanning fluorimetry (DSF), revealing a melting temperature (Tm) of approximately 80°C, significantly higher than mesophilic Cas9 orthologs.
+- Guide RNA (gRNA) design for ThermoCas9 followed standard principles, with a 20-nucleotide spacer sequence complementary to the target DNA and a constant tracrRNA scaffold, ensuring efficient complex formation and target recognition.

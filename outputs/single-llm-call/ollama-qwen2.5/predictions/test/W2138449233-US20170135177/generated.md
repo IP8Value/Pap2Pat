@@ -1,0 +1,9 @@
+- The paper introduces a novel occupancy sensing technique using color-controllable LEDs and sparse color sensors to estimate indoor occupancy distribution for smart lighting systems. It modulates imperceptible light perturbations and measures sensor changes to recover a light transport matrix.
+
+- Two approaches are proposed - the light blockage model and light reflection model - to estimate occupancy from the transport matrix, despite the ill-posed nature of the problem due to limited fixtures/sensors. Results suffice to infer occupancy while protecting privacy.
+
+- The system can control lighting based on estimated occupancy for energy efficiency, productivity and comfort. It was validated in a testbed but faces hardware limitations. Faster LEDs, wired sensors, and integrated fixture-sensor products could enable real-time performance in the future.
+
+- Potential broader applications include agricultural barns, sickrooms, hallways, warehouses and vehicles. The technique may apply to lighting control of any indoor space as LED adoption grows. It provides a privacy-preserving alternative to camera-based occupancy sensing for smart buildings and IoT.
+- The work was primarily supported by an NSF ERC grant and NYSTAR contract. The authors thank several colleagues for helpful discussions and contributions, especially Prof. Robert Karlicek for constructive suggestions on the project. QW conceived the idea, implemented methods, ran experiments and wrote the paper with input from co-authors XZ and KB.
+- Technical details are provided including assumptions in the models, what is actually being sensed compared to other sensors, aggregation of the difference matrix, and limitations of current hardware. Results are evaluated quantitatively against manually generated ground truth for 9 scenarios using correlation coefficients.

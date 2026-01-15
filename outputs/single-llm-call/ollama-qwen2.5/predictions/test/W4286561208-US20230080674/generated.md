@@ -1,0 +1,13 @@
+- The paper showcases how advancements in computational language modeling can revolutionize item development for complex assessments. By merging task design, text generation, and psychometric analysis, it enables the automatic creation and scoring of reading passages and associated tasks, which was previously unattainable with traditional automated item generation (AIG) methods.
+
+- The IR task is designed to sequentially reveal a passage through three different item types, providing subtle corrective feedback. This interactivity can be enhanced by offering immediate feedback on response correctness and allowing multiple attempts, which has been shown to reduce test anxiety and improve measurement accuracy.
+
+- Future research could explore the use of the IR task for assessing both first-language (L1) and second-language (L2) readers. Despite differences, L1 and L2 readers share cognitive and linguistic components, making the IR task potentially useful for a wide range of reading assessments in academic and professional contexts.
+
+- The authors are investigating methods to estimate the psychometric properties of generated items using featurized approaches based on transformer models like BERT. This could refine item generation processes, ensuring that passages, distractors, and questions result in items with desired psychometric properties, such as appropriate difficulty levels and discrimination indices.
+
+- The IR task's digital format offers flexibility for incorporating various response formats, including dragging and dropping, free responses, and interactions with multimedia like charts or graphs. Additionally, the modality of delivery can be expanded to include aural comprehension questions, providing a more comprehensive approximation of real-world reading experiences in academic settings.
+
+- Ethical review was not required for this study as per local legislation and institutional requirements. Participants provided written informed consent to participate, ensuring that all contributions were voluntary and compliant with ethical standards.
+
+- The authors acknowledge potential conflicts of interest, as several are employed by Duolingo, the company developing the IR task. Despite this, they assert that the claims and findings presented in the paper are solely those of the authors and do not necessarily reflect the views of their affiliated organizations or the publisher.

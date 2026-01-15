@@ -1,0 +1,13 @@
+- The PSS developed uses optical-tracking technology for real-time independent position verification during radiotherapy treatments. It aims to prevent gross setup errors by continuously monitoring the position of a reflective marker (IRRM) relative to the room isocenter. This ensures patient safety across all disease sites and treatment rooms.
+
+- The system is designed to be general-purpose, capable of use with any treatment machine, couch top design, or immobilization device. It operates independently of patient internal anatomy and does not rely on radiation exposure, making it a versatile complement to existing IGRT systems. 
+
+- A key feature is the streamlined workflow, which minimizes therapist intervention. Only one IRRM is used per patient, typically mounted on an immobilization device rather than skin. This eliminates daily marker placement uncertainty but sacrifices sub-millimeter precision and the ability to distinguish translational vs rotational errors.
+
+- Despite these limitations, the system effectively detects setup deviations of >1cm that could lead to treatment at wrong sites. It has caught several near-misses in unusual circumstances since deployment, proving its value as a safety net even with daily CBCT imaging. The seamless integration into clinical workflows was crucial for therapist adoption.
+
+- Compared to commercial tracking systems like ExacTrac or AlignRT, this PSS offers a more efficient and general-purpose solution suitable for large-scale use. Other systems require multiple markers, manual patient loading, and frequent therapist interventions that disrupt workflow and introduce potential errors. This fully automated system avoids those drawbacks.
+
+- Limitations include marker visibility issues in certain anatomical locations and the assumption of reproducible patient positioning when mounting the IRRM on immobilization devices. However, these are manageable with proper techniques like tilting the reflective surface for visibility or aligning skin tattoos to mold marks. The tradeoffs are worthwhile given the system's overall effectiveness.
+
+- In conclusion, this PSS provides an ideal complement to existing IGRT systems by offering continuous independent position verification without radiation dose or complex workflows. Its proven track record of catching errors and seamless integration into clinical practice make it a valuable tool for enhancing patient safety in radiotherapy treatments across all disease sites.

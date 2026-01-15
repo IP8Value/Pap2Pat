@@ -1,0 +1,15 @@
+Yeast strain EGY48 was transformed with plasmids carrying various Caspase expression constructs and cleavable substrates. Transformants were streaked on growth plates containing glucose or selection plates with galactose, raffinose, and X-gal to monitor yeast growth and blue color development over 4-6 days at 30°C. This allowed for visual assessment of Caspase activity through substrate cleavage and subsequent β-galactosidase expression.
+
+For high-throughput screening (HTS) assays, EGY48 yeast cells expressing the desired plasmids were grown in liquid media containing glucose, then induced with galactose and raffinose. The assay was performed at 10 µM compound concentration (1% DMSO), with cell densities of 2×10^5 cells/ml in a 40 µl volume per well of 384-well plates.
+
+Counter-screen assays were conducted using EGY48 yeast expressing the LexA/B42 transcription factor or empty vector to detect compounds that inhibit the lacZ reporter gene or alter β-galactosidase activity. Additionally, yeast cells expressing Caspase-1 activated by Asc were used to identify cross-reactive hits from the primary screens, using identical conditions to those of the NLRP1 HTS assay.
+
+For liquid media assays in 384-well plates, yeast suspensions expressing various Caspases and substrates were diluted and added to wells containing X-gal and test compounds. Absorbance at 620 nm was measured after 2-3 days of culture at 30°C to quantify β-galactosidase activity, reflecting Caspase or ATG4B activity.
+
+Yeast cells expressing Caspase-8 and FADD were cultured in standard growth media, then induced with galactose and raffinose. The HTS assay was performed by adding compounds, yeast suspensions, and X-gal to 384-well plates, followed by incubation at 30°C for 48 hours. Absorbance at 620 nm was measured to assess β-galactosidase activity, indicating Caspase-8 activation.
+
+EGY48 yeast cells were transformed with reporter plasmids and Caspase expression constructs, then streaked on growth plates or selection plates containing X-gal. Yeast growth and blue color development were monitored over 4-6 days at 30°C to assess Caspase activity through substrate cleavage and β-galactosidase expression, providing a visual readout of enzymatic activity.
+
+For ATG4B assays, yeast cells expressing ATG4B and LC3 fused-transcription factor were cultured in growth media, then diluted in selection media containing galactose, raffinose, and X-gal. The cell suspension was dispensed into 384-well plates, and absorbance at 620 nm was measured after 2-3 days of culture to quantify β-galactosidase activity, reflecting ATG4B activity.
+
+EGY48 yeast cells expressing Caspase-1 activated by Asc were used in counter-screen assays to detect cross-reactive compounds. The cells were cultured and assayed under identical conditions to the primary NLRP1 HTS assay, using 6op-LEU2/2op-lacZ reporter genes and TEF-Fas-d-S1-TA substrate to ensure that hits from the Fas/FADD/Caspase-8 screen were specific.

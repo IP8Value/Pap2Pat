@@ -1,0 +1,6 @@
+- The paper introduces enhanced hybrid quantum/classical algorithms VQE and QAOA for combinatorial optimization using the CVaR aggregation function. It demonstrates improved performance theoretically and empirically compared to existing approaches, including on IBM's quantum hardware where it reaches optimal solutions faster.
+- For small depth p=1 and highly uniform diagonal Hamiltonian values, the resulting state vector amplitudes are necessarily flat, exponentially small O(1/2^n). This is problematic for problems like Grover search or certain feasibility problems.  
+- The paper provides a detailed implementation of QAOA using Qiskit, including circuits to implement the UB and UC blocks.
+- For the portfolio optimization problem on 6 qubits, results are reported for circuit depths p=0,1,2. Using CVaR with α=10%,25% generally outperforms the expected value objective in terms of sampling ground states.
+- Additional plots show how increasing the number of qubits impacts performance for a fixed overlap with optimal solutions. 
+- The proof of Proposition 7.1 uses induction to bound the maximum amplitude ∆p after p QAOA layers, showing it decreases exponentially.

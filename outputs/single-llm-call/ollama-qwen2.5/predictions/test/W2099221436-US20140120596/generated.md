@@ -1,0 +1,9 @@
+- The study investigates the effectiveness of Alkaline Twin-Screw Extrusion (ATSE) pretreatment on corn stover for enhancing enzymatic hydrolysis efficiency. Major factors like NaOH dosage and heat preservation time were examined using a pilot-scale extruder with a capacity of 200 kg oven dry corn stover per hour.
+
+- ATSE involves crushing biomass in a twin-screw extruder, where mechanical forces generate significant heat, elevating the temperature to about 99°C. This process thoroughly mixes and reacts the crushed biomass with alkali without additional heating, facilitating efficient pretreatment.
+
+- Composition analysis of the pretreated corn stover was conducted using modified NREL procedures to determine glucan, xylan, lignin, and ash content. Enzymatic hydrolysis performance was evaluated by measuring glucose and xylose yields, providing insights into the effectiveness of different pretreatment conditions.
+
+- SEM imaging revealed changes in the biomass structure post-ATSE pretreatment, showing fibrillation and shortening of fibers. The study found that optimal NaOH dosage and heat preservation time significantly improved glucan and xylan conversions during enzymatic hydrolysis, highlighting the potential of ATSE for enhancing biofuel production from lignocellulosic materials.
+
+- The research team, led by HW and XM, designed and supervised the project, while CL conducted major experiments and analyzed data. BL, GY, and HW operated the pilot-scale equipment and participated in pretreatment experiments. CL, EH, and BL contributed to writing the manuscript, ensuring a comprehensive and collaborative effort.

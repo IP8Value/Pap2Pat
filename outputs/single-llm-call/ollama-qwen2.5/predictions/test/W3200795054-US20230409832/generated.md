@@ -1,0 +1,13 @@
+The CAT method introduces a novel approach to generating contrastive attributed explanations for text classification tasks. By leveraging attribute classifiers alongside text perturbations, CAT provides more intuitive and informative explanations compared to existing methods like GYC and MICE. The attribute-based insights help users understand why certain changes in the text lead to different predictions.
+
+Hyperparameter tuning for CAT was done qualitatively by manual evaluation of generated explanations on a small subset of training data. The process involved adjusting parameters like λ, β, η, ν, and τ within specified ranges until satisfactory results were achieved across datasets. This one-time setup enables efficient explanation generation thereafter.
+
+For the News-Category dataset, 22 binary attribute classifiers were created by merging similar classes and removing non-standard topics. Class imbalance was addressed during training to ensure each classifier could accurately detect relevant attributes in sentences. These classifiers were crucial for providing meaningful explanations on this dataset.
+
+The DBpedia dataset consists of 14 non-overlapping classes extracted from the original DBpedia 2014 data, with 40K training and 5K test examples per class. The task is to predict which of these 14 categories a given DBpedia entry belongs to based on its content. In experiments, only the content field was used, while the title field provided in the dataset was dropped.
+
+The Yelp dataset contains highly polar reviews from the Yelp Dataset Challenge 2015, with 560K training and 38K testing examples for binary sentiment classification. This dataset is particularly challenging due to its size and the nuanced nature of sentiment expressed in user reviews. Experiments on this dataset help evaluate CAT's ability to explain sentiment shifts.
+
+User studies were conducted to compare different explanation methods. In Study 1, participants evaluated seven task-oriented questions per explainer (GYC, CAT, CAT-na) while Study 2 used five questions for four explainers (MICE, MICE-nft, CAT, CAT-na). The consistent format ensured a fair comparison across methods. User feedback indicated that CAT provided the most useful explanations in both studies.
+
+Additional qualitative examples demonstrate how attribute-based insights enhance understanding of model predictions. For instance, adding travel-related text can flip an article's classification from business to world, providing deeper intuition than mere word replacements. However, the effectiveness of attributes depends on their relevance to the dataset and task at hand, highlighting the importance of selecting appropriate attributes for good explanations.

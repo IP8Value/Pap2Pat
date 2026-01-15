@@ -1,0 +1,13 @@
+- **Introduction to pH-Sensitive Antibodies**: Antibodies with pH-sensitive binding properties offer enhanced functionality by responding to changes in pH, particularly within the acidic environment of endosomes. This study aimed to engineer such antibodies against the transferrin receptor (TfR) using semi-rational histidine saturation mutagenesis and yeast surface display.
+
+- **Library Design and Screening**: A histidine-saturated CDRH1 library was created from the parental anti-TfR scFv H7. Yeast surface display was used to rapidly screen for mutants with increased dissociation at pH 5.5 while maintaining binding affinity at pH 7.4. This approach identified multiple histidines in close proximity as beneficial for pH-responsiveness.
+
+- **Mutant M16 Characterization**: Mutant M16, containing three or more histidines in CDRH1, displayed increased cellular association and intracellular accumulation compared to wild-type H7 and the pH-insensitive mutant N5. The enhanced internalization of M16 was driven by its pH-dependent dissociation from TfR post-internalization.
+
+- **Mechanism of Enhanced Internalization**: Inhibition of endosomal acidification with bafilomycin A1 eliminated the enhanced internalization of M16, confirming that pH-sensitive binding is crucial for this phenotype. This finding aligns with models predicting increased cell association due to TfR dissociation at endosomal pH.
+
+- **Intracellular Trafficking Analysis**: Co-localization studies with EEA1, LAMP1, and LAMP2 markers revealed that M16 showed a uniform reduction in co-localization compared to H7 and N5. This reduction was associated with the appearance of large vesicular structures that did not co-localize with any tested markers, suggesting a divergence in trafficking.
+
+- **Discussion on pH-Sensitive Binding**: The study highlights the importance of multiple histidines in close proximity for achieving pH-sensitive binding. M16's unique intracellular distribution and enhanced internalization were primarily due to its pH-dependent dissociation from TfR. Future work will focus on further characterizing the intracellular location of M16 and understanding the mechanisms underlying its trafficking.
+
+- **Conclusion**: The engineered scFv M16 binds TfR with high affinity at neutral pH and dissociates at endosomal pH, leading to increased intracellular accumulation and potential therapeutic relevance. These findings contribute to the understanding of pH-dependent mechanisms in TfR-targeted antibody endocytosis and trafficking.

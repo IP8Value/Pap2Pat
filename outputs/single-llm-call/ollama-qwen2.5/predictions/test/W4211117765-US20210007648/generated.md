@@ -1,0 +1,13 @@
+- The palpebral conjunctiva and fingertip are optimal body sites for signal acquisition due to easy access to microvasculature. However, the fingertip is recommended over the eyelid due to greater flexibility and ease of control. Fingertips have translucent fingernails that allow near-infrared light penetration, enabling both reflective and transmissive measurement modes.
+
+- A PPG system illuminates finger tissue with a light source and captures intensity variations using a photodetector. The signal consists of an AC component reflecting blood volume changes during heartbeats and a DC component representing static tissue absorption. Changes in these components contain information about blood constituents like hemoglobin concentration.
+
+- Preprocessing involves identifying the region of interest, securing the finger to minimize movement artifacts, and normalizing lighting conditions. Machine learning regression techniques are applied to extract meaningful features from complex PPG signals generated from fingertip videos, accounting for factors like tissue scattering properties and system setup variations during data collection.
+
+- Multiple features should be investigated from PPG signals, including systolic and diastolic peaks, rise time, pulse transit time, shape, and amplitude. These parameters provide insights into blood constituent levels and can improve the accuracy of hemoglobin estimation models when used in combination with machine learning algorithms for regression analysis.
+
+- Addressing class imbalance through techniques like ROSE or SMOTE is crucial for developing robust prediction models. Imbalanced datasets, common in medical research, can lead to biased predictions. Resampling methods help create a more balanced distribution of classes, improving model generalization and reducing overfitting issues by generating additional synthetic samples from underrepresented classes.
+
+- Two patient evaluation strategies are proposed: 1) For low-resource settings, trained personnel assist with data collection using shared smartphones at local clinics or government offices; 2) For users with mobile health literacy, self-collection of fingertip videos or eyelid images is encouraged. Both approaches allow submission of clinical test results through the app to update prediction models on the cloud.
+
+- Smartphones offer a cost-effective, widely available platform for developing noninvasive point-of-care tools to measure blood hemoglobin levels. The fingertip's accessibility and suitability for both reflective and transmissive measurements make it an ideal site for accurate Hb estimation using smartphone cameras and machine learning algorithms, potentially improving access to healthcare in various settings.

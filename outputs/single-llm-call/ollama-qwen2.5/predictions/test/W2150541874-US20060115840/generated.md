@@ -1,0 +1,4 @@
+- The ToxArray™ concept was conceived by CLY, who also coordinated the PB experiment and drafted the manuscript. SB and CLY developed the external control series and printing design, while GZ and CLP optimized printing and hybridization processes.
+- MLB performed the technical variability experiment and image analysis. AW conducted all statistical analyses and experimental designs for microarray experiments. JLZ executed the PB animal experiment, microarray analysis, and RT-PCR validation.
+- AR managed and designed oligonucleotides for the ToxArray™, contributing to its design. HD optimized printing and hybridization protocols. IBL supervised SB, contributed to the gene list, and helped with manuscript writing.
+- GRD provided overall leadership, contributing to the design, coordination, and manuscript. CLP and CLY were project leaders, ensuring all aspects of the work were integrated and completed successfully.

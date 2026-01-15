@@ -1,0 +1,13 @@
+- **Development of mAbs Against PDGF-CC**: We developed specific murine and chimeric monoclonal antibodies (mAbs) against human PDGF-CC to target cancer, fibrosis, and neuropathologies. The lead mAbs, 6B3 and ch6B3, effectively neutralize PDGF-CC-induced PDGFRα activation and blood-retinal barrier disruption in vivo, providing a potential therapeutic avenue for these conditions.
+
+- **Specificity and Binding Affinity**: Despite the high sequence similarity between human and mouse PDGF-CC (87% identical), our mAbs specifically recognized human PDGF-CC without cross-reacting with mouse PDGF-CC. This specificity is crucial for accurate in vivo assessments and potential therapeutic applications.
+
+- **Expression Pattern in Healthy Tissues**: We systematically evaluated PDGF-CC expression in various healthy tissues using the novel mAb 6B3. PDGF-CC was detected in epithelial cells, stroma, and blood vessels, with significant upregulation observed in several types of cancer, highlighting its role in tumorigenesis and angiogenesis.
+
+- **Increased Expression in Tumors**: Our study revealed significantly increased PDGF-CC expression in the stroma of breast infiltrating duct carcinoma (IDC) and breast infiltrating lobular carcinoma (ILC), as well as in blood vessels of bladder, brain, breast, colon, kidney, pancreas, and prostate tumors. This upregulation suggests a potential role for PDGF-CC in tumor progression and angiogenesis.
+
+- **Relevance in Breast Cancer**: We observed higher PDGF-CD expression in IDC compared to ILC, aligning with the more aggressive nature of IDC. Treatment with 6B3 in a breast cancer model reduced tumor size and microvascular density, converting poorly treatable basal-like cancers into hormone receptor-positive states, enhancing sensitivity to endocrine therapy.
+
+- **Neuropathological Implications**: PDGF-CC plays a crucial role in maintaining blood-brain barrier (BBB) integrity. Our previous work showed that imatinib, a PDGFR inhibitor, improved neurological outcomes in acute ischemic stroke patients. The ch6B3 mAb effectively blocked PDGF-CC-induced disruption of the blood-retinal barrier (BRB), demonstrating its potential for treating neuropathologies involving vascular permeability.
+
+- **Therapeutic Potential**: The high efficacy of ch6B3 in blocking PDGF-CC-mediated signaling and preventing BRB disruption suggests its potential as a therapeutic agent. Further clinical trials are warranted to explore the full therapeutic benefits of targeting PDGF-CC in various diseases, including cancer, fibrosis, and neuropathologies.

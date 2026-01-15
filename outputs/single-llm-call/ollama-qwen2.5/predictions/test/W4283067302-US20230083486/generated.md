@@ -1,0 +1,11 @@
+- **Atari Settings**: For Atari, the team used PopArt-style reward normalization with a step size of 0.01, rescaling rewards by \(1 - \gamma\). The discount factor was set to 0.999, and VTrace without off-policy corrections defined TD targets for MSE loss. An entropy loss term was added with a weight of 0.001. The BYOL loss was scaled by a factor of 5.0.
+
+- **DM-HARD-8 Settings**: For DM-HARD-8, PopArt normalization was applied separately to intrinsic and extrinsic rewards. The discount factor was set to 0.99, and VTrace defined TD targets for MSE loss without an entropy term. The BYOL loss was scaled by a factor of 1.0. VMPO parameters were carefully tuned for both discrete and continuous actions.
+
+- **Atari: Detailed Results**: Detailed analysis of agent performance in Atari showed that BYOL-Explore outperformed baselines across various tasks, with finer-grained statistics highlighting its effectiveness in exploring complex environments like Montezuma's Revenge. The agent achieved positive rewards in Pitfall, demonstrating its ability to navigate without extrinsic rewards.
+
+- **DM-HARD-8 Experiments**: In DM-HARD-8, BYOL-Explore showed robust performance across tasks, outperforming baselines and ablations. Performance improvements were observed with increasing open-loop horizon \(K\) and EMA target parameter \(\alpha\). Purely intrinsic reward optimization still led to meaningful exploration in some tasks, particularly Wall Sensor.
+
+- **Multi-task vs Single-task**: The multi-task setting was significantly harder than the single-task setting, yet BYOL-Explore performed well. Performance was slightly higher in the single-task setting, confirming that the strong multi-task results were not due to any simplifying changes. The multi-task setting received only 1/8 of the training data per task.
+
+- **Acknowledgments**: The team thanked numerous colleagues for their support and advice, including Abbas Abdolmaleki, Arunkumar Byravan, Adrià Puidomenech Badia, Tim Harley, Steven Kapturowski, Thomas Keck, Jean-Baptiste Lespiau, Kat McKinney, Kyriacos Nikiforou, Georg Ostrovski, Razvan Pascanu, Doina Precup, Satinder Singh, Hubert Soyer, Pablo Sprechmann, and Karl Tuyls.

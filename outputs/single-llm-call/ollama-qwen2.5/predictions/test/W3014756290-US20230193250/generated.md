@@ -1,0 +1,17 @@
+- **Screening for Radiation Response Modulators**: U87 glioblastoma cells were screened to identify lncRNAs that modulate radiation response. A genome-wide CRISPR interference (CRISPRi) library was used, and cells were exposed to ionizing radiation. Surviving cells were analyzed to identify genes whose knockdown increased or decreased survival.
+
+- **Identification of lncRNA Candidates**: Differential expression analysis post-radiation identified several candidate lncRNAs. These candidates were further validated using RNA-seq and qPCR to confirm their expression changes in response to radiation, focusing on those with significant upregulation or downregulation.
+
+- **Functional Validation of lncRNA Candidates**: Top candidate lncRNAs were functionally validated using CRISPRi and ASO (antisense oligonucleotide) knockdown. Cell survival assays and clonogenic assays were performed to assess the impact of these lncRNAs on radiation sensitivity in U87 cells.
+
+- **Mechanistic Insights into lncRNA Function**: Mechanistic studies were conducted to understand how identified lncRNAs affect radiation response. RNA-seq and pathway analysis revealed that certain lncRNAs influence DNA repair pathways, cell cycle checkpoints, or apoptosis. Gene ontology terms associated with these pathways were enriched in differentially expressed genes.
+
+- **Organoid Culture System for In Vivo Validation**: To validate the findings in a more physiologically relevant context, mature brain organoids (MBOs) were generated from iPSC-derived astrocytes and neurons. U87 glioblastoma cells labeled with RFP were co-cultured with these MBOs to mimic tumor infiltration. ASO treatment was applied to knock down the identified lncRNAs, and the effect on tumor growth and radiation response was assessed.
+
+- **Radiation Dose Testing in Organoids**: DIPG SF8628 cells labeled with RFP were co-cultured with astrocyte mature organoids (A-MBOs). ASO treatment was administered to knock down lncRNAs, and the co-cultures were exposed to various radiation doses. Tumor burden was quantified using fluorescence microscopy to evaluate the impact of lncRNA knockdown on radiation sensitivity.
+
+- **Quantification of Tumor Burden**: Fluorescence images of RFP+ tumor cells within organoids were analyzed using ImageJ. The region of interest (ROI) encompassing the MBO and the size of the RFP+ tumor infiltrate were quantified by thresholding fluorescence intensity. This allowed for an unbiased assessment of tumor burden across different conditions and timepoints.
+
+- **Confocal Imaging for Detailed Analysis**: Fixed organoids were embedded in OCT and sliced into 15 μm sections. Confocal microscopy was used to obtain detailed images of the MBOs, allowing for a more comprehensive analysis of tumor infiltration and lncRNA expression patterns within the organoid microenvironment. These images were analyzed using ImageJ to extract quantitative data.
+
+- **Supplementary Information**: Additional data and methods, including ASO sequences, RNA-seq sample preparation protocols, and detailed statistical analyses, are provided in the supplementary information section. This ensures transparency and reproducibility of the findings.

@@ -1,0 +1,4 @@
+- For evaluating mutations or drug treatments on tumor size, volumes were computed and mice were randomly assigned ensuring identical mean volume ± s.e.m. per group. A sample size of 10 mice/group provided 80% power to detect a mean difference of 2.25 standard deviations between groups.
+- Significance testing was conducted using one-way ANOVA with Tukey’s posthoc for multiple comparisons or parametric/nonparametric Student's t-test as appropriate, ensuring robust statistical analysis.
+- Mouse studies were randomized and blinded; mice were coded randomly, and the key was kept unknown to operators until experiments concluded, maintaining objectivity in tumor measurement and analysis.
+- In tumor size outcome studies, animals removed due to health concerns were excluded from endpoint analyses, ensuring data integrity and reliability of results.

@@ -1,0 +1,21 @@
+- **Introduction to TNBC and Its Challenges**: Triple-negative breast cancer (TNBC) is an aggressive subtype that lacks estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor receptor 2 (HER2). Accounting for about 17% of all breast cancers, TNBC has a poorer prognosis due to its biological aggressiveness and lack of targeted therapies. Treatment primarily relies on nonspecific chemotherapeutic agents like cisplatin, anthracyclines, and taxanes.
+
+- **The BAD Pathway as a Potential Target**: The BCL-2-associated death promoter (BAD) pathway is crucial in regulating apoptosis. This study aimed to develop a gene expression signature (BPGES) based on the BAD pathway to identify TNBC cases that could benefit from enhanced chemotherapeutic sensitivity. The BPGES was derived using principal component analysis (PCA) and included 16 genes known to influence BAD phosphorylation and function.
+
+- **Development of the BPGES**: PCA identified 16 genes, including BAX, BCL-2, EGFR, PDPK1, PIK3CA, PPP1CA, PPP2CA, PPP3CA, PPM1A, and several 14.3.3 isoforms, as key components of the BAD pathway. The BPGES was validated in independent datasets from TCC (n=106) and TCGA (n=408), successfully distinguishing TNBC from non-TNBC cases. Additionally, it correlated with decreased overall survival (OS) in both cohorts.
+
+- **Association with Cell Cycle**: Despite the correlation between the BPGES and cell cycle activity (r² = 0.54), log-rank tests of Kaplan-Meier curves indicated that cell cycle alone could not explain the association between the BPGES and decreased OS (log-rank P=0.13). This suggests that the BPGES provides additional prognostic value beyond proliferation markers.
+
+- **Gene Expression Profiles in TNBC**: The individual genes within the BPGES showed consistent performance across different datasets, indicating a prosurvival phenotype in TNBC. Genes encoding phosphatases (PP2C, PP2A, calcineurin) were downregulated, while kinases (EGFR, PDK1, PI3K) and 14.3.3 isoforms were upregulated in TNBC compared to non-TNBC cases. This expression profile favors BAD phosphorylation and inactivation, contributing to TNBC's resistance to apoptosis.
+
+- **Immunohistochemistry Analyses**: Immunohistochemical analysis of a tissue microarray (TMA) confirmed that TNBC cases expressed higher levels of phospho-BAD isoforms, particularly at the AKT phosphorylation site Ser136. This finding aligns with the gene expression data and supports the hypothesis that BAD pathway activation is a mechanism by which TNBC resists therapeutic apoptotic stimuli.
+
+- **Impact on Survival**: Hazard ratios (HRs) from 5-year survival curves indicated that TNBC patients were at a 2-fold increased risk of death if their tumors expressed high levels of phospho-BAD-Ser136 or phospho-BAD-Ser155. This highlights the clinical relevance of targeting the BAD pathway to improve patient outcomes.
+
+- **In Vitro Validation**: To validate the therapeutic potential, TNBC cell lines were treated with AKT inhibitor perifosine and PKA inhibitor H89, which increased cisplatin cytotoxicity in TNBC cells but not in non-TNBC cells. The effectiveness of these inhibitors appeared dependent on the expression levels of their target kinases, suggesting a personalized approach to therapy.
+
+- **Mechanistic Insights**: Depleting BAD protein using siRNA in TNBC cell lines showed that BAD was required for the sensitization effects of perifosine and H89. This confirms that the enhanced cisplatin response is mediated through functional inhibition of BAD protein, further supporting the BAD pathway as a therapeutic target.
+
+- **Discussion and Future Directions**: The study demonstrates that the BAD pathway is a promising biomarker and therapeutic target for enhancing TNBC sensitivity to chemotherapy. Future research should explore the role of other BAD kinases and phosphatases, as well as validate these findings in larger clinical trials. Targeting the BAD pathway could significantly improve outcomes for TNBC patients.
+
+- **Supplementary Information**: Additional data and methods are provided in the supplementary information section, including detailed experimental procedures, statistical analyses, and extended figures and tables supporting the main findings of the study.

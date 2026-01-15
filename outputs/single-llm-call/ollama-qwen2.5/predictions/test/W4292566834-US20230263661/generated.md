@@ -1,0 +1,11 @@
+- **Introduction**: This study explores the feasibility and safety of using acoustic manipulation to control small particles within the anterior chamber of the eye. The technique leverages standing acoustic waves to trap and move particles, potentially offering new treatment options for ocular conditions caused by pathologic intraocular particles.
+
+- **Methods**: The researchers used a combination of in vitro and ex vivo models to test the application of acoustic manipulation. Experiments were conducted on porcine eyes, with particles manipulated using a custom-built acoustic device. Particle movement was observed under bright field microscopy, and safety assessments included histological and OCT evaluations.
+
+- **Results**: Acoustic manipulation successfully organized particles into concentric patterns within the anterior chamber at intensities below 50 mW/cm². No signs of thermal or mechanical damage were observed in the cornea or other ocular tissues, even at higher energy levels. The spacing between particle rings was consistent with theoretical predictions.
+
+- **Discussion**: The study demonstrates that acoustic manipulation can be a safe and effective method for controlling intraocular particles. Potential clinical applications include clearing the visual axis, protecting the trabecular meshwork from pathologic material, and facilitating targeted drug delivery. Further in vivo studies are needed to assess long-term stability and explore additional ophthalmic uses.
+
+- **Conclusions**: This study marks a significant step towards developing noninvasive ocular treatments using acoustic manipulation. The technique shows promise for managing conditions caused by intraocular particles without the risks associated with invasive procedures. Future research will focus on refining the technology and expanding its clinical applications.
+
+- **Patents**: A patent application (PCT/IL2021/050862) has been filed for an ocular acoustic device and method, highlighting the potential commercial and clinical impact of this novel approach. The inventors include Leshno, Skaat, Kenigsberg, and Shpaisman, emphasizing a multidisciplinary effort in advancing ophthalmic technology.

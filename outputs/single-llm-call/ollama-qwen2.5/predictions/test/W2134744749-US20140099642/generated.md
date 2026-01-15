@@ -1,0 +1,6 @@
+- The study was conceived and designed by ZXQ, RJH, WJI, and WJU. Participants were recruited and plasma samples separated by WW, ZYQ, SD, SY, ZHK, XJS, SW, YBM, ZLJ, XJH, ZZY, and LLH.
+- Library construction and sequencing were performed by CF, LYH, PXY, XZL, ZHY, TZM, LPP, LQY, GH, and JH. Methodology was developed by JFM, ZWM, CXH, LYR, and LSG.
+- LLF, CHF, ZCL, and YYY participated in data alignment and analysis. The manuscript was written by JFM and CSP. All authors approved the final version.
+- The NGS methodology involved k-mer coverage normalization, GC-bias correction via regression, cff-DNA concentration estimation from sex chromosomes, a binary hypothesis t-test for autosomal aneuploidy detection, and logistic regression for fetal gender determination.
+- For sex chromosome analysis, a double standard strategy with thresholds and logistic regression was used to classify fetal gender. Separate t-tests were performed on female and male samples to detect XXX/XO and XXY/XYY abnormalities respectively.
+- Competing interests: The authors declare no competing financial interests.

@@ -1,0 +1,6 @@
+- The study investigates the impact of Dp71 deficiency on Müller glial cells in the retina. It explores changes in electrophysiological properties, cell swelling, and blood-retinal barrier permeability.
+- Electrophysiological recordings from isolated Müller cells showed altered inward currents in Dp71-null mice compared to controls, indicating a potential role of Dp71 in ion channel regulation.
+- Hypotonic stress induced more pronounced swelling in Müller cells from Dp71-null mice, suggesting impaired osmoregulation in the absence of Dp71.
+- Blood-retinal barrier permeability was increased in Dp71-null mice, as measured by Evans blue leakage, indicating a possible role of Dp71 in maintaining vascular integrity.
+- Quantitative RT-PCR and Western blot analyses confirmed reduced Dp71 expression in the retinae of Dp71-null mice, validating the genetic model used in the study.
+- The findings suggest that Dp71 plays a crucial role in Müller cell function, influencing ion homeostasis, osmoregulation, and vascular permeability in the retina.

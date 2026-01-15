@@ -1,0 +1,11 @@
+- Chelerythrine selectively inhibited proliferation of TNBC cell lines both time- and dose-dependently. This was consistent with a dramatic decrease in colony formation in TNBC cells treated with chelerythrine. The selective anti-proliferative activity resulted from substantial induction of apoptosis, suggesting chelerythrine as a promising regimen for targeting TNBC tumors.
+
+- PKN2 was identified as the only PKC isoform highly expressed in all tested TNBC cell lines compared to non-TNBC cells. Suppression of PKN2 significantly decreased colony formation and xenograft growth in TNBC cells, indicating its critical role in TNBC cell proliferation and potential as a therapeutic target.
+
+- PRKCA was overexpressed in two TNBC cell lines, and knocking down PRKCA suppressed their colony formation. This suggests PRKCA is required for the growth of these TNBC cells, consistent with previous findings associating PRKCA with TNBC both in cell lines and patient tumors.
+
+- Chelerythrine selectively induced apoptosis in TNBC cell lines tested. PKN2 can be cleaved by caspase-3 during apoptosis induction, leading to pro-apoptotic signaling. PRKCA exhibits anti-apoptotic functions. Testing whether chelerythrine induces apoptosis through these pathways could provide insights into its mechanism of action.
+
+- Chelerythrine has been reported to induce apoptosis via multiple mechanisms, including inhibition of Bcl-2, dephosphorylation of ERK and Akt, activation of p53, inhibition of HSF1 and hsp70 expression, and induction of reactive oxygen species. Investigating whether PKC inhibition by chelerythrine leads to apoptosis through these pathways could further elucidate its therapeutic potential.
+
+- TNBC patients have a higher prevalence of metabolic syndrome and obesity, both risk factors for cardiovascular disease (CVD). Given that PKC activation is involved in CVD development and chelerythrine has been shown to improve diabetes-induced endothelial dysfunction, using chelerythrine for TNBC treatment may offer additional benefits by reducing the risk of CVD complications.

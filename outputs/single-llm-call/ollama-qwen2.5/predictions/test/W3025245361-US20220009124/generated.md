@@ -1,0 +1,9 @@
+- The new laser 3D printing (L3DP) method integrates 3D and laser processing techniques to fabricate green and sintered protonic ceramic parts with complex geometries and controlled microstructures. This technique demonstrates the successful printing of various shapes like pellets, cylinders, cones, rings, and tubes using developed printable pastes.
+
+- Materials such as NiO-BZY20 and NiO–BCZYYb anode, BZY20 and BCZYYb electrolyte, triple conducting BCFZY0.1 oxygen/water permeable membrane, and BCF-BFC hydrogen-permeable composite membrane were effectively used in the L3DP process. The effectiveness of laser drying, cutting, polishing, and sintering was demonstrated through these materials.
+
+- PC parts like 40 wt% BZY20 + 60 wt% NiO | BZY20 + 1 wt% NiO tubular half cells, BCFZY0.1 microchannel membranes, and planar 40 wt% BCZYYb + 60 wt% NiO | BCZYYb + 1 wt% half cells were prepared using L3DP with proper post-treatment or direct L3DP (RLRS). This showcases the versatility and efficiency of the L3DP method in fabricating protonic ceramic devices.
+
+- The L3DP technique significantly reduces processing time compared to traditional methods, achieving crystal structures and microstructures similar to those obtained from standard sintering processes. The ability to directly fabricate PCED half-cells with controlled active areas and fully densified electrolyte films highlights the potential of L3DP in advanced ceramic manufacturing.
+
+- In conclusion, the L3DP method offers a novel and efficient approach to fabricating complex protonic ceramic parts for intermediate-temperature devices. This technique not only enhances the precision and control over microstructures but also accelerates the development and production of high-performance ceramic components for various applications.

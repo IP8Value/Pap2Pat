@@ -1,0 +1,5 @@
+- A human IgG mAb specific for RSV's F glycoprotein was used to study pharmacokinetics in ferrets, revealing a half-life of 31 ± 10 hours. Introducing H433L and N434S substitutions extended this to 72 ± 21 hours, but some ferrets showed ADA responses.
+- To minimize immunogenicity, ferret HC and LC constant regions were cloned, creating human/ferret chimeric mAbs. Variants with known half-life-enhancing substitutions in the Fc region were also generated.
+- Ferret FcRn binding assays ranked the variants by affinity: S252Y=YTE>S252M>N434S>WT. In vivo, the half-lives followed a similar order: S252Y=YTE (9 days) > S252M > WT.
+- The chimeric mAbs showed consistent clearance without abrupt concentration drops, suggesting minimal ADA responses. However, residual test article in plasma samples inhibited direct ADA detection, leaving open the possibility of weak immune responses.
+- Chimeric human/ferret mAbs can minimize immunogenicity and be engineered for long half-lives, offering advantages in dosing frequency and reducing variability in multidose studies. They retain full antigen binding and are biophysically well-behaved.

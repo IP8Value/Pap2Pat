@@ -1,0 +1,11 @@
+- **Tissue Microarray Analysis**: Two commercial prostate tumor tissue microarrays (CA2 and CA3) and primary prostate tumors from 41 patients were analyzed for CCL20, CCR6, and CXCR4 expression. Staining intensity was scored as negative, weak, or strong by two independent investigators blinded to the Gleason score and tumor stage.
+
+- **Expression Analysis**: Immunohistochemistry revealed that CCL20, CCR6, and CXCR4 were expressed in varying degrees across the tissue samples. The CA3 array, which included 48 prostate cancer sections, showed higher expression levels compared to the CA2 array, suggesting a potential correlation with more advanced disease.
+
+- **Correlation with Gleason Score**: In the primary tumor samples from Hadassah Medical Organization, strong CCL20 and CCR6 staining was associated with higher Gleason scores and more aggressive tumors. This indicates that these chemokines may play a role in prostate cancer progression and could be potential biomarkers for disease severity.
+
+- **Cell Line Studies**: Prostate cancer cell lines (PC3, PC3-CXCR4.5, and PC3-CCL20 clones) were used to study the effects of CCL20 on proliferation and adhesion. Results showed that CCL20 significantly enhanced cell viability and adhesion, particularly in cells overexpressing CXCR4, highlighting a potential therapeutic target.
+
+- **In Vivo Tumor Models**: Nude and SCID/beige mice were injected with prostate cancer cell lines to establish xenografts. Treatment with anti-CCL20 antibody led to reduced tumor growth and size compared to control IgG1-treated groups, demonstrating the in vivo relevance of CCL20 in promoting tumor progression.
+
+- **Statistical Analysis**: Data from proliferation assays, adhesion assays, and in vivo experiments were analyzed using a two-tailed unpaired Student's t-test. Statistically significant differences (P<0.05) were observed between groups treated with CCL20 or anti-CCL20 antibody and their respective controls, supporting the biological significance of these findings.

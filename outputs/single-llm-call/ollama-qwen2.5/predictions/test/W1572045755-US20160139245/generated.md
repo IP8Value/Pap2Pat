@@ -1,0 +1,11 @@
+- **Introduction**: This paper presents an algorithm for tracking multiple acoustic sources using passive sonar. The method constructs Sparse Location Maps (SLMs) to reveal source locations on a grid and processes broadband measurements coherently. It leverages the sparse structure of SLMs and incorporates temporal information from prior estimates.
+  
+- **Background**: Traditional methods like Multiple Frequency Tracking (MFT) are computationally intensive but accurate for single sources. However, they struggle with multiple sources and environmental mismatches. The proposed algorithm aims to address these limitations by dynamically adjusting parameters and using a proximal gradient (PG) method.
+
+- **Algorithm Development**: The algorithm formulates the problem as a sparse optimization task, using a cost function that includes data fidelity and regularization terms. A PG solver is developed to efficiently solve this problem, with updates parallelizable across rows of the SLM matrix.
+
+- **Numerical Tests - Single Source**: The algorithm was tested on the SWellEX-3 dataset, which features a towed source transmitting at 10 frequencies. Despite some gaps in tracking due to parameter selection, the method provided a coarse approximation of the source trajectory, comparable to MFT but with lower computational complexity.
+
+- **Numerical Tests - Two Sources**: The algorithm was further tested on a simulated two-source scenario using SWellEX-3 data. While it successfully identified the sources' ranges, separating them in depth was challenging. Dynamic adjustment of parameters is expected to improve track quality.
+
+- **Conclusions**: The proposed tracking algorithm effectively localizes multiple acoustic sources using passive sonar data. It processes broadband measurements coherently and captures temporal information through prior SLM estimates. Future work will focus on dynamically adjusting tuning parameters to enhance performance, particularly in complex scenarios with multiple sources or environmental mismatches.

@@ -1,0 +1,9 @@
+- The study developed a novel PET reporter gene (PRG) system using a mutated human thymidine kinase 2 (TK2-N93D/L109F) and its corresponding probe L-18 F-FMAU. This system showed comparable sensitivity to the widely used HSV1-sr39tk/18 F-FHBG pair in mice, with key advantages including reduced immunogenicity and lower activity toward endogenous nucleosides.
+
+- In mice, L-18 F-FMAU exhibited favorable biodistribution with less intense gastrointestinal (GI) tract activity compared to 18 F-FHBG. This reduces signal spillover, enhancing the utility of L-18 F-FMAU for cell tracking applications in abdominal regions. However, human studies revealed myocardial and liver accumulation, which may limit its use for imaging cells at these sites.
+
+- The myocardial uptake of L-18 F-FMAU in humans is attributed to high mitochondrial density and increased TK2 activity in heart tissue compared to mice. Meanwhile, liver retention could be due to glucuronidation, a metabolic process more pronounced in human liver than murine liver. These findings underscore the importance of early comparative biodistribution studies between species during PRG-PRP development.
+
+- Despite these limitations, the TK2-N93D/L109F/L-18 F-FMAU system holds promise for clinical translation due to its human origin and reduced immunogenicity. Potential improvements include modifying L-18 F-FMAU to decrease myocardial phosphorylation by WT TK2, possibly through substituting the 5-methyl group with larger alkyl groups like ethyl or propyl.
+
+- In conclusion, this study demonstrates a successful structure-guided development of a new human nucleoside kinase-based PRG system. The findings in mice and humans provide valuable insights for further optimization and warrant additional studies to enhance the sensitivity and specificity of this promising PET reporter gene assay for cell-based therapies.

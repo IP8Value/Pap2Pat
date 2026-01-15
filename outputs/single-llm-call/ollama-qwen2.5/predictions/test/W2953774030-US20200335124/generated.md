@@ -1,0 +1,6 @@
+- The paper introduces BOT2VEC models that generate bot representations from either conversation content or bot structure. These improve performance on two tasks - detecting production bots and identifying egregious conversations compared to baselines. 
+- For the first task, BOT2VEC-S outperformed the baseline by 18.6% in F1 score for classifying production bots vs test/debugging.
+- In the second task of detecting egregious conversations, BOT2VEC-S again performed best with a 16.4% relative improvement over the state-of-the-art EGR model.
+- The structure-based representation showed semantic similarities between bots from the same domain like IT, HR or banking compared to different domains.
+- Related work focuses on neural response generation, intent detection and dialog act prediction for individual bots rather than multiple bots in a service.
+- Unlike prior works, this paper learns representations useful across tasks by analyzing bot structures as well as conversation content. Future work could combine both aspects using sequential models like RNNs.

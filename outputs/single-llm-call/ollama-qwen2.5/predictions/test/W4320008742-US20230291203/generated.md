@@ -1,0 +1,17 @@
+### Introduction
+This paper introduces a topology reconfiguration algorithm for photovoltaic (PV) arrays using deep neural networks (DNNs) regularized with dropout and batch normalization. The goal is to optimize power production under partial shading by selecting the best among four topologies: Series-Parallel (SP), Bridge-Linked (BL), Honeycomb (HC), and Total Cross-Tied (TCT). The algorithm leverages learned patterns of irradiance data to guide switching, offering high inference speeds and practical applicability without requiring additional panels.
+
+### Baseline Algorithms
+To evaluate the performance of our proposed DNN, we compare it against several supervised machine learning (ML) algorithms: K-Nearest Neighbors (KNN), Support Vector Machines (SVM), Random Forests (RF), and XGBoost. Hyperparameters for each algorithm were optimized through a linear search, ensuring fair comparison. For instance, KNN uses 5 neighbors, SVM employs the radial basis kernel, RF has 20 estimators with a maximum depth of 20, and XGBoost utilizes 5 estimators with a maximum depth of 10.
+
+### Performance of the Neural Network Algorithm
+The performance of our DNN is quantified using a confusion matrix, accuracy, and macro average F-1 scores. The confusion matrix shows that the number of correctly classified examples (main diagonal) significantly outweighs misclassified ones (off-diagonal), indicating strong generalization. The model achieves an average test accuracy of 81% and a macro average F-1 score of 0.74, outperforming baseline algorithms. Convergence curves demonstrate that regularization techniques like dropout and batch normalization prevent overfitting, enhancing model performance.
+
+### Merit of PV Topology Reconfiguration
+We assess the viability of topology reconfiguration by determining the number of cases where switching from SP to BL, HC, or TCT topologies results in significant power improvements. Using an empirical threshold of 50W, we find that approximately 11% average power improvement is achievable. Table 2 and Figure 8 provide detailed examples, demonstrating that even with modeled losses, optimizing the topology can lead to substantial power gains. This highlights the practical benefits of our scalable reconfiguration approach.
+
+### Discussion
+Our method leverages learned irradiance patterns to guide switching, offering high inference speeds due to the efficiency of DNNs. Unlike other approaches that require additional unshaded panels or complex interconnection schemes, our method performs reconfiguration directly on the main PV array, making it easily adoptable. This novel strategy provides a practical solution for enhancing power production under partial shading conditions without the need for external hardware.
+
+### Conclusion
+We proposed and evaluated a topology reconfiguration algorithm for PV arrays using regularized DNNs. The algorithm achieved 81.1% test accuracy and a macro average F-1 score of 0.74, outperforming baseline ML algorithms. We also demonstrated that topology reconfiguration can provide significant power improvements, with an average gain of approximately 11%. Our approach is scalable and practical, offering promise for real-world PV power monitoring and control. Future work could explore automatic identification of new topologies and the application of reinforcement learning for dynamic switching strategies.

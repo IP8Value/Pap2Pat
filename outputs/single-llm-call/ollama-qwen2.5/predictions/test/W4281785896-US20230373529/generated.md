@@ -1,0 +1,11 @@
+The model's performance, as indicated by the low L2 distance for Expert Projection, suggests that the generated trajectories are diverse enough to closely match expert behavior. This near-ceiling performance in high-level metrics highlights that further improvements should focus on refining the L2 metric rather than overall trajectory quality.
+
+The safety filter ensures each candidate trajectory maintains a 1.5m buffer from vehicles ahead, assuming they brake at 3.5 m/s². The ego vehicle is also assumed to brake firmly after 1 second of following the trajectory, ensuring recursive safety guarantees and preventing collisions in potential worst-case scenarios.
+
+Feature computation for proposed trajectories includes Time-to-Collision (TTC), which measures seconds before projected collision with other agents. TTC values are saturated at 4.0 seconds to ignore distant threats, focusing on immediate risks. This feature is crucial for real-time decision-making and safety assurance.
+
+The ACCInfo feature provides essential information for adaptive cruise control, complementing the TTC metric by directly addressing distance and relative speed to vehicles ahead. It includes a Boolean flag indicating the presence of a vehicle within 20 meters, enhancing the model's ability to manage close-range interactions safely and efficiently.
+
+MaxJerk computes the maximum jerk along the proposed trajectory, capturing the smoothness of motion. This feature is vital for passenger comfort and overall driving experience, ensuring that acceleration changes are gradual and predictable. By evaluating jerk values at multiple points, the model can generate smoother, more natural trajectories.
+
+Data augmentation introduces variation to training scenarios, especially for rare but critical situations like turns or close interactions with other vehicles. This helps balance the dataset, improving the model's ability to handle diverse driving conditions and enhancing its performance on underrepresented scenarios in the original dataset.

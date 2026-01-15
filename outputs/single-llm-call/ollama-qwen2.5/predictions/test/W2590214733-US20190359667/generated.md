@@ -1,0 +1,7 @@
+- S. K. K. crystallized mmTGF-␤2 and the mmTGF-␤2-7M·T␤RII complex, performed solubility measurements, conducted a portion of the SPR experiments, and drafted the initial paper. The work was supported by NIH grants GM58670 and CA172886 to A. H., as well as Robert A. Welch Foundation grant AQ1842.
+
+- Additional support came from cores at UTHSCSA including the Macromolecular Structure and Interactions Core (NCI P30 CA54174), Center for Macromolecular Interactions Core Facility, and High Throughput Screening Facility (NCATS UL1 TR001120). A. P. H. and T. S. are co-inventors of a provisional patent covering the dominant negative TGF-␤, mmTGF-␤2-7M.
+
+- The content is solely the responsibility of the authors and does not necessarily represent official views of NIH. This article was selected as an Editor's Pick and contains supplementary figures S1-S8 and Table S1. Atomic coordinates and structure factors were deposited in PDB (codes 5TX2, 5TX6, 5TX4). Chemical shifts for mmTGF-␤2 and mmTGF-␤2-7M were deposited to BMRB.
+
+- S. K. K. is supported by training grants from the Cancer Prevention Research Institute of Texas (RP1450105) and American Heart Association (15PRE25550015). The research utilized resources at CAUMA, San Diego Supercomputing Center, and UTHSCSA/UTSA Center for Innovative Drug Discovery.

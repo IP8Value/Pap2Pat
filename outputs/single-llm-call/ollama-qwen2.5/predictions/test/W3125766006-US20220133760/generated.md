@@ -1,0 +1,7 @@
+- The study uncovers that all mammalian genomes encode sH2A histone variants with nucleosome-destabilizing features. These variants, normally expressed in testis, can drive oncogenesis when misexpressed in cancers. This parallels CATACOMB/EZHIP, another testis-specific oncohistone, but H2A.B is more widely observed in common cancers.
+
+- The molecular targets of H2A.B in cancers remain unclear, with few commonly dysregulated genes across different malignancies. Nucleosome instability may allow oncogenic transcription factors to access distinct regulatory elements depending on cancer type, while also impacting RNA pol II elongation and splicing efficiency.
+
+- In DLBCLs, despite high-frequency H2A.B expression, a clear splicing phenotype is not observed. This could be due to the presence of other deranged chromatin proteins like Myc and p300, which also influence alternative splicing. Further investigation into similarities between histone mutant cancers and H2A.B-expressing cancers is warranted.
+
+- sH2A-derived peptides that bind HLA molecules may serve as potential immunotherapy targets. Additionally, global splicing dysregulation in H2A.B-positive cancers can generate highly immunogenic neoantigens. These findings open new avenues for studying and treating a significant number of cancer cases worldwide.

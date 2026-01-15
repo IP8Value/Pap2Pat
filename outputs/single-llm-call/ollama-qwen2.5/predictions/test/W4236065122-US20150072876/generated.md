@@ -1,0 +1,15 @@
+The algorithm's performance is sensitive to user-provided reference signatures. Grouping similar signatures into classes can enhance robustness in noisy data scenarios. For instance, combining multiple colorectal tumor subtypes under a single "colorectal tumor" class improves accuracy. This approach also helps when dealing with cell types from different studies, such as unifying heart cell signatures from various sources.
+
+The majority voting mechanism addresses the non-convex nature of NMF by running the algorithm multiple times and selecting cell-types based on a threshold. For datasets with highly similar input signatures, like the T-B-Monocytes dataset, a lower threshold and more runs are beneficial. Conversely, for less similar signatures, such as in the liver-brain-lung dataset, fewer runs suffice.
+
+For the liver-brain-lung dataset, parameters were set to a majority voting threshold of 70% and 10 runs, with no classes used. This configuration leverages the distinct nature of the input signatures, ensuring accurate separation without overfitting or excessive computational load. The straightforward setup reflects the relative ease of distinguishing between liver, brain, and lung cells.
+
+In the heart-brain dataset, parameters included a majority voting threshold of 70%, 10 runs, and classes for unifying two brain and two heart cell types. This setup helps in managing the similarity between signatures from different studies, ensuring that the algorithm can accurately identify and separate these cell types despite their potential overlaps.
+
+For the T-B-Monocytes dataset, parameters were set to a majority voting threshold of 70%, 20 runs, and a class for unifying two B cell lines. The increased number of runs and lower threshold address the high similarity between immune cell subsets, enhancing the algorithm's ability to converge on accurate results.
+
+In the prostate cancer dataset, parameters included a majority voting threshold of 70%, 10 runs, and classes for unifying six different prostate tumor cell lines and epithelial and stromal cells. This configuration helps in managing the complexity of tumor heterogeneity and ensures that the algorithm can accurately separate tumor from non-tumor components.
+
+The total number of signatures used should not exceed the number of samples in the mixed tissue to avoid overfitting. Users can input multiple, even unrelated, cell-types if unsure about the tissue composition. However, under-guessing the number of cell-types may lead to ambiguous results, highlighting the importance of a balanced approach in selecting reference signatures.
+
+To set parameters effectively, users should consider the similarity and nature of the input signatures. For highly similar signatures, more majority voting runs and a lower threshold are recommended. Observing heatmaps of the input signatures can provide insights into which signatures are similar and may need to be grouped into classes for better performance.

@@ -1,0 +1,7 @@
+- The paper explores how different polarization configurations between RFID reader and tag antennas impact the performance of non-contact human activity detection systems. It proposes using cross-circular polarization to enhance signal-to-noise ratio (SNR), sensing range, and spatial sensitivity compared to conventional circular-linear combinations.
+
+- Custom spiral circular polarized tags were fabricated and tested in anechoic chambers to validate the theory. Real-world experiments with various gestures like nodding, shaking head, waving hands, and respiration demonstrated the effectiveness of cross-circular polarization for improved SNR and detection accuracy at greater distances.
+
+- Results showed that cross-polarization enabled better sensitivity to small body movements and extended sensing range compared to linear tags. The largest RSSI variations occurred when detecting motions of larger body parts like the torso. This work provides a low-cost, non-intrusive solution for ambient computing and healthcare applications in indoor environments.
+
+- The proposed system leverages machine learning to extract unique features from cross-polarized RFID data for improved human activity recognition accuracy. By exploiting polarization diversity between reader and tag antennas, this approach enables more robust detection of subtle movements like respiration that may be hidden by noise with linear tags.

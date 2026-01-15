@@ -1,0 +1,9 @@
+For the proof of Theorem C.3, we start by observing that our algorithm is designed to find a solution close to optimal for smooth k-anonymization under the assumption that J(E, E Opt ) ≥ 0.75. This threshold ensures that there is sufficient overlap between the original and optimal anonymized datasets, facilitating a more effective approximation.
+
+Our algorithm begins with an initial clustering step where each point is assigned to its βk closest facility, ensuring clusters are dense enough while maintaining diversity across features. This choice of α = 1/β balances the trade-off between cluster size and feature representation, leading to better utility preservation as k increases.
+
+In the facility location problem, we employ Meyerson's algorithm with a random ordering of data points to efficiently find a near-optimal solution. Running this process multiple times and selecting the best outcome leverages randomness to escape local optima, improving overall solution quality while maintaining polynomial time complexity.
+
+Post-clustering, facilities with fewer than k clients are iteratively closed, and their clients reassigned until all clusters meet the size requirement for smooth k-anonymization. This step ensures that no cluster is too small or under-represented, which is crucial for maintaining utility and privacy guarantees.
+
+By combining these steps, our algorithm achieves a constant approximation to the optimal smooth k-anonymization solution. The empirical results from various datasets confirm this theoretical guarantee, showing consistent performance across different values of k and dataset structures. This robustness underscores the effectiveness of our approach in practical applications.

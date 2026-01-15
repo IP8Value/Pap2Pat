@@ -1,0 +1,13 @@
+- **Research Context**: This study explores the substrate specificity of site-specific recombinases (SSRs) using a high-throughput sequencing-based method called Rec-Seq. The technique allows for detailed analysis of how different SSRs recognize and interact with their target sequences, providing insights into their mechanisms and potential applications in genetic engineering.
+
+- **Rec-Seq Methodology**: Rec-Seq involves generating a library of randomized substrates, treating them with the recombinase of interest, and sequencing the resulting products. The data is then analyzed to determine which substrate sequences are preferentially recognized and recombined by the enzyme, yielding enrichment scores for each position in the target sequence.
+
+- **SSR Variants Studied**: Wild-type Cre and several evolved variants (Tre, Brec1) as well as unrelated SSR family members (Dre, VCre, Bxb1) were studied. Each recombinase was tested under optimized conditions to ensure accurate and reproducible results, highlighting the diverse substrate specificities within the SSR family.
+
+- **Data Analysis**: Sequencing reads were demultiplexed and aligned to reference sequences, with mismatches filtered out to minimize sequencing errors. Enrichment scores were calculated for each position in the target sequence, and statistical tests (t-tests, Mann–Whitney U test) were applied to assess the significance of differences between wild-type Cre and variants.
+
+- **Mammalian Expression and Reporter Plasmids**: Mammalian expression plasmids for SSRs and reporter plasmids containing various recombinase target sites were constructed using methods like LCR, Gibson assembly, and Golden Gate assembly. These plasmids were used to assess the activity of recombinases in HEK293T cells via flow cytometry, providing functional validation of Rec-Seq findings.
+
+- **HEK293T Transfection and Flow Cytometry**: HEK293T cells were transfected with reporter and recombinase plasmids, cultured for three days, and analyzed by flow cytometry. The presence of fluorescent proteins indicated successful recombination events, and statistical analysis confirmed the significance of recombinase activity compared to control conditions.
+
+- **Reporting Summary**: Additional details on research design, including experimental protocols and data analysis methods, are provided in a linked Nature Research Reporting Summary. This ensures transparency and reproducibility of the study's findings.

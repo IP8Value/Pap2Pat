@@ -1,0 +1,13 @@
+### Here's a summary based on your request:
+
+- **LC Sensor for AST**: This study showcases an LC sensor-based system compatible with 96-well plates for rapid antibiotic susceptibility testing (AST). The system can produce results in just 30 minutes, making it the fastest phenotypic AST method to date without complex equipment. It requires minimal sample preparation, such as simple dilution, and can be integrated into high-throughput workflows.
+
+- **Sensor Functionality**: The LC sensor effectively captures bacterial growth and antibiotic responses by measuring changes in relative permittivity. The system was tested with various antibiotics and bacterial species, including E. coli, S. aureus, and P. aeruginosa, demonstrating consistent results that align with traditional MIC tests. This validates the sensor's accuracy and reliability.
+
+- **Clinical Sample Testing**: The LC sensor showed promise when tested with low salt LB supplemented with fetal bovine serum (FBS) to mimic clinical samples. At 2% FBS concentration, the sensor accurately detected bacterial growth with minimal interference. However, at 5% FBS, protein adsorption saturated the free space near the sensor surface, affecting its performance. This suggests that the system can handle clinical samples with simple dilution.
+
+- **Optimization and Future Work**: To enhance the sensor's performance in complex samples, the coating material and thickness can be optimized to improve accuracy and resistance to fouling. Adjusting the interdigitated electrode (IDE) design could also increase the saturation thickness, allowing for better handling of higher FBS concentrations. The system will be further tested with actual clinical samples to set thresholds for AMR detection.
+
+- **High-Throughput Potential**: The LC sensor system can be integrated into high-throughput apparatus for automated plate processing and well scanning. This would significantly reduce the time required to process an entire 96-well plate, making it a viable solution for rapid and efficient AST in clinical settings. Ongoing work is focused on developing this capability to enhance the system's throughput and practicality.
+
+- **Conclusion**: The LC sensor-based AST system offers a rapid, accurate, and high-throughput method for antibiotic susceptibility testing without the need for complex equipment or extensive sample preparation. It has the potential to revolutionize clinical workflows by providing quick results that can guide antibiotic treatment decisions, ultimately improving patient outcomes. Future optimizations will further enhance its performance and applicability in real-world settings.

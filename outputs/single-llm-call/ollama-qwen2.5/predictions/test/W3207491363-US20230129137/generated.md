@@ -1,0 +1,8 @@
+- The study investigated the effects of nanoparticle-delivered TT-30, a YAP/TAZ inhibitor, on cardiac regeneration post-myocardial infarction in mice. The team hypothesized that inhibiting YAP/TAZ would promote cardiomyocyte proliferation and improve heart function.
+- Nanoparticles were designed to efficiently deliver TT-30 specifically to the injured myocardium, minimizing systemic side effects. The nanoparticles were characterized for size, stability, and drug loading efficiency prior to in vivo testing.
+- In vitro experiments using hiPSC-CMs demonstrated that TT-30 delivery increased cardiomyocyte proliferation markers Ki67 and phospho-histone H3, indicating a potential regenerative effect.
+- In vivo, mice treated with TT-30-loaded nanoparticles showed improved left ventricular ejection fraction (LVEF) and fractional shortening (LVFS) compared to control groups, suggesting enhanced cardiac function post-infarction.
+- Histological analysis revealed reduced infarct size and increased cardiomyocyte proliferation in the nanoparticle-treated group, as evidenced by reduced fibrosis and increased Ki67-positive cells.
+- TUNEL staining showed a significant reduction in apoptotic cardiomyocytes in the treated group, indicating that TT-30 may also have protective effects against cell death.
+- Western blot analysis confirmed the downregulation of YAP/TAZ activity in the nanoparticle-treated hearts, validating the mechanism of action and efficacy of the delivery system.
+- The study concluded that TT-30-loaded nanoparticles offer a promising therapeutic approach for cardiac regeneration by promoting cardiomyocyte proliferation and improving heart function post-infarction.

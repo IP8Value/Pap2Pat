@@ -1,0 +1,21 @@
+- **Crystallography**: Crystals of D50S from *Deinococcus radiodurans* were grown and soaked in a solution containing lankacidin for 20 hours at 20°C. The crystals were then cryo-protected and flash-frozen in liquid nitrogen. X-ray data were collected using synchrotron radiation, processed with HKL2000, and refined using CNS. A composite omit map was calculated to ensure unbiased electron density, followed by further refinement and image generation with PyMol.
+
+- **Antibiotic Binding**: D. radiodurans 50S subunits were preincubated at 37°C for 15 minutes before being exposed to varying concentrations of lankacidin. The ribosome-antibiotic complexes were purified by gel filtration, and the amount of bound antibiotic was quantified using radioactivity measurements. Data analysis was performed using GraphPad Prism.
+
+- **Inhibition of Peptidyl Transferase Reaction**: The peptidyl transferase reaction was monitored in the presence of lankacidin. *D. radiodurans* 50S subunits were incubated with varying concentrations of lankacidin, followed by puromycin addition to stop the reaction. The extent of inhibition was quantified and analyzed using previously described methods.
+
+- **RNA Probing**: RNA probing experiments were conducted using D. radiodurans 50S ribosomal subunits pre-incubated with antibiotics (LC, LM, ERY) at specified concentrations. The subunits were then exposed to modifying reagents, and the extent of modification was analyzed to determine the effects of the antibiotics on ribosomal RNA structure.
+
+- **Cell-Free Protein Synthesis Inhibition**: The inhibition of cell-free protein synthesis by LC and LM was assessed using an *E. coli* cell-free transcription-translation system. Varying concentrations of LC and LM were preincubated with the cell-free extract, and luciferase activity was measured to quantify the extent of inhibition.
+
+- **Synergism Detection in Vitro**: Synergy between LC and LM was evaluated using a GFP expression assay in an *E. coli* cell-free system. Serial dilutions of LC and LM were added to the reaction mix, followed by incubation and measurement of GFP fluorescence. The data were analyzed to determine the synergistic effect on protein synthesis inhibition.
+
+- **Acknowledgements**: We thank the ribosome group at the Weizmann Institute for their contributions, Dr. Llano-Sotelo for assistance with data analysis, and Drs. Kinashi, Arakawa, and Weisblum for providing antibiotic samples. Crystallographic data were collected at the Advanced Photon Source and ESRF, and we acknowledge their staff for support. This work was funded by NIH grants and the Kimmelman Center.
+
+- **Materials and Methods**: Crystals of D50S from *D. radiodurans* were grown and soaked in lankacidin solutions, then cryo-protected and flash-frozen. X-ray data were collected and processed using HKL2000, refined with CNS, and visualized with PyMol. Antibiotic binding was determined by gel filtration and radioactivity measurements, while the peptidyl transferase reaction inhibition was assessed using puromycin.
+
+- **Conclusion**: This study demonstrates that lankacidin (LC) and lankamycin (LM), produced by *Streptomyces rochei*, are potent inhibitors of protein synthesis acting on neighboring sites in the large ribosomal subunit. Their simultaneous action synergistically inhibits bacterial growth, suggesting potential for developing new antibiotics targeting the ribosome through structural optimization and combination therapy.
+
+- **Materials and Methods**: Crystals of D50S from *D. radiodurans* were grown, soaked in lankacidin solutions, and cryo-protected. X-ray data were collected and processed using HKL2000 and CNS. Antibiotic binding was determined by gel filtration and radioactivity measurements. Peptidyl transferase inhibition was assessed with puromycin, RNA probing with modifying reagents, and cell-free protein synthesis inhibition with luciferase activity assays.
+
+- **Control Experiments**: Control experiments were conducted in the absence of antibiotics to establish baseline levels of GFP production and determine the optimal time window for maximum GFP expression before translation was stopped. These controls were crucial for accurately interpreting the inhibitory effects of LC and LM on protein synthesis.

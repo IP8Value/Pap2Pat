@@ -1,0 +1,7 @@
+- This study developed a rapid cell viability analysis device without staining cells, enabling further molecular analysis. The method uses multifrequency impedance spectroscopy and SVM for high accuracy, surpassing optical techniques in speed and cost-effectiveness. It could serve as a point-of-care diagnostic tool for personalized therapeutics.
+
+- Gold electrodes were fabricated on glass using photolithography, with chromium enhancing adhesion. PDMS microfluidic channels were created via soft lithography, bonded to the electrode chip after oxygen plasma treatment. The channel dimensions were optimized for cell flow and analysis.
+
+- T47D breast cancer cells, a luminal type-A cell line, were cultured in RPMI 1640 media with FBS. Cytotoxicity was assessed using an MTS assay, and viability determined by the Vi-CELL analyzer post-drug incubation. Data were analyzed using GraphPad Prism to determine IC50 values.
+
+- Experiments utilized gravity flow through hydrophilic channels treated with oxygen plasma to minimize electronic noise. PBS maintained channel hydrophilicity, and a metal box shielded measurements from external interference. This setup ensured reliable impedance measurements for cell viability analysis without additional equipment.

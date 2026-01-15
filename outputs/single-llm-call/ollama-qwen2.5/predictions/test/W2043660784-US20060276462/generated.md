@@ -1,0 +1,7 @@
+The study examined how local rates of cerebral glucose metabolism (CMRglc) change in response to a delay match-to-sample (DMS) task under different conditions: normal vehicle, normal with CX717, sleep deprivation, and sleep deprivation with CX717. The PET scans revealed distinct patterns of brain activity across these conditions, particularly in regions such as the dorsolateral prefrontal cortex (DPFC), medial temporal lobe (MTL), thalamus, and dorsal striatum (DStr).
+
+Behaviorally, CX717 administration improved performance accuracy and response latencies, especially under sleep-deprived conditions. The multivariate canonical discriminant analysis (CDA) confirmed that behavioral measures and CMRglc levels covaried significantly across the four test conditions, with distinct patterns of activation in key brain regions.
+
+The CDA identified three significant discriminant functions (DFs) that explained a substantial portion of the variance in the data. These DFs effectively differentiated between the normal and sleep-deprived states, as well as the effects of CX717. The first DF primarily reflected overall task performance and metabolic activity in the DPFC and MTL.
+
+The second DF highlighted changes in response latencies and thalamic metabolism, while the third DF emphasized differences in cingulate cortex activity and accuracy on difficult trials. These findings provide a comprehensive understanding of how CX717 modulates brain function and behavior under both normal and sleep-deprived conditions, supporting its potential as a cognitive enhancer.

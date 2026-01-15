@@ -1,0 +1,11 @@
+- **Background**: The MR Septal Scout technique was developed to improve cardiac gating accuracy for coronary MRA by directly monitoring septal motion. This method aims to provide more precise diastasis windows compared to the current standard, cine-CMR, which can be affected by heart rate variability (HRV) and other factors.
+
+- **Objective**: The primary goal of this study was to evaluate the effectiveness of the MR Septal Scout in determining accurate cardiac gating windows for coronary MRA. Specifically, it aimed to compare the image quality and accuracy of diastasis detection between the MR Septal Scout and cine-CMR methods.
+
+- **Methods**: Healthy volunteers were scanned using both the MR Septal Scout and cine-CMR techniques. The MR Septal Scout used a 10-ms TR to capture rapid septal motion, while cine-CMR relied on ECG gating. Tissue Doppler echocardiography (TDE) was also performed to validate the diastasis windows detected by both methods.
+
+- **Results**: The MR Septal Scout provided more accurate and consistent diastasis windows compared to cine-CMR, leading to sharper coronary MRA images. The technique was particularly effective in handling HRV during breath holds, which can cause motion blurring with cine-CMR. TDE measurements confirmed the accuracy of the septal motion detected by the MR Septal Scout.
+
+- **Discussion**: The study demonstrated that the MR Septal Scout is a robust method for cardiac gating, especially in scenarios with HRV. Its ability to freeze cardiac motion and provide per-heartbeat diastasis windows makes it a promising alternative to cine-CMR. Future work will explore its application in patients with cardiac pathology and its potential to detect ventricular systole without ECG signals.
+
+- **Conclusion**: The MR Septal Scout effectively determined accurate cardiac gating windows, resulting in sharper coronary MRA images compared to the cine-CMR method. This technique shows promise for improving the accuracy and reliability of cardiac-gated MRI in clinical practice.

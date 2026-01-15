@@ -1,0 +1,11 @@
+- **BAX Inhibition by Fabs**: The study identified 14 high-affinity Fabs that bind to BAX with nanomolar affinity. Competitive ELISAs confirmed that six of these Fabs bind to overlapping regions on the BAX surface, highlighting their potential as probes for investigating BAX activation mechanisms and protein-protein interactions.
+
+- **Mechanism of Inhibition**: Fab 3G11 was found to inhibit tBID-mediated BAX activation by binding to the N-terminal activation site (helices α1/α6). This binding prevents conformational changes necessary for mitochondrial translocation, effectively blocking the activation process and highlighting a novel mechanism of BAX inhibition.
+
+- **Structural Insights**: HXMS and mutagenesis studies revealed that 3G11 binds to an extended surface on BAX, including the N-terminal trigger site. This interaction overlaps with the binding sites of pro-apoptotic BH3 helices like BIM, tBID, and PUMA, suggesting a competitive inhibition mechanism.
+
+- **Comparative Analysis**: Unlike other reported inhibitors that bind to distinct allosteric sites, 3G11 directly interacts with the N-terminal activation site. This direct interaction provides a new approach for modulating BAX activity, which could be crucial for developing therapeutic strategies targeting BAX in diseases like cancer and neurodegeneration.
+
+- **Pharmacological Potential**: The identification of Fabs that bind to the N-terminal activation site of BAX opens up opportunities for screening small molecule libraries. Small-molecule inhibitors targeting this site could serve as chemical probes to dissect BAX function and as starting points for developing therapeutics, underscoring the potential of synthetic antibodies in drug discovery.
+
+- **Future Directions**: The success of this screen suggests that similar approaches can be applied to identify synthetic antibodies for other BCL-2 family proteins. These antibodies could reveal novel regulatory mechanisms and binding sites, providing new targets for pharmacological intervention in diseases involving dysregulated apoptosis.

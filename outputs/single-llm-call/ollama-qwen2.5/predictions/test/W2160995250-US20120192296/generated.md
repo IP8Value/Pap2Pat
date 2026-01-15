@@ -1,0 +1,11 @@
+- **Cross-Reactivity and Epitopes**: The generated anti-EDAR antibodies showed broad cross-reactivity, recognizing EDAR from human, dog, rat, mouse, and chicken. This suggests they are likely to be effective across various mammalian species. The antibodies recognized at least three distinct epitopes on EDAR, with some requiring conformational changes for binding, highlighting the complexity of EDAR's structure.
+
+- **In Vivo and In Vitro Assays**: Newborn Tabby mice served as a robust in vivo assay for detecting active anti-EDAR antibodies, with over half of the tested hybridoma supernatants showing activity. However, the EDAR:Fas reporter cell lines were less effective, likely due to differences in signaling pathways. This dual approach helped distinguish between antibodies with and without in vitro activity.
+
+- **Dissociation Constants and Activity**: The in vitro activity of anti-EDAR antibodies correlated well with low dissociation constants but not with association constants or affinities. This suggests that maintaining a stable interaction with the receptor is crucial for effective signaling, particularly for correcting more severe defects like tooth agenesis.
+
+- **Divalent Agonist Mechanism**: Unlike some other TNFR family members, divalent anti-EDAR antibodies were sufficient to act as agonists without requiring higher-order oligomerization. This was confirmed by the activity of monomeric and F(ab')2 fragments in vivo. The mechanism might involve pre-existing inactive complexes that become signaling-competent upon binding.
+
+- **Long-Term Efficacy**: Agonist anti-EDAR antibodies showed excellent efficacy in treating animal models of XLHED, including correcting teeth defects and improving gland development. Their long half-life makes them suitable for long-term studies, particularly in mice where they elicit minimal immune responses.
+
+- **Dry Eye Condition**: Treatment with agonist anti-EDAR antibodies improved tear production in most EDA-deficient dogs, though not all. However, none of the treated dogs developed ocular disorders, suggesting that factors beyond tear production, such as Meibomian glands, play a crucial role in dry eye conditions.

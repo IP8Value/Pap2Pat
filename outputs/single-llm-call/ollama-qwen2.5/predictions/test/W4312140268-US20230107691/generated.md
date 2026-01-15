@@ -1,0 +1,21 @@
+- **Infrasound Detection**: The earbuds are capable of detecting infrasound signals, which are low-frequency vibrations below the human audible range. These signals can originate from various sources, including cardiovascular activity and other physiological processes. By capturing these subtle vibrations, the earbuds can provide detailed insights into the user's health status.
+
+- **Signal Amplification**: The design of the earbuds includes a mechanism to amplify the detected infrasound signals. This amplification is crucial for enhancing the signal-to-noise ratio, making it easier to distinguish between physiological signals and ambient noise. The amplification process ensures that even weak signals are captured accurately.
+
+- **Data Collection**: Raw data from the right and left earbuds is collected simultaneously. This dual-channel approach allows for a more comprehensive analysis of the user's cardiovascular activity. The raw data can contain various signals, including those caused by head movements, steps, music, and other non-cardiovascular sources, which need to be filtered out.
+
+- **Calibration and Filtering**: The calibration process involves correcting for audio playing through the earbud and filtering out audible frequency ranges from the speakers. This step is essential to isolate the infrasound signals related to cardiovascular activity. Even in extreme cases where loud music with strong bass is played, the system can successfully filter out the music, ensuring that only relevant physiological signals are analyzed.
+
+- **Data Quality Assessment**: A proprietary neural network-based algorithm assesses the quality of the raw signals. This algorithm classifies one-second segments of data as either good-quality cardiac signals or signals contaminated by motion artifacts. The classifier uses a multi-layer perceptron and extracts over 20 features from the signal, including statistical variables and morphological characteristics. Only high-quality signals are selected for further analysis.
+
+- **Cardiac Event Extraction**: Peaks in the biosignal waveforms are detected using an adaptive threshold method. Additional features related to cardiac events, such as aortic valve opening and closing, are identified from the waveforms. This step is crucial for accurately measuring interbeat intervals (IBIs) and other vital signs.
+
+- **Vital Sign Calculation**: IBIs are calculated by measuring the time intervals between consecutive peaks in the biosignal waveforms. Information from both earbuds is merged to improve reliability, favoring the channel with a higher data quality score. The combined signal is used to compute heart rate (HR), heart rate variability (HRV), and other vital signs.
+
+- **Waveform Fidelity**: Waveform fidelity is quantified using the median value of cross-correlation function maxima for successive waveform pairs. This metric ensures that the waveforms from both earbuds are consistent and reliable, which is essential for accurate cardiac rhythm analysis.
+
+- **AF Detection Model**: A random forest classifier was trained on publicly available ECG datasets to detect atrial fibrillation (AF). The model relies on 17 features derived from interbeat intervals (IBIs) present in tachograms. The algorithm achieved high accuracy, sensitivity, and specificity when tested on external datasets, making it a reliable tool for AF detection.
+
+- **Feature Distribution**: Two key features used in the AF detection algorithm are Poincaré dispersion and pNN50, which provide the highest separability between AF and SR samples. These features help distinguish between regular sinus rhythm and atrial fibrillation, enabling accurate classification of cardiac rhythms.
+
+- **Reporting Summary**: Additional information on research design, data processing, and statistical analysis is available in the Nature Research Reporting Summary linked to this article. This summary provides a comprehensive overview of the methods and results, ensuring transparency and reproducibility.

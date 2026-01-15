@@ -1,0 +1,12 @@
+- The study evaluated the reliability of whole-cell MALDI-TOF MS for detecting delta-toxin and assessing agr status in S. aureus clinical isolates. 
+- Purified delta-toxin was analyzed by MALDI-TOF to establish its mass spectral profile, which showed peaks at 2850 Th corresponding to the expected molecular weight.
+- Three isogenic strain pairs were tested - RN6390 (delta-toxin positive), RN6911 (agr knock-out/delta-toxin negative), and LUG950 (ΔrnaIII mutant).
+- The delta-toxin peak was detected in RN6390 but not the other two strains, validating specificity of detection.
+- A prospective collection of 168 clinical S. aureus isolates from 3 Lyon hospitals was analyzed by WC-MALDI-TOF MS.
+- Chronic infections were defined based on criteria like persistent bacteraemia ≥7 days despite appropriate antibiotics or long-term persistence in CF patients.
+- Delta-toxin production correlated with acute infection status (p<0.01) and methicillin susceptibility (p=0.03).
+- GISA strains showed reduced delta-toxin expression compared to vancomycin-susceptible isolates (p<0.05). 
+- Multivariate analysis found chronic status, GISA phenotype and methicillin resistance were independently associated with lack of detectable delta-toxin.
+- The study demonstrated WC-MALDI-TOF MS can reliably assess agr functionality in clinical S. aureus isolates.
+- This has potential applications for rapid detection of strains with reduced virulence or antibiotic resistance phenotypes.
+- Validation in larger cohorts is needed to confirm the clinical utility of this approach.

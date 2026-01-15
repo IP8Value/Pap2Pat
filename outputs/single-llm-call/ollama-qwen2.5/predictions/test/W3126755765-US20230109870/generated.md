@@ -1,0 +1,5 @@
+- The study provides a proof-of-concept for detecting DMD patients at birth eligible for exon-skipping therapies. The assay targets deletions amenable to treatment with approved drugs, addressing a specific need in DMD care.
+- Researchers analyzed the LOVD-DMD registry to identify relevant deletions and designed a multiplex qPCR assay targeting exons 44, 46, 50, 52, and 54. The assay was validated using 120 samples from patients and controls.
+- DNA extraction from dried blood spots followed an established protocol. A total of 25 µL reaction mix contained Takyon master mix, primers, and probes specific to target exons, with amplification conditions set for optimal detection.
+- Normalized fluorescence ratios were calculated by dividing each sample's endpoint fluorescence by the median value of all samples in the same run. This facilitated interpretation of results and ensured consistency across different assays.
+- Ethical approval was obtained from local committees, and informed consent was provided by patients or guardians. All experiments adhered to relevant guidelines and regulations, ensuring ethical standards were met throughout the study.

@@ -1,0 +1,11 @@
+- GS-CA1 and GS-6207 exhibit structural features shared with previously discovered CA inhibitors and host factors. Their difluorobenzyl groups align perfectly with the phenyl rings of PF74, BI-2, CPSF6, and NUP153, forming critical contacts with L56, N57, and M66 in CA. This alignment suggests a high binding affinity due to these direct interactions.
+
+- The larger size of GS-CA1 and GS-6207 compared to PF74 likely enhances their binding by allowing additional contacts with CA residues. These extra interactions are observed in crystal structures of CA bound to CPSF6, NUP153, BD (or BM), and CAP-1, indicating that the GS-CA compounds effectively mimic multiple ligand interactions.
+
+- Computational analyses using flexible docking and comparative structural studies reveal that GS-CA1 and GS-6207 share binding sites with several CA inhibitors. The designed cyclic peptide Pep-1, incorporating common structural components from these inhibitors, binds to CA with a 7-fold higher affinity than PF74, as determined by MicroScale thermophoresis (MST) assays.
+
+- The MST data show that Pep-1 binds CA with a Kd of 32 ± 3 nM, compared to PF74's Kd of 212 ± 7 nM. This binding affinity is consistent with previously reported values from isothermal calorimetry (ITC) for CA-hexamers and PF74, confirming the robustness of Pep-1 as a high-affinity inhibitor.
+
+- The findings suggest that GS-CA compounds are designed to include structural features from various CA-binding molecules, ensuring they mimic multiple ligand interactions. This design approach enhances their binding affinity and efficacy. Additionally, the cyclic peptide Pep-1, based on these shared structures, demonstrates strong binding to CA, highlighting its potential as a novel inhibitor.
+
+- The raw data supporting this study will be made available upon request by the authors. The research was conducted without commercial or financial conflicts of interest, ensuring the integrity and transparency of the results presented in the manuscript.

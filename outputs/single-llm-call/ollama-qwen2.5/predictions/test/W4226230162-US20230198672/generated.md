@@ -1,0 +1,11 @@
+- **Introduction**: This paper introduces ListAE, a novel approach that integrates list decoding from classical coding theory into deep learning-based channel coding. It aims to enhance the performance of neural network-based encoders and decoders by mimicking the benefits of list decoding, which traditionally improves error correction in communication systems.
+
+- **ListAE Concept**: ListAE is designed to generate multiple candidate message word hypotheses during decoding, similar to list decoding in classical codes. This approach allows for better error correction by considering multiple possible solutions, potentially leading to improved bit error rate (BLER) performance.
+
+- **Turbo-AE and IR-AE Architectures**: Two architectures are explored: Turbo-AE and Incremental Redundancy-AE (IR-AE). Turbo-AE is a well-known architecture, while IR-AE introduces a series of decoding blocks with decreasing rates, allowing more powerful codes to refine the decoding process based on improved lists from previous stages.
+
+- **Training Methodology**: The training process involves alternating between encoder and decoder updates to avoid local minima. Batch-wise normalization ensures power constraints are met, and convolutional neural networks (CNNs) are used due to their superior performance compared to fully connected or recurrent neural networks (RNNs).
+
+- **Experiment Results**: Experiments show that increasing the list size significantly improves performance, especially for IR-AE. For large list sizes, List IR-AE outperforms both Turbo-AE and polar codes, achieving coding gains of up to 0.5 dB at high SNRs.
+
+- **Conclusion**: This work demonstrates the potential of ListAE in enhancing deep learning-based channel coding. The introduction of list decoding into neural network architectures shows promising results, setting the stage for further research to develop AEs that can compete or outperform classical codes. Future directions include refining loss functions and exploring other architectural improvements.

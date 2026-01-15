@@ -1,0 +1,15 @@
+In this study, a fluorescence assay was used to measure lipid content in Y. lipolytica strains. Cells were grown in specific media and treated with ethanol before adding a master mix containing potassium iodide, bodipy 493/503, DMSO, PEG 4000, and water. Fluorescence was measured using a SpectraMax M2 spectrophotometer, correlating with lipid content confirmed by GC analysis.
+
+For gene deletions in Y. lipolytica, a two-fragment deletion cassette was used to replace the target gene with a hygromycin resistance gene. Cells were transformed after treatment with hydroxyurea, and resistant colonies were screened by PCR to confirm gene deletion and presence of the hygromycin resistance marker.
+
+Lipid extraction involved lyophilizing 1 mL fermentation samples washed with water. The biomass was transesterified using 0.5 N HCl in methanol at 85°C for 90 minutes. Lipid-soluble components were separated and analyzed by GC, quantifying fatty acid methyl esters (FAMEs) using an internal standard and external standard mixture.
+
+For genetic transformation of Y. lipolytica, competent cells were prepared following a published protocol. Cells were grown overnight, washed, and transformed with linear expression constructs containing genes of interest and selection markers. Transformants were selected on YPD plates containing hygromycin B, zeocin, or nourseothricin.
+
+Plasmids for gene overexpression were constructed using standard molecular biology techniques. Expression cassettes included the gene of interest and a selectable marker (hph, nat1, or ble). PCR fragments were used to transform Y. lipolytica cells, and 15 transformants per construct were analyzed by fluorescence lipid assay to identify successful overexpressions.
+
+In 1 L bioreactors, initial medium compositions and process parameters were optimized for batch and fed-batch cultures of Y. lipolytica. The reactor was inoculated with a 2% overnight culture, pH was controlled at 3.5, temperature at 30°C, and agitation at 1000 rpm. For the fed-batch process, a glucose feed was initiated after batch glucose consumption to maintain optimal growth conditions.
+
+This study utilized various media compositions for different stages of Y. lipolytica cultivation, including YPD, fluorescent assay medium, and bioreactor medium. The fluorescent assay medium contained specific nutrients and buffers, while the bioreactor medium included glucose, yeast extract, peptone, salts, vitamins, trace elements, and antifoam to support high-density growth and lipid production.
+
+Overall, this study systematically characterized Y. lipolytica strains for improved lipid production through genetic modifications, optimized cultivation conditions, and robust analytical methods, providing a foundation for further metabolic engineering efforts in this oleaginous yeast.

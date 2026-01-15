@@ -1,0 +1,4 @@
+- IH, LW, UG, and RB conceived experiments for identifying novel human antibodies with potent cell-killing activity for ADCs. They utilized H2L2 transgenic mice immunization combined with IgG Transpo-mab display platform.
+- IH, M-CB-E, KM, and FW executed experiments and analyzed data, leading to the discovery of 12 fully human hROR2-specific antibodies with distinct characteristics suitable for potent ADCs.
+- The team's functional screening approach enabled efficient early identification of promising drug candidates for tumor therapy using high-throughput methods.
+- IH, RB, and UG wrote the paper detailing their innovative method and results. All authors are employed by NBE-Therapeutics Ltd., disclosing a potential conflict of interest due to stock ownership.
