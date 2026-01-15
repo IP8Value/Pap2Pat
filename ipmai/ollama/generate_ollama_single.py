@@ -11,6 +11,7 @@ import logging
 from pathlib import Path
 from typing import Iterable
 
+from datetime import datetime
 import rich.console
 import rich.syntax
 from hydralette import Config, Field
@@ -137,7 +138,13 @@ def run(cfg: Config) -> None:
             paper_text = read_text(sample_dir / "paper.md")
             outline_text = read_text(sample_dir / f"patent_outline_{cfg.outline_suffix}.md")
 
-            messages = build_prompt(outline_text, paper_text, cfg.outline_suffix, tokenizer)
+            messages = build_prompt(
+                outline_text,
+                paper_text,
+                cfg.outline_suffix,
+                tokenizer,
+                cfg.length_scale,
+            )
 
             try:
                 response = client.chat.completions.create(
@@ -163,7 +170,6 @@ def run(cfg: Config) -> None:
             (save_dir / "reference.md").write_text(reference_text)
             (save_dir / "outline.md").write_text(outline_text)
             (save_dir / "paper.md").write_text(paper_text)
-
     log.info("✅ Single LLM-call generation finished")
 
 
