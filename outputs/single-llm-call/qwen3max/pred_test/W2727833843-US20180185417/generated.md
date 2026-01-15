@@ -1,0 +1,93 @@
+# DESCRIPTION
+
+## BACKGROUND OF THE INVENTION
+
+Cell-based therapies represent a transformative frontier in modern medicine, offering the potential to regenerate damaged tissues, modulate immune responses, and treat conditions refractory to conventional pharmacotherapies. However, the clinical translation of such therapies is heavily constrained by regulatory frameworks designed to ensure patient safety and product consistency. In particular, exogenous cell therapies—those involving cells harvested from a donor or expanded in vitro—must comply with stringent good manufacturing practice (GMP) standards. These requirements impose significant logistical and financial burdens, as they necessitate controlled environments, extensive quality control testing, and rigorous documentation throughout the cell processing pipeline. The high costs associated with these procedures often limit accessibility and scalability, particularly for acute or intraoperative indications where time-sensitive intervention is critical.
+
+An alternative strategy involves cytokine-mediated mobilization of endogenous cells, such as the use of granulocyte colony-stimulating factor (G-CSF) to mobilize hematopoietic stem cells into peripheral circulation. While effective in certain contexts, this approach requires multiple clinical visits for administration and monitoring, and is frequently accompanied by adverse effects ranging from mild flu-like symptoms to more serious complications such as splenic rupture or bone pain. Moreover, the mobilized cell populations are often heterogeneous and may not be optimally suited for the intended therapeutic application without further purification—a step that reintroduces many of the same regulatory and technical challenges associated with ex vivo expansion.
+
+In contrast, intraoperative cell therapies offer a compelling solution by enabling the harvest, processing, and re-administration of autologous cells within a single surgical session. This paradigm eliminates the need for prolonged ex vivo culture, reduces exposure to foreign reagents, and minimizes the risk of contamination or phenotypic drift. Bone healing serves as an exemplary application: with nearly 8 million fractures occurring annually in the United States alone, and 5–10% progressing to non-union or delayed union, there is a clear unmet need for interventions that enhance regenerative capacity at the time of initial surgery. Intraoperative enrichment of pro-regenerative cell populations—such as those expressing CD31—could provide a targeted, cost-effective, and regulatory-compliant therapeutic strategy.
+
+Despite these advantages, current intraoperative cell isolation methods remain limited by technological constraints. Traditional approaches rely on antibody-conjugated magnetic beads for positive selection, but these beads typically remain bound to the transplanted cells. Regulatory agencies in both the United States and the European Union classify such modified cells as advanced therapy medicinal products (ATMPs), subjecting them to heightened oversight that includes extensive preclinical data, complex manufacturing validation, and long approval timelines. Consequently, there exists a critical need for cell enrichment technologies that yield “untouched” cell populations—free of beads, antibodies, or other exogenous ligands—thereby qualifying as minimally manipulated and potentially exempt from ATMP classification.
+
+Current cell isolation techniques also suffer from practical limitations in the intraoperative setting. Magnetic separation systems require specialized equipment, are sensitive to sample volume and viscosity, and often involve multi-step protocols that are incompatible with rapid bedside processing. Furthermore, many existing platforms are not closed systems, increasing the risk of contamination during handling. There is thus a pressing demand for a portable, self-contained, and chemically minimal device capable of enriching therapeutically relevant cell populations directly from whole blood or surgical waste fluids within minutes, without residual reagents or physical modifications to the cells.
+
+## SUMMARY OF THE INVENTION
+
+The present invention provides a novel system and method for the rapid, intraoperative enrichment of live cells expressing a specific cell surface marker, particularly CD31+ cells, using aptamer-coupled beads in a closed, portable device. The invention overcomes the limitations of traditional antibody-based magnetic separation by employing nucleic acid aptamers—short, single-stranded oligonucleotides—that bind CD31 with high specificity but reversible affinity. These aptamers are immobilized on solid-phase supports, such as neutravidin-functionalized agarose beads, which are packed into a column integrated within a sterile, disposable tube. The column contains a filter with pores sized to retain the beads while allowing cells to pass through during recovery.
+
+In operation, a mixed cell population—such as peripheral blood mononuclear cells (PBMCs) derived from whole blood—is introduced into the device and allowed to contact the aptamer-coupled beads under controlled flow conditions. CD31+ cells bind selectively to the aptamer-coated beads, while unbound cells are washed away. Critically, the captured cells are then released through the application of mechanical force—specifically, by resuspending the bead slurry via pipetting or syringe agitation—exploiting the shear-sensitive nature of aptamer-cell interactions. This physical release mechanism avoids the need for enzymatic digestion, competitive elution, or temperature shifts, thereby preserving cell viability and ensuring the final product is free of chemical contaminants.
+
+The enriched CD31+ cell population exhibits enhanced angiogenic and osteogenic potential, making it particularly suitable for applications in bone fracture repair, ischemic disease, and immunomodulation. The device is configured as a pre-sterilized, single-use kit that can be operated at the point of care without specialized training or equipment. Bead size is selected to be substantially larger than target cells (e.g., 45–165 µm diameter) and retained by a 20 µm pore filter, eliminating concerns about bead carryover into the final cell product. Aptamer concentration on the beads is optimized to balance binding efficiency with ease of release, typically in the range of 5–10 µg/mL. In preferred embodiments, a mixture of aptamer-coupled and uncoated beads (e.g., 1:1 ratio) is used to prevent column clogging and facilitate bead resuspension during cell recovery.
+
+The method comprises the steps of: (a) providing a mixed cell population; (b) contacting said population with aptamer-coupled beads under binding conditions; (c) washing away unbound cells; (d) applying mechanical force to release bound cells; and (e) collecting the enriched cell fraction through a size-exclusion filter. The entire process can be completed in under 30 minutes, enabling true intraoperative use. The resulting cell product is substantially free of beads, aptamers, and antibodies, satisfying regulatory criteria for minimal manipulation. The invention further encompasses kits containing all necessary components—pre-packed columns, buffers, and instructions—for standardized cell enrichment. Therapeutic administration may occur via direct injection into the injury site, incorporation into biodegradable scaffolds, or systemic delivery, depending on the clinical indication.
+
+## DETAILED DESCRIPTION OF THE INVENTION
+
+The present invention relates to a device and method for enriching a population of live cells that express a specific cell surface marker, with particular utility in intraoperative settings. Central to the invention is the use of aptamers—synthetic oligonucleotide ligands—as capture agents, coupled to solid supports such as agarose beads, within a closed, filter-integrated column system. This approach enables rapid, reversible, and reagent-free isolation of therapeutically relevant cells, notably CD31+ cells, which possess documented roles in angiogenesis, osteogenesis, and immunomodulation.
+
+As used herein, “enrichment” refers to an increase in the proportion of cells expressing a target marker relative to the starting population. “CD31+ cells” denote any viable cell expressing Platelet Endothelial Cell Adhesion Molecule-1 (PECAM-1), including subsets of monocytes, T cells, B cells, and endothelial progenitors. “Aptamer” means a single-stranded DNA or RNA molecule, typically 20–100 nucleotides in length, selected for high-affinity binding to a molecular target through structural complementarity rather than sequence homology. “Mechanical force” encompasses fluid shear, agitation, or pipetting-induced turbulence sufficient to disrupt low-affinity aptamer-cell bonds without compromising cell integrity.
+
+Traditional cell purification methods, such as fluorescence-activated cell sorting (FACS) or magnetic-activated cell sorting (MACS), rely on antibodies that either remain bound to cells (posing regulatory and functional concerns) or require harsh elution conditions that reduce viability. In contrast, the aptamer-based method disclosed herein leverages the inherently reversible nature of nucleic acid-protein interactions. For example, in bone healing applications, CD31+ monocytes secrete pro-angiogenic factors like VEGF and IL-8, while CD31+ naïve T cells contribute to tissue repair through immunomodulatory cytokine profiles. Rapid enrichment of these cells from whole blood at the time of surgery could significantly improve outcomes in non-union fractures.
+
+Aptamers offer several advantages over antibodies: they are chemically synthesized with high batch-to-batch consistency, stable at ambient temperatures, non-immunogenic, and amenable to precise engineering. They are generated via SELEX (Systematic Evolution of Ligands by EXponential enrichment), an iterative in vitro selection process that isolates high-affinity binders from random oligonucleotide libraries. Counter-SELEX may be employed to eliminate cross-reactive sequences by subtracting against non-target cells or proteins. Once selected, aptamers can be functionalized with tags (e.g., biotin) for immobilization onto probe-coated supports (e.g., neutravidin beads), enabling oriented coupling that preserves binding domains.
+
+### I. CD31+ Cells
+
+CD31+ cells constitute a heterogeneous population of leukocytes and endothelial progenitors that play pivotal roles in vascular homeostasis, inflammation resolution, and tissue regeneration. CD31, or PECAM-1, is a 130-kDa transmembrane glycoprotein belonging to the immunoglobulin superfamily, expressed on platelets, monocytes, neutrophils, subsets of T and B lymphocytes, and endothelial cells. Functionally, CD31 mediates cell-cell adhesion, transendothelial migration, and signal transduction pathways that promote survival and angiogenic activity.
+
+These cells can be sourced from peripheral blood, bone marrow, surgical aspirates, or even liquid waste collected during orthopedic procedures. Traditional purification methods include MACS using anti-CD31 antibody-conjugated magnetic beads, but this leaves residual beads attached to cells, triggering ATMP classification. The present invention circumvents this by using aptamer-coupled beads that are physically separated from cells post-enrichment, yielding a clean, unmodified cell product suitable for direct implantation.
+
+### II. Aptamers
+
+Aptamers are single-stranded nucleic acids that fold into three-dimensional structures capable of binding targets with antibody-like specificity but with greater synthetic control. Their small size (~8–25 kDa) allows dense surface packing, and their lack of Fc regions eliminates unintended immune activation. Compared to antibodies, aptamers exhibit superior thermal stability, reversible denaturation, and ease of modification with functional groups.
+
+The SELEX process begins with a library of ~10^15 random sequences, which are incubated with target cells or recombinant CD31 protein. Bound sequences are recovered, amplified by PCR (for DNA aptamers) or RT-PCR (for RNA), and subjected to repeated rounds of selection under increasingly stringent conditions. Counter-SELEX against CD31-negative cells removes non-specific binders. The resulting aptamer—such as the commercially available CD31-2196BCI—exhibits nanomolar affinity (Kd ≈ 1.14 nM) and >95% specificity for CD31+ PBMCs.
+
+For immobilization, aptamers are synthesized with a 5′ or 3′ biotin tag, enabling high-affinity binding to neutravidin-coated agarose beads (Kd ≈ 10^-14 M). This non-covalent linkage is sufficiently stable during cell capture but does not interfere with subsequent mechanical release of cells. Alternatively, covalent coupling via NHS-ester or maleimide chemistry may be used, though non-covalent strategies are preferred for simplicity and reversibility.
+
+### III. Devices for Enrichment of Cells
+
+The enrichment device comprises a centrifuge tube housing a column packed with aptamer-coupled beads and a distal filter. The column is fitted with a Luer-lock adapter for syringe compatibility and is pre-sterilized in a sealed container. Beads are agarose-based, 45–165 µm in diameter, and filtered to exclude smaller particles that might pass through the 20 µm pore-size polyethylene filter. This size differential ensures complete bead retention while permitting leukocyte passage (6–10 µm diameter).
+
+In operation, a cell suspension is loaded into the column and incubated for 5–15 minutes at 4–25°C to allow binding. Unbound cells are washed out with buffer. The beads are then resuspended by repeated aspiration and ejection using a syringe, generating shear forces that dissociate CD31+ cells. The eluate is centrifuged to pellet cells, which are resuspended for immediate use. The device may also incorporate a mixture of aptamer-coupled and uncoated beads (e.g., 1:1 v/v) to reduce viscosity and prevent channeling. Total processing time is less than 30 minutes, supporting intraoperative deployment.
+
+### IV. Methods of Enriching Cells from a Mixed Cell Population
+
+The method begins with obtaining a mixed cell population from whole blood, PBMCs, bone marrow, or surgical fluid. The sample is diluted in binding buffer and passed through the aptamer-bead column at 30–100 µL/min. After a 10-minute incubation, unbound cells are removed by washing with PBS. Mechanical agitation releases bound CD31+ cells, which are collected by centrifugation after filtration. The final product shows >85% CD31+ purity and >95% viability, with no detectable bead or aptamer contamination.
+
+The method is antibody-free, avoiding regulatory complications. It works across diverse sample types and can be adapted for other markers by substituting the aptamer. Bead composition may include non-magnetic agarose, polystyrene, or silica, with diameters >20 µm. Aptamer loading is optimized at 5 µg/mL to maximize yield without compromising release efficiency.
+
+### V. Kits
+
+Kits include a pre-assembled enrichment column, wash and binding buffers, collection tubes, and instructions. Columns are available in 0.5–5 mL volumes, with filters of 10–30 µm pore size. Beads are provided pre-coupled or as separate components for user customization. Resuspension buffers maintain physiological pH and osmolarity. Isolated cells may be used immediately for injection, scaffold seeding, or cryopreservation.
+
+### VI. Methods of Treatment
+
+The enriched CD31+ cells are administered intraoperatively to sites of bone fracture, ischemic tissue, or inflammatory lesions. They promote angiogenesis via VEGF secretion, osteogenesis through BMP-2 and Wnt signaling, and immunomodulation by suppressing TNF-α and enhancing IL-10. Effective dosing ranges from 1×10^6 to 1×10^8 cells, achievable from 50–200 mL of whole blood. The cells may be formulated in hydrogels or combined with demineralized bone matrix for localized delivery. Conditions treatable include non-union fractures, myocardial infarction, critical limb ischemia, and autoimmune disorders.
+
+## EXAMPLES
+
+### Materials and methods
+
+PBMCs were isolated from leukoreduction filters via Ficoll density gradient centrifugation. A biotinylated anti-CD31 aptamer (APTSCI) was validated by flow cytometry, showing >95% co-localization with anti-CD31 antibody staining. Magnetic bead comparisons confirmed equivalent enrichment to commercial kits. The enrichment device was assembled by gluing 20 µm filters into microcentrifuge tubes and packing with neutravidin agarose beads pre-incubated with aptamer. PBMCs were processed at 50 µL/min, washed, and released by syringe agitation. Conditioned media from enriched cells were tested in HUVEC tube formation and MSC osteogenesis assays.
+
+### Aptamer Selection and Validation
+
+Flow cytometry demonstrated dose-dependent aptamer binding, with 5 µg/mL yielding 99% sensitivity and 88% specificity. Magnetic isolation using aptamer-coated beads achieved CD31+ purity comparable to antibody-based methods. Release kinetics studies using Cy5-labeled aptamer confirmed minimal residual ligand on recovered cells.
+
+### Development of a CD31+ Cell Enrichment System
+
+System optimization identified 5 µg/mL aptamer, 800 µL total bead volume (400 µL coated + 400 µL uncoated), and mechanical release as optimal. Higher aptamer concentrations reduced viability upon release. Uncoated beads prevented clogging. Final configuration yielded 25% recovery, 87% purity, and 97% viability.
+
+### CD31+ Enriched Cell Populations
+
+Validation with fresh whole blood confirmed enrichment of CD31+ monocytes and naïve T cells. No beads were detected in the final product by microscopy.
+
+### Angiogenic and Osteogenic Potential of CD31+ Enriched Cell Populations
+
+Conditioned medium from enriched cells increased HUVEC tube length by 1.9-fold and MSC calcification by 1.8-fold versus controls. Suction waste from orthopedic surgeries contained viable CD31+ cells, demonstrating feasibility of using surgical byproducts as a cell source.
+
+## EQUIVALENTS
+
+The invention is not limited to the specific embodiments described. Variations in aptamer sequence, bead chemistry, filter design, or target markers (e.g., CD34, CD133) are encompassed within the scope of the claims. The use of alternative release mechanisms—such as complementary oligonucleotides or temperature shifts—or different solid supports (e.g., magnetic, though not preferred) are considered equivalents if they achieve the core objective of producing an untouched, enriched cell population for intraoperative therapy.

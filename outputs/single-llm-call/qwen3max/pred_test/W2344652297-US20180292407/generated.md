@@ -1,0 +1,87 @@
+# DESCRIPTION
+
+## TECHNICAL FIELD
+
+The present invention relates to monoclonal antibody production, and more particularly to a novel method for the high-throughput isolation of single antibody-secreting cells capable of producing antigen-specific monoclonal antibodies, especially those directed against post-translationally modified epitopes such as phosphorylated peptides. The invention provides an integrated platform that combines chemical fixation, intracellular staining, fluorescence-activated cell sorting (FACS), and molecular cloning techniques to enable the efficient recovery of full-length immunoglobulin variable region genes from rare, antigen-specific plasma cells. This method is particularly advantageous for generating monoclonal antibodies with high specificity toward challenging targets, including phosphoepitopes that differ only subtly from their unmodified counterparts.
+
+## BACKGROUND ART
+
+Antibodies are indispensable tools in biomedical research, diagnostics, and therapeutics due to their exquisite specificity for target antigens. Monoclonal antibodies (mAbs), which recognize a single epitope, are especially valuable for applications requiring precision, such as detecting specific post-translational modifications (PTMs) like phosphorylation. Conventional methods for mAb production—such as hybridoma technology—rely on fusing antibody-producing B cells with immortal myeloma cells to generate stable clones. However, these approaches suffer from several limitations: they are labor-intensive, time-consuming, inefficient for rare antigen-specific B cells, and often fail when the immunogen is a small peptide or a PTM that does not elicit a strong immune response. Moreover, hybridoma generation is largely restricted to mice and rats, limiting the diversity of antibody repertoires accessible.
+
+To address these challenges, alternative platforms have emerged, including phage display and single-cell PCR-based cloning from sorted B cells. While powerful, these methods also face obstacles. Phage display requires extensive library construction and panning, and may not faithfully recapitulate native antibody folding or affinity maturation. Single-cell approaches using live-cell sorting based on surface immunoglobulin binding (e.g., using labeled antigen tetramers) are limited by low signal intensity, especially for plasma cells that downregulate surface immunoglobulin in favor of massive intracellular antibody production. Furthermore, live-cell sorting exposes RNA to endogenous and exogenous ribonucleases (RNases), leading to rapid mRNA degradation and failure in subsequent cDNA synthesis and V-gene amplification.
+
+Several prior art references describe attempts to overcome these issues. For instance, endoplasmic reticulum (ER)-based intracellular antibody assays (ERIAA) exploit the abundance of immunoglobulins in the ER of plasma cells by co-staining with ER trackers and labeled antigens. However, as demonstrated in the present work, ERIAA suffers from poor signal-to-noise ratios and low success rates in V-gene amplification due to insufficient antigen-binding signal and RNase-mediated RNA degradation during prolonged handling. Other methods employ chemical fixation to preserve cellular integrity and inactivate RNases, but standard fixatives like glutaraldehyde irreversibly crosslink proteins and nucleic acids, rendering RNA inaccessible for reverse transcription. Paraformaldehyde (PFA), while milder, still induces RNA-protein crosslinks that impede full-length cDNA synthesis, particularly for large transcripts like immunoglobulin heavy and light chain variable regions.
+
+Thus, despite advances, there remains a critical unmet need for a robust, high-sensitivity method capable of isolating rare, antigen-specific antibody-secreting cells—especially those producing antibodies against phosphoepitopes—and recovering intact mRNA for faithful reconstruction of monoclonal antibodies without hybridoma fusion or complex library screening.
+
+## SUMMARY OF INVENTION
+
+### Solution to Problem
+
+The present invention overcomes the limitations of prior art by introducing a novel, integrated procedure termed FIXAA (Fixed-cell Intracellular Antigen-based Antibody isolation), which enables the high-efficiency isolation of single antibody-producing cells and the subsequent preparation of full-length monoclonal antibodies, even from extremely rare populations. Central to the invention is the strategic use of reversible chemical fixation to simultaneously preserve antigen-binding activity of intracellular immunoglobulins and protect mRNA from degradation, followed by controlled reversal of crosslinks to liberate RNA for cDNA synthesis.
+
+The method begins with the immunization of a non-human animal—such as a guinea pig, rat, rabbit, or mouse—with an antigen of interest, which may be a protein, peptide, or post-translationally modified epitope (e.g., a phosphorylated peptide). Following immunization and confirmation of immune response, lymphoid tissues (e.g., lymph nodes, spleen, or bone marrow) are harvested, and single-cell suspensions are prepared. These cells undergo a **fixing step** using a reversible crosslinking reagent, preferably paraformaldehyde (PFA) at optimized concentration (e.g., 2%) and duration (e.g., 8–30 minutes at 4°C), which covalently links proteins and RNA but preserves the conformational integrity of intracellular immunoglobulins. Critically, this fixation inactivates endogenous RNases and stabilizes mRNA.
+
+Subsequently, a **cell membrane lysis step** is performed using a mild non-ionic detergent such as Triton X-100 (typically at 0.1% concentration) under cold conditions to permeabilize the plasma membrane without disrupting intracellular organelles excessively, thereby exposing intracellular immunoglobulins to exogenous reagents while maintaining RNA integrity.
+
+In the **staining step**, the permeabilized cells are incubated with a fluorescently labeled antigen of interest—such as a DyLight 488-conjugated phosphopeptide—along with a fluorescently labeled secondary antibody that recognizes species-specific immunoglobulin (e.g., anti-guinea pig IgG-DyLight 650). To enhance specificity, a subtraction strategy is employed: a second, spectrally distinct labeled antigen representing an undesired cross-reactive epitope (e.g., an unmodified peptide or a homologous protein isoform) is included to identify and exclude non-specific or cross-reactive cells. Additionally, a viability marker such as DsRed is used to label damaged or sticky cells, which are then excluded during gating.
+
+The **cell isolation step** utilizes fluorescence-activated cell sorting (FACS) to identify and deposit single cells that exhibit high signal for the antigen of interest, high immunoglobulin content, negative signal for the subtractive antigen, and negative DsRed staining. This multi-parameter gating ensures high purity of antigen-specific plasma cells, even when they constitute less than 0.01% of the total population. Throughout this process, RNase inhibitors (e.g., RNaseOUT) are included in all solutions to prevent exogenous RNase contamination and further safeguard mRNA.
+
+Following single-cell deposition into PCR-compatible plates, a **cDNA preparation step** is initiated. Cells are lysed in the presence of oligo(dT) magnetic beads and Protease K, and subjected to a **decrosslinking treatment**—typically heating at 50°C for one hour—to reverse PFA-induced RNA-protein crosslinks. This step is essential for enabling efficient reverse transcription and 5′ RACE PCR amplification of full-length heavy and light chain variable region genes. Optional **reduction treatments** (e.g., using DTT) may be included to break disulfide bonds and improve RNA accessibility.
+
+Finally, in the **monoclonal antibody preparation step**, the amplified V<sub>H</sub> and V<sub>L</sub> genes are assembled into full-length immunoglobulin expression cassettes via techniques such as TS-jPCR or homologous recombination, transfected into mammalian cells (e.g., Expi293 or 293FT), and the resulting recombinant monoclonal antibodies are harvested from culture supernatants. The entire workflow is conducted under RNase-free conditions, ensuring high recovery of functional antibody sequences.
+
+## DESCRIPTION OF EMBODIMENT
+
+### (1) Fixing Step
+
+The fixing step is foundational to the present invention, serving to immobilize intracellular components while preserving both the antigen-binding capacity of immunoglobulins and the integrity of mRNA. A non-human animal—defined herein as any mammal other than Homo sapiens, including but not limited to guinea pigs, rats, rabbits, mice, hamsters, or goats—is first immunized with an antigen of interest. The antigen of interest may be a full-length protein, a peptide fragment, or a post-translationally modified molecule such as a phosphorylated, acetylated, or ubiquitinated peptide; exemplary antigens include RORγt-specific peptides, triphosphorylated p53 (pS15/pT18/pS20), or CHK2 phosphorylated at T68. Immunization is typically performed via intramuscular, subcutaneous, or intraperitoneal routes using adjuvants such as TiterMax Gold to enhance immune response, with multiple boosts administered over several weeks. Immunity is verified by serum ELISA or similar assays prior to tissue harvest.
+
+Lymphoid tissues—such as iliac lymph nodes, spleen, or bone marrow—are surgically removed, and single-cell suspensions are prepared by mechanical dissociation and filtration. These cells are then treated with a crosslinking reagent, preferably paraformaldehyde (PFA) at 1–4% concentration in phosphate-buffered saline (PBS), for 5–30 minutes at 0–4°C. Reversible crosslinking reagents such as PFA are essential because they form methylene bridges between biomolecules that can be later reversed, unlike irreversible agents like glutaraldehyde. After fixation, cells are pelleted by centrifugation and washed to remove excess fixative. The fixation conditions—time, temperature, and concentration—are carefully optimized to balance preservation of immunoglobulin conformation with minimal RNA modification. Under optimal conditions, intracellular immunoglobulins retain their ability to bind labeled antigen, and mRNA remains sufficiently intact for downstream cDNA synthesis following decrosslinking. Decrosslinking is achieved by heating fixed cells in the presence of Protease K at 50°C for 60 minutes, which cleaves protein-RNA adducts and restores RNA accessibility for reverse transcriptase.
+
+### (2) Cell Membrane Lysis Step
+
+The cell membrane lysis step facilitates access of labeled antigens and antibodies to intracellular immunoglobulins by selectively permeabilizing the plasma membrane. This is accomplished by resuspending fixed cells in a solution containing a non-ionic detergent such as Triton X-100, NP-40, or Tween-20, typically at concentrations ranging from 0.05% to 0.5% in PBS. The treatment is performed on ice for 5–20 minutes to minimize RNA degradation and preserve subcellular architecture. The detergent disrupts lipid bilayers without denaturing proteins, allowing fluorescent probes to diffuse into the cytoplasm and bind to immunoglobulins within the endoplasmic reticulum and Golgi apparatus. The choice and concentration of detergent are critical: too little results in incomplete permeabilization and weak staining; too much causes excessive leakage of cellular contents and RNA loss. Triton X-100 at 0.1% has been found optimal for balancing permeability and RNA retention.
+
+### (3) Staining Step
+
+In the staining step, permeabilized cells are incubated with a cocktail containing a fluorescently labeled antigen of interest (e.g., DyLight 488-streptavidin-conjugated biotinylated phosphopeptide), a fluorescently labeled secondary antibody specific for the host species’ immunoglobulin (e.g., DyLight 650-conjugated anti-guinea pig IgG), a subtractive antigen labeled with a spectrally distinct fluorophore (e.g., DyLight 550-streptavidin-conjugated unmodified peptide), and a viability dye such as DsRed to mark damaged cells. The reaction is carried out on ice for 10–30 minutes in the presence of RNase inhibitors (e.g., 400 units/mL RNaseOUT) and blocking agents to reduce non-specific binding. The labeled antigen binds specifically to intracellular immunoglobulins produced by antigen-specific plasma cells, generating a bright fluorescent signal proportional to antibody abundance. The subtractive antigen identifies cross-reactive cells, which are excluded during sorting. This multi-color staining strategy enables high-fidelity discrimination of true antigen-specific cells from background.
+
+### (4) Cell Isolation Step
+
+Cells are analyzed and sorted using a fluorescence-activated cell sorter equipped with an automatic deposition unit. Gating strategies identify single, viable (DsRed-negative), immunoglobulin-high cells that are positive for the antigen of interest and negative for the subtractive antigen. For example, in p53 phosphosite-specific antibody isolation, the target population is defined as anti-IgG<sup>high</sup>, TP-p53<sup>high</sup>, UM-p53<sup>negative</sup>, and DsRed<sup>negative</sup>. Single cells are deposited directly into 96-well plates containing lysis buffer with oligo(dT) magnetic beads and RNase inhibitors. The inclusion of RNase inhibitors throughout—added to staining buffers, sheath fluid, and collection plates—is crucial to suppress residual RNase activity and maximize mRNA recovery. This step yields pure populations of antigen-specific plasma cells, enabling the production of monoclonal antibodies with high specificity, including those recognizing subtle epitopic differences such as single phosphorylation sites.
+
+### (6) Antigen Specific Monoclonal Antibody Preparing Step
+
+Full-length V<sub>H</sub> and V<sub>L</sub> genes are amplified from single-cell cDNA using 5′ RACE PCR, leveraging the poly-A tail of mRNA captured on oligo(dT) beads. The amplified fragments are assembled into linear immunoglobulin heavy and light chain expression cassettes using techniques such as TS-jPCR or Gibson assembly, then co-transfected into mammalian cells (e.g., Expi293) for transient expression. Culture supernatants are screened by ELISA or flow cytometry for antigen binding. Positive clones yield recombinant monoclonal antibodies or fragments (e.g., Fab, scFv) with confirmed specificity. All steps involving RNA or cDNA are performed in the presence of RNase inhibitors to ensure fidelity of sequence recovery.
+
+## EXAMPLES
+
+### Example 1
+
+OKT10 hybridoma cells, which secrete anti-CD38 antibody, were fixed with 2% PFA for 10 minutes at 4°C, permeabilized with 0.1% Triton X-100, and stained intracellularly with DyLight 488-labeled CD38 and anti-mouse IgG. Single CD38-binding cells were isolated by FACS, and mRNA was extracted following Protease K-mediated decrosslinking at 50°C for 1 hour. Full-length V<sub>H</sub> genes were successfully amplified by 5′ RACE PCR, demonstrating that FIXAA preserves both antigen-binding function and RNA integrity.
+
+### Example 2
+
+OKT10 hybridomas were mixed with Jurkat cells at ratios from 1:100 to 1:10,000, fixed, stained with anti-mouse IgG and DsRed, and sorted. Even at 1:10,000 dilution, OKT10 cells were clearly resolved as IgG<sup>high</sup>/DsRed<sup>negative</sup>, and V<sub>H</sub> genes were amplified with 47% success, confirming FIXAA’s high sensitivity.
+
+### Example 3
+
+Guinea pigs immunized with RORγt peptide yielded lymph node cells that, after FIXAA processing, revealed a discrete RORγt-specific plasma cell population (RORγt<sup>high</sup>/RORγ<sup>negative</sup>/IgG<sup>high</sup>). Paired V<sub>H</sub>/V<sub>L</sub> genes were cloned, and 19 of 20 recombinant mAbs specifically recognized RORγt but not RORγ.
+
+### Comparative Example 1 (Method in NPL 4)
+
+Using live-cell ERIAA on the same guinea pig lymphocytes, the RORγt-specific population was poorly resolved, and V-gene amplification success was significantly lower, highlighting FIXAA’s superiority.
+
+### Example 3 (Continued)
+
+A monoclonal antibody (#23) specific for pT18-p53 was isolated. It showed no cross-reactivity with unphosphorylated or other phospho-p53 variants, and exhibited a K<sub>D</sub> of 0.2 nM, confirming high affinity and specificity.
+
+### Example 4
+
+Similarly, anti-pT68-CHK2 mAbs were generated, with clone #34 showing K<sub>D</sub> = 0.08 nM and exclusive recognition of phosphorylated CHK2, validating FIXAA’s reproducibility for phosphosite-specific antibodies.
+
+## INDUSTRIAL APPLICABILITY
+
+The present invention is highly applicable in the biotechnology, pharmaceutical, and diagnostic industries. It enables rapid, high-throughput production of monoclonal antibodies against challenging epitopes, particularly phosphorylation sites implicated in cancer, neurodegeneration, and autoimmune diseases. The method eliminates the need for hybridoma generation, works across multiple species, and delivers recombinant antibodies suitable for therapeutic development, research reagents, and clinical diagnostics. Its ability to isolate rare, high-affinity clones with single-amino-acid resolution makes it a transformative platform for precision antibody discovery.

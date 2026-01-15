@@ -1,0 +1,45 @@
+Here is the complete patent application following the provided outline:
+
+# DESCRIPTION  
+
+## BACKGROUND OF INVENTION  
+
+Organic light emitting diodes (OLEDs) have emerged as a promising technology for display and lighting applications due to their high efficiency, flexibility, and thin form factor. However, conventional OLED devices suffer from significant light trapping within the device structure due to refractive index mismatch between the various layers. This phenomenon results in a substantial portion of generated light being waveguided within the device or lost to surface plasmon modes at metal/organic interfaces, leading to reduced external quantum efficiency.  
+
+Prior attempts to address this limitation have focused on implementing periodic microstructures to extract trapped light. These approaches typically involve creating precisely engineered photonic crystal structures or periodic gratings through complex lithographic processes. While effective, such methods require additional fabrication steps that increase manufacturing complexity and cost. An alternative approach involves utilizing spontaneously formed buckled structures, which can provide light extraction benefits without requiring precise patterning.  
+
+The work of Koo et al. demonstrated one such method for preparing buckled structures in OLED devices. Their approach involved depositing a metal film on an elastomeric substrate, which would spontaneously form periodic buckles upon cooling due to thermal expansion mismatch. While this method provided improved light extraction compared to flat devices, the strictly periodic nature of the resulting buckles could cause undesirable optical effects such as color blurring and viewing angle dependence.  
+
+There remains a significant need for improved light extraction structures that can enhance OLED output without introducing visual artifacts or requiring substantial modifications to existing fabrication processes. Particularly valuable would be structures that combine the light extraction benefits of periodic gratings with the optical uniformity of random structures. Quasi-periodic buckling patterns offer a promising solution to this challenge, providing enhanced light extraction while maintaining good optical quality.  
+
+## BRIEF SUMMARY  
+
+The present invention discloses OLED devices incorporating quasi-periodic buckling structures that significantly improve light output without causing undesirable optical effects. The devices feature a unique combination of fine and gross buckling patterns that work synergistically to extract trapped light while maintaining excellent image quality.  
+
+The quasi-periodic buckling structure comprises two distinct but interrelated components: fine-scale buckling with characteristic dimensions comparable to the wavelength of emitted light, and gross-scale buckling with larger characteristic dimensions. The fine buckling primarily serves to extract waveguided light, while the gross buckling helps to randomize the emission direction and reduce viewing angle dependence. Together, these features provide substantially improved light extraction compared to conventional flat devices or devices with purely periodic structures, while avoiding the blurring and color shifts associated with strictly periodic gratings.  
+
+## DETAILED DISCLOSURE  
+
+The OLED device of the present invention incorporates a quasi-periodic grating structure formed through controlled buckling of a multilayer stack. As illustrated in FIG. 1 and FIG. 2, the device features both fine and gross buckling patterns distributed across the light-emitting area. These patterns are formed on the distal face of the OLED structure, opposite the light emission direction in a bottom-emission configuration.  
+
+The OLED device comprises multiple functional layers arranged in sequence: a substrate, a transparent elastomer film, a metal film that forms the buckling structure upon cooling, a metal oxide layer formed by oxidation of the metal film, a transparent conductor, a hole transport layer, a light emitting layer, an electron transport layer, and a cathode. The buckling portion is confined within the light emitting area of the device to maximize extraction efficiency while minimizing non-active areas.  
+
+The method of preparing the OLED device involves several key steps. First, a transparent elastomer film is formed on a substrate, typically using polydimethylsiloxane (PDMS) due to its excellent optical and mechanical properties. A metal film, preferably aluminum for its high reflectivity and controllable oxidation characteristics, is then deposited on the elastomer film. Upon cooling, the metal film spontaneously forms the desired buckling pattern due to thermal expansion mismatch with the elastomer. The metal film is subsequently oxidized to form a metal oxide layer that serves as part of the electrode structure while preserving the buckling pattern. A transparent conductor such as indium tin oxide (ITO) is then deposited on the metal oxide layer to complete the anode structure.  
+
+The remaining OLED layers are then deposited in conventional fashion: a hole transport layer to facilitate hole injection, a light emitting layer containing organic emissive materials, an electron transport layer to facilitate electron injection, and finally a cathode typically comprising a thin metal layer. FIG. 3 illustrates the dramatic difference in light emission between an OLED with a flat emitting face and one incorporating the quasi-periodic buckling structure of the present invention.  
+
+The quasi-periodicity of the buckling structure can be precisely controlled by adjusting the thickness of the metal layer prior to buckling. Thicker metal layers produce buckling patterns with larger characteristic dimensions, while thinner layers produce finer patterns. By carefully selecting the metal thickness and processing conditions, the buckling pattern can be optimized for specific applications and emission wavelengths.  
+
+The quasi-periodic buckling structure offers several key advantages over conventional approaches. First, it provides significantly improved light extraction compared to flat devices, increasing overall efficiency. Second, the quasi-random nature of the pattern reduces directionality and color shifts that plague strictly periodic structures. Third, the fabrication process is compatible with existing OLED manufacturing techniques, requiring no additional lithographic steps. Finally, the structure can be optimized for specific applications by controlling the buckling parameters.  
+
+### METHODS AND MATERIALS  
+
+The preparation of OLED devices incorporating quasi-periodic buckling structures involves several specific steps. PDMS films are first prepared on glass substrates using conventional spin-coating techniques, with thicknesses typically ranging from 1-10 μm. The PDMS surface may be treated with oxygen plasma or UV ozone to modify its surface properties and promote uniform metal deposition.  
+
+Aluminum layers of varying thickness (typically 10-100 nm) are then deposited on the PDMS films using thermal evaporation or sputtering techniques. The thickness of the Al layer is carefully controlled as it determines the resulting buckling periodicity. Following deposition, the samples are allowed to cool to room temperature, during which the Al layer spontaneously forms the buckling pattern due to differential thermal contraction between the metal and elastomer.  
+
+The buckled Al layer is then subjected to UV ozone (UVO) treatment to convert the surface into aluminum oxide while preserving the buckling structure. This oxidation step typically involves exposure to UV light in an oxygen-containing environment for 1-30 minutes. The resulting Al oxide layer provides both electrical conductivity and optical transparency while maintaining the desired surface topography.  
+
+OLED devices are then fabricated on the buckled Al oxide layers using conventional vacuum deposition techniques. The complete device structure includes, in sequence: the buckled Al oxide layer, a transparent conductive oxide (typically ITO), organic hole transport and emitting layers, an electron transport layer, and a metal cathode. Control devices with flat (non-buckled) structures are prepared in parallel for comparison.  
+
+The performance of the OLED devices is characterized using standard measurement techniques. Current-voltage-luminance characteristics are measured using a source meter and calibrated photodetector. External quantum efficiency is determined by comparing the number of emitted photons to the number of injected electrons. Angular emission profiles are measured using a goniometer to assess viewing angle characteristics. The results consistently demonstrate superior performance for devices incorporating the quasi-periodic buckling structure compared to flat control devices.

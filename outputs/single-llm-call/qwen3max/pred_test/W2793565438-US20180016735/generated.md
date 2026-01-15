@@ -1,0 +1,75 @@
+# DESCRIPTION
+
+## FIELD
+
+The present invention relates to systems for and methods of treating cotton yarn. More particularly, the invention pertains to a novel plug-in technology that integrates into existing commercial cotton yarn production lines to enhance the mechanical properties of cotton yarn through treatment with cold aqueous alkaline solvents. This method leverages partial dissolution of cotton cellulose to form a viscous gel matrix that reinforces the yarn structure without the need for synthetic adhesives, resins, or chemical pretreatments, thereby yielding an environmentally sustainable, biodegradable, and high-performance textile product.
+
+## BACKGROUND
+
+The textile industry plays a pivotal role in the global economy, providing essential materials for apparel, home furnishings, industrial applications, and emerging biobased products. Cotton, as the most widely used natural fiber, accounts for approximately 25 million tons of annual global production and occupies 2.5% of the world’s arable land. Its dominance stems from its softness, breathability, absorbency, and renewability. However, the demand for premium cotton fiber quality continues to rise, driven by consumer expectations for durability, strength, and sustainability in textile goods.
+
+Cotton fibers are composed almost entirely of cellulose—long chains of β(1→4)-linked glucose units arranged in highly ordered crystalline and amorphous domains. This molecular architecture imparts structural integrity but also limits processability and mechanical enhancement without chemical intervention. Traditional methods to modify cotton properties include mercerization, a process involving treatment with concentrated sodium hydroxide at ambient or elevated temperatures, which swells fibers, increases luster, and improves dye affinity. However, mercerization does not significantly enhance tensile strength or enable the creation of composite-like internal structures within the yarn.
+
+Recent advances in cellulose science have demonstrated that cold alkaline aqueous solvents can partially dissolve cellulose under controlled conditions. For instance, solutions containing lithium hydroxide monohydrate (LiOH·H₂O) and urea, cooled to sub-zero temperatures (e.g., −12°C), have been shown to disrupt hydrogen bonding networks in cellulose, leading to gelation or even full dissolution at low polymer concentrations. Such systems have been used to fabricate all-cellulose composites (ACCs), where dissolved cellulose acts as a matrix binding undissolved cellulose reinforcements. However, these approaches typically require high solvent-to-fiber ratios and aim for complete dissolution, which is energy-intensive and impractical for continuous yarn processing.
+
+Previous studies on cold alkaline treatments of lignocellulosic materials—such as spruce wood or bamboo—have revealed that these solvents can cleave ester linkages in lignin and extract hemicellulose, thereby increasing cellulose accessibility. Yet, when applied to pure cellulose sources like cotton, such treatments have either caused mere fiber swelling (e.g., with 5% NaOH at −5°C) or full dissolution (e.g., with 7% NaOH/12% urea at −12°C), neither of which is optimal for reinforcing intact yarn structures. Moreover, existing methodologies lack integration pathways into conventional textile manufacturing workflows and often fail to balance cost, scalability, and performance.
+
+A critical limitation of prior art is the absence of a method that partially dissolves only a fraction of cotton cellulose within a continuous yarn to generate an *in situ* adhesive gel matrix that binds the remaining undissolved fibers, thereby enhancing mechanical properties without compromising processability or sustainability. There remains a pressing need for a scalable, low-cost, and eco-friendly technology that can be retrofitted into existing cotton yarn production lines to yield high-strength, biodegradable yarns suitable for advanced textile applications.
+
+## SUMMARY
+
+The present inventive concept addresses these unmet needs by introducing a novel method and system for treating cotton yarn using cold aqueous alkaline solvents to achieve superior mechanical properties through controlled partial dissolution of cellulose. Unlike conventional approaches that seek full dissolution or mere surface modification, the invention exploits a precise balance of solvent composition, temperature, concentration, and residence time to transform a portion of the cotton yarn into a cohesive, viscous gel matrix that encapsulates and binds the residual fibrous structure.
+
+This method functions as a plug-in technology compatible with existing commercial cotton yarn production infrastructure. It requires no chemical pretreatment of raw fibers, eliminates the need for synthetic adhesives or resins, and utilizes abundant, low-cost biomass materials—primarily cotton, though optionally supplemented with lignocellulosic reinforcements such as Osage orange wood (OOW) particles or agave fibers (AF). The resulting treated yarn exhibits enhanced tensile strength, flexural modulus, and toughness while remaining fully biodegradable and compostable.
+
+In one embodiment, the invention provides a method comprising immersing cotton yarn in a precooled aqueous alkaline solvent containing LiOH·H₂O and urea at a temperature between −15°C and −5°C, preferably −12.5°C, for a defined duration to induce partial dissolution and gel formation. The yarn is then combined with optional lignocellulosic reinforcements, molded, subjected to solvent-water exchange, and dried under controlled pressure and temperature to yield a consolidated, high-performance composite yarn or thread.
+
+Additionally, the invention encompasses a system for treating cotton yarn, comprising a cooling unit, a solvent bath, a mixing mechanism, a molding station, a rinsing chamber, and a drying-pressing assembly. The system is designed for continuous or batch processing and allows precise control over key parameters including pulling rate, soaking time, bath temperature, and solvent composition.
+
+Key advantages of the present invention include: (1) significant improvement in mechanical properties compared to untreated cotton yarn; (2) compatibility with existing textile manufacturing equipment; (3) use of non-toxic, recyclable solvents; (4) elimination of synthetic binders; (5) utilization of agricultural by-products as low-cost reinforcements; and (6) production of a fully bio-based, compostable end product. These features collectively enable the creation of sustainable, high-performance textiles for applications ranging from technical fabrics to biodegradable packaging threads.
+
+## DETAILED DESCRIPTION
+
+The invention provides a method and system for enhancing the mechanical properties of cotton yarn through treatment with cold aqueous alkaline solvents that induce partial dissolution of cellulose to form an integrated gel matrix. The process begins with the preparation of a cold alkaline solvent, typically composed of lithium hydroxide monohydrate (LiOH·H₂O) and urea in water, cooled to a temperature between −15°C and −5°C. In preferred embodiments, the solvent contains 4.6% w/w LiOH·H₂O and 15% w/w urea, maintained at −12.5°C.
+
+Cotton yarn, optionally blended with lignocellulosic reinforcements such as Osage orange wood (OOW) particles or blue agave fibers (AF), is immersed in the precooled solvent. The immersion duration ranges from 10 to 20 minutes, during which a portion of the cotton cellulose undergoes partial dissolution, forming a white, translucent, viscous gel. This gel acts as a natural binder, encapsulating both the undissolved cotton fibers and any added reinforcements. Mechanical agitation—such as stirring at 350 rpm using a three-blade propeller—ensures uniform solvent penetration and homogenous gel distribution.
+
+Following gel formation, the mixture is transferred to a mold, typically constructed of polyethylene foam with internal dimensions of 80 mm × 100 mm × 5 mm, and sandwiched between polyethylene meshes to maintain structural integrity during subsequent processing. The composite is then subjected to a solvent-water exchange protocol: initial vacuum-assisted submersion in tap water for 15 minutes, followed by 24 hours of continuous soaking with six water replacements. This step removes residual alkali and urea while preserving the gel-reinforcement network.
+
+After sufficient leaching, the damp composite is removed from the mold, blotted dry, and placed between steel plates under a mild compressive load of 0.5 psi (0.0034 MPa). Drying occurs in a vacuum oven at 60°C and 25 inches Hg for 24 hours. Final densification is achieved by hot pressing at 180°C under 8 tons of pressure for 10 minutes, yielding a consolidated, dimensionally stable panel or thread with enhanced mechanical properties.
+
+The system for implementing this method includes a refrigerated solvent reservoir, a programmable mixer, a modular molding station, a multi-stage rinsing tank with water circulation and vacuum capability, and a dual-mode dryer-press. The system supports variable pulling rates through each bath—typically 0.5 to 2 cm/s through the solvent bath, 1 to 3 cm/s through the water bath, and 0.3 to 1 cm/s through an optional solvent gel bath if employed.
+
+Examples of treated cotton yarn demonstrate marked improvements in ultimate tensile strength (σᵤ), Young’s modulus (E), flexural strength (σ_fm), and bending modulus (E_b). For instance, yarn treated at −12.5°C exhibited σᵤ values 108% higher than yarn treated at −5°C. Similarly, increasing cotton matrix content from 15% to 35% boosted σᵤ by 135%. Optimal solvent volume was found to be 60 mL per standard panel; deviations led to diluted gels and weaker structures.
+
+Optical microscopy reveals a heterogeneous yet cohesive microstructure: the surface is coated with a light-colored cotton matrix embedding dark agave fibers, while OOW particles reside subepidermally, fully encapsulated. Cross-sections show layered arrangements with minimal voids after hot pressing, indicating effective interfacial adhesion. FTIR analysis confirms hemicellulose removal and preservation of cellulose and lignin signatures, consistent with alkaline extraction mechanisms.
+
+In conclusion, the invention enables the production of high-strength, eco-friendly cotton-based yarns through a scalable, solvent-mediated partial dissolution process that creates an intrinsic binding matrix without synthetic additives.
+
+### Examples
+
+The following examples illustrate the practice of the invention but are not intended to limit its scope. Materials included raw cotton linters (96% cellulose), Osage orange wood (OOW) sawdust (particle size <1 mm), and blue agave fibers (AF) obtained as tequila production by-products. Solvent formulations tested included: (1) 4.6% LiOH·H₂O / 15% urea; (2) 7% NaOH / 12% urea; (3) 9.8% KOH / 12% urea; and (4) 4.2% LiOH·H₂O / 12% urea, all in deionized water and precooled to target temperatures.
+
+Treatment processes involved immersing 10 g total mass of cotton and/or reinforcements in 60 mL of solvent at −12.5°C for 15 minutes under 350 rpm agitation. After adding reinforcements (if applicable), mixing continued for 10 minutes. Composites were molded, rinsed, dried, and hot-pressed as described previously. Mechanical property testing followed ASTM D638 (tensile) and D790 (flexural) standards using an Instron universal testing machine.
+
+Results showed that LiOH·H₂O/urea yielded superior mechanical properties compared to NaOH or KOH formulations. Panels with 25% cotton and 75% OOW/AF (1:1) achieved σᵤ = 42.3 MPa, E = 3.1 GPa, σ_fm = 58.7 MPa, and E_b = 4.9 GPa—comparable to certain commodity plastics. In contrast, 100% cotton panels exhibited similar strength but at significantly higher material cost. Pure AF or OOW panels could not be formed, confirming the necessity of a cellulose-derived matrix.
+
+Optical examination using a Wild Heerbrugg M5 Stereo microscope revealed uniform matrix coverage and good fiber-matrix adhesion. Pull-thru system testing—simulating continuous yarn processing—demonstrated that treated yarns maintained integrity at pulling rates up to 1.8 cm/s through the solvent bath without breakage.
+
+When compared to untreated controls, normalized results (accounting for density and cross-sectional area variations) confirmed consistent enhancements: treated yarns showed 2.1× higher specific strength and 2.4× higher specific modulus. Normalization also accounted for minor weight loss (~18%) during processing due to handling and solute leaching.
+
+In summary, these examples validate that cold LiOH·H₂O/urea treatment at −12.5°C with 60 mL solvent per panel and 25–35% cotton matrix yields mechanically robust, biodegradable yarns suitable for advanced textile applications.
+
+### Exemplary Embodiments
+
+In one exemplary embodiment, the system for treating cotton yarn comprises a solvent bath maintained at −12.5°C containing 4.6% LiOH·H₂O and 15% urea, through which cotton yarn is pulled at a rate of 1.2 cm/s. The yarn then passes through a water bath at 10°C at 2.0 cm/s for rinsing, followed by optional passage through a solvent gel bath—containing pre-dissolved cotton cellulose at 2% w/v—to enhance surface coating. Pulling through the gel bath occurs at 0.7 cm/s.
+
+Soaking time in the primary solvent bath is precisely 15 minutes, while rinsing in the water bath lasts 24 hours with intermittent water changes. If a solvent gel bath is employed, soaking time is 5 minutes. The solvent gel bath is maintained at −10°C and contains 3.8% LiOH·H₂O, 12% urea, and 2% dissolved cotton cellulose.
+
+Temperature control is critical: the main solvent bath operates at −12.5 ± 0.5°C, while the solvent gel bath is held at −10 ± 0.5°C. Concentrations are tightly regulated: LiOH·H₂O at 4.6% in the solvent bath and 3.8% in the gel bath; urea at 15% and 12%, respectively; NaOH is excluded in preferred embodiments due to inferior gel formation.
+
+The method may include an additional solvent gel bath step wherein pre-dissolved cotton cellulose is introduced to reinforce surface layers. Alternatively, the method may incorporate dissolved cotton cellulose directly into the primary solvent to modulate viscosity. In both cases, the dissolved cellulose concentration ranges from 1% to 3% w/v.
+
+These embodiments enable fine-tuning of yarn morphology and mechanical performance. For instance, slower pulling rates increase solvent exposure, enhancing gel penetration but risking over-dissolution. Higher urea concentrations improve cellulose solubility but may reduce gel strength. The disclosed parameters represent an optimized balance for industrial scalability and performance.
+
+In conclusion, the exemplary embodiments demonstrate a versatile, tunable platform for producing high-performance cotton yarn through cold alkaline treatment, adaptable to diverse reinforcement strategies and manufacturing constraints.

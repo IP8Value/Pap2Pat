@@ -1,0 +1,41 @@
+Here is the patent application following your outline and research paper:
+
+# DESCRIPTION  
+
+## BACKGROUND OF THE INVENTION  
+
+Nanofluidic techniques have emerged as powerful tools for biological analysis by enabling precise manipulation of fluids at nanoliter scales. Digital polymerase chain reaction (PCR) represents a significant advancement in nucleic acid quantification by partitioning samples into numerous discrete reaction chambers. Conventional digital PCR relies on sequential limiting dilutions of target DNA followed by amplification, allowing quantitation of single DNA molecules. However, this approach suffers from limitations in throughput and precision due to inherent dilution inaccuracies.  
+
+Copy number variation (CNV) refers to genomic gains or losses ranging from 500 bases to several megabases. Whole-genome studies have revealed extensive CNV diversity in human populations, with implications for genetic disorders. Current CNV detection technologies predominantly utilize array-based platforms such as array comparative genomic hybridization (array-CGH) and high-density single nucleotide polymorphism (SNP) microarrays. While these methods offer high throughput, they lack resolution and sensitivity for precise CNV measurement. Real-time PCR provides sequence-specific detection but demonstrates limited discriminating power beyond two-fold differences.  
+
+Digital array-based CNV determination addresses these limitations by leveraging nanofluidic partitioning of DNA sequences. Existing methods for whole-genome scanning require improved sensitivity and accuracy, particularly for detecting subtle copy number changes. There exists a pressing need for enhanced systems and methods that provide precise CNV quantification while maintaining high throughput capabilities.  
+
+## SUMMARY OF THE INVENTION  
+
+The present invention provides nanofluidic systems and computational methods for accurate copy number variation analysis. The system partitions a DNA sample into numerous reaction chambers within a nanofluidic biochip, enabling digital PCR analysis at single-molecule resolution. The method computes precise estimates of DNA molecule concentrations by statistically analyzing chamber positivity rates and derives confidence intervals for these measurements.  
+
+The invention encompasses a method for estimating DNA molecule concentration comprising storing the number of reaction chambers in memory, distributing a biological sample among the chambers, determining the number of chambers containing DNA molecules, and computing the portion of positive chambers. This proportion enables calculation of an unbiased concentration estimate through statistical transformation. The method further computes standard deviation and forms probability density functions to establish confidence intervals for concentration measurements.  
+
+For CNV analysis, the invention provides methods to estimate concentration ratios between target and reference sequences. The system computes mean concentration ratios and associated confidence intervals by analyzing joint probability distributions of positive chambers for both sequences. This approach enables determination of whether two samples exhibit statistically significant concentration differences by comparing confidence interval overlap.  
+
+The invention's nanofluidic implementation utilizes integrated microvalves to partition samples into hundreds of nanoliter-scale reaction chambers. Following thermocycling, fluorescence imaging detects positive chambers, with computational analysis transforming raw counts into precise concentration ratios. This system offers broader applicability than conventional methods by combining nanofluidic precision with robust statistical analysis.  
+
+## DETAILED DESCRIPTION OF SPECIFIC EMBODIMENTS  
+
+The present invention relates to systems and methods for copy number variation (CNV) analysis using digital PCR techniques implemented on nanofluidic biochips. A digital array chip architecture forms the physical platform, comprising integrated microchannels and valves that partition DNA samples into 765 discrete reaction chambers per panel, each with 6 nl volume. The chip's valve operation enables precise fluidic control during sample and reagent loading while maintaining hydration stability. Variations in digital array design may accommodate different chamber counts or volumes without departing from the invention's core principles.  
+
+Digital PCR occurs within these microvolumes following partitioning of the PCR mix containing TaqMan chemistry. The BioMark system performs thermocycling and acquires fluorescence images to identify positive chambers containing amplified target sequences. Chip fabrication utilizes multilayer soft lithography to create elastomeric structures with sample and control channels. Valve operation isolates chambers during PCR while maintaining fluidic connectivity during loading.  
+
+The mathematical framework for CNV analysis addresses two fundamental problems: estimating true DNA concentrations from positive chamber counts and determining confidence intervals for concentration ratios. This approach differs from Bayesian methods by treating concentration as a fixed parameter rather than a probability distribution. The system models molecule partitioning as a Poisson process, establishing the relationship between chamber positivity probability p and true concentration λ through the equation p = 1 - e^(-λ).  
+
+For concentration estimation, the digital array panel represents finite sampling from a theoretical infinite universe of reaction chambers. The unbiased estimator λ̂ = -ln(1 - p̂) transforms the observed positivity proportion p̂ into concentration space. The sampling distribution of λ̂ derives from the binomial distribution of p̂ through probability density transformation, enabling computation of 95% confidence intervals. Computer simulations verify these methods by generating chamber occupancy patterns matching theoretical predictions.  
+
+The system implements concentration estimation through sequential computational steps: storing chamber count in memory, distributing sample, counting positive chambers, computing positivity proportion, determining standard deviation, and calculating confidence intervals. An alternative method forms probability density functions for positivity rates and transforms these into concentration space to establish confidence bounds.  
+
+For ratio estimation between target and reference sequences, the invention employs numerical integration of joint probability distributions. This approach generalizes Fieller's Theorem geometrically by considering the sampling distributions of both concentrations and computing ratio probabilities through wedge integration in the two-dimensional probability space. The method establishes confidence intervals by determining ratio values corresponding to specified probability contours.  
+
+The optical imaging system comprises excitation and emission filter wheels, shutters, fiber optic illumination, and CCD detection optimized for microfluidic device imaging. Thermal control subsystems maintain precise temperature cycling through conductive heating elements with force application mechanisms. Temperature monitoring utilizes thermocouples or resistance-based sensors integrated with the thermal transfer device.  
+
+Fluorescence detection employs intercalating dyes for double-stranded DNA quantification, with optical systems designed for specific numerical apertures and spatial resolutions matching microfluidic chamber dimensions. The 1:1 imaging configuration maintains etendue while accommodating cost constraints, with detector arrays sized to capture entire chip panels. Alternative embodiments may utilize chemiluminescent or other optical detection modalities without departing from the invention's scope.  
+
+The system's computational core performs DNA concentration estimation and ratio calculations, storing results in associated databases. Automatic control subsystems manage thermal cycling parameters, image acquisition timing, and fluidic operations through integrated software interfaces. These embodiments collectively provide a complete solution for accurate CNV analysis using nanofluidic digital PCR technology.

@@ -1,0 +1,57 @@
+# DESCRIPTION
+
+## TECHNICAL FIELD
+
+The present invention relates to a process for pretreating lignocellulosic material, particularly for use in the production of biofuels and biochemicals. More specifically, the invention provides an integrated alkaline twin-screw extrusion (ATSE) pretreatment method that combines mechanical shearing, chemical delignification, and controlled thermal treatment under relatively mild conditions to enhance the enzymatic digestibility of lignocellulosic biomass while preserving carbohydrate content and enabling efficient downstream processing.
+
+## BACKGROUND
+
+The global transition toward renewable energy sources has intensified research into sustainable alternatives to fossil fuels. Among these, biofuels derived from lignocellulosic biomass—such as agricultural residues (e.g., corn stover, rice straw, wheat straw), forestry waste (e.g., sawdust, wood chips), and dedicated energy crops—offer significant promise due to their abundance, renewability, and potential to reduce greenhouse gas emissions. Unlike first-generation biofuels produced from food crops, lignocellulosic feedstocks do not compete with food supply chains, thereby aligning with principles of circular economy and sustainable development.
+
+Lignocellulosic biomass is composed primarily of cellulose, hemicellulose, and lignin, which form a highly recalcitrant structure that impedes efficient enzymatic hydrolysis into fermentable sugars. Cellulose exists as crystalline microfibrils embedded in a matrix of amorphous hemicellulose and cross-linked by lignin, a complex aromatic polymer that acts as a physical and chemical barrier to enzyme access. This natural resistance necessitates a pretreatment step to disrupt the lignin-carbohydrate complex, increase surface area, and solubilize or remove inhibitory components.
+
+Numerous pretreatment methods have been explored, including acid hydrolysis, steam explosion, ammonia fiber expansion (AFEX), organosolv processes, and biological treatments. However, many suffer from drawbacks such as high energy consumption, formation of fermentation inhibitors, corrosion, poor scalability, or inefficient chemical recovery. Alkaline pretreatments, which selectively remove lignin and partially solubilize hemicellulose, are particularly attractive due to their compatibility with existing industrial infrastructure, such as pulp and paper mills.
+
+Among alkaline approaches, sodium hydroxide-based pretreatments have demonstrated efficacy in delignification. Conventional alkali pretreatments often require extended reaction times, elevated temperatures, or large volumes of water, increasing operational costs and environmental burden. Radio-frequency-assisted alkali pretreatment has been proposed to accelerate reaction kinetics, but it introduces complexity and energy demands. High-solids alkaline pretreatment improves process economics by reducing water usage, yet mass transfer limitations can hinder uniform reagent penetration. Cold sodium hydroxide/urea systems operate at sub-ambient temperatures but typically require cryogenic conditions and exhibit limited applicability to diverse feedstocks.
+
+Chinese Patent Application CN101121175A discloses an alkaline extrusion method using a single-screw extruder at temperatures exceeding 100°C, necessitating external heating and resulting in significant carbohydrate degradation. Chinese Patent Application CN101255479 describes a two-stage extrusion process with intermediate washing, which increases equipment footprint and process complexity. Comparative analyses reveal that existing extrusion-based pretreatments either lack sufficient delignification, demand excessive energy input, or require fine particle size reduction prior to processing—steps that add cost and limit industrial feasibility.
+
+Accordingly, there remains a critical need for a pretreatment process that achieves high sugar yields, operates at relatively low temperatures without external heating, accommodates coarse feedstock, minimizes chemical and water usage, enables lignin recovery, and integrates seamlessly with existing biorefinery or pulp mill infrastructure. The present invention addresses these unmet needs through a novel alkaline twin-screw extrusion process that synergistically combines mechanical, chemical, and thermal effects in a continuous, scalable, and economically viable manner.
+
+## SUMMARY
+
+The present invention introduces an improved process for pretreating lignocellulosic material to enhance its susceptibility to enzymatic hydrolysis for the production of biofuels and biochemicals. The process comprises subjecting lignocellulosic material to a twin-screw extruder in the presence of an alkaline aqueous solution under conditions that generate sufficient shear and frictional heat to achieve effective delignification and structural disruption without requiring external heating. In preferred embodiments, the extruded material undergoes a subsequent heat preservation step to further improve digestibility. The invention offers several advantages, including high total sugar yields (up to 80%), preservation of glucan content (>95% recovery), significant lignin removal (up to 83%), operation at near-ambient pressure and moderate temperature (~99°C), elimination of pre-grinding beyond simple cutting, compatibility with high solids loading (solid-to-liquid ratio of 1:2 w/w), and integration potential with established chemical recovery systems from the pulp industry. Moreover, the process generates a spent liquor suitable for lignin recovery and energy generation, contributing to overall process sustainability and economic viability.
+
+## DETAILED DESCRIPTION
+
+Lignocellulosic material, as used herein, refers to any plant-derived biomass comprising cellulose, hemicellulose, and lignin. Suitable sources include agricultural residues such as corn stover, rice straw, wheat straw, bagasse, and forestry residues like sawdust, wood chips, and poplar. The lignin content of the feedstock typically ranges from 10% to 30% by dry weight, while cellulose content ranges from 30% to 50%. Prior to pretreatment, the material is preferably cut into pieces of 2–5 cm in length to facilitate feeding without fine grinding.
+
+The lignocellulosic material is optionally washed to remove dust and soluble impurities, followed by dewatering and de-airing to reduce moisture and entrapped air, thereby improving alkali penetration. The feed is introduced into a mixing apparatus at a solid-to-liquid weight ratio ranging from 1:1 to 1:3, preferably 1:2.
+
+An alkaline aqueous solution is employed, defined as an aqueous medium having a pH greater than 10, preferably between 12 and 14. Suitable alkaline pretreatment agents include sodium hydroxide, potassium hydroxide, calcium hydroxide, and sodium carbonate, with sodium hydroxide being most preferred. The concentration of sodium hydroxide is typically in the range of 2% to 10% (w/w), corresponding to an alkali charge of 0.04 to 0.1 g NaOH per gram of oven-dry biomass.
+
+The lignocellulosic material and alkaline aqueous solution are mixed in a shear mixer, such as a twin-screw extruder, which applies mechanical shear energy in the range of 200–300 kWh per metric ton of biomass. The mixer may be a screw mixer, extruder, or preferably a co-rotating twin-screw extruder comprising alternating transport screw elements (TSE) and reversed screw elements (RSE). The RSE creates zones of compression and backflow, enhancing fibrillation and chemical penetration. Friction generated during extrusion elevates the mixture temperature by 60–80°C above ambient, reaching approximately 99°C without external heating. External heating may be optionally applied to maintain or adjust temperature.
+
+Dewatering and de-airing occur concurrently within the shear mixer due to compression forces. Alkaline solution may be added in stages along the extruder barrel to ensure uniform distribution. After extrusion, residual water and alkaline solution are removed by washing or pressing. Mixing is conducted at temperatures of 80–100°C, pressures of 0.1–0.5 MPa, and residence times of 20–60 seconds.
+
+The output is an aqueous slurry with a dry matter content of 20–40% and pH of 12–14. This slurry may undergo heat-treatment at 80–100°C and atmospheric pressure for 1–10 hours to enhance delignification and digestibility. Mixing and heat-treating may occur sequentially or simultaneously if the extruder is jacketed.
+
+In a one-step embodiment, extrusion alone suffices for adequate pretreatment. In a two-step embodiment, extrusion is followed by a separate heat-preservation step in a reaction vessel, offering superior sugar yields with manageable capital cost. Residence time in the reaction vessel is 1–10 hours. Transport between units is achieved via insulated conveyors or pumps. Heat sources include steam, hot water, or waste heat. Mechanical displacement means such as augers or pumps facilitate movement. Multiple reaction vessels may be used in series or parallel.
+
+The resulting heat-treated aqueous slurry is neutralized, typically with sulfuric acid, to pH 5–7, then subjected to enzymatic hydrolysis using cellulases and hemicellulases to produce glucose and xylose. Fermentation yields ethanol or other alkanols, which are retrieved via distillation. Lignin is recovered from spent liquor by evaporation and spray-drying, yielding a product with Mw ~22,780, Mn ~16,430, and PDI ~1.39, suitable for value-added applications.
+
+Referring to FIG. 2, the process includes: (1) wetting and washing lignocellulosic material; (2) mixing with alkaline aqueous solution in a twin-screw extruder; (3) heat-treating the aqueous slurry; (4) purification and neutralization; (5) enzymatic hydrolysis; (6) fermentation; (7) distillation to recover ethanol; and (8) optional production of other biochemicals. Non-limiting examples employ corn stover or poplar at 0.06 g NaOH/g biomass, 1:2 solid-to-liquid ratio, 99°C, and 1-hour heat preservation, achieving ~78% total sugar yield.
+
+## EXAMPLES
+
+### Example 1
+
+Corn stover was cut into 2–5 cm pieces and fed continuously at 200 kg/h into a pilot-scale twin-screw extruder. A sodium hydroxide solution (6% w/w) was added to achieve an alkali charge of 0.06 g NaOH/g oven-dry biomass and a solid-to-liquid ratio of 1:2. The extruder operated at 325 rpm, generating a temperature of 99°C via frictional heating. The extrudate was collected and preserved at ambient temperature for 1 hour. The pretreated material was washed to neutrality, dried, and analyzed. Compositional analysis showed 96% glucan recovery, 78% xylan recovery, and 71% lignin removal. Enzymatic hydrolysis at 2% solids loading yielded 83% glucan conversion and 89% xylan conversion over 48 hours.
+
+### Example 2
+
+Corn stover was prepared as in Example 1 and treated with sodium hydroxide at 0.08 g/g biomass without heat preservation. The pretreated material exhibited 95% glucan recovery, 72% xylan recovery, and 75% lignin removal. Enzymatic digestibility was slightly lower than in Example 1, confirming the benefit of the heat preservation step.
+
+### Example 3
+
+Poplar wood pieces (2–5 cm) were processed in the twin-screw extruder with 0.06 g NaOH/g biomass and a 1-hour heat preservation step. The pretreated material showed 94% glucan recovery, 75% xylan recovery, and 68% lignin removal. Enzymatic hydrolysis yielded 80% glucan and 85% xylan conversion, demonstrating the method’s applicability to hardwood feedstocks.

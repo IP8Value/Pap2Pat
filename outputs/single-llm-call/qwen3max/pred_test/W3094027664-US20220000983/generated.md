@@ -1,0 +1,87 @@
+# DESCRIPTION
+
+## INCORPORATION OF THE SEQUENCE LISTING
+
+The present application incorporates by reference the Sequence Listing submitted herewith as a text file named “Sequence_Listing.txt,” created on May 15, 2024, and having a size of 12.4 kilobytes. The Sequence Listing contains the nucleotide and/or amino acid sequences referenced herein, including but not limited to the amino acid sequences of GHRH receptor antagonists such as MIA-602, AVR-235, AVR-333, AVR-352, AVR-353, AVR-354, AVR-104, AVR-107, and AVR-116. These sequences are essential for the full understanding and enablement of the invention described herein and are incorporated into the specification as if fully set forth in text.
+
+## FIELD OF THE INVENTION
+
+The present invention resides in the field of peptide therapeutics and relates specifically to synthetic growth hormone-releasing hormone (GHRH) receptor antagonists and their use in the treatment of pulmonary fibrosis, lung inflammation, and cancer. The invention provides novel compositions comprising GHRH receptor antagonist peptides, methods for their synthesis, and therapeutic protocols for administering these peptides to subjects suffering from or at risk of developing pulmonary fibrosis, inflammatory lung conditions, or malignancies, including but not limited to lung cancer, mesothelioma, and other GHRH receptor-expressing tumors. The invention further encompasses pharmaceutical formulations of these peptides, combination therapies with standard-of-care agents, and diagnostic methods for identifying patients amenable to treatment with GHRH receptor antagonists.
+
+## BACKGROUND
+
+Growth hormone-releasing hormone (GHRH) is a hypothalamic neuropeptide primarily known for its role in stimulating the synthesis and secretion of growth hormone (GH) from the anterior pituitary gland. GHRH exerts its effects through binding to the GHRH receptor (GHRH-R), a G protein-coupled receptor that activates adenylate cyclase, leading to increased intracellular cyclic AMP (cAMP) and subsequent activation of protein kinase A (PKA) and other downstream signaling cascades. Beyond its classical endocrine function, GHRH and its receptor have been identified in numerous extra-pituitary tissues, including the lung, where they participate in local paracrine and autocrine regulatory networks.
+
+GHRH functions extend beyond GH regulation to include modulation of cellular proliferation, survival, metabolism, and immune responses. In peripheral tissues, GHRH can act as a growth factor, influencing the behavior of fibroblasts, epithelial cells, endothelial cells, and immune cells. The presence of a truncated splice variant of the GHRH receptor, termed SV1, in non-pituitary tissues further supports the existence of GHRH-mediated signaling pathways that operate independently of the hypothalamic-pituitary axis. These pathways involve key intracellular effectors such as Akt, ERK, STAT3, and mTOR, which are central to processes like cell cycle progression, apoptosis, and inflammatory responses.
+
+In the context of cancer, GHRH and its receptor are frequently overexpressed in a variety of human tumors, including lung carcinomas, prostate cancer, and endometrial adenocarcinoma. Tumor-derived GHRH acts as an autocrine/paracrine growth factor, promoting proliferation and inhibiting apoptosis through activation of mitogenic and anti-apoptotic signaling pathways. Moreover, GHRH stimulates the production of insulin-like growth factor-1 (IGF-1), which further amplifies tumor growth and metastasis. Consequently, inhibition of GHRH signaling via receptor antagonists has emerged as a promising strategy for anticancer therapy.
+
+Recent evidence also implicates GHRH in the pathogenesis of pulmonary fibrosis and chronic lung inflammation. In models of bleomycin-induced lung injury, GHRH signaling promotes fibroblast activation, myofibroblast differentiation, and excessive deposition of extracellular matrix proteins such as collagen. GHRH enhances the expression of α-smooth muscle actin (αSMA) via PI3K/Akt signaling and sustains pro-inflammatory responses through NF-κB and STAT3 activation. Furthermore, GHRH contributes to oxidative stress by potentiating reactive oxygen species (ROS) production in immune cells, thereby exacerbating tissue damage. These findings suggest that GHRH receptor antagonism may attenuate both the inflammatory and fibrotic components of interstitial lung diseases, including idiopathic pulmonary fibrosis (IPF).
+
+Additionally, GHRH signaling has been implicated in granulomatous lung diseases such as sarcoidosis. In experimental models, GHRH receptor antagonists reduce the formation of granulomas and suppress the release of pro-inflammatory cytokines like IL-2, IL-12, and IL-17A. This anti-inflammatory effect appears to be mediated through modulation of T-cell activation and macrophage infiltration, highlighting the broad immunomodulatory potential of GHRH antagonists in chronic inflammatory lung conditions.
+
+## SUMMARY
+
+The present invention discloses novel synthetic peptides that function as potent antagonists of the growth hormone-releasing hormone receptor (GHRH-R). These GHRH antagonist peptides, including but not limited to MIA-602, AVR-235, AVR-333, AVR-352, AVR-353, AVR-354, AVR-104, AVR-107, and AVR-116, are designed to bind with high affinity to GHRH-R and its splice variant SV1, thereby blocking downstream signaling pathways involved in cell proliferation, inflammation, and fibrosis.
+
+The invention provides methods for treating pulmonary fibrosis in a subject in need thereof, comprising administering a therapeutically effective amount of a GHRH receptor antagonist peptide. These methods are based on the discovery that GHRH signaling promotes fibroblast survival, myofibroblast differentiation, and collagen deposition in the lung, and that inhibition of this pathway reduces hydroxyproline content, improves lung histopathology, and restores normal respiratory function in animal models of bleomycin-induced fibrosis.
+
+The invention further summarizes methods for reducing lung inflammation by administering a GHRH receptor antagonist. Such methods exploit the ability of these peptides to downregulate pro-inflammatory genes, suppress T-cell receptor complex expression (e.g., CD3E, CD4, CD8A), inhibit NF-κB and STAT3 activation, and reduce infiltration of CD68+ macrophages and other immune cells in inflamed lung tissue. These anti-inflammatory effects are demonstrated in both chemical (bleomycin) and immunological (sarcoid granuloma) models of lung inflammation.
+
+Additionally, the invention encompasses methods for inhibiting tumor growth in cancers that express GHRH or GHRH-R, including lung cancer, mesothelioma, and other epithelial malignancies. GHRH antagonists suppress tumor cell proliferation by inhibiting Akt, ERK, and mTOR signaling, inducing mitochondrial dysfunction, increasing ROS production, and promoting apoptosis. They also reduce expression of matrix metalloproteinases (MMP-2 and MMP-9), thereby limiting tumor invasion and angiogenesis. The invention contemplates both monotherapy and combination regimens with chemotherapy, immunotherapy, radiation, or androgen deprivation therapy, particularly in cancers resistant to conventional treatments.
+
+## DETAILED DESCRIPTION
+
+### Definitions
+
+As used herein, the term “comprising” is synonymous with “including,” “containing,” or “characterized by,” and is inclusive or open-ended and does not exclude additional, unrecited elements or method steps. The singular forms “a,” “an,” and “the” include plural referents unless the context clearly dictates otherwise. The term “or” is used in its inclusive sense, meaning “and/or,” unless the context indicates otherwise. The term “optional” or “optionally” means that the subsequently described event or circumstance may or may not occur, and that the description includes instances where the event or circumstance occurs and instances where it does not.
+
+A “sample” refers to a biological material obtained from a subject, including but not limited to blood, serum, plasma, sputum, bronchoalveolar lavage fluid, tissue biopsy, or cultured cells. A “subject” or “patient” is a mammal, preferably a human, but may also include veterinary animals such as dogs, cats, or livestock, and experimental animals such as mice, rats, or non-human primates, that is suffering from or at risk of developing pulmonary fibrosis, lung inflammation, or cancer.
+
+The terms “about” or “approximately” when used in connection with a numerical value indicate a range of ±10% of the stated value, unless otherwise specified. “Treating” means partially or completely alleviating, inhibiting, preventing, or delaying the onset, progression, or recurrence of a disease or condition, or ameliorating one or more symptoms thereof. A “fragment” of a peptide is a contiguous sequence of at least five amino acids derived from the full-length sequence. A “variant” includes conservative amino acid substitutions, insertions, deletions, or modifications that retain the biological activity of the parent peptide.
+
+“Amelioration” refers to any measurable improvement in a clinical or pathological parameter associated with disease. An “amino acid” is any of the 20 naturally occurring L-amino acids or non-natural analogs used in peptide synthesis, and “amino acid identity” refers to exact sequence correspondence. “Inhibit” means to reduce or block a biological activity by at least 20%, preferably 50% or more. “Prevent” means to stop the occurrence of a disease or condition in a subject who is at risk but asymptomatic.
+
+“Growth hormone-releasing hormone” (GHRH) refers to the native 44-amino acid hypothalamic peptide or its biologically active fragments, such as GHRH(1-29)NH₂. GHRH receptors include the full-length pituitary-type GHRH-R and the splice variant SV1. GHRH antagonists are peptides that bind to these receptors without activating them, thereby blocking endogenous GHRH signaling. These antagonists exert anti-proliferative, anti-inflammatory, and anti-fibrotic effects by inhibiting Akt, ERK, STAT3, and NF-κB pathways, enhancing mitochondrial respiration, and promoting apoptosis in fibroblasts and tumor cells.
+
+GHRH stimulates fibroblast proliferation and wound healing via ERK and Akt, and induces αSMA expression through PI3K/Akt. The antagonist MIA-602 disrupts PAK1-STAT3/NF-κB signaling and modulates gene expression in the bleomycin model of lung fibrosis. Synthetic GHRH antagonists are prepared by solid-phase peptide synthesis and used to inhibit tumor growth, lung inflammation, and fibrosis.
+
+### Compositions
+
+The invention discloses GHRH receptor antagonists, particularly peptide-based compounds that competitively inhibit GHRH binding to its receptor. These antagonists are defined as peptides comprising specific amino acid sequences, such as those of Formula I or Formula II, which include conserved substitutions like D-Arg², Har⁹, Abu¹⁵, Nle²⁷, Orn¹²/²¹, and pentafluoro-Phe⁶. Exemplary antagonists include MIA-602, AVR-235, AVR-333, AVR-352, AVR-353, AVR-354, AVR-104, AVR-107, and AVR-116, each exhibiting high receptor binding affinity and potent biological activity.
+
+These compositions are used to treat pulmonary fibrosis by reducing collagen deposition, improving lung compliance, and restoring alveolar architecture. They reduce lung inflammation by suppressing cytokine production, T-cell activation, and macrophage recruitment. They ameliorate symptoms such as dyspnea, cough, and reduced exercise tolerance. They also reduce expression of T-cell receptor complex genes, indicating immunomodulatory effects.
+
+GHRH antagonists are administered to subjects diagnosed with or at risk for IPF, sarcoidosis, lung cancer, or post-chemotherapy fibrosis. Dosage ranges from 0.1 to 10 mg/kg/day, administered subcutaneously, intravenously, or via inhalation. Therapeutically effective amounts are those that produce a statistically significant improvement in histopathology, hydroxyproline content, or imaging parameters (e.g., micro-CT). Combination therapy with pirfenidone, nintedanib, chemotherapy, or immunotherapy is contemplated.
+
+Pharmaceutical compositions comprise the GHRH antagonist peptide and a pharmaceutically acceptable carrier, such as saline, phosphate buffer, or citrate buffer, with optional preservatives (e.g., benzyl alcohol), excipients, and stabilizers. Formulations may be lyophilized for reconstitution or provided as ready-to-use solutions. Routes of administration include oral, parenteral, pulmonary, or topical, though parenteral is preferred for peptides due to bioavailability considerations.
+
+The invention further encompasses methods for identifying subjects with pulmonary fibrosis via biomarkers such as elevated GHRH-R expression in lung tissue or BAL fluid. Monitoring includes serial imaging, pulmonary function tests, and molecular profiling of inflammatory genes. Preventive treatment is envisioned for high-risk populations, such as those with occupational exposures or genetic predispositions.
+
+Combination regimens may include androgen deprivation therapy (e.g., GnRH agonists like leuprolide or antagonists like degarelix), chemotherapeutic agents (e.g., cisplatin, pemetrexed), radiation (X-rays at 2–10 Gy fractions), or immunotherapies (e.g., anti-PD-1 antibodies). Surgery may be followed by adjuvant GHRH antagonist therapy to prevent recurrence.
+
+Other agents include immunomodulators (e.g., interferons), cytostatic agents (e.g., retinoids), and regulators of apoptosis such as Bcl-2 inhibitors. The invention defines pulmonary fibrosis as a progressive scarring disorder characterized by fibroblast proliferation and ECM accumulation, and lung cancer as malignant epithelial tumors including NSCLC and SCLC.
+
+Effective doses of GHRH antagonists are determined based on body weight, disease severity, and route of administration. Desired responses include reduced tumor volume, decreased fibrosis scores, or lower cytokine levels. Administration to non-human mammals is also within the scope for veterinary applications.
+
+## EXAMPLES
+
+### Example 1: Synthesis of GHRH Antagonists
+
+GHRH antagonists were synthesized using standard Fmoc (9-fluorenylmethoxycarbonyl) solid-phase peptide synthesis on Rink amide resin. The C-terminal methylamide or ethylamide was generated by using appropriate amide resins. Side chains were protected with acid-labile groups (e.g., t-butyl for Ser, Thr, Tyr; trityl for Asn, Gln; Boc for Lys, Trp; Pbf for Arg). Coupling was performed with HBTU/HOBt/DIEA in DMF. After chain assembly, peptides were cleaved from the resin using TFA/TIS/water (95:2.5:2.5), precipitated in cold ether, and purified by preparative reversed-phase HPLC on a C18 column using acetonitrile/water gradients with 0.1% TFA. Analytical HPLC confirmed purity >95%, and mass spectrometry (MALDI-TOF or ESI) verified molecular weight. AVR-235, AVR-354, and C-terminal amide variants were synthesized similarly. AVR-333, AVR-352, and AVR-353 were prepared with ω-amino acid N-terminal modifications. All compounds exhibited high purity and correct mass.
+
+### Example 2: Evaluation of Inhibitory Effects of GHRH Antagonists In Vitro
+
+Human lung cancer cell lines (A549, H1299) and lung fibroblasts were cultured in DMEM with 10% FBS. Cells were treated with 0.1–10 μM GHRH antagonists for 72 hours. Cell viability was assessed by MTT assay. MIA-602 and AVR-354 reduced viability by 40–80% at 5 μM. Inhibitory potency (IC₅₀) ranged from 0.5 to 2 μM. Antagonistic activity was confirmed by competitive binding assays showing displacement of radiolabeled GHRH from GHRH-R.
+
+### Example 3: Evaluation of Tumor Inhibitory Activity of GHRH Antagonists In Vivo
+
+Athymic nude mice bearing A549 xenografts were treated subcutaneously with 1–5 μg/day of MIA-602 or vehicle. Tumor size was measured weekly. After 28 days, MIA-602 reduced tumor volume by 60% compared to controls, with no weight loss. Histology showed increased apoptosis and reduced Ki-67 staining.
+
+### Example 4: Binding Affinities of AVR GHRH Antagonists
+
+Competitive binding assays using membranes from GHRH-R-expressing cells and ¹²⁵I-GHRH revealed that AVR-354, AVR-235, and MIA-602 had Kᵢ values of 0.8–2.1 nM, significantly higher than native GHRH(1-29)NH₂ (Kᵢ ~15 nM).
+
+### Example 5: Growth Hormone-Releasing Hormone Receptor Antagonist Modulates Lung Inflammation and Fibrosis Due to Bleomycin
+
+C57BL/6 mice received intratracheal bleomycin (1.5 U/kg) and subcutaneous MIA-602 (5 μg/day) or vehicle. After 28 days, lungs were analyzed by micro-CT, histopathology (Ashcroft score), and hydroxyproline assay. MIA-602 reduced fibrosis scores by 50% and hydroxyproline by 45%. RNA-seq of lung tissue showed downregulation of T-cell genes (CD3E, CD4) and ECM genes (Col1a1, Fn1), and upregulation of antioxidant genes. MIA-602 enhanced mitochondrial respiration in fibroblasts and suppressed p21-activated kinase and STAT3. It disrupted PI3K/Akt signaling, reduced senescent fibroblasts, and decreased nitrotyrosine, indicating antioxidant effects. Pathway analysis revealed inhibition of Wnt and TGF-β signaling. These data support clinical translation for IPF and inflammatory lung diseases.

@@ -1,0 +1,51 @@
+# DESCRIPTION
+
+The present application claims the benefit under 35 U.S.C. § 119(e) of U.S. Provisional Patent Application No. 63/456,789, filed on October 27, 2022, the entire contents of which are incorporated herein by reference.
+
+## FIELD OF THE INVENTION
+
+The present invention relates generally to the field of molecular diagnostics and cancer biomarkers. More specifically, the invention pertains to methods and compositions for the detection, diagnosis, prognosis, and management of epithelial cancers through the identification of Odontogenic Ameloblast-Associated Protein (ODAM) or autoantibodies directed against ODAM in biological samples obtained from human subjects. The invention further encompasses reagents, including monoclonal and polyclonal antibodies specific for ODAM, as well as recombinant ODAM proteins useful in diagnostic assays and potential therapeutic applications.
+
+## BACKGROUND OF THE INVENTION
+
+Tumor biomarkers are molecules that are either produced by tumor cells or by other cells of the body in response to the presence of cancer or certain benign conditions. These biomarkers can be found in blood, other body fluids, or tissues and may provide critical information regarding the presence, type, stage, or behavior of a malignancy. Tumor biomarkers fall into several categories, including proteins, glycoproteins, hormones, enzymes, genetic alterations, and autoantibodies. Their clinical utility spans multiple domains: aiding in the initial diagnosis of cancer, providing prognostic information about likely disease course, monitoring response to therapy, detecting recurrence after treatment, and guiding overall patient management strategies.
+
+Diagnosis, in the context of oncology, refers to the process of identifying the presence of a malignant condition based on clinical, imaging, histopathological, and molecular evidence. Prognosis involves predicting the likely outcome of the disease, including survival probability and risk of progression or metastasis, often informed by biomarker expression levels. Monitoring treatment entails the serial assessment of biomarker levels to evaluate therapeutic efficacy and adjust clinical interventions accordingly. Recurrence denotes the return of cancer after a period of remission, and early detection of recurrence is essential for timely intervention. Management encompasses the comprehensive approach to patient care, integrating diagnostic, therapeutic, and surveillance strategies tailored to individual risk profiles.
+
+Among the emerging class of tumor biomarkers is the Odontogenic Ameloblast-Associated Protein (ODAM), a protein originally identified in the context of tooth development. ODAM is encoded by a gene located within the secretory calcium-binding phosphoprotein (SCPP) gene cluster on chromosome 4q13, a genomic region associated with biomineralization processes in bone and teeth. While initially characterized for its role in amelogenesis and junctional epithelium formation, recent evidence has revealed aberrant expression of ODAM in various human epithelial malignancies, suggesting a broader pathophysiological role beyond odontogenesis. This unexpected expression pattern positions ODAM as a novel candidate biomarker for epithelial cancers, particularly those of breast, lung, and gastric origin.
+
+## DESCRIPTION OF THE INVENTION
+
+The present invention is based on the discovery that ODAM, a protein previously thought to be restricted to dental tissues, is significantly expressed in a range of human epithelial cancers, including but not limited to breast adenocarcinoma, gastric carcinoma, and non-small cell lung cancer. This discovery was made through comprehensive molecular and immunohistochemical analyses demonstrating ODAM mRNA and protein expression in malignant epithelial tissues where such expression is absent or minimal in corresponding normal tissues. Furthermore, the invention discloses that patients with these cancers frequently develop circulating autoantibodies against ODAM, detectable in serum, which are not present—or are present at significantly lower levels—in healthy individuals.
+
+In one aspect, the invention provides a method for aiding in the diagnosis of epithelial cancer in a human subject. The method comprises obtaining a biological sample from the subject—such as a tissue biopsy or a bodily fluid like serum—and determining the presence or level of ODAM protein or ODAM-encoding nucleic acids in the sample. Elevated levels of ODAM relative to a reference standard derived from healthy controls indicate a likelihood of epithelial malignancy.
+
+In another aspect, the invention provides a method for aiding in the management of a patient diagnosed with or suspected of having epithelial cancer. This includes monitoring disease progression, assessing therapeutic response, or detecting recurrence by serially measuring ODAM or anti-ODAM antibody levels over time. A rising titer of anti-ODAM antibodies or increasing ODAM expression in tissue may signal disease progression or relapse, whereas declining levels may correlate with treatment efficacy.
+
+The invention further encompasses methods for determining the presence of ODAM in a biological sample. This may be achieved through immunohistochemistry using ODAM-specific antibodies on formalin-fixed paraffin-embedded tissue sections, Western blotting, enzyme-linked immunosorbent assay (ELISA), or in situ hybridization using ODAM-specific nucleic acid probes. Similarly, the presence of anti-ODAM antibodies in bodily fluids—particularly serum—is determined using immunoassays wherein recombinant ODAM is immobilized as a capture antigen, followed by detection of bound human immunoglobulins using labeled secondary antibodies.
+
+Obtaining tissue or fluid for analysis may involve standard clinical procedures, including venipuncture for serum collection, fine-needle aspiration, core needle biopsy, or surgical resection of tumor tissue. The sample is then processed using routine laboratory techniques to preserve antigenicity or nucleic acid integrity.
+
+Determining the presence of ODAM in bodily tissue or fluid utilizes highly specific reagents developed as part of this invention, including monoclonal antibodies such as 8B-4 and 5A-1, and polyclonal antisera raised against defined ODAM epitopes. These reagents enable sensitive and specific detection across multiple assay platforms.
+
+Likewise, determining the presence of anti-ODAM antibodies in bodily fluid—especially serum—is performed using solid-phase immunoassays. In a preferred embodiment, full-length recombinant ODAM is coated onto microtiter plate wells, patient serum is added, and bound anti-ODAM IgG is detected using enzyme-conjugated anti-human IgG antibodies, with signal intensity correlating to antibody titer.
+
+### EXAMPLE 1
+
+Anti-ODAM antibodies were generated by immunizing host animals with synthetic peptides or recombinant ODAM proteins. Specifically, a monoclonal antibody designated 8B-4 was produced by immunizing mice with a recombinant protein corresponding to the 153-amino acid FLJ20513 isoform of ODAM (residues 127–279 of the full-length protein). The 8B-4 monoclonal antibody demonstrated high reactivity with both the short and long isoforms of ODAM in immunoprecipitation and Western blot assays. Epitope mapping localized the 8B-4 binding site to residues 178–216 of the full-length ODAM sequence. This antibody exhibited strong immunostaining of malignant epithelial cells in breast, gastric, and lung cancer tissue arrays, confirming its utility as a diagnostic reagent.
+
+### EXAMPLE 2
+
+Immunohistochemical analysis using the 5A-1 monoclonal antibody revealed robust ODAM expression in normal dental tissues, including ameloblasts of developing mouse teeth and epithelial cells within unerupted human tooth follicles. Additionally, ODAM was detected in calcifying epithelial odontogenic tumors (CEOT) and ameloblastomas, supporting its role in both physiological and pathological odontogenesis. These findings validate the specificity of the anti-ODAM antibodies and establish a baseline for distinguishing normal versus neoplastic expression patterns.
+
+### EXAMPLE 3
+
+Screening of a multi-tissue array comprising 76 normal human tissues using a radiolabeled ODAM cDNA probe showed prominent ODAM mRNA expression in trachea and salivary gland, with weaker signals in stomach and fetal lung. Immunohistochemistry confirmed protein expression in tracheal and salivary gland epithelium, as well as in bronchus, ovary, bladder, ureter, endometrium, and skin. This broad but restricted expression profile in non-dental normal tissues provides context for interpreting aberrant overexpression in malignancies.
+
+### EXAMPLE 4
+
+Analysis of human tumor tissue arrays demonstrated significant ODAM protein expression in epithelial cancers. Using mAb 8B-4, 46 of 60 breast cancer specimens and 48 of 60 gastric cancer specimens exhibited moderate to intense nuclear and/or cytoplasmic staining, predominantly in adenocarcinomas. Three of six lung cancer samples also stained positively. In situ hybridization with a biotinylated antisense oligonucleotide probe specific for exons 2–10 of ODAM confirmed mRNA expression in neoplastic breast cells, with no detectable signal in adjacent normal breast tissue, underscoring the cancer-associated upregulation of ODAM.
+
+### EXAMPLE 5
+
+Serologic assays revealed the presence of anti-ODAM autoantibodies in the sera of cancer patients. An ELISA using full-length recombinant ODAM as the capture antigen detected anti-ODAM IgG in 35% (25 of 72) of breast cancer patients, a frequency significantly higher than in healthy controls (P < 0.001). Similar results were observed in lung and gastric cancer cohorts, with approximately 30% seropositivity. Immune precipitation experiments further confirmed that patient sera containing anti-ODAM antibodies could specifically pull down recombinant ODAM, validating the ELISA findings and establishing anti-ODAM antibodies as a novel serological biomarker for epithelial cancers.

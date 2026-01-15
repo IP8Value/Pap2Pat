@@ -1,0 +1,63 @@
+# DESCRIPTION
+
+## FIELD OF THE INVENTION
+
+The present invention relates to biomarkers for predicting the clinical response of a patient suffering from a solid malignant tumor to treatment with a VEGF-A inhibitory drug, particularly in combination with chemotherapy. More specifically, the invention provides methods, kits, and compositions based on a novel protein expression signature—referred to herein as the VEGF inhibition Response Predictor (ViRP) score—that enables the identification of patients who are likely to exhibit a favorable clinical outcome, such as pathologic complete response (pCR) or low residual cancer burden (RCB), following administration of a VEGF-A inhibitory agent like bevacizumab. The invention further encompasses the use of this predictive signature to guide therapeutic decisions, thereby optimizing treatment efficacy and minimizing unnecessary exposure to potentially toxic therapies in non-responsive individuals.
+
+## BACKGROUND
+
+Antiangiogenic treatment has emerged as a cornerstone strategy in the management of various solid tumors, leveraging the principle that tumor growth and metastasis are critically dependent on the formation of new blood vessels. Central to this approach is vascular endothelial growth factor A (VEGF-A), a potent signaling molecule that stimulates angiogenesis by binding to its receptors on endothelial cells, promoting proliferation, migration, and vascular permeability. The VEGF-A pathway is frequently hijacked by cancer cells to support their metabolic demands and facilitate expansion beyond diffusion-limited sizes, making it a compelling therapeutic target.
+
+Bevacizumab, a recombinant humanized monoclonal antibody that specifically neutralizes VEGF-A, represents a prototypical antiangiogenic agent. Its integration into standard chemotherapy regimens has demonstrated significant improvements in progression-free survival (PFS) and, in some cases, overall survival (OS) across multiple cancer types, including colorectal, lung, ovarian, and renal cell carcinomas. In breast cancer, however, the clinical benefit of bevacizumab remains controversial. While subsets of patients exhibit marked tumor regression upon bevacizumab-containing therapy, randomized trials in unselected populations have failed to consistently demonstrate OS advantages, leading to restricted regulatory approval—currently limited to Europe for certain indications.
+
+This heterogeneity in treatment response underscores a critical limitation: the absence of reliable biomarkers capable of stratifying patients according to their likelihood of benefiting from VEGF-A inhibition. Early efforts focused on plasma VEGF-A levels as a putative predictor, yet the MERiDiAN trial conclusively showed that baseline circulating VEGF-A does not reliably identify responders. Other candidate biomarkers—including soluble carbonic anhydrase IX, BRCA1/2 mutation status, and DNA methylation profiles—have yielded inconsistent results. Notably, comprehensive analyses of tissue-based protein expression signatures, despite their proven utility in other predictive oncology contexts, have been largely unexplored in the setting of anti-VEGF therapy.
+
+Existing methodologies for biomarker discovery often rely on single-analyte approaches or mRNA-centric models that may not fully capture post-translational modifications, protein activation states, or functional pathway dynamics. These drawbacks limit their predictive accuracy and clinical translatability. Consequently, there exists an urgent need for improved methods that integrate high-dimensional proteomic data to develop robust, clinically actionable signatures capable of guiding personalized antiangiogenic therapy.
+
+## SUMMARY
+
+The present invention defines a novel in vitro method for predicting a patient’s response to a VEGF-A inhibitory drug, particularly when administered in combination with chemotherapy for the treatment of a solid malignant tumor. The method comprises obtaining a biological sample from the patient prior to treatment, measuring the expression levels of a defined panel of proteins, and calculating a VEGF inhibition Response Predictor (ViRP) score based on a weighted linear combination of these expression values. A ViRP score below a predetermined cutoff indicates that the patient is likely to respond favorably to the VEGF-A inhibitory regimen.
+
+In a first aspect, the invention provides a method for predicting clinical response comprising: (a) obtaining a tumor tissue sample from a patient diagnosed with a solid malignant tumor; (b) quantifying the expression levels of at least nine specific proteins—Syk, ACC-pS79, FAK, GAB2, IRS1, MET, PDK1, SHC1, and YAP1—in the sample using a protein detection platform such as reverse-phase protein array (RPPA); (c) normalizing the measured expression values relative to endogenous controls or global protein content; and (d) computing a ViRP score using predefined regression coefficients derived from adaptive Lasso modeling. The ViRP score is then compared to a validated cutoff value, typically determined via receiver operating characteristic (ROC) curve analysis against pathologic complete response, to classify the patient as likely responsive or non-responsive.
+
+In a second aspect, the invention includes a method for treating a solid malignant tumor comprising selecting a patient predicted to be responsive using the above method and administering a therapeutically effective amount of a VEGF-A inhibitory drug—such as bevacizumab or a biosimilar thereof—in combination with chemotherapy. This approach may be applied in neoadjuvant, adjuvant, or metastatic settings.
+
+A third aspect provides a diagnostic kit containing reagents, antibodies, and instructions for performing the ViRP score assay, including calibration standards and software for score calculation. A fourth aspect introduces a computational method for identifying additional predictive protein signatures using a two-step biomarker selection process involving variance filtering followed by adaptive Lasso regression, thereby enabling extension of the approach to other therapeutic contexts. Finally, a fifth aspect encompasses a pharmaceutical composition comprising a VEGF inhibitor drug formulated for co-administration with chemotherapy, optionally labeled for use in patients selected by the ViRP method.
+
+## DETAILED DESCRIPTION
+
+The method for predicting response to a VEGF-A inhibitory drug, as disclosed herein, is predicated on the discovery that a specific protein expression signature in pretreatment tumor tissue correlates strongly with clinical outcomes following anti-VEGF therapy. A patient is considered “responsive to a VEGF-A inhibitory drug” if they achieve pathologic complete response (pCR)—defined as absence of invasive carcinoma in the breast and lymph nodes (ypT0/is ypN0)—or low residual cancer burden (RCB class 0 or I) after neoadjuvant treatment. These endpoints are evaluated according to standardized criteria such as RECIST (Response Evaluation Criteria in Solid Tumors) or histopathologic assessment protocols.
+
+Tumor samples may be obtained via core needle biopsy, surgical resection, or fine-needle aspiration from patients diagnosed with solid malignant tumors, including but not limited to breast, ovarian, colorectal, non-small cell lung, or renal cell carcinomas. The method is particularly applicable to HER2-negative breast cancer. Samples are preserved using standard techniques (e.g., snap-freezing in liquid nitrogen or formalin fixation with paraffin embedding) to maintain protein integrity.
+
+Gene-specific polynucleotides or proteins are extracted using established biochemical protocols. Protein quantification is preferably performed using reverse-phase protein arrays (RPPA), though alternatives such as mass spectrometry, immunohistochemistry, or proximity ligation assays may be employed. mRNA levels may also be measured via RNA sequencing (RNAseq), microarrays, or RT-qPCR as a surrogate, provided correlation with protein expression is validated.
+
+Expression data are normalized to account for technical variability. Endogenous controls include housekeeping proteins such as GAPDH, ACTB, or total protein stain. Global normalization methods, such as median centering across all samples per analyte, are also applied. Measured values are typically log2-transformed to stabilize variance.
+
+The ViRP signature comprises nine proteins: Syk, ACC-pS79, FAK, GAB2, IRS1, MET, PDK1, SHC1, and YAP1. Phosphorylated forms (e.g., ACC-pS79) reflect activation states and are measured using phospho-specific antibodies. The ViRP score is calculated as:  
+ViRP = β₀ + Σ(βᵢ × Expressionᵢ),  
+where β₀ is the intercept and βᵢ are regression coefficients derived from adaptive Lasso modeling trained on relative tumor shrinkage.
+
+Cutoff values are established using ROC curves optimized for pCR prediction, commonly yielding thresholds around 0.366 in normalized units. Patients with scores below this cutoff are classified as likely responders.
+
+The method offers significant advantages: it improves response rates by enriching for sensitive patients, reduces unnecessary toxicity in non-responders, and leverages clinically feasible tissue inputs. The underlying predictor model employs a rigorous two-step biomarker selection process—first filtering out low-variance proteins, then applying adaptive Lasso regression—which enhances robustness and generalizability.
+
+Official gene (HGNC) and protein (UniProt) identifiers ensure reproducibility. The method supports both neoadjuvant (pre-surgical) and adjuvant (post-surgical) treatment strategies. Chemotherapy agents may include taxanes, anthracyclines, or platinum-based drugs. The VEGF-A inhibitory drug is preferably bevacizumab or a biosimilar.
+
+### Treatment Regimen
+
+In the neoadjuvant setting, treatment is administered before definitive surgery to downstage tumors and assess in vivo drug sensitivity. The NeoAVA clinical trial demonstrated that ViRP-selected patients receiving bevacizumab plus chemotherapy achieved significantly higher pCR rates than unselected populations. Similarly, the PROMIX trial validated the signature’s predictive power in an independent cohort. In the adjuvant setting, post-surgical therapy aims to eliminate micrometastases; ViRP-guided selection may enhance long-term disease-free survival. Chemotherapy backbone regimens are tailored to tumor biology, while bevacizumab is dosed at 10–15 mg/kg every two to three weeks.
+
+### Relative Importance of Proteins and Modelling of Protein Combinations
+
+Protein importance within the ViRP signature was ranked using the lmg metric from the relaimpo R package, revealing Syk as the most influential contributor. All possible combinations of the nine proteins were computationally modeled to assess predictive performance, confirming that the full signature outperforms reduced subsets. Signature score models were evaluated for stability via cross-validation and external validation, ensuring clinical reliability.
+
+## EXAMPLES
+
+### Example 1: Identification of Ten Protein Prognostic Signature
+
+A cohort of 109 HER2-negative breast cancer patients from the NeoAVA trial was analyzed. Patients received neoadjuvant chemotherapy alone (n=55) or with bevacizumab (n=54). Primary endpoint was pCR; secondary endpoints included RCB and relative tumor size. Clinicopathological features were balanced between arms. Protein profiling via RPPA assessed 210 cancer-related proteins, including 54 phosphoproteins. Samples were processed by serial dilution, antibody probing, and DAB visualization, followed by log2 transformation and median centering.
+
+Statistical analysis began with filtering low-variance proteins using a mixed-model distribution, retaining 114 high-variance analytes. Adaptive Lasso regression linked protein expression to relative tumor shrinkage, yielding an initial ten-protein signature. A second Lasso iteration refined this to nine proteins. ViRP scores correlated strongly with tumor shrinkage (R²=0.67, p<0.001) and discriminated pCR vs. non-pCR (p<0.001). Similar results were seen for RCB.
+
+An mRNA surrogate was developed using corresponding gene expression data. ViRP mRNA scores correlated highly with protein scores (R²=0.75) and predicted pCR in both NeoAVA and PROMIX cohorts (p<0.001). ROC analysis showed AUCs of 0.85 (pCR) and 0.80 (RCB) for protein scores. Applying the optimal cutoff (0.366) doubled the pCR rate in selected patients. Binomial modeling confirmed the score’s predictive probability (p=0.002). These findings validate ViRP as a clinically actionable tool for personalizing anti-VEGF therapy.

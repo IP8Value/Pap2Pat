@@ -1,0 +1,409 @@
+Here is the outline of the desired patent application.
+Per bullet point, write roughly 800 words.
+
+Example outline (bullet points are the lines starting with '- '):
+## DESCRIPTION OF THE INVENTION
+- describe discovery of ODAM protein in human epithelial cancers
+- describe method for aiding in diagnosis and management of cancer
+- describe specific embodiments of the invention
+- describe methods for determining presence of ODAM or anti-ODAM antibodies
+
+In the example above, each line beginning with '- ' is a bullet point.
+
+```md
+# DESCRIPTION
+
+## ACKNOWLEDGEMENT OF GOVERNMENT SUPPORT
+
+- acknowledge government support
+
+## FIELD
+
+- define field of invention
+
+## BACKGROUND
+
+- discuss limitations of prior art
+
+## SUMMARY
+
+- introduce 3D multielectrode arrays
+- describe 3D electrodes with photopolymer and metal coating
+- describe electrical connection to electrical traces
+- describe aspect ratio of 3D electrodes
+- describe conical shape of 3D electrodes
+- describe base and shaft portion of 3D electrodes
+- describe tip portion of 3D electrodes
+- describe exposed metal at tip portion
+- describe spacing between 3D electrodes
+- describe 3D printing of 3D electrodes
+- describe height of 3D electrodes
+- describe substrate material
+- introduce method of forming 3D multielectrode array
+- describe defining electrical contacts and traces
+- describe applying sacrificial metal layer
+- describe etching sacrificial metal layer
+- describe 3D printing of 3D structures
+- describe applying metal layer
+- describe lifting off sacrificial metal layer
+- describe coating with insulating layer
+- describe removing insulating material from tips
+- describe aspect ratio of 3D structures
+- describe metal and substrate materials
+
+## DETAILED DESCRIPTION
+
+- introduce multielectrode arrays
+- describe applications of multielectrode arrays
+- motivate limitations of traditional thin film lithography
+- describe limitations of planar multielectrode arrays
+- illustrate planar multielectrode array
+- describe limitations of planar multielectrode arrays in tissue applications
+- describe scar tissue ingrowth
+- describe limitations of planar multielectrode arrays in stimulation and recording
+- describe limitations of planar multielectrode arrays in terms of surface area and footprint ratio
+- introduce 3D multielectrode arrays
+- describe 3D multielectrode arrays with raised electrode structures
+- describe 3D printing of electrode structures
+- describe advantages of 3D multielectrode arrays
+- describe customization of 3D multielectrode arrays
+- define photolithography
+- define 3D electronic device
+- define surface area to footprint ratio
+- define aspect ratio
+- illustrate process for integrating 3D printing and photolithography
+- describe combining prepared substrate with 3D printed structures
+- describe selective metallization of 3D printed structure via photolithography
+- describe advantages of 3D electronic device
+- describe prepared substrate
+- describe metal traces and windows on prepared substrate
+- describe 3D printing technique
+- describe raster-scanning direct laser writing lithography
+- describe advantages of rDLW printer
+- describe spacing between adjacent 3D electrodes
+- describe selective metallization of 3D printed structure via lithography
+- describe 3D electronic device
+- introduce 3D multielectrode array
+- detail substrate and electrical connections
+- describe electrodes and electrical contacts
+- introduce pores and geometric features
+- describe different embodiments of 3D printed structures
+- introduce method for manufacturing 3D electronic component
+- prepare substrate
+- pattern electrical contacts and traces
+- create windows for electrical contacts and traces
+- describe photolithography techniques
+- open windows through insulating layer
+- sputter sacrificial metal layer
+- etch sacrificial metal layer
+- describe etching process using photoresist
+- introduce 3D printing of 3D structure
+- describe raster-scanning direct laser writing
+- introduce rDLW printer
+- describe build volume and laser beam
+- detail Cartesian coordinates and microscope
+- describe resonant raster scanner and galvanometer
+- detail build stack plate and immersion objective lens
+- describe rDLW printer components
+- introduce imaging device
+- describe laser source
+- describe beam intensity modulation
+- describe beam expander
+- introduce control system
+- describe data acquisition system
+- describe CAD model conversion
+- describe 3D printing process
+- describe advantages of rDLW printer
+- introduce alternative 3D printing device
+- describe receiving CAD model
+- describe actuating 3D printer
+- describe 3D printing with rDLW printer
+- describe customization of electrodes
+- introduce examples of 3D structures
+- describe resulting 3D printed structures
+- describe selectively metalizing 3D printed structure
+- describe photolithography techniques
+- introduce positive photoresist lithography process
+- describe applying positive photoresist
+- describe exposing to light source
+- describe developing and metalizing
+- describe resulting 3D electronic device
+- describe 3D structure printing
+- describe metal trace on substrate
+- describe negative photoresist application
+- describe proximity mask positioning
+- describe light source exposure
+- describe negative photoresist development
+- describe metal layer application
+- describe metal layer removal
+- describe resulting 3D electronic device
+- introduce sacrificial metal layer process
+- describe sacrificial metal layer application
+- describe positive photoresist application
+- describe UV light source exposure
+- describe positive photoresist development
+- describe sacrificial metal layer etching
+- describe 3D structure printing
+- describe metal layer application
+- describe sacrificial metal layer removal
+- describe resulting 3D electronic device
+- describe electrical contact connection
+- describe 3D multielectrode array production
+- describe insulating layer application
+- describe insulating layer removal
+- describe final device configuration
+- describe device configuration options
+- describe multielectrode array embodiments
+- describe multielectrode array fabrication
+- introduce insulated multielectrode array
+- describe electrical traces on substrate
+- explain photopatterning of traces
+- show exemplary 3D structures
+- describe 3D printing of structures
+- discuss applications of 3D structures
+- introduce implantable 3D electrodes
+- describe 3D structures for computer chips
+- explain surface area to footprint ratio
+- define high surface area
+- describe aspect ratio
+- introduce 3D structures with high aspect ratio
+- describe exemplary 3D structures with mesh-like structure
+- show zoomed-in view of mesh structure
+- describe spaces in mesh structure
+- introduce conical 3D structures
+- describe pores in conical 3D structure
+- explain spacing and geometry of pores
+- discuss applications of conical 3D structures
+- introduce 3D printed extension members
+- describe exemplary conical 3D structure with extension members
+- show zoomed-in view of conical 3D structure
+- describe pores in conical 3D structure with extension members
+- explain size and geometry of pores
+- discuss high-resolution 3D printing
+- describe conical 3D structure
+- extension member of conical 3D structure
+- hook mechanism of extension member
+- internal channels of conical 3D structure
+- apertures of internal channels
+- electrodeposition on internal channels
+- tissue ingrowth on internal channels
+- 3D spike electrodes
+- tapered geometry of 3D spike electrodes
+- base of 3D spike electrodes
+- tip of 3D spike electrodes
+- aspect ratio of 3D spike electrodes
+- pyramidal 3D structures
+- conical 3D structures
+- pores of different sizes
+- metallization of 3D structures
+- print pads of substrate
+- electrical traces of substrate
+- insulating layer of substrate
+- customization of 3D structures
+- computer models of 3D structures
+- 3D printing of 3D structures
+- limitations of photolithography
+- high resolution printing
+- pitch or spacing between 3D electrodes
+- surface area of 3D electrodes
+- roughening surface of 3D electrodes
+- introduce 3D printed structures
+- plasma treatment for surface roughness
+- iridium oxide application for surface roughness
+- combination of plasma and iridium oxide treatments
+- tapered or spike-shaped 3D electrodes for scar tissue penetration
+- selectively metallizing 3D structures for various devices
+- implantable 3D electrodes for neurostimulation and/or recording
+- 3D multielectrode arrays for neural stimulation and/or recording
+- high surface area 3D scaffold multielectrode arrays
+- tissue integration with 3D electrodes
+- porous or internal channel structure for growth factors
+- seeding neurotrophic factors for cell ingrowth
+- selecting growth factors for specific implantation sites
+- 3D neurostimulation electrodes with lower power consumption
+- 3D recording electrodes with long-term recording capabilities
+- incorporating extension members for anchoring
+- 3D printed structures with higher aspect ratios
+- reducing immune response and improving anchoring
+- shank or spike-shaped structures for 3D electrodes
+- insulating 3D recording or stimulation electrodes
+- applying insulating material coating
+- exposing metal tip for electrical recording or stimulation
+- creating insulated recording or stimulation electrodes
+- 3D printing conical, pyramidal, or spike-shaped structures
+- applying metal layer and removing sacrificial metal layer
+- depositing insulating material
+- electrodepositing iridium oxide for surface roughness
+- removing insulating layer from metal tip
+- exposing conductive metal surface for recording or stimulation
+- creating multielectrode arrays with insulated 3D electrodes
+- applying sacrificial metal layer
+- photopatterning openings in positive photoresist
+- etching sacrificial metal layer to form mask for electrical traces
+- describe 3D structure printing
+- motivate metal layer formation
+- describe sputtering process
+- explain sacrificial metal layer removal
+- describe metallized 3D printed structure formation
+- motivate insulating material coating
+- describe insulating layer formation
+- explain metallized tip exposure
+- describe final device formation
+- motivate tapered 3D structure
+- describe spike-shaped 3D structure
+- explain tip portion configuration
+- describe barb configuration
+- motivate base width variation
+- describe height variation
+- explain 3D electrode structure formation
+- describe multielectrode array formation
+- motivate flexible substrate use
+- describe 2D photolithography-based device platform integration
+- explain 3D electrode array formation on existing device platform
+- describe flexible polymer substrate use
+- motivate 3D electronic device formation
+- explain 3D printing and photolithography integration
+- describe high aspect ratio 3D electronic component formation
+- motivate specific geometric feature formation
+- describe densely packed array formation
+- explain device customization
+- describe general considerations
+```
+
+You need to draft a complete patent application that strictly follows the outline's section order and headings. Do not skip any bullet points. Use formal patent language. The generated patent must not be shorter than the research paper in word count.
+
+Here is the research paper that describes the invention:
+
+```md
+# Results
+
+High-speed custom 3D direct laser writer Two-photon lithography is a 3D printing method that uses femtosecond pulses of infrared light to polymerize an ultraviolet photoresist at the focal point of a high-numerical-aperture lens. By changing the position of the focal point within the liquid photoresist, complex polymer shapes can be written at micron resolution. We recently described an open-source 3D printing system that uses a resonant scan mirror to increase printing speeds by 1-2 orders of magnitude relative to most galvanometer-based printers 12 . In this system, a design that fills a cubic millimeter of space at near-micron resolution takes approximately one minute to print. The printer incorporates fluorescence imaging and reflected-light-sensing pathways that provide real-time information about the degree of polymer crosslinking and surface localization. During the print process, surface localization within a micron is critical to achieving strong adhesion between the 3D print and the substrate. The printer achieves this by measuring the fluorescence of the photoresist at the substrate interface. For all devices reported here, we used the commercially available photoresist OrmoComp® (Micro Resist Technology), a glass-like, biocompatible member of the ORMOCER® family 13 . We provide specific details of the photoresist blend in Methods.
+
+## 3D-printed arrays for neural recording
+
+We use two-photon lithography to 3D print non-conductive structures on thin films. The 3D structures are later coated with platinum for electrical conductivity to make functional electrode arrays. The first prototype device was a 16-channel array of 350 µm tall electrodes with a 20 µm diameter at the recording tip, Fig. 1. The electrodes are spaced at 90 µm, and the device includes a hybrid polyimide/Parylene-C flex cable running from the electrodes to an external connector (as shown in Fig. 1a). Individual shanks in this prototype device were spaced too closely to be implanted in our test organism, the zebra finch songbird. This was due to a "bed of nails" effect upon insertion. After describing this first electrode, we show devices made implantable by either increasing the spacing of electrodes or preparing sharper tips.
+
+The fabrication diagram in Fig. 2 outlines a simplified device geometry, which does not include the 16 mm long polyimide ribbon cable shown in Fig. 1. The first five steps in Fig. 2 are standard waferscale thin-film processes. The process is described in more detail in the Methods section. Briefly, a Chromium (Cr) sacrificial layer is deposited and patterned to form the outline of the traces and electrode sites. Cr is used for metal trace patterning instead of standard lift-off photoresists since the development of the 3D prints also dissolves the standard photoresists we tried. To integrate the 3D electrode structures in step 6, the wafer is transferred to the 3D printer, and a liquid photopolymer is applied. The microscope objective is immersed in liquid photopolymer, and the 3D shapes are written directly with the laser from an input CAD file. Each 16-channel array of polymer spikes is printed in approximately 10 min using an integrated surface finding and substrate positioning feature. Total print time can be accelerated if more than one spike is printed at a time, but this was not explored in this paper. Following the printing process, the entire wafer is metalized via a non-directional sputter deposition process. The sputtering process metalizes both the traces and polymer-printed structures simultaneously. Lift-off of the Cr layer is performed to define the traces and electrodes.
+
+The wafer is coated with parylene C via vacuum deposition, a standard insulation process used for electrodes 14 to insulate the metal traces and metalized spikes. A small region of the parylene C insulation layer is removed at the tip of each electrode to expose the underlying platinum to create a recording surface. In prior reports, this has been achieved using a mask and UV laser process 14 or a focused ion beam (FIB) 15 . The FIB process is slow and costly, and single-photon laser ablation with a mask provides little flexibility for opening specific locations in complex three-dimensional structures. In our fabrication process, parylene C removal is achieved via femtosecond laser milling using a high-pulse, energy-amplified fiber laser (Monaco by Coherent, max 40 µJ). To do this, we utilize the same resonant scanning twophoton microscope that forms the basis of the 3D printer after first switching laser sources from the 80 MHz polymerizing laser to a high pulse energy laser. Ablation involves raster scanning a 2-3-micron thick volume that includes all electrode tips (see Methods), removing material at micron resolution. Figure 3 illustrates the tip-opening process. The exposed metal is evident in Fig. 3d, e shows a scanning electron microscope (SEM) image with false color based on energydispersive X-ray (EDX) chemical analysis. The blue false color on the exposed tip indicates a surface presence of the element platinum. Thanks to the a-thermal process of femtosecond milling, this tipablation process does not leave significant re-deposited material on the electrodes. No additional cleaning steps were used in Fig. 3d.
+
+Figure 4 illustrates a cross-section of the device and impedance spectra from 16 electrodes on a single test device. The mean impedance of the 16 electrodes is 200 kOhm at 1 kHz. Note that in these initial tests, a small "log pile" structure is 3D printed at the top of each electrode (Fig. 3e). This structure creates an additional surface area at the recording. After laser ablation, the exposed electrode surface areas yielded acceptable impedance values, though future  fabrication runs could include a subsequent IrOx electrodeposition step to decrease the impedance 16 .
+
+As a final fabrication step, the devices are singulated by scanning the device outline with the high pulse energy laser to cut through the parylene C and polyimide. Using anisotropic conductive film (ACF), the flex cables are bonded to an Omnetics connector allowing for direct integration with Intan and Open Ephys recording systems.
+
+The fabrication process described here provides a general recipe for high aspect-ratio 3D-printed electrodes integrated on thin-film substrates. The automated printing and laser ablation steps are algorithmically defined, making it easy to alter electrode height profiles or shapes and customize arrays to specific experiments or brain anatomical features.
+
+## Neural implantation and recordings
+
+We recorded in zebra finch and mouse to test whether these devices can capture relevant physiological signals from the brain. We positioned the devices precisely with a micromanipulator, holding and applying load directly behind the array with a suction pipette (Fig. 5a). Once implanted in the zebra finch brain, the devices picked up high-SNR spikes on multiple channels (Fig. 5b), showing that the prototype can capture neuronal populations at the single-unit level. Figure 5b shows example spikes that exceed an SNR of 8 on their respective channels from the implantation shown in Fig. 5a. We next recorded local field potentials (LFPs) in the olfactory bulb of awake, freely breathing mice to test whether our devices can capture neural correlates of ethologically relevant behavior. Figure 5c shows an example raw recording from the olfactory bulb of a mouse and two isolated units. Spikes and LFPs in the olfactory bulb faithfully follow the breathing rhythm [17][18][19] . By aligning LFPs with the breathing signal, we show that LFP rhythms recorded from our devices faithfully recapitulate the aperiodic breathing rhythm of awake mice (Fig. 5d). These data demonstrate that our devices can cleanly capture relevant physiological signals at high temporal resolution. Future implementations will enable denser, chronic recordings, even in hard-to-reach brain areas.
+
+## Biomimetic geometries and insertion tests
+
+Based on Euler's buckling calculations for the 1 GPa modulus of the photoresist OrmoComp® (Micro Resist Technology), individual electrodes with 20 µm flat tipped geometry will withstand a critical force of 1-3 mN, which is more than an order of magnitude above the penetration requirement for similar electrode shapes in another study that inserted electrodes in mice brains with dura removed -0.17 mN 20 . However, our preliminary surgeries determined that multielectrode arrays composed of flat-topped 20 µm electrodes at a pitch of 90 microns could not be inserted in songbird brains due to dimpling of the brain surface-the "bed-of-nails" effect. We found that the same 20 µm electrodes at 300 µm pitch were easily inserted in songbird brains with the dura removed.
+
+To reduce tissue insertion forces, we next developed a prototype of an electrode that mimics a natural geometry 14 . The mosquito proboscis reduces insertion force while resisting buckling thanks to a tip geometry shown in Fig. 6b. Taking advantage of the high resolution of the 3D print process; we printed test structures with sharp spikes resembling the point of the mosquito needle (Fig. 6a). Test structures were composed of 350 µm tall shanks in a 4 × 4 grid at 150 micron pitch. Another study found that 15 micron wires with a 24degree beveled tip showed comparable pia insertion forces to flattopped wires. Still, electropolished wires with a 10 nM tip radius revealed insertion forces that were decreased by an order of magnitude or more relative to flat wires 20 . We could not measure insertion forces during these tests, but the devices could be readily inserted in songbird brains with the dura removed. Surprisingly, we also found that the mosquito-needle prototypes could be inserted in songbird brains without removing the dura. An implant that avoids durectomy will be faster and reduce the risks of swelling and damage to the brain surface. The mosquito needle provides proof of concept. The rapid and low-cost printing process can efficiently explore a range of electrode geometries in search of an optimal shape for tip insertion.
+
+## Porous stimulating electrodes
+
+In addition to neural recording, microfabricated electrodes produced using thin-film lithography have been proposed for high-channelcount neuromodulation. Applications include bioelectric medicine via the stimulation of peripheral nerves 21,22 , visual prosthesis via retinal interfaces 23 , and cortical interfaces to provide neuromodulation for mental disorders or enhance stroke recovery 24,25 . Multiple companies are now pursuing neural interfacing through microfabricated flexible electrode arrays, and these projects include future applications in neural stimulation 2,26,27 .
+
+Traditional microfabricated electrode arrays are, by nature, planar. One way to improve their stimulation performance is to create 3D structures raised above the electrode surface, allowing for a more intimate connection with the target tissue. This can concentrate charge delivery to target neurons, improving both stimulating thresholds and specificity. This concept was investigated in a silicon retinal interface with stimulating electrodes composed of vertical pillars, 10 µm in diameter and 65 µm tall, that interfaced directly with the inner nuclear layer of cells in the retina 28 . This intimate contact facilitates concentrated charge injection for retinal prosthesis and lowers stimulating voltage-factors that could lead to a higher-resolution visual prosthesis with lower power requirements 29 . While 65 µm tall vertical pillars on rigid silicon are an appropriate form factor for small, localized implants, devices that interface with a more significant fraction of the retina or other curved surfaces will require the integration of stimulating pillars on a flexible substrate. Similarly, some applications, such as cortical stimulation, may require higher aspect-ratio stimulating electrodes for therapeutic charge delivery. We anticipate that the thin-film 3D electrodes described in this project could be adapted to a stimulating electrode geometry. As a first step toward that goal, we developed a process to create macroporous 3D electrodes. These devices were initially fabricated on silicon wafers for easy electrochemical testing.
+
+Figure 7 illustrates the fabrication process for the porous electrodes on a Si substrate. The metal lift-off process described in Fig. 2 involved fabricating electrical traces in the same sputtering step that coats the 3D prints with metal. In contrast, this process involves preestablished traces later connected to raised 3D metal surfaces in a second metal sputtering step. We printed structures with pore crosssections ranging from 40 µm 2 to 400 µm 2 , solid prints, and planar electrodes lacking 3D prints for controls. Sputtering at elevated pressure was used to reduce directionality, resulting in interior metalization of the porous structures.
+
+Figure 8 shows SEM micrographs of the structures. These prototypes feature metalization throughout the interior of a porous 3D shape. Figure 8c,d shows the extent of the internal metalization of a print both before and after FIB sectioning. A complete device can be seen in Fig. 8a. For the solid pyramids, we found a ~2× increase in charge storage capacity relative to a flat 2D electrode pad (Fig. 8b). However, the solid and large-pore pyramids showed similar cyclic voltammetry curves even though the surface area of the large-pore pyramid is 2x the surface area of the solid pyramid. While the metalization in Fig. 8d appears to be conformal on the interior of the 3D electrode, we cannot rule out that the interior is inadequately coated, and further tests will be needed with longer platinum deposition runs. Alternatively, the interior of the porous electrode may not be completely accessible to the process of electrochemical charge injection in saline due to time constants of diffusion or other factors. In future studies, a given electrode geometry can be printed at multiple scales to systematically examine the impact of pore dimensions on charge injection capacity. 
+
+# Discussion
+
+We have established a process to create 3D electrodes with flexible geometry fabricated at micron resolution. This emphasis on maximizing resolution in 3D-printed electrodes is motivated by multiple factors. First, the high resolution and design flexibility in two-photon lithography makes exploring a wide range of novel electrode shapes possible. Biomimetic mosquito needles penetrate through the dura, barbs that allow electrodes to anchor within the tissue, and porous electrodes are examples of shapes shown here. The 3D printing process enables unique individual electrode geometries and the customization of electrode length profiles to match specific brain regions' curvature or depth profiles. Another potential benefit of highresolution 3D printing is that it may reduce electrode cross-sections, leading to chronic neural recordings with a higher signal-to-noise ratio (SNR). For electrodes that are significantly larger in cross-section than neuron cell bodies, a reactive tissue response encapsulates electrodes and damages cells at distances up to 100 µm from the implant [30][31][32][33][34] .
+
+Action potential amplitude decays rapidly with distance from an electrode [35][36][37] . As a result, adverse tissue response is a particularly severe problem for small animal studies where scar encapsulation can prohibit single neuron resolution recordings from the densely packed regions of interest. The two-photon lithography employed here may allow the fabrication of microelectrodes with dimensions well below the 20 µm limit that is thought to evade much of the brain's immune response [38][39][40] . To realize this vision, it will be necessary to increase the stiffness of the printed structures to create finer electrode shanks that can insert without buckling and to develop laser tip-ablation strategies that preserve sharp geometries, such as the mosquito-needle prototypes. Increased stiffness will be required to create a device complementing the Utah array for human or large animal chronic applications in Cortex. For this application, electrodes should be at least 1 mm long. Electrodes of this length can be printed with the method described here but will likely require enhancements in stiffness to avoid buckling during insertion. Current directions in the project are exploring the use of amorphous silicon carbide as an alternative to the parylene-C encapsulation layer, thereby increasing electrode stiffness.
+
+The high resolution of two-photon lithography could enable the fabrication of high-channel-count electrode arrays, resulting in a more significant number of electrodes per unit area within the brain or retina. These devices represent a region of electrode configuration space previously unoccupied, namely the potential for high-channel-count 3D electrode arrays with features definable at micron resolution.
+
+## Small animal model electrodes
+
+We anticipate initial applications in small animal models where 3D electrode arrays could be fabricated to conform to specific spatial profiles within target brain regions. In addition to chronic implants in fixed locations, integrated flex cables allow these devices to be mounted on micro-drives to sample multiple depths serially. In songbirds and other animal models, the quality of single-unit isolation decays after implantation, making it challenging to study the neural mechanisms of learning. The only known way to significantly improve signals over the long run is to reduce electrode scale. While carbon fiber electrode arrays have demonstrated stable recordings over long time scales, yield is low, and the fabrication process is not scalable 41 . Thin-film silicon carbide ultramicroelectrodes provide a scalable alternative that will be investigated further 42 , and polymer electrodes using insertion shuttles show promise for increasing signal longevity 43 . Until the progressive signal loss is resolved, the highest signal-to-noise ratio recordings will be achieved by moving multielectrode arrays into fresh brain tissue with a micro-drive. Micro-drives that advance an electrode with a screw or small motor have been the cornerstone of electrophysiological studies in songbirds and mice for decades 44 , and high-channel-count silicon probes have increased the yield of these experiments 45 . Still, for a single silicon shank with many electrodes, only the electrodes near the probe's tip are moved into fresh tissue when a micro-drive is advanced. For the 3D electrodes described here, every electrode contact will move into new tissue when the micro-drive is advanced. We anticipate that high-channelcount 3D electrodes on micro-drives will yield a more significant number of single-unit recordings, extend the operational period of animal experiments, and provide the unique ability to sample 3D volumes in behaving animals.
+
+## Porous stimulating electrodes
+
+We anticipate multiple benefits from 3D and porous stimulating electrodes. At the simplest level, the protruding surfaces of 3D stimulating electrodes will provide better electrical contact between the electrode and neural tissue, with potential applications in cortical micro-ECoG recording and stimulation, as well as peripheral nerve interfacing 29 . 3D-printed macro-pores can also increase the surface area of the electrodes while maintaining the same overall displaced tissue volume. For example, the solid pyramids in Fig. 8a have a surface area of 0.076 mm 2 . In comparison, the pyramids with the smallest pores have a total surface area of 0.391 mm 2 , providing a five-fold increase in contact between the stimulating surface and the tissue. The benefit of this porosity remains to be determined for chronic implants where tissue ingrowth leads to increased access resistance within the pores. While tissue ingrowth may be a limiting factor for charge injection, it could stabilize the porous neural interface against micromotion and reduce fibrotic encapsulation. Ingrowth of neural processes could also be encouraged to promote "neurotrophic electrodes" with the potential for stable multi-unit recordings and reduced thresholds for stimulation of ingrown axons or dendrites [46][47][48] . Recent studies have demonstrated vascular integration of porous ECoG arrays implanted at the brain's surface in mice 49 . We speculate that similar vascular ingrowth could occur in porous, 3D-printed microelectrodes and could improve device longevity by providing stabilization against migration and micromotion.
+
+The fabrication method for 3D-printed electrode arrays presented here is robust, wafer scale, and fully compatible with standard Si and flexible polyimide device fabrication processes. Using high-resolution 3D laser writing, a wide range of unique electrode shapes can be fabricated, from biomimetic needles to porous electrodes. These devices will enable volumetric recordings at a spatial resolution not achievable with current 3D microelectrode devices. The fabrication methods described here can be adopted at many research universities for users with access to two-photon lithography, laser ablation, photolithography, and sputtering tools. If dissemination grants or industry partners support this work, the technique could provide new tools for a range of users across neuroscience and neural engineering and in human applications such as visual prosthesis or nerve interfaces where high-density recording and stimulation are required in a small form factor.
+
+# Methods
+
+## 3D-printed electrodes
+
+Three-dimensional electrode structures are printed using a twophoton 3D printer in a process known as direct laser writing. This printer was described previously 12 . Electrode shapes are designed in standard 3D CAD software and uploaded into the printer software as STL files for print voxelization. The photopolymer is a hybrid resist based on the commercially available photoresist OrmoComp® (Micro Resist Technology), a glass-like, biocompatible member of the ORMOCER® family 13 . We add a photoinitiator (2,4,6-trimethyl benzoyl phosphine oxide (TPO), Sigma Aldrich), a stabilizing agent, (3,5-Di-tertbutyl-4-hydroxytoluene (BHT), Sigma Aldrich) and fluorescein (Sigma Aldrich) for in situ imaging during 3D printing. A 780 nm Chameleon Discovery laser with a 100 fs pulse width, 80 MHz rep rate, set to ~40 mW power, is focused through a 20x Nikon immersion lens (NA 0.7) to initiate polymerization in the photoresist. Following prints, the substrates are submerged in Ormodev (Micro Resist Technology) developer for 12 h to remove un-polymerized photoresist, followed by a rinse in isopropanol. The development process is followed by a 10min UV cure at 395 nm (Solis-365 C at 2.8 mW/mm 2 ) to increase the overall degree of crosslinking in the polymerized resist and to enhance the mechanical stability of the structures 50 .
+
+An overview of the thin-film fabrication process can be seen in Fig. 2. Electrodes are fabricated on prime grade 75 mm Si wafers with 300 nm of thermal oxide (University Wafer). A base layer of polyimide (HD MicroSystems PI2611) is spun onto the surface and cured at 350 °C for 30 min. in a nitrogen environment to a final thickness of 6 µm. Adhesion promoter (HD Microsystems VM652) is added to the edge of the wafer before polyimide spin coating. 500 nm of Cr is then sputtered onto the polyimide surface (3 mTorr DC) as a sacrificial layer. To define the metal traces of the electrode array, AZ-1512 photoresist (Kayaku Advanced Materials, Inc.) is spun onto the wafer surface and patterned using a Süss Microtec MJB4 mask aligner (350 W mercury arc lamp) with an exposure dose of 70 mJ/cm 2 . All photolithography masks are written in-house on a direct write laser lithography system (Heidelberg). After development (AZ 300 MIF), room temperature Transene Chromium Etchant 1020 (ceric ammonium nitrate/nitric acid) is used to etch through the 500 nm Cr layer, forming the mask for the final traces and defining the print locations. The photoresist is removed via sonication in acetone at 37 kHz for 5 min.
+
+Before 3D printing, the patterned wafer is cleaned with oxygen plasma for 90 s in a March plasma etcher at a pressure of 300 mTorr and RF power of 100 W to increase print adhesion. Following initial wafer alignment, surface finding and printing for each electrode in the array is automated. After printing and developing 3D electrode structures, the devices are plasma cleaned again before final metalization to increase metal adhesion to the prints. The print structures are then sputtered with Ti (15 nm)/Pt (200 nm) in an Angstrom Engineering sputter system at 3 mTorr (Ti-DC) and 10 mTorr (Pt-RF). The Cr sacrificial layer lift-off is done in Transene Chromium Etchant 1020 at 60 °C for 15 min. To effectively remove all metal flakes, wafers are transferred to multiple fresh etchant baths during the lift-off process with agitation, followed by a thorough rinse in DI water. Finally, the Omnetics connector contact pads are masked with Kapton tape, and a 3 µm thick layer of parylene C is deposited (Labcoater 4200) over the wafer.
+
+The porous electrodes illustrated in Fig. 8 were fabricated directly on the Si wafers described in Fig. 7. Here, an initial metalization (10/ 50 nm Ti/Pt) layer was patterned and then electrically isolated with 500 nm of SU-8 negative photoresist (Kayaku Advanced Materials, Inc.). Openings in the SU-8 were made using a photomask and an exposure dose of 65 mJ/cm 2 . These openings were large enough to include a region of the Ti/Pt metal traces to create electrical connections in the subsequent metal sputtering. 500 nm of Cr is then sputtered onto the polyimide surface (3 mTorr DC) as a sacrificial mask layer. AZ-1512 photoresist (Kayaku Advanced Materials, Inc.) is spun onto the wafer surface and patterned to define the print location holes in the Cr aligned with the holes in the SU-8. Patterning of this layer is done with a Süss Microtec MJB4 mask aligner (350 W mercury arc lamp) with an exposure dose of 70 mJ/cm 2 . After development (AZ 300 MIF), room temperature Transene Chromium Etchant 1020 is used to etch through the 500 nm Cr layer, forming the openings for the final print locations. The photoresist is removed via sonication in acetone at 37 kHz for 5 min. Devices were then printed, metalized, and the chromium layer was released as described above.
+
+### FIB milling
+
+Focused ion beam (FIB) milling was utilized for slicing open printed structures and assessing the extent of internal metalization. A Ther-moFisher Helios Hydra PFIB was used with an Ar/O 2 beam.
+
+### Laser tip ablation
+
+A 1035 nm wavelength pulsed laser (Coherent, Monaco) is used to remove the parylene C from the tips of the prints. This laser is coaligned with the 3D printing laser (Discovery) in the above resonant scan 3D printing system. The initial alignment points on the wafer are found using the Discovery laser to avoid damage. The parylene C is then removed from the tips of all 16 electrodes in a single cut process at a 1 MHz pulsing setting. The cut raster scans a 2-3 micron thick volume, including all electrode tips. During this process, emitted ultraviolet from the ablation process is imaged with photomultiplier tubes in a standard two-photon imaging fashion. This emitted light from the laser ablation process can be used to calibrate the ablation power. This laser ablation process takes less than one minute per array.
+
+### Device finalization and release
+
+To release the entire device from the wafer, the 1035 nm pulsed laser is used to cut through the polyimide and parylene layers using the programmed motion of a precision translation stage. The wafer is then placed in warm water to release the individual devices. Finally, Omnetics connectors are attached to the device pads via anisotropic conductive film (3 M, ACF 7371).
+
+### Electrochemical measurements
+
+Cyclic voltammetry (CV) and electrochemical impedance spectroscopy (EIS) data were collected using a high surface area Pt counter electrode and an Ag/AgCl reference electrode on a Gamry Reference 600 potentiostat. Measurements were conducted in phosphatebuffered saline (pH ~7.2) consisting of 0.126 M NaCl, 0.081 M Na 2 HPO 4 , and 0.022 M NaH 2 PO 4 . Before measurement, the electrolyte solution was sparged with He gas for ~30 min to remove dissolved O 2 . CV curves were cycled at 50 mV/s until differences between subsequent scans were no longer observed. Additional complete device checks were performed via Open Ephys using Intan chips.
+
+### Animals
+
+All experimental procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at the University of Oregon and comply with the National Institutes of Health Guide to the Care and Use of Laboratory Animals. Adult zebra finches (Taeniopygia guttata; >120 days post-hatch) and C57BL/6J mice (2-14 months old) were obtained from the Terrestrial Animal Care Services (TeACS) at the University of Oregon.
+
+### Surgeries
+
+Zebra finches were anesthetized using isoflurane gas anesthesia (1.5% in oxygen). A small craniotomy was performed above the songbird analog of the motor cortex (HVC). Acute spontaneous recordings were performed under anesthesia.
+
+Mice were anesthetized using isoflurane gas anesthesia, and a head plate was added. A thermistor was implanted between the mice's nasal bone and inner nasal epithelium to measure respiration. A small craniotomy was performed above one of the olfactory bulbs, contralateral to the side of thermistor implantation. The reference electrode was implanted in the cerebellum. At the end of the procedure, the craniotomy was covered with a biocompatible silicone elastomer sealant (Kwik-cast, WPI). The mice were given 3 d after surgery for recovery.
+
+### Recordings
+
+Probes were inserted via a custom fixture, and all recordings were taken via the OpenEphys software package. The data were acquired using a 128-channel data acquisition system (RHD2000; Intan Technologies) at a 30 kHz sampling frequency. We record sniffing using intranasally implanted thermistors (TE Sensor Solutions, #GAG22K7MCD419). These thermistors are attached to pins (Assmann WSW Components, #A-MCK-80030) and into the analog input of the RHD2000.
+
+### Data analysis
+
+Analysis of spikes and sniffing were performed in MATLAB. Electrophysiological data were analyzed via Kilosort and Phy2. Inhalation and exhalation times were extracted by finding peaks and troughs in the temperature signal after smoothing with a 25 ms moving window. Sniffs with a duration less than the 5th and greater than the 95th percentile were excluded from the analysis.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/ licenses/by/4.0/.
+
+# Acknowledgements
+
+We thank the University of Oregon Technical Sciences Administration staff for assistance with hardware design, and the facilities and staff at the Center for Advanced Materials Characterization in Oregon. This work was supported by the Phil and Penny Knight Campus for Accelerating Scientific Impact and by the University of Oregon Initiate of Neuroscience, the NIH fellowship grant F32MH118724 (M.A.B.), and NIH grants R01NS104925 and R01NS118424 (T.J.G., co-PD/PI).
+
+# Data availability
+
+The electrophysiological traces reported in this paper are available upon request.
+
+# Code availability
+
+The custom software for 3D printing has been described previously and is available at https://github.com/gardner-lab/printimage.
+
+# Competing interests
+
+The authors declare the following competing interests. Patent applicant: University of Oregon. Name of the inventor (s): Timothy J. Gardner, Morgan A. Brown, Kara M. Zappitelli. Application number: UO DIS-20-042; KS Ref. No. 1505-105149-01. Status of application, Pending. The specific aspect of the manuscript covered in the patent application: Methods and systems for fabricating 3D electronic devices with 3d-printed electronic components. There are no other competing interests.
+
+# Additional information
+
+## Supplementary information
+
+The online version contains supplementary material available at https://doi.org/10.1038/s41467-023-39152-7.
+
+Correspondence and requests for materials should be addressed to Timothy J. Gardner.
+
+Peer review information Nature Communications thanks Il-Joo Cho, and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. A peer review file is available.
+
+Reprints and permissions information is available at http://www.nature.com/reprints Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+```

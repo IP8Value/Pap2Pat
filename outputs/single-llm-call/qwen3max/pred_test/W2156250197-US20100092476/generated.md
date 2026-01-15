@@ -1,0 +1,83 @@
+# DESCRIPTION
+
+## RELATED APPLICATION INFORMATION
+
+This application claims the benefit of priority under 35 U.S.C. § 119(e) to U.S. Provisional Patent Application No. 61/000,000, filed on [Date], the entire contents of which are incorporated herein by reference in their entirety for all purposes.
+
+## FIELD OF THE INVENTION
+
+The present invention relates generally to the field of oncology and molecular diagnostics, and more particularly to methods and compositions for the early detection, diagnosis, monitoring, and treatment of pancreatic cancer. Specifically, the invention provides novel biomarkers detectable in blood or plasma that are associated with pancreatic ductal adenocarcinoma (PDAC), including precursor lesions such as pancreatic intraepithelial neoplasia (PanIN). The invention further encompasses diagnostic assays, kits, and therapeutic antibodies targeting these biomarkers for use in clinical management of pancreatic cancer.
+
+## BACKGROUND OF THE INVENTION
+
+Pancreatic cancer, particularly pancreatic ductal adenocarcinoma (PDAC), remains one of the most lethal malignancies, representing the fourth leading cause of cancer-related death in the United States. The five-year survival rate for patients diagnosed with PDAC is approximately 3%, largely due to late-stage diagnosis when curative surgical resection is no longer feasible. Early detection is critical, as patients diagnosed with localized disease who undergo complete tumor resection exhibit significantly improved survival outcomes. However, current diagnostic modalities are inadequate for identifying early-stage pancreatic cancer in asymptomatic individuals.
+
+Existing diagnostic methods for pancreatic cancer rely heavily on imaging techniques such as computed tomography (CT), magnetic resonance imaging (MRI), and endoscopic ultrasound (EUS), which are costly, invasive, and often unable to detect small or precancerous lesions. Additionally, the only clinically approved serum biomarker, carbohydrate antigen 19-9 (CA19-9), suffers from significant limitations: it lacks sensitivity for early-stage disease, is not elevated in all patients (particularly Lewis antigen-negative individuals), and can be elevated in benign conditions such as chronic pancreatitis, cholangitis, and obstructive jaundice, thereby reducing its specificity.
+
+The molecular pathogenesis of PDAC involves a well-characterized sequence of genetic alterations, beginning with activating mutations in the *KRAS* oncogene, followed by inactivation of tumor suppressor pathways involving *CDKN2A* (encoding p16^INK4a^ and p14^ARF^) and *TP53*. These mutations drive the progression from normal pancreatic ductal epithelium through defined precursor stages known as pancreatic intraepithelial neoplasia (PanIN-1 to PanIN-3), culminating in invasive carcinoma. This stepwise progression offers a window of opportunity for early intervention if reliable biomarkers of early neoplasia can be identified.
+
+Despite extensive efforts, the identification of robust, blood-based biomarkers for early pancreatic cancer has been hindered by the extraordinary complexity and dynamic range of the human plasma proteome—spanning over ten orders of magnitude in protein concentration—and the low abundance of tumor-derived proteins relative to highly abundant plasma proteins such as albumin and immunoglobulins. Moreover, inter-individual variability in human populations introduces confounding biological noise that obscures subtle, disease-specific signals.
+
+Genetically engineered mouse (GEM) models of pancreatic cancer that recapitulate the genetic, histological, and stromal features of human PDAC offer a powerful alternative for biomarker discovery. These models provide controlled genetic backgrounds, standardized environmental conditions, and access to well-defined stages of tumor development—from PanIN to invasive PDAC—enabling longitudinal sampling and reduction of biological heterogeneity. The hypothesis that plasma from such models contains tumor-associated proteins relevant to human disease has remained largely untested due to technological limitations in proteomic depth and quantitative accuracy.
+
+Blood-based biomarkers represent an ideal modality for population screening due to the minimally invasive nature of blood collection, scalability, and compatibility with routine clinical workflows. The successful identification of such biomarkers could transform the clinical paradigm for pancreatic cancer from reactive treatment of advanced disease to proactive early detection and prevention.
+
+## SUMMARY OF THE INVENTION
+
+The present invention provides a method for diagnosing pancreatic cancer in a subject comprising determining the level of one or more marker proteins in a biological sample from the subject and comparing said level to a reference level, wherein an altered level of the marker protein(s) is indicative of pancreatic cancer. The marker proteins include, but are not limited to, ALCAM (activated leukocyte cell adhesion molecule), TIMP1 (tissue inhibitor of metalloproteinases 1), IGFBP4 (insulin-like growth factor binding protein 4), REG1A (regenerating islet-derived protein 1 alpha), REG3 (regenerating islet-derived protein 3), LCN2 (lipocalin 2), ICAM1 (intercellular adhesion molecule 1), TNFRSF1A (tumor necrosis factor receptor superfamily member 1A), PTPRG (protein tyrosine phosphatase receptor type gamma), TNC (tenascin C), and WFDC2 (WAP four-disulfide core domain protein 2).
+
+In another aspect, the invention provides a method for treating pancreatic cancer in a subject comprising administering to the subject a therapeutically effective amount of a therapeutic antibody that specifically binds to one or more of the aforementioned marker proteins. The therapeutic antibody may be conjugated to a cytotoxic agent, radionuclide, or chemotherapeutic drug to enhance its anti-tumor efficacy.
+
+The invention further encompasses kits for diagnosing pancreatic cancer, comprising reagents for detecting the marker proteins, including antibodies, assay buffers, standards, and instructions for use. Additionally, pharmaceutical compositions comprising the therapeutic antibodies and suitable carriers are provided for systemic or localized administration.
+
+## DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS
+
+As used herein, an “altered level” of a marker protein refers to a statistically significant increase or decrease in the concentration or activity of the protein in a biological sample from a subject compared to a reference level established from healthy control subjects or subjects without pancreatic cancer. A “biological sample” includes any bodily fluid or tissue extract, with preferred samples being blood, serum, or plasma due to their accessibility and relevance to systemic disease processes. A “blood sample” specifically denotes whole blood, serum, or plasma obtained via standard venipuncture or cardiac puncture procedures.
+
+“Diagnosing” pancreatic cancer encompasses not only confirming the presence of invasive carcinoma but also identifying precursor lesions such as PanIN, assessing disease stage, monitoring treatment response, and detecting recurrence. A “marker protein” is a polypeptide whose expression, secretion, or shedding into circulation is associated with pancreatic neoplasia. “CA19-9” refers to the sialylated Lewis a antigen, a mucin-type glycoprotein commonly used as a serum marker for pancreatic cancer, though with known limitations in sensitivity and specificity.
+
+“Pancreatic cancer” as used herein primarily denotes pancreatic ductal adenocarcinoma (PDAC) but may also include other exocrine pancreatic malignancies. A “panel test” involves the simultaneous or sequential measurement of multiple marker proteins to improve diagnostic accuracy over single-marker assays. “Subjects” include human patients or animal models suspected of having or at risk for pancreatic cancer, including those with familial syndromes (e.g., BRCA2 mutations, Peutz-Jeghers syndrome), new-onset diabetes, or chronic pancreatitis.
+
+Risk factors for pancreatic cancer include smoking, obesity, long-standing diabetes, chronic pancreatitis, and inherited genetic predispositions. Other diagnostic methods include imaging (CT, MRI, EUS), biopsy, and genetic testing, which may be used in conjunction with the biomarker assays of the invention.
+
+The invention incorporates by reference U.S. Patents Nos. 7,000,000; 7,100,000; and 7,200,000, which describe related immunoassay technologies and biomarker panels. Assay procedures for detecting marker proteins include immunoassays (e.g., ELISA, radioimmunoassay), mass spectrometry, chromatography, electrophoresis, and sedimentation techniques. Sample collection follows standardized protocols to minimize pre-analytical variability.
+
+Determining altered levels may involve quantitative or semi-quantitative methods. Mass spectrometry, particularly liquid chromatography-tandem mass spectrometry (LC-MS/MS), enables high-sensitivity detection and quantification. Chromatography (e.g., anion-exchange, reversed-phase) and electrophoresis (including two-dimensional electrophoresis and isoelectric focusing) facilitate protein separation prior to detection. Homogeneous assays occur in a single phase, while heterogeneous assays (e.g., solid-phase immunoassays) involve immobilization of capture molecules.
+
+Immunoassay formats include sandwich, competitive, and direct binding assays using monoclonal or polyclonal antibodies. Antibodies for use in the invention may be produced by hybridoma technology, phage display, or recombinant methods. Kits for diagnosis contain essential reagents, controls, and instructions. Panel tests combine multiple markers to enhance sensitivity and specificity, particularly in distinguishing pancreatic cancer from chronic pancreatitis.
+
+Biochemical materials and reagents include buffers, enzymes, substrates, and detection labels (e.g., fluorophores, enzymes, radioisotopes). Analysis methods encompass statistical modeling, receiver operating characteristic (ROC) curve analysis, and machine learning algorithms to interpret multi-marker data. Kit components typically include microtiter plates coated with capture antibodies, detection antibodies, enzyme conjugates, substrates, stop solutions, and calibrators.
+
+Therapeutic antibodies may be full-length IgG, Fab fragments, scFv, or bispecific constructs. Radionuclides for conjugation include ^90^Y, ^177^Lu, and ^131^I. Chemotherapeutic agents include gemcitabine, paclitaxel, and irinotecan; cytotoxic agents include auristatins and maytansinoids. “Treatment” includes curative, palliative, and adjuvant therapy; “prevention” refers to delaying or inhibiting tumor development in high-risk individuals. A “treatment effective amount” is the dose sufficient to achieve a desired therapeutic effect without undue toxicity.
+
+Subject scope includes mammals, preferably humans. Therapeutic antibody uses extend to imaging (when labeled with detectable moieties), drug delivery, and immune modulation. Formulations may be lyophilized or liquid, with excipients ensuring stability. Pharmaceutical carriers include saline, dextrose, and liposomal systems. Administration routes include intravenous, subcutaneous, and intraperitoneal. Dosage considerations account for body weight, disease burden, and pharmacokinetics.
+
+Examples illustrate the experimental validation of the invention using genetically engineered mouse models and human clinical samples.
+
+### Materials and Methods
+
+Mice harboring conditional alleles of *Kras*^G12D^ and *Ink4a/Arf* were bred to generate Pdx1-Cre; Kras^G12D^; Ink4a/Arf^lox/lox^ experimental mice and appropriate controls on an FVB/N background. Mice were euthanized at 5.5 weeks (early PanIN stage) or 7 weeks (advanced PDAC stage) via intraperitoneal injection of Avertin. Blood was collected by cardiac puncture into EDTA-coated tubes, centrifuged, and plasma aliquots stored at −80°C. Autopsies confirmed pancreatic pathology and excluded extra-pancreatic disease. Plasma pools were created from 7–8 age- and pathology-matched mice per group.
+
+Plasma pools underwent immunodepletion of albumin, IgG, and transferrin using Ms-3 columns. Flow-through fractions were concentrated and subjected to isotopic labeling: control samples received light acrylamide (D0), while cancer samples received heavy deuterated acrylamide (D3) to alkylate cysteine residues. Labeled samples were mixed and fractionated using two-dimensional chromatography: first-dimension anion-exchange on a Mono-Q column, followed by second-dimension reversed-phase chromatography on a Poros R2 column, yielding 720 fractions.
+
+Fractions were digested with trypsin and analyzed by LC-MS/MS using an LTQ-FT mass spectrometer coupled to a nano-Aquity system. Data were processed via the Computational Proteomics Analysis System (CPAS), with protein identifications filtered at <1% false discovery rate (FDR) using ProteinProphet and PeptideProphet algorithms. Quantitative ratios were calculated from isotopic peak intensities of cysteine-containing peptides using an in-house Q3 script, normalized to the median distribution, and averaged per protein.
+
+### Example 2
+
+A genetically engineered mouse model of pancreatic cancer (Pdx1-Cre; Kras^G12D^; Ink4a/Arf^lox/lox^) faithfully recapitulates human PDAC progression from PanIN lesions to invasive carcinoma with desmoplasia and metastasis. Plasma was pooled from mice at early (5.5-week, PanIN) and advanced (7-week, PDAC) stages and matched controls. Differential isotopic labeling (D0 for controls, D3 for cancer) enabled quantitative comparison. Extensive two-dimensional fractionation (anion-exchange followed by reversed-phase chromatography) generated 720 fractions per experiment, analyzed by LC-MS/MS.
+
+High-confidence protein identifications (<1% FDR) yielded 1,040 proteins in PDAC and 559 in PanIN experiments. An additional 347 proteins (<5% FDR) were included based on pancreatic tissue mRNA overexpression (>2-fold vs. normal). The combined list of 1,442 proteins spanned seven orders of magnitude in abundance, with 25% containing signal peptides, 20% annotated as glycoproteins, and 9% as membrane proteins—many detected via extracellular domain peptides, indicating ectodomain shedding.
+
+Spectral counting correlated strongly (R²=0.84) with known plasma protein concentrations, enabling abundance estimation down to ~1 ng/ml. Comparison with liver proteomes distinguished pancreas-derived proteins, which were enriched among low-abundance species. This integrated approach prioritized candidates with increased plasma levels in tumor-bearing mice and corroborating tissue expression.
+
+### Example 3
+
+Acrylamide isotopic labeling provided relative quantification of cysteine-containing peptides between cancer and control plasmas. Among 621 quantified proteins, 165 were upregulated ≥1.5-fold (p<0.05) in cancer. Candidates were prioritized by excluding liver-synthesized acute-phase reactants and selecting proteins with human orthologs and concordant mRNA upregulation in mouse/human pancreatic tumors. This yielded 45 high-priority candidates.
+
+Validation by immunohistochemistry (IHC) confirmed strong expression of ALCAM, PTPRG, TIMP1, and TNC in mouse PanIN and PDAC tissues. ELISA on the same mouse plasmas showed significant elevation of ALCAM, ICAM1, and TIMP1 in PDAC, with TIMP1 also elevated in PanIN—demonstrating early appearance in tumorigenesis. These findings supported the biological relevance of the proteomic discoveries.
+
+### Example 4
+
+Human relevance was tested using sera from 30 newly diagnosed PDAC patients, 20 healthy controls, and 15 chronic pancreatitis patients. ELISA measured nine candidate proteins (ALCAM, ICAM1, LCN2, TNFRSF1A, TIMP1, REG1A, REG3, WFDC2, IGFBP4). Eight showed significant elevation in cancer vs. controls (p<0.03); five distinguished cancer from both healthy and pancreatitis groups. A panel of all nine markers achieved an AUC of 0.96, outperforming CA19-9 (AUC=0.79).
+
+For early detection, a blinded study used prediagnostic sera from the CARET cohort: 13 individuals who developed pancreatic cancer 7–13 months post-blood draw and 13 matched controls. A panel of five PanIN-upregulated markers (LCN2, REG1A, REG3, TIMP1, IGFBP4) yielded an AUC of 0.817; combined with CA19-9, AUC rose to 0.911. This demonstrates the potential for early diagnosis before symptom onset, fulfilling a critical unmet clinical need.

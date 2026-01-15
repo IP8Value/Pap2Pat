@@ -1,0 +1,206 @@
+## TECHNICAL FIELD
+
+- relate to quantum information processing
+
+The present invention relates to quantum information processing systems and, more specifically, to a scalable, two-dimensional architecture for fault-tolerant quantum computing based on silicon quantum dots that inherently mitigates leakage errors through the strategic integration of mediator dots and charge reservoirs. The invention is directed to a physical implementation of a surface code quantum error correction protocol using spin-based qubits in a semiconductor platform, wherein the computational subspace is preserved against charge and spin leakage through a novel arrangement of confinement regions, mediated interactions, and dynamically controlled charge reset mechanisms. The system leverages established semiconductor fabrication techniques compatible with complementary metal-oxide-semiconductor (CMOS) technology to enable high-density, planar integration of qubit arrays while maintaining the coherence and control fidelity required for universal quantum computation. This architecture is particularly suited for large-scale quantum processors where traditional error correction schemes are insufficient to suppress the accumulation of non-Pauli errors arising from charge migration, orbital excitation, or unintended electron tunneling. By decoupling the storage of quantum information from the mechanisms of interaction and reset, the invention provides a robust framework for maintaining logical qubit integrity under realistic noise conditions, thereby enabling practical pathways toward fault-tolerant quantum computing with reduced overhead and enhanced operational stability.
+
+## BACKGROUND
+
+- motivate quantum computers
+- introduce qubits and superposition
+- describe quantum algorithms
+- discuss limitations of universal quantum computers
+- define qubits using Pauli operators
+- explain qubit measurements and errors
+- introduce decoherence and quantum error correction
+- describe surface codes and stabilizer codes
+- explain surface code architecture
+- introduce plaquettes and surface code quantum computing
+- describe two-dimensional surface code architecture
+- explain quantum logic gates in surface codes
+- discuss limitations of surface code architectures
+
+Quantum computers hold the promise of solving computational problems that are intractable for classical systems, including the simulation of quantum many-body systems, factoring large integers, and optimizing complex combinatorial functions. These capabilities arise from the exploitation of quantum superposition and entanglement, wherein quantum bits—qubits—exist in linear combinations of basis states and can be correlated across spatially separated physical systems. Quantum algorithms such as Shor’s algorithm for factorization and Grover’s algorithm for unstructured search demonstrate exponential or quadratic speedups over their classical counterparts, provided that the underlying hardware can maintain coherent quantum states over sufficiently long timescales and execute high-fidelity quantum logic gates. However, the practical realization of universal quantum computers is severely constrained by environmental decoherence, control inaccuracies, and intrinsic hardware imperfections that corrupt quantum information during computation. Qubits are typically defined as two-level quantum systems whose computational basis states correspond to eigenstates of a Pauli-Z operator, with operations implemented via rotations around the Bloch sphere using microwave or electric fields. Measurement of a qubit collapses its state into one of the basis states, introducing probabilistic outcomes that must be statistically averaged over many runs to extract meaningful results. Errors in quantum systems manifest as bit-flips, phase-flips, or more generally as depolarizing noise, and these accumulate rapidly during multi-gate operations, rendering computations unreliable without intervention. Quantum error correction (QEC) addresses this by encoding logical qubits into multiple physical qubits, enabling the detection and correction of errors through syndromes derived from stabilizer measurements. The surface code, a topological QEC scheme, has emerged as a leading candidate due to its high error threshold, local connectivity, and compatibility with two-dimensional layouts. In this architecture, data qubits are arranged in a square lattice, with ancillary qubits positioned at the centers of plaquettes to measure X- and Z-type stabilizer generators corresponding to the parity of neighboring spins. Each stabilizer cycle involves preparing ancillae in entangled states, performing controlled operations with data qubits, and measuring the ancillae to extract parity information without disturbing the encoded logical state. Quantum logic gates are implemented through sequences of single-qubit rotations and two-qubit entangling operations, typically based on exchange interactions or controlled-Z gates. Despite its theoretical advantages, the surface code remains challenging to implement physically due to the stringent requirements on qubit homogeneity, gate fidelity, and measurement speed. Conventional architectures suffer from limited scalability, crosstalk between control lines, heat dissipation bottlenecks, and, critically, an inability to suppress leakage errors—events in which the system evolves outside the designated computational subspace. Such leakage is not correctable by standard Pauli-based error correction and can propagate through the array via entangling gates, leading to catastrophic failure even at low individual error rates. Furthermore, existing approaches lack integrated mechanisms to restore charge configurations after electron loss, forcing reliance on external reset protocols that introduce latency, complexity, and additional error sources. These limitations have hindered the transition from small-scale proof-of-concept devices to large-scale, fault-tolerant quantum processors capable of executing meaningful algorithms.
+
+## SUMMARY
+
+- introduce device for quantum information processing
+- describe device components
+- explain confinement regions for qudits
+- detail first plurality of confinement regions
+- describe data regions and ancillary regions
+- explain second plurality of confinement regions
+- describe mediator regions
+- explain charge reservoirs
+- describe interactions between confinement regions
+- explain surface code quantum information processing
+- motivate mitigation of leakage errors
+- define leakage errors
+- explain general schemes to cope with leakage errors
+- describe devices' robustness against leakage errors
+- explain confinement regions and charge reservoirs
+- define confinement region
+- explain data qudit and ancillary qudit
+- describe mediator regions
+- explain mediated interaction
+- describe couplable confinement regions
+- explain qubit and qudit
+- describe data dot and ancilla dot
+- explain surface code architectures
+- motivate silicon quantum dots
+- describe challenges in scaling up devices
+- explain advantages of mediator dots
+- describe elongated mediator dots
+- explain dimensions of mediator dots
+- describe distance between confinement regions
+- explain spinful charge carriers
+- describe measurement device
+- explain controller for magnetic field
+- explain controller for oscillating magnetic field
+- introduce device with micromagnets
+- advantage of micromagnets
+- method for controlling charge stability
+- device components
+- method for controlling charge stability
+- tuning energy levels
+- maintaining charge stability
+- facilitating coherent spin interactions
+- facilitating interactions between confinement regions
+- measuring ancillary qudit
+- attaching confinement regions to charge reservoirs
+- detaching confinement regions from charge reservoirs
+- attaching and detaching confinement regions
+- controlling charge stability
+- causing quantum circuit to be implemented
+- facilitating interactions between confinement regions
+- attaching and detaching confinement regions
+- measuring quantum states
+- initialising device
+- attaching confinement regions to charge reservoirs
+- tuning energy levels
+- detaching confinement regions from charge reservoirs
+- applying magnetic field
+- apparatus/controller
+- apparatus components
+- controlling charge stability
+- facilitating coherent spin interactions
+- attaching confinement regions to charge reservoirs
+- causing quantum circuit to be implemented
+- facilitating coherent spin interactions
+- attaching and detaching confinement regions
+- computer-readable medium
+- computer program
+- modifications and embodiments
+- disclaimer
+- reference numerals
+
+The invention comprises a quantum information processing device configured for fault-tolerant computation using a two-dimensional surface code architecture implemented in silicon-based quantum dots. The device includes a first plurality of confinement regions arranged in a periodic lattice, each confinement region designed to trap a single spinful charge carrier to serve as a data qubit, and a second plurality of confinement regions positioned between and adjacent to the data regions, each configured to host a mediator dot that facilitates two-qubit interactions without storing quantum information. Ancillary regions, each comprising a double quantum dot, are situated at the center of each surface code plaquette and are used to extract stabilizer syndromes through Pauli spin blockade readout. The mediator dots are elongated in one dimension, with longitudinal dimensions exceeding three hundred nanometers and transverse dimensions comparable to those of the data and ancilla dots, thereby increasing the physical separation between qubits while preserving strong exchange coupling through virtual electron hopping. Charge reservoirs are electrically coupled to the mediator dots via tunable tunnel barriers, enabling rapid reset of any charge imbalance arising from leakage events without introducing decoherence into the computational subspace. Interactions between data qubits and ancilla qubits are mediated exclusively through the elongated mediator dots, which are tuned via gate voltages to switch the exchange interaction on and off with minimal residual coupling. The device operates under a uniform magnetic field to enable electron spin resonance, and local micromagnets are integrated above each data qubit to generate magnetic field gradients that facilitate electrically-driven spin resonance for high-speed single-qubit gates. The ancilla double dots are not equipped with micromagnets, preserving their symmetry and enabling simultaneous, parallel interaction with both neighboring data qubits during stabilizer measurements. The system is controlled by a programmable apparatus comprising a processor, memory, communication modules, and dedicated controllers for applying static and oscillating magnetic fields, as well as for tuning the energy levels of individual confinement regions. Charge stability is maintained by dynamically attaching and detaching the mediator dots from the charge reservoirs during idle periods of the stabilizer cycle, allowing electrons to flow back into depleted qubit dots via fast relaxation processes while isolating the computational array from charge noise. This architecture inherently converts charge leakage errors into depolarizing errors within the computational subspace, which are then correctable by the surface code, eliminating the need for additional ancilla qubits, dedicated leakage detectors, or shuttling-based reset protocols. The device enables the implementation of quantum circuits through sequential application of single-qubit rotations and mediated two-qubit gates, with stabilizer checks partitioned into disjoint temporal groups to prevent spatial correlation of errors. The entire system is fabricated using planar CMOS-compatible processes, with conductive gate layers, silicon oxide insulators, and ohmic contact regions defining the quantum dot array. The invention further encompasses a computer-readable medium storing a program that, when executed by a controller, causes the device to perform initialization, tuning, interaction, measurement, and reset operations in a sequence that maintains charge stability and minimizes leakage-induced decoherence. Modifications include variations in the number of electrons per mediator dot, the use of isotopically purified silicon substrates to extend spin coherence, and the integration of dispersive readout circuits for ancilla measurement. The invention explicitly excludes any embodiment requiring electron shuttling between distant quantum dots or the use of non-silicon materials for qubit confinement. Reference numerals are provided to denote specific structural components, including data dots, ancilla double dots, mediator dots, charge reservoirs, gate electrodes, micromagnets, and tunnel barriers.
+
+## DETAILED DESCRIPTION
+
+- introduce quantum information processing device
+- describe device components: qubits, charge reservoirs
+- define data dots and ancilla dots
+- describe data dot properties: size, electron spin state
+- describe ancilla dot properties: size, electron spin state
+- introduce mediator dots for mediating interactions
+- describe mediator dot properties: size, electron occupation
+- illustrate two-dimensional array for surface code architecture
+- describe data dot and ancilla dot arrangement
+- introduce single-qubit logic gate operation via ESR
+- describe single-qubit addressability via stark shifts
+- discuss fidelity of single-qubit ESR gate
+- describe ancilla dot measurement apparatus
+- introduce double-dot ancilla advantages
+- describe reduced clutter in two-dimensional array
+- discuss improved error detection capabilities
+- describe immunity to Z/X errors
+- discuss global ESR gate application
+- describe parallel interactions between ancilla and data qubits
+- illustrate three-dot system for mediated exchange coupling
+- describe energy levels and electron jumps in three-dot system
+- derive exchange interaction strength equation
+- discuss tunability of exchange interaction strength
+- describe residue exchange interaction strength
+- discuss error probability due to residue exchange interaction
+- introduce mediated exchange control via on-site energy tuning
+- describe √SWAP gate implementation
+- discuss Hamiltonian for two-spin interaction
+- derive exchange interaction Hamiltonian
+- discuss Zeeman splitting gradient
+- introduce Control-Z gate implementation
+- discuss fidelity improvement via isotropically purified silicon substrate
+- describe single-qubit Z rotation and √SWAP gate implementation
+- introduce local charge reservoirs for system initialization
+- describe charge reservoir function for system restoration
+- introduce electric dipole spin resonance (EDSR) for single-qubit gates
+- discuss EDSR gate speed and fidelity
+- describe dipole-dipole like interaction for S gate implementation
+- derive S gate matrix representation
+- describe quantum circuit for Control-Z gate
+- discuss stray magnetic fields
+- explain electron shuttling
+- introduce virtual Z rotations
+- summarize device architecture
+- discuss leakage errors
+- explain charge ground state
+- describe leakage error correction
+- discuss relaxation processes
+- explain robustness against leakage errors
+- describe faulty exchange gates
+- introduce charge reservoir
+- compare architecture 200 to architecture 100
+- illustrate surface code architecture
+- describe device layers
+- explain multi-layered gate stack approach
+- illustrate CMOS structure
+- describe unit cell
+- explain ohmic implanted region
+- describe silicon oxide layer
+- illustrate conductive layers
+- describe mediator dots
+- explain barriers to charge reservoirs
+- illustrate data dots and ancilla dots
+- show side profiles of structure
+- describe variation with magnets
+- explain EDSR
+- illustrate flowchart for initializing device
+- describe initial positions of charge carriers
+- explain attaching mediator dots to charge reservoirs
+- describe tuning energy levels
+- explain detaching mediator dots from charge reservoirs
+- illustrate final positions of charge carriers
+- describe controller/computing apparatus
+- list components of controller/computing apparatus
+- describe processor functionality
+- describe memory functionality
+- describe user interfaces
+- describe communications module
+- describe port functionality
+- describe power source
+- describe processor configuration
+- describe magnetic field generator
+- describe oscillating magnetic field application
+- describe energy level adjustment
+- introduce method for controlling charge stability
+- describe tuning relative energy levels
+- describe facilitating interactions between confinement regions
+- describe attaching confinement regions to charge reservoirs
+- describe implementing surface code
+- describe checking X parities and/or Z parities
+- describe measuring stabiliser generators
+- describe decomposing Control-Z gates
+- describe initialising ancilla double dot
+- describe measuring ancilla dots
+- divide stabiliser check into disjoint partitions
+- describe performing partitions of stabiliser checks
+- describe resetting mediator dots
+- describe implementing quantum circuit with intermittent active resets
+- describe performing first set of quantum operations
+- describe performing active reset
+- describe performing second set of quantum operations
+- describe performing third set of quantum operations
+- describe performing fourth set of quantum operations
+- describe advantages of active reset operations
+
+The quantum information processing device comprises a two-dimensional array of electrostatically defined quantum dots fabricated on a silicon-on-insulator substrate, with each unit cell containing a data quantum dot, an ancilla double quantum dot, and an elongated mediator quantum dot positioned between them. The data dots, each approximately thirty nanometers in diameter, confine a single electron whose spin state encodes a computational qubit, with the spin degeneracy lifted by a global magnetic field of approximately thirty millitesla. The ancilla regions consist of two identical quantum dots, each of comparable size to the data dots, arranged in a side-by-side configuration to form a double-dot system that is initialized in a spin-singlet state to serve as a parity detector. The mediator dots are elongated along the axis connecting data and ancilla dots, with a length of three hundred nanometers and a width matching that of the data and ancilla dots, enabling strong virtual exchange coupling while maintaining sufficient physical separation to accommodate control and readout circuitry. The entire array is structured in a square lattice, with data dots forming the vertices of the surface code and ancilla double dots occupying the center of each plaquette, such that each ancilla interacts with four neighboring data qubits via two mediator dots. Single-qubit gates are implemented using electric dipole spin resonance, enabled by micromagnets deposited above each data dot to generate a local magnetic field gradient, allowing rapid spin rotations driven by oscillating electric fields applied through nearby gate electrodes. The ancilla dots are not equipped with micromagnets, preserving their symmetry and ensuring that global spin rotations do not disturb their singlet state. Two-qubit entangling gates are mediated by the elongated mediator dots, which are tuned via gate voltages to switch the on-site energy of the mediator between an “on” state, where virtual electron hopping enables exchange interaction, and an “off” state, where the energy detuning suppresses coupling to a residual level of one hundred hertz. The exchange interaction strength is derived from fourth-order perturbation theory, scaling as the fourth power of the tunnel coupling divided by the square of the detuning energy, yielding a tunable coupling range from one megahertz to negligible levels. The resulting Hamiltonian permits the implementation of √SWAP gates when the Zeeman splitting between data and ancilla qubits is much larger than the exchange strength, and S gates when the opposite condition holds, both of which can be combined with virtual Z rotations to construct high-fidelity Control-Z gates. The device is initialized by attaching the mediator dots to charge reservoirs, allowing electrons to flow into depleted data or ancilla dots, followed by detaching the reservoirs to isolate the computational array. During operation, the stabilizer cycle is divided into four disjoint partitions, each corresponding to a subset of plaquettes that are measured simultaneously, with mediator reset operations performed in parallel during the idle periods of other partitions. This scheduling ensures that charge leakage errors, which occur when an electron escapes a qubit dot due to decoherence or gate-induced tunneling, are rapidly restored via relaxation processes with a timescale of ten nanoseconds, transferring the missing charge to the adjacent mediator dot. The mediator dot, which carries no quantum information, is then reset to its ground charge state by reattaching it to the reservoir during its designated idle window, thereby converting the leakage event into a depolarizing error that remains within the computational subspace and is correctable by the surface code. The entire system is controlled by a programmable apparatus comprising a central processor, volatile and non-volatile memory, user interfaces, communication modules, and dedicated hardware controllers for generating static and oscillating magnetic fields, as well as for applying precise voltage waveforms to the gate electrodes. The processor executes a stored program that sequences the attachment and detachment of mediator dots to reservoirs, tunes energy levels to enable gate operations, applies magnetic fields for spin resonance, and processes measurement outcomes to decode stabilizer syndromes using minimum-weight perfect matching algorithms. The device layers include a silicon substrate, a silicon dioxide insulator, multiple metallic gate layers for confinement, ohmic contact regions for reservoir coupling, and micromagnets patterned above the data qubits. Side profiles of the structure reveal that the mediator dots are separated from the charge reservoirs by tunable tunnel barriers formed by gate electrodes, allowing the tunnel rate to be modulated independently of the qubit control. The architecture eliminates the need for shuttle-based qubit transport, avoids the integration of charge sensors within the dense qubit array, and prevents the accumulation of spatially correlated leakage errors. Experimental demonstrations using isotopically enriched silicon substrates have shown spin coherence times exceeding twenty-eight milliseconds, and the device’s tolerance to charge leakage has been simulated to exceed a threshold of 0.23 percent per gate operation under realistic noise conditions. The method for controlling charge stability involves a cyclic sequence of operations: first, attaching all mediator dots to reservoirs to initialize the system; second, tuning the energy levels of the data and ancilla dots to prepare the computational state; third, detaching the mediator dots to isolate the array; fourth, applying magnetic fields and gate pulses to implement quantum logic gates; fifth, measuring the ancilla double dots via Pauli spin blockade; sixth, reattaching the mediator dots to reset any charge deficits; and seventh, repeating the cycle for the next partition of stabilizer checks. This sequence ensures that leakage errors are not only corrected but are rendered indistinguishable from conventional gate errors, enabling the surface code to function with high fidelity even in the presence of non-Pauli noise. The invention thus provides a scalable, CMOS-compatible platform for fault-tolerant quantum computing that overcomes the critical limitations of prior architectures by unifying charge restoration, error correction, and gate operation within a single, self-contained physical design.

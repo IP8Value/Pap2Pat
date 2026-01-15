@@ -1,0 +1,55 @@
+Here is the drafted patent application following the provided outline:
+
+# DESCRIPTION  
+
+## BACKGROUND OF INVENTION  
+
+Electromagnetic rotary drives are widely utilized in various industrial and commercial applications where rotational motion is required. These drives typically incorporate mechanical bearings to support the rotor and maintain proper alignment between rotating and stationary components. Conventional control systems for such drives focus primarily on regulating rotational speed and torque while relying on the mechanical bearings to handle radial and axial loads.  
+
+The conventional control system architecture for motor drives generally employs field-oriented control techniques to independently manage torque-producing (q-axis) and flux-producing (d-axis) current components in a rotor reference frame. While effective for rotational control, these systems are fundamentally limited by their dependence on mechanical bearings, which introduce friction, wear, and maintenance requirements. Furthermore, mechanical bearings impose constraints on operational speeds, environmental conditions, and system reliability, particularly in demanding applications such as aerospace, high-speed machining, or extreme environment operation.  
+
+Bearingless motor-generator systems have been developed to overcome some limitations of conventional bearing-supported machines by employing magnetic forces for both rotor suspension and rotational drive functions. These systems eliminate mechanical contact between rotor and stator, enabling operation in vacuum environments, at higher rotational speeds, and with reduced maintenance requirements. However, prior bearingless designs have typically required dedicated windings for levitation control that are separate from the motor windings, resulting in inefficient use of copper and increased system complexity.  
+
+The limitations of conventional bearingless motor designs motivate the need for a new control system architecture that can fully integrate levitation and motoring functions while optimizing the utilization of all available copper windings. Such a system would enable more compact machine designs, improved fault tolerance, and greater flexibility in power distribution between levitation and torque production functions.  
+
+## SUMMARY OF INVENTION  
+
+The present invention discloses a novel control system for a bearingless motor-generator that achieves fully integrated five-axis magnetic levitation and rotational control. The system utilizes a unique winding configuration where individual pole pairs remain electrically isolated, allowing independent control of rotor reference frame d-axis currents in each pole pair. This configuration enables precise generation of controlled forces on the rotor through strategic imbalance of magnetic fluxes around the rotor periphery.  
+
+In one embodiment, the bearingless motor-generator features a conical air gap design that facilitates simultaneous control of both radial and axial forces. The conical geometry allows components of the magnetic forces to be directed along the motor axis, enabling full five-degree-of-freedom levitation control when combined with appropriate winding arrangements. The motor may incorporate multiple conical sections with opposing cone angles to provide balanced axial force generation capabilities.  
+
+The control system transforms desired force vectors into specific current commands for individual pole pairs using a reference frame transformation approach. By selectively exciting different pole pairs with controlled d-axis currents, the system can generate precisely directed forces on the rotor while simultaneously producing torque through q-axis current control. This integrated approach allows all motor windings to contribute to both levitation and rotational functions as needed, optimizing the utilization of copper and iron throughout the motor.  
+
+## DETAILED DESCRIPTION  
+
+The cylindrical motor control system according to the present invention provides several advantages over conventional bearingless motor designs. The system eliminates the need for separate levitation windings by utilizing the main motor windings for both suspension and rotational force generation. This integration reduces the overall motor size and weight while improving the power density and efficiency of the system.  
+
+The winding configuration features individually stimulated pole pairs that are not internally connected, allowing independent control of each pole pair's d-axis current. This configuration enables the generation of controlled force vectors by creating intentional imbalances in the magnetic flux distribution around the rotor periphery. The phase currents in three pole pairs are separately controlled to produce the desired combination of suspension forces and rotational torque.  
+
+The control system transforms these phase currents into a rotor reference frame representation, where d-axis currents control the suspension forces and q-axis currents govern the rotational torque. This transformation enables the conceptualization of fictional coils aligned with the rotor's magnetic orientation, simplifying the force calculation and control strategy. The rotor reference frame approach allows the system to maintain precise control regardless of the rotor's angular position.  
+
+The force produced on the rotor results from the strategic application of d-axis currents to selected pole pairs. These currents modify the flux created by the permanent magnets, creating localized variations in the magnetic field strength around the rotor circumference. The magnitude of the resulting force depends on the current amplitude and exhibits a characteristic ripple pattern as the rotor rotates. The system compensates for this ripple through precise timing of current application relative to rotor position.  
+
+Analysis of the force generation reveals six distinct force vectors that can be produced by exciting positive or negative d-axis currents in each of the three pole pairs. These vectors form the boundaries of six regions within which any desired force can be synthesized through appropriate combination of the bounding vectors. The phases of these six force vectors vary systematically with the electrical angle of the rotor, following predictable patterns that the control system utilizes for force synthesis.  
+
+The control system development begins with the transformation of desired force commands into the basis formed by two selected force vectors. This transformation determines the current combinations required to produce the exact force magnitude and direction needed for stable levitation. The currents that form the boundaries to each region are precisely defined based on the motor's magnetic characteristics and geometry.  
+
+The system can generate various force commands by dynamically selecting the appropriate vector pair based on the rotor's instantaneous position and the desired force direction. This approach enables smooth transition between different force regions as the rotor rotates, maintaining continuous and stable levitation control. The force synthesis method produces minimal ripple when properly implemented, contributing to the system's stable operation.  
+
+A mechanical model of the rotor describes its dynamics using Newton's second law, accounting for both translational and rotational degrees of freedom. The model employs complex quantities to represent the rotor's lateral position and velocity in two dimensions, simplifying the mathematical description of its motion. These complex representations facilitate the development of efficient control algorithms for the coupled translational and rotational systems.  
+
+The system's state space description incorporates matrices that capture the relationships between forces, currents, and rotor motion. Analysis of the controllability matrix confirms that the system can achieve full five-axis control using the available force vectors. The angular quantities describing rotor position and velocity are similarly modeled using differential equations that account for the generated torques and forces.  
+
+The control system implements a rudimentary magnetic bearing controller that incorporates negative stiffness compensation to counteract the inherent instability of magnetic suspension systems. This controller successfully levitates the rotor from rest, applying initial speed and torque commands to establish stable rotation. Experimental results demonstrate the rotor's x and y position during levitation, showing controlled convergence to the desired operating point.  
+
+The system's performance is further illustrated through plots of the x-component of position versus time during levitation, demonstrating stable suspension with minimal oscillation. The proportional-derivative (PD) force command components show the control system's response to positional deviations, applying appropriate corrective forces. Phase currents during the levitation period reveal the coordinated excitation of different pole pairs to maintain stable suspension.  
+
+The system's capability to levitate while simultaneously applying motoring current is demonstrated through additional experimental results. These show the rotor's x position during levitation with active torque production, confirming stable operation under combined levitation and rotation conditions. The corresponding phase currents reveal how the system allocates current between suspension and torque production functions.  
+
+Discussion of motor de-rating from maximum power level addresses the trade-offs between suspension force capability and torque production. The system dynamically allocates available current capacity between these functions based on operational requirements, ensuring stable levitation while delivering required torque.  
+
+An alternative embodiment features a conical motor design with two stators and a shared rotor. This configuration provides enhanced axial force control capability through the conical air gap geometry. The control system for the conical motor extends the principles developed for the cylindrical version, incorporating additional control blocks for axial force management.  
+
+The conical motor's control system demonstrates the generation of force vectors possible with different pole pair systems, showing expanded capability compared to the cylindrical design. An axial force control block specifically manages the z-axis forces by differentially exciting the upper and lower motor sections. This approach enables precise control of axial position while maintaining radial stability.  
+
+The complete system represents a significant advancement in bearingless motor technology, offering improved performance, reduced size and weight, and greater operational flexibility compared to conventional designs. The integrated control of levitation and rotation through shared windings optimizes the utilization of all motor components while providing inherent fault tolerance through redundant force generation paths.

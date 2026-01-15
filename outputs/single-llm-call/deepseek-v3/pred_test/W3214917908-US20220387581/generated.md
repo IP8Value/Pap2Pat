@@ -1,0 +1,55 @@
+Here is the patent application following your outline and incorporating the research paper's content:
+
+# DESCRIPTION  
+
+## BACKGROUND  
+
+Porcine epidemic diarrhea virus (PEDV) represents a significant threat to global swine production, causing severe economic losses due to high mortality rates in neonatal piglets. The virus induces acute enteritis characterized by villous atrophy, malabsorptive diarrhea, and vomiting, with mortality rates approaching 100% in affected litters. Current vaccination strategies against PEDV demonstrate limited efficacy, as commercially available vaccines based on inactivated virus or RNA platforms provide only marginal protection. These conventional vaccines fail to adequately stimulate mucosal immunity at the intestinal epithelium, the primary site of PEDV infection and replication. Furthermore, existing vaccine production methods face substantial limitations in scalability, cost-effectiveness, and thermostability, particularly for large-scale agricultural applications. The parenteral administration of current vaccines also presents practical challenges in mass vaccination scenarios common in commercial swine operations.  
+
+## SUMMARY  
+
+The present invention provides a novel plant-based vaccine platform for protection against PEDV infection. The vaccine comprises a maize-produced PEDV Spike (S) protein antigen, specifically the S1 domain, formulated for oral administration. The production method involves stable transformation of maize plants with an expression cassette encoding the S1 antigen, followed by accumulation of the recombinant protein in maize grain. The invention demonstrates that oral delivery of maize-expressed S1 protein to pregnant sows elicits both systemic and mucosal immune responses, conferring passive immunity to suckling piglets through lactogenic transfer.  
+
+The vaccine production system offers multiple advantages over conventional approaches. Maize grain provides natural bioencapsulation of the antigen, protecting it from degradation in the gastrointestinal tract while enabling oral delivery. The plant-based production platform allows for cost-effective, large-scale manufacturing without requiring expensive purification steps or cold chain maintenance. The recombinant protein remains stable in dried maize grain for extended periods at ambient temperatures, addressing critical limitations of traditional vaccine formulations.  
+
+Experimental results demonstrate that sows receiving the oral vaccine developed neutralizing antibodies in both serum and milk, with the low-dose regimen (10 mg S1/kg corn) showing superior protection compared to higher doses. Piglets from vaccinated sows exhibited significantly higher survival rates following PEDV challenge compared to controls. The invention further identifies granulocyte-macrophage colony-stimulating factor (GM-CSF) levels in milk as a novel correlate of protection, with reduced GM-CSF concentrations correlating with improved piglet survival.  
+
+The vaccine platform also exhibits immune modulatory effects, as evidenced by downregulation of inflammatory cytokines in vaccinated animals. This property may provide additional benefits in managing the immunopathology associated with coronavirus infections. The invention further encompasses diagnostic applications, utilizing the identified correlates of protection (neutralizing antibody titers and cytokine profiles) for monitoring vaccine efficacy and disease status in swine populations.  
+
+## DESCRIPTION  
+
+Porcine epidemic diarrhea virus (PEDV) belongs to the Coronaviridae family, genus Alphacoronavirus, and shares structural similarities with other pathogenic coronaviruses including SARS-CoV and MERS-CoV. The virus first emerged in Europe during the 1970s, with subsequent spread to Asia and North America causing significant economic impacts on swine production. PEDV possesses a positive-sense, single-stranded RNA genome approximately 28 kb in length, encoding structural proteins including Spike (S), Membrane (M), Nucleocapsid (N), and accessory protein ORF3.  
+
+The S protein forms trimeric projections on the viral envelope and mediates critical steps in infection through receptor binding and membrane fusion. Proteolytic cleavage divides the S protein into S1 and S2 functional domains, with the S1 region containing the receptor-binding domain and major neutralizing epitopes. The S1 domain (amino acids 1-789) represents the primary target for vaccine development due to its immunodominant epitopes and capacity to elicit neutralizing antibodies. The S protein undergoes additional processing at a conserved GPRLQPY motif, generating fragments that facilitate viral entry and influence pathogenesis.  
+
+Comparative analysis of PEDV strains reveals two major genogroups with distinct virulence properties. Genogroup 1 includes classical strains with moderate virulence, while Genogroup 2 contains highly virulent variants responsible for recent pandemic outbreaks. The invention encompasses vaccine candidates derived from representative strains of both genogroups, with particular emphasis on Genogroup 2 strains prevalent in North American outbreaks.  
+
+The vaccine production system utilizes maize (Zea mays) as an expression host, taking advantage of the seed's unique capacity for high-level recombinant protein accumulation and stability. The invention provides expression cassettes comprising codon-optimized nucleotide sequences encoding PEDV S1 protein operably linked to seed-preferred promoters, including but not limited to glutamine synthetase, γ-zein, and oleosin promoters. The expression system may incorporate targeting sequences such as endoplasmic reticulum retention signals (KDEL) or protein body-inducing domains to enhance protein accumulation.  
+
+The invention encompasses various nucleic acid constructs for plant transformation, including expression vectors containing the S1 coding sequence under transcriptional control of constitutive, inducible, or tissue-specific regulatory elements. The nucleic acid sequences may include modifications such as degenerate codon substitutions, conservative amino acid variants, or sequence fragments retaining immunogenic properties. The invention provides polypeptides having at least 90% sequence identity to native PEDV S1 protein while maintaining neutralizing epitope conformation.  
+
+Plant transformation employs established methods including Agrobacterium-mediated gene transfer, particularly using super-binary vectors such as pTOK162 in strains LBA4404 or EHA101. The invention describes optimized transformation protocols for maize Hi-II genotypes, utilizing bialaphos selection and improved tissue culture conditions. Transgenic plants are propagated through conventional breeding techniques to establish stable lines for vaccine production.  
+
+Downstream processing involves milling transgenic maize grain to produce uniform particulate formulations suitable for oral administration. The invention describes methods for germ fraction enrichment to concentrate the recombinant antigen while maintaining feed palatability. Vaccine formulations may incorporate additional adjuvants or immune modulators to enhance mucosal immune responses.  
+
+The invention provides methods for inducing protective immunity in swine through oral administration of the plant-produced vaccine. Vaccination protocols encompass prime-boost regimens during gestation, with particular emphasis on timing relative to farrowing to optimize lactogenic immunity transfer. The invention demonstrates dose-dependent effects, with optimal protection achieved at approximately 10 mg S1 antigen per kg feed.  
+
+The vaccine platform shows utility beyond prophylactic applications, including methods for reducing inflammatory cytokine responses in PEDV-infected animals. The invention describes compositions and methods for modulating GM-CSF levels as a therapeutic strategy against coronavirus-induced immunopathology. Diagnostic applications include monitoring neutralizing antibody titers and cytokine profiles as correlates of protection in vaccinated herds.  
+
+### EXAMPLES  
+
+The spike protein serves as the primary immunogen in the vaccine platform due to its critical role in viral neutralization. The invention demonstrates successful expression of full-length S1 domain (amino acids 1-789) in maize grain, overcoming previous limitations in recombinant coronavirus spike protein production. Western blot analysis confirms proper folding and post-translational modification of the plant-produced antigen.  
+
+Initial challenge studies demonstrate the efficacy of maize-based oral vaccination against PEDV. Piglets from sows receiving low-dose oral vaccine (10 mg S1/kg) show 53% survival rate post-challenge, compared to 10% in non-vaccinated controls. Survival correlates strongly with milk neutralizing antibody titers (p < 0.05) and inversely with milk GM-CSF levels (p ≤ 0.05). The high-dose regimen (50 mg S1/kg) shows reduced efficacy (7% survival), suggesting dose-dependent immune modulation.  
+
+The invention provides detailed production protocols for maize-expressed S1 antigen. Codon-optimized gene sequences are synthesized and cloned into pSB11 binary vectors under control of embryo-preferred promoters. Agrobacterium-mediated transformation of Hi-II maize follows modified Ishida protocols with bialaphos selection. Transgenic events are screened for S1 expression levels up to 0.5% of total soluble protein in mature grain.  
+
+Animal trials employ standardized challenge models using PEDV strain USA/NC/49469/2013 (104 TCID50/mL). Vaccinated sows show significant increases in milk neutralizing antibodies compared to controls (p < 0.05), with titers correlating with piglet survival (OR 3.71-65.89). Cytokine profiling reveals significant reduction in GM-CSF levels in vaccinated sows (p ≤ 0.05), establishing this cytokine as a novel biomarker for vaccine efficacy.  
+
+## Example 2  
+
+Survival analysis demonstrates distinct outcomes across treatment groups. Piglets from low-dose oral vaccine (LOV) sows show 53% survival rate, compared to 37% for injected vaccine (INJ), 10% for controls (CON), and 7% for high-dose oral vaccine (HOV). Logistic regression confirms treatment (p ≤ 0.001) and piglet weight at challenge (p ≤ 0.001) as significant predictors of survival. The LOV group shows superior protection compared to HOV and CON (p ≤ 0.001), establishing optimal dosing parameters for the oral vaccine platform.  
+
+## Example 3  
+
+Cytokine profiling reveals significant immunomodulatory effects of the vaccine. Milk GM-CSF levels show strong inverse correlation with piglet survival (p ≤ 0.05), with concentrations below 436 pg/mL associated with protection. Control sows without surviving piglets exhibit GM-CSF levels exceeding 1193 pg/mL, while the single control sow with surviving piglets shows reduced GM-CSF (291 pg/mL). These findings establish cytokine modulation as a novel mechanism of vaccine-induced protection against PEDV.

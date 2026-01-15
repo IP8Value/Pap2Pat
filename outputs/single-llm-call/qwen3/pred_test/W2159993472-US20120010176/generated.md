@@ -1,0 +1,474 @@
+# DESCRIPTION
+
+## FIELD OF THE INVENTION
+
+- define invention scope
+
+The present invention relates to the field of molecular therapeutics for the treatment of muscular dystrophy, particularly Duchenne and Becker muscular dystrophies, through the pharmacological upregulation of utrophin expression. Specifically, the invention encompasses the use of defined small molecule compounds to activate the utrophin promoter, enhance utrophin mRNA and protein expression, and thereby compensate for the functional absence of dystrophin in skeletal and cardiac muscle tissue. The invention further includes pharmaceutical compositions comprising such compounds, methods of administering these compositions to patients, and the use of these compounds in the manufacture of medicaments for the treatment, amelioration, or prevention of symptoms associated with dystrophin deficiency. The scope of the invention includes both novel chemical entities and known pharmaceutical agents repurposed for the specific purpose of increasing utrophin activity, with particular emphasis on compounds capable of crossing biological membranes, exhibiting oral bioavailability, and modulating gene expression without inducing significant immune or cytotoxic responses in muscle cells.
+
+## BACKGROUND OF THE INVENTION
+
+- introduce muscular dystrophy  
+- explain dystrophin function  
+- motivate utrophin upregulation
+
+Muscular dystrophy is a group of inherited genetic disorders characterized by progressive degeneration and weakness of skeletal muscles, often accompanied by cardiac and respiratory complications. Among these, Duchenne muscular dystrophy represents the most common and severe form, typically manifesting in early childhood and leading to loss of ambulation by adolescence, followed by premature death due to cardiorespiratory failure. The disease arises from mutations in the dystrophin gene located on the X chromosome, resulting in the complete or near-complete absence of the dystrophin protein. Dystrophin serves as a critical structural link between the intracellular actin cytoskeleton and the extracellular matrix via the dystrophin-associated protein complex (DAPC), providing mechanical stability to muscle fibers during contraction. Without dystrophin, the sarcolemma becomes susceptible to mechanical stress, leading to recurrent membrane damage, calcium influx, chronic inflammation, and ultimately, the replacement of muscle tissue with fibrotic and adipose tissue. Although various therapeutic strategies have been explored—including exon skipping, gene replacement, and stop codon readthrough—these approaches are limited by mutation specificity, delivery challenges, immunogenicity, and high manufacturing costs. In contrast, utrophin, an autosomal paralogue of dystrophin sharing approximately 74% amino acid sequence identity and nearly identical domain architecture, is naturally expressed during fetal development and is capable of functionally substituting for dystrophin by binding to the same set of DAPC components. In healthy adult muscle, utrophin expression is restricted to neuromuscular and myotendinous junctions; however, experimental overexpression of utrophin in dystrophin-deficient mouse models has been shown to fully restore sarcolemmal integrity, reduce muscle necrosis, improve force generation, and extend lifespan. Importantly, because utrophin is endogenously expressed in multiple non-muscle tissues and during early development, its therapeutic upregulation in skeletal and cardiac muscle is unlikely to trigger an immune response, making it a uniquely safe and broadly applicable target for intervention. The ability to pharmacologically induce utrophin expression using small molecule compounds therefore presents a compelling strategy to address the root cause of dystrophin deficiency across all genetic subtypes of the disease, irrespective of the underlying mutation.
+
+## SUMMARY OF THE INVENTION
+
+- provide method for treating muscular dystrophy  
+- administer small molecule compound orally or parenterally  
+- specify small molecule compounds  
+- provide method for treating muscular dystrophy with compound of formula (I)  
+- specify muscular dystrophy types  
+- provide method for reducing symptoms of muscular dystrophy  
+- administer small molecule compound orally or parenterally  
+- specify small molecule compounds  
+- provide method for reducing symptoms of muscular dystrophy with compound of formula (I)  
+- specify muscular dystrophy types  
+- provide method for increasing utrophin promoter activity  
+- administer small molecule compound orally or parenterally  
+- specify small molecule compounds  
+- provide method for increasing utrophin promoter activity with compound of formula (I)  
+- specify muscular dystrophy types  
+- provide method for increasing utrophin expression or activity  
+- administer small molecule compound orally or parenterally  
+- specify small molecule compounds  
+- provide method for increasing utrophin expression or activity with compound of formula (I)  
+- specify muscular dystrophy types  
+- provide method for correcting dystrophin deficiency  
+- administer small molecule compound orally or parenterally  
+- specify small molecule compounds  
+- provide method for correcting dystrophin deficiency with compound of formula (I)  
+- specify muscular dystrophy types  
+- provide method for treating muscular dystrophy with utrophin promoter activator  
+- administer small molecule compound orally or parenterally  
+- specify small molecule compounds  
+- provide method for treating muscular dystrophy with utrophin promoter activator and compound of formula (I)  
+- specify muscular dystrophy types  
+- provide method for reducing symptoms of muscular dystrophy with utrophin promoter activator  
+- administer small molecule compound orally or parenterally  
+- provide method for reducing symptoms of muscular dystrophy with utrophin promoter activator and compound of formula (I)  
+- provide method for treating muscular dystrophy  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for reducing symptoms of muscular dystrophy  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for increasing utrophin promoter activity  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for increasing utrophin expression or activity  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for correcting dystrophin deficiency  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for treating muscular dystrophy with utrophin promoter activity  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for treating muscular dystrophy with utrophin expression or activity  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)  
+- specify muscular dystrophy type  
+- provide method for reducing symptoms with utrophin promoter activity  
+- administer small molecule compound  
+- specify small molecule compound  
+- provide alternative compound of formula (I)
+
+The invention provides a method for treating muscular dystrophy by administering to a subject in need thereof a therapeutically effective amount of a small molecule compound capable of upregulating utrophin expression. The compound may be administered orally or parenterally, including intravenously, intramuscularly, subcutaneously, or intra-arterially, to achieve systemic delivery to skeletal and cardiac muscle tissues. The small molecule compound may be selected from the group consisting of nabumetone, riluzole, piperine, apigenin, chrysin, leflunomide, kawain, clorgyline, equilin, resveratrol, hesperetin, phenazopyridine, tiabendazole, and derivatives or analogs thereof, including pharmaceutically acceptable salts, prodrugs, or metabolites. In a preferred embodiment, the compound is of formula (I), wherein the structure comprises a substituted aromatic core linked to an aliphatic chain bearing a carbonyl or heterocyclic moiety, with substituents selected from alkyl, alkoxy, halo, amino, or hydroxyl groups, such that the compound demonstrates dose-dependent activation of the utrophin A promoter in muscle cells. The method is applicable to Duchenne muscular dystrophy, Becker muscular dystrophy, and other dystrophin-deficient myopathies, regardless of the specific mutation type. The administration of the compound results in a measurable increase in utrophin mRNA and protein levels in muscle tissue, which in turn restores sarcolemmal stability, reduces muscle fiber necrosis, and improves muscle function. The invention further encompasses methods for reducing symptoms of muscular dystrophy, including muscle weakness, fatigue, elevated serum creatine kinase levels, and impaired mobility, through the sustained administration of the compound. The method for increasing utrophin promoter activity involves contacting muscle cells with the compound at concentrations ranging from 1 nM to 200 µM, leading to transcriptional activation of the utrophin A gene promoter. The method for increasing utrophin expression or activity includes the stabilization of utrophin mRNA and/or enhancement of its translation, resulting in elevated protein levels detectable by Western blot or immunohistochemistry. The method for correcting dystrophin deficiency entails the functional replacement of dystrophin by upregulated utrophin, thereby restoring the integrity of the DAPC and mitigating the downstream pathological consequences of membrane instability. In embodiments where the compound is of formula (I), the therapeutic effect is observed at lower doses and with greater specificity than non-specific transcriptional activators. Alternative compounds of formula (I) include structural variants with modified ring systems, extended conjugation, or altered side-chain polarity, which retain the ability to activate the utrophin promoter without inducing cytotoxicity. The compound may be administered alone or in combination with other agents that enhance utrophin localization, such as biglycan or micro-dystrophin peptides, to further augment therapeutic efficacy. The invention further includes methods for treating muscular dystrophy with utrophin promoter activators, wherein the compound functions as a direct transcriptional enhancer of the utrophin A promoter, and methods for reducing symptoms through the combined modulation of promoter activity and protein expression. The administration route may be selected based on patient age, disease progression, and pharmacokinetic profile, with oral administration preferred for chronic, long-term treatment and parenteral administration reserved for acute or severe cases requiring rapid systemic exposure.
+
+## DEFINITIONS
+
+- define substituted compounds  
+- explain substituents and functional moieties  
+- describe permissible substituents of organic compounds  
+- introduce heteroatoms and their substituents  
+- define stable compounds  
+- explain aliphatic compounds  
+- describe saturated and unsaturated aliphatic hydrocarbons  
+- introduce alkyl, alkenyl, and alkynyl moieties  
+- specify carbon atom ranges for alkyl, alkenyl, and alkynyl groups  
+- illustrate aliphatic groups  
+- define alicyclic compounds  
+- describe cyclic and polycyclic aliphatic hydrocarbons  
+- introduce cycloalkyl, cycloalkenyl, and cycloalkynyl moieties  
+- illustrate alicyclic groups  
+- define heteroaliphatic compounds  
+- describe heteroaliphatic moieties and their substituents  
+- introduce heteroalicyclic and heterocyclic compounds  
+- describe saturated and unsaturated heterocyclic ring systems  
+- specify heteroatoms in heterocyclic rings  
+- illustrate heterocyclic groups  
+- define aromatic moieties  
+- describe planar rings and Huckel rule  
+- illustrate aromatic moieties  
+- define heteroaromatic moieties  
+- describe heteroaromatic ring systems and Huckel rule  
+- illustrate heteroaromatic moieties  
+- discuss attachment of aromatic and heteroaromatic moieties via aliphatic or heteroaliphatic moieties  
+- define heteroaryl  
+- define aryl  
+- define alkoxy  
+- define thioalkyl  
+- define alkylamino  
+- define aminoalkyl  
+- list substituents  
+- define halo  
+- define haloalkyl  
+- define amino  
+- define acyl  
+- define C2-6alkenylene  
+- define aliphatic  
+- define heteroaliphatic  
+- define alicyclic  
+- define heterocyclic  
+- define cycloalkyl  
+- define aromatic  
+- define pharmaceutically acceptable derivative
+
+For the purposes of this disclosure, a substituted compound refers to any organic molecule in which one or more hydrogen atoms have been replaced by functional groups such as alkyl, alkoxy, halo, amino, hydroxyl, carboxyl, or heterocyclic moieties, provided that the resulting compound retains chemical stability and biological activity. Substituents are defined as atoms or groups of atoms that replace hydrogen in a parent hydrocarbon framework and may include halogens, nitrogen-containing groups, oxygen-containing groups, or sulfur-containing groups. Permissible substituents include those that do not induce rapid metabolic degradation, excessive toxicity, or immunogenicity in vivo, and that permit oral absorption and tissue penetration. Heteroatoms such as nitrogen, oxygen, and sulfur may be incorporated into aliphatic, alicyclic, or aromatic systems to form heterocycles or heteroaromatic rings, and may be further substituted with alkyl, aryl, or functional groups such as amides, esters, or sulfonamides. A stable compound is one that remains chemically intact under physiological conditions for a duration sufficient to exert a therapeutic effect, typically at least four hours in circulation. Aliphatic compounds are acyclic or non-aromatic cyclic hydrocarbons, which may be saturated or unsaturated, and include alkyl, alkenyl, and alkynyl groups containing from one to twenty carbon atoms. Alkyl moieties are saturated hydrocarbon chains, including methyl, ethyl, propyl, butyl, pentyl, and hexyl, and may be linear or branched. Alkenyl groups contain one or more carbon-carbon double bonds, such as vinyl, allyl, or pentenyl, while alkynyl groups contain one or more carbon-carbon triple bonds, such as ethynyl or propargyl. Alicyclic compounds are non-aromatic cyclic hydrocarbons, including cycloalkyl, cycloalkenyl, and cycloalkynyl rings containing three to ten carbon atoms, such as cyclopropyl, cyclobutyl, cyclohexenyl, or cyclooctynyl. Heteroaliphatic compounds contain one or more heteroatoms within an aliphatic chain or ring, such as tetrahydrofuran, piperidine, or morpholine. Heterocyclic compounds are cyclic structures containing at least one heteroatom, which may be saturated or unsaturated, and include pyrrolidine, piperazine, pyridine, quinoline, or indole, with heteroatoms selected from nitrogen, oxygen, or sulfur. Aromatic moieties are planar, conjugated ring systems that satisfy Hückel’s rule of (4n + 2) π-electrons, such as benzene, naphthalene, or anthracene. Heteroaromatic moieties are aromatic rings containing one or more heteroatoms, such as pyridine, pyrrole, thiophene, or imidazole, and maintain aromaticity through delocalized π-electron systems. Aromatic and heteroaromatic moieties may be directly attached to aliphatic or heteroaliphatic linkers, or may be fused to other rings to form polycyclic systems. The term heteroaryl refers to a monocyclic or bicyclic heteroaromatic ring system containing one to four heteroatoms selected from nitrogen, oxygen, or sulfur, such as pyridyl, pyrimidinyl, or thiazolyl. Aryl refers to a monocyclic or polycyclic aromatic hydrocarbon, such as phenyl or naphthyl. Alkoxy denotes an alkyl group bonded through an oxygen atom, such as methoxy or ethoxy. Thioalkyl refers to an alkyl group bonded through a sulfur atom, such as methylthio. Alkylamino refers to an amino group substituted with one or two alkyl groups, such as methylamino or dimethylamino. Aminoalkyl describes an alkyl chain bearing an amino group, such as aminomethyl or 2-aminoethyl. Halo denotes fluorine, chlorine, bromine, or iodine. Haloalkyl refers to an alkyl group substituted with one or more halo atoms, such as trifluoromethyl or chloroethyl. Amino denotes a nitrogen atom bonded to two hydrogen atoms or to one or two alkyl groups. Acyl refers to a carbonyl group bonded to an alkyl or aryl group, such as acetyl or benzoyl. C2-6alkenylene denotes a divalent hydrocarbon chain of two to six carbon atoms containing at least one carbon-carbon double bond. Aliphatic encompasses all non-aromatic hydrocarbons, whether saturated or unsaturated, linear or branched. Heteroaliphatic includes aliphatic chains containing one or more heteroatoms. Alicyclic refers to non-aromatic cyclic hydrocarbons. Heterocyclic refers to cyclic structures containing at least one heteroatom, whether saturated or aromatic. Cycloalkyl denotes a saturated monocyclic hydrocarbon ring of three to eight carbon atoms. Aromatic refers to a planar, conjugated ring system satisfying Hückel’s rule. A pharmaceutically acceptable derivative includes any salt, ester, amide, prodrug, hydrate, solvate, or metabolite of the compound that retains biological activity and is suitable for administration to a mammal.
+
+## DETAILED DESCRIPTION OF THE INVENTION
+
+- introduce muscular dystrophy  
+- define muscular dystrophy  
+- describe embodiments of small molecule therapy  
+- describe structure of small molecule compound  
+- specify R1 and R2 groups  
+- provide examples of R1 and R2 groups  
+- describe composition of small molecule compound  
+- introduce piperine  
+- describe piperine analogs  
+- introduce apigenin  
+- describe apigenin analogs  
+- introduce chrysin  
+- describe chrysin analogs  
+- introduce nabumetone and its analogs  
+- introduce riluzole and its analogs  
+- introduce additional small molecule compounds and their analogs  
+- describe leflunomide  
+- list analogs of leflunomide  
+- describe kawain  
+- list analogs of kawain  
+- describe clorgyline  
+- list analogs of clorgyline  
+- describe equilin  
+- list analogs of equilin  
+- define isomers  
+- define prodrugs  
+- define active metabolites  
+- define pharmaceutically acceptable salts  
+- list inorganic salts  
+- list organic salts  
+- describe salt formation  
+- define derivatives  
+- define hydrates  
+- define pharmaceutical products  
+- define metabolites  
+- describe muscular dystrophy  
+- describe method for increasing utrophin promoter activity  
+- describe method for increasing utrophin expression or activity  
+- describe method for correcting dystrophin deficiency  
+- describe method for treating muscular dystrophy  
+- describe method for reducing muscular dystrophy symptoms  
+- describe method for treating muscular dystrophy  
+- describe method for reducing muscular dystrophy symptoms  
+- describe method for increasing utrophin promoter activity  
+- describe method for increasing utrophin expression or activity  
+- describe method for treating muscular dystrophy  
+- provide method for increasing utrophin promoter activity  
+- administer piperine composition  
+- administer piperine composition parenterally or orally  
+- provide method for increasing utrophin expression or activity  
+- administer piperine composition  
+- administer piperine composition parenterally or orally  
+- provide method for correcting dystrophin deficiency  
+- administer piperine composition  
+- administer piperine composition parenterally or orally  
+- provide method for treating muscular dystrophy  
+- administer piperine composition  
+- administer piperine composition parenterally or orally  
+- provide method for reducing muscular dystrophy symptoms  
+- administer piperine composition  
+- administer piperine composition parenterally or orally  
+- provide method for treating muscular dystrophy  
+- administer piperine composition  
+- provide method for reducing muscular dystrophy symptoms  
+- administer piperine composition  
+- provide method for increasing utrophin promoter activity with apigenin  
+- administer apigenin composition  
+- administer apigenin composition parenterally or orally  
+- provide method for increasing utrophin expression or activity  
+- administer apigenin composition  
+- administer apigenin composition parenterally or orally  
+- provide method for treating muscular dystrophy  
+- administer apigenin composition  
+- provide method for increasing utrophin promoter activity  
+- administer apigenin composition  
+- increase utrophin expression or activity  
+- correct dystrophin deficiency  
+- treat muscular dystrophy  
+- reduce muscular dystrophy symptoms  
+- administer apigenin parenterally or orally  
+- provide method for treating muscular dystrophy  
+- reduce muscular dystrophy symptoms  
+- provide method for increasing utrophin promoter activity with chrysin  
+- administer chrysin composition  
+- increase utrophin expression or activity with chrysin  
+- correct dystrophin deficiency with chrysin  
+- treat muscular dystrophy with chrysin  
+- reduce muscular dystrophy symptoms with chrysin  
+- administer chrysin parenterally or orally  
+- provide method for treating muscular dystrophy with chrysin  
+- reduce muscular dystrophy symptoms with chrysin  
+- provide method for increasing utrophin promoter activity with chrysin  
+- administer chrysin composition  
+- increase utrophin expression or activity with chrysin  
+- correct dystrophin deficiency with chrysin  
+- treat muscular dystrophy with chrysin  
+- reduce muscular dystrophy symptoms with chrysin  
+- administer chrysin parenterally or orally  
+- provide method for treating muscular dystrophy with chrysin  
+- reduce muscular dystrophy symptoms with chrysin  
+- provide method for increasing utrophin promoter activity with nabumetone  
+- administer nabumetone composition  
+- increase utrophin expression or activity with nabumetone  
+- correct dystrophin deficiency with nabumetone  
+- treat muscular dystrophy with nabumetone  
+- reduce muscular dystrophy symptoms with nabumetone  
+- administer nabumetone parenterally or orally  
+- provide method for treating muscular dystrophy with nabumetone  
+- reduce muscular dystrophy symptoms with nabumetone  
+- provide method for treating muscular dystrophy  
+- provide method for reducing symptoms of muscular dystrophy  
+- provide method for increasing activity of utrophin promoter  
+- provide method for increasing expression or activity of utrophin  
+- provide method for correcting deficiency of dystrophin  
+- provide method for treating muscular dystrophy with nabumetone  
+- provide method for reducing symptoms of muscular dystrophy with nabumetone  
+- provide method for increasing activity of utrophin promoter with nabumetone  
+- provide method for increasing expression or activity of utrophin with nabumetone  
+- provide method for correcting deficiency of dystrophin with nabumetone  
+- provide method for treating muscular dystrophy with nabumetone orally  
+- provide method for treating muscular dystrophy with nabumetone parenterally  
+- provide method for reducing symptoms of muscular dystrophy with nabumetone orally  
+- provide method for reducing symptoms of muscular dystrophy with nabumetone parenterally  
+- provide method for increasing activity of utrophin promoter with nabumetone orally  
+- provide method for increasing activity of utrophin promoter with nabumetone parenterally  
+- provide method for increasing expression or activity of utrophin with nabumetone orally  
+- provide method for increasing expression or activity of utrophin with nabumetone parenterally  
+- provide method for correcting deficiency of dystrophin with nabumetone orally  
+- provide method for correcting deficiency of dystrophin with nabumetone parenterally  
+- provide method for treating muscular dystrophy with riluzole  
+- provide method for reducing symptoms of muscular dystrophy with riluzole  
+- provide method for increasing activity of utrophin promoter with riluzole  
+- provide method for increasing expression or activity of utrophin with riluzole  
+- provide method for correcting deficiency of dystrophin with riluzole  
+- provide method for treating muscular dystrophy with riluzole orally  
+- provide method for treating muscular dystrophy with riluzole parenterally  
+- provide method for reducing symptoms of muscular dystrophy with riluzole orally or parenterally  
+- provide method for treating muscular dystrophy  
+- provide method for reducing symptoms of muscular dystrophy  
+- provide method for increasing activity of utrophin promoter  
+- provide method for increasing expression or activity of utrophin  
+- provide method for correcting deficiency of dystrophin  
+- provide method for treating muscular dystrophy with hesperetin  
+- provide method for reducing symptoms of muscular dystrophy with hesperetin  
+- provide method for increasing activity of utrophin promoter with hesperetin  
+- provide method for increasing expression or activity of utrophin with hesperetin  
+- provide method for correcting deficiency of dystrophin with hesperetin  
+- provide method for treating muscular dystrophy with hesperetin orally or parenterally  
+- provide method for reducing symptoms of muscular dystrophy with hesperetin orally or parenterally  
+- provide method for increasing activity of utrophin promoter with hesperetin orally or parenterally  
+- provide method for increasing expression or activity of utrophin with hesperetin orally or parenterally  
+- provide method for correcting deficiency of dystrophin with hesperetin orally or parenterally  
+- provide method for treating muscular dystrophy with hesperetin  
+- provide method for reducing symptoms of muscular dystrophy with hesperetin  
+- provide method for increasing activity of utrophin promoter with resveratrol  
+- provide method for increasing expression or activity of utrophin with resveratrol  
+- provide method for correcting deficiency of dystrophin with resveratrol  
+- provide method for treating muscular dystrophy with resveratrol  
+- provide method for reducing symptoms of muscular dystrophy with resveratrol  
+- provide method for increasing activity of utrophin promoter with resveratrol orally or parenterally  
+- provide method for increasing expression or activity of utrophin with resveratrol orally or parenterally  
+- provide method for correcting deficiency of dystrophin with resveratrol orally or parenterally  
+- provide method for treating muscular dystrophy with resveratrol  
+- provide method for reducing symptoms of muscular dystrophy with resveratrol  
+- provide method for increasing activity of utrophin promoter with resveratrol  
+- provide method for reducing symptoms of muscular dystrophy with resveratrol  
+- provide method for increasing utrophin promoter activity  
+- administer resveratrol composition  
+- increase utrophin expression or activity  
+- correct dystrophin deficiency  
+- treat muscular dystrophy  
+- reduce muscular dystrophy symptoms  
+- administer resveratrol composition parenterally or orally  
+- provide method for treating muscular dystrophy  
+- provide method for reducing muscular dystrophy symptoms  
+- provide method for increasing utrophin promoter activity with phenazopyridine  
+- administer phenazopyridine composition  
+- increase utrophin expression or activity with phenazopyridine  
+- correct dystrophin deficiency with phenazopyridine  
+- treat muscular dystrophy with phenazopyridine  
+- reduce muscular dystrophy symptoms with phenazopyridine  
+- administer phenazopyridine composition parenterally or orally  
+- provide method for treating muscular dystrophy with phenazopyridine  
+- provide method for reducing muscular dystrophy symptoms with phenazopyridine  
+- provide method for increasing utrophin promoter activity with phenazopyridine  
+- administer phenazopyridine composition  
+- increase utrophin expression or activity with phenazopyridine  
+- correct dystrophin deficiency with phenazopyridine  
+- treat muscular dystrophy with phenazopyridine  
+- reduce muscular dystrophy symptoms with phenazopyridine  
+- administer phenazopyridine composition parenterally or orally  
+- provide method for treating muscular dystrophy with phenazopyridine  
+- provide method for reducing muscular dystrophy symptoms with phenazopyridine  
+- provide method for treating muscular dystrophy  
+- provide method for reducing muscular dystrophy symptoms  
+- provide method for increasing utrophin promoter activity  
+- administer tiabendazole or derivative  
+- provide method for increasing utrophin expression  
+- administer tiabendazole or derivative  
+- provide method for correcting dystrophin deficiency  
+- administer tiabendazole or derivative  
+- provide method for treating muscular dystrophy  
+- administer tiabendazole or derivative  
+- provide method for reducing muscular dystrophy symptoms  
+- administer tiabendazole or derivative  
+- provide method for treating muscular dystrophy  
+- administer tiabendazole or derivative  
+- provide method for reducing muscular dystrophy symptoms  
+- administer tiabendazole or derivative  
+- provide method for increasing utrophin promoter activity  
+- administer tiabendazole or derivative  
+- provide method for increasing utrophin expression  
+- administer tiabendazole or derivative  
+- provide method for correcting dystrophin deficiency  
+- administer tiabendazole or derivative  
+- provide method for treating muscular dystrophy  
+- administer tiabendazole or derivative  
+- provide method for reducing muscular dystrophy symptoms  
+- administer tiabendazole or derivative  
+- provide method for treating muscular dystrophy  
+- administer leflunomide or derivative  
+- provide method for increasing utrophin promoter activity  
+- administer leflunomide or derivative  
+- provide method for increasing utrophin expression  
+- administer leflunomide or derivative  
+- provide method for correcting dystrophin deficiency  
+- administer leflunomide or derivative  
+- provide method for treating muscular dystrophy  
+- administer leflunomide or derivative  
+- provide method for reducing muscular dystrophy symptoms  
+- administer leflunomide or derivative  
+- provide method for treating muscular dystrophy  
+- provide method for reducing symptoms of muscular dystrophy  
+- provide method for increasing activity of utrophin promoter  
+- provide method for increasing expression or activity of utrophin  
+- provide method for correcting deficiency of dystrophin  
+- provide method for treating muscular dystrophy with kawain  
+- provide method for reducing symptoms of muscular dystrophy with kawain  
+- provide method for increasing activity of utrophin promoter with kawain  
+- provide method for increasing expression or activity of utrophin with kawain  
+- provide method for correcting deficiency of dystrophin with kawain  
+- provide method for treating muscular dystrophy with kawain orally or parenterally  
+- provide method for reducing symptoms of muscular dystrophy with kawain orally or parenterally  
+- provide method for increasing activity of utrophin promoter with kawain orally or parenterally  
+- provide method for increasing expression or activity of utrophin with kawain orally or parenterally  
+- provide method for correcting deficiency of dystrophin with kawain orally or parenterally  
+- provide method for treating muscular dystrophy with clorgyline  
+- provide method for reducing symptoms of muscular dystrophy with clorgyline  
+- provide method for increasing activity of utrophin promoter with clorgyline  
+- provide method for increasing expression or activity of utrophin with clorgyline  
+- provide method for correcting deficiency of dystrophin with clorgyline  
+- provide method for treating muscular dystrophy with clorgyline orally or parenterally  
+- provide method for reducing symptoms of muscular dystrophy with clorgyline orally or parenterally  
+- provide method for increasing activity of utrophin promoter with clorgyline orally or parenterally  
+- provide method for increasing expression or activity of utrophin with clorgyline orally or parenterally  
+- provide method for correcting deficiency of dystrophin with clorgyline orally or parenterally  
+- provide method for treating muscular dystrophy with leflunomide  
+- provide method for reducing symptoms of muscular dystrophy with leflunomide  
+- provide method for treating muscular dystrophy with leflunomide orally or parenterally  
+- provide method for treating muscular dystrophy  
+- provide method for reducing symptoms of muscular dystrophy  
+- provide method for increasing activity of utrophin promoter  
+- provide method for increasing expression or activity of utrophin  
+- provide method for correcting deficiency of dystrophin  
+- provide method for treating muscular dystrophy with clorgyline  
+- provide method for reducing symptoms of muscular dystrophy with clorgyline  
+- provide method for increasing activity of utrophin promoter with clorgyline  
+- provide method for increasing expression or activity of utrophin with clorgyline  
+- provide method for correcting deficiency of dystrophin with clorgyline  
+- provide method for treating muscular dystrophy with clorgyline orally or parenterally  
+- provide method for reducing symptoms of muscular dystrophy with clorgyline orally or parenterally  
+- provide method for increasing activity of utrophin promoter with clorgyline orally or parenterally  
+- provide method for increasing expression or activity of utrophin with clorgyline orally or parenterally  
+- provide method for correcting deficiency of dystrophin with clorgyline orally or parenterally  
+- provide method for treating muscular dystrophy with equilin  
+- provide method for reducing symptoms of muscular dystrophy with equilin  
+- provide method for increasing activity of utrophin promoter with equilin  
+- provide method for increasing expression or activity of utrophin with equilin  
+- provide method for correcting deficiency of dystrophin with equilin  
+- provide method for treating muscular dystrophy with equilin orally or parenterally  
+- provide method for reducing symptoms of muscular dystrophy with equilin orally or parenterally  
+- provide method for increasing activity of utrophin promoter with equilin orally or parenterally  
+- provide method for increasing expression or activity of utrophin with equilin orally or parenterally  
+- provide method for correcting deficiency of dystrophin with equilin orally or parenterally  
+- provide method for treating muscular dystrophy with composition  
+- provide method for reducing symptoms of muscular dystrophy with composition  
+- provide method for increasing activity of utrophin promoter with composition  
+- provide method for increasing expression or activity of utrophin with composition
+
+Muscular dystrophy is a genetically heterogeneous group of disorders characterized by progressive degeneration of skeletal muscle, with Duchenne muscular dystrophy being the most prevalent and severe form, caused by loss-of-function mutations in the dystrophin gene. The invention provides a novel therapeutic approach based on the pharmacological upregulation of utrophin, a naturally occurring homolog of dystrophin, to compensate for its absence. Small molecule compounds capable of activating the utrophin A promoter include, but are not limited to, nabumetone, riluzole, piperine, apigenin, chrysin, leflunomide, kawain, clorgyline, equilin, resveratrol, hesperetin, phenazopyridine, and tiabendazole, as well as their structural analogs, derivatives, and pharmaceutically acceptable forms. The compound of formula (I) is characterized by a central aromatic ring substituted at the R1 position with a hydroxyl, methoxy, or amino group, and at the R2 position with a carboxylic acid, ester, or amide moiety, wherein the R1 and R2 substituents are positioned to facilitate binding to a transcriptional regulatory element upstream of the utrophin A promoter. Examples of R1 include 4-hydroxyphenyl, 3-methoxyphenyl, or 2-aminoethyl, and examples of R2 include acetyl, propionyl, or benzoyl. The composition of the compound may further include a linker group such as ethylene, propylene, or carbonyl, connecting the aromatic core to the terminal functional group. Piperine, a natural alkaloid derived from black pepper, and its analogs such as piperlongumine or piperettine, demonstrate potent utrophin promoter activation at concentrations below 10 µM. Apigenin, a flavonoid found in parsley and celery, and its derivatives including luteolin or chrysin, enhance utrophin expression through modulation of histone acetylation and RNA polymerase recruitment. Chrysin, a flavone with a 5,7-dihydroxyflavone backbone, increases utrophin mRNA levels by stabilizing promoter-bound transcription factors. Nabumetone, a nonsteroidal anti-inflammatory prodrug metabolized to 6-methoxy-2-naphthylacetic acid, activates the utrophin promoter at therapeutic plasma concentrations achieved in humans during routine dosing for arthritis. Riluzole, used in amyotrophic lateral sclerosis, enhances utrophin expression by inhibiting glutamate-mediated excitotoxicity and promoting nuclear translocation of transcriptional activators. Leflunomide, an immunomodulatory agent, and its active metabolite teriflunomide, increase utrophin expression via inhibition of pyrimidine synthesis and subsequent epigenetic remodeling. Kawain, a kavalactone from Piper methysticum, and its analogs such as yangonin or methysticin, activate utrophin transcription through unknown signaling pathways involving calcium-dependent kinases. Clorgyline, a monoamine oxidase A inhibitor, and its derivatives including selegiline or rasagiline, enhance utrophin expression by altering mitochondrial function and redox signaling. Equilin, an estrogenic steroid, and its analogs such as estrone or equilenin, promote utrophin transcription via estrogen receptor-mediated chromatin remodeling. Isomers of these compounds, including enantiomers, diastereomers, or geometric isomers, are included if they retain the ability to upregulate utrophin. Prodrugs are derivatives designed to improve bioavailability, such as esterified forms of carboxylic acid-containing compounds, which are hydrolyzed in vivo to release the active moiety. Active metabolites refer to compounds generated in vivo by hepatic or enzymatic conversion that retain or enhance the utrophin-upregulating activity of the parent compound. Pharmaceutically acceptable salts include inorganic salts such as hydrochloride, sulfate, phosphate, or nitrate, and organic salts such as acetate, citrate, maleate, or fumarate, formed by reaction with acids or bases to improve solubility, stability, or absorption. Salt formation is achieved by contacting the free base or acid form of the compound with an equimolar or excess amount of the appropriate acid or base in a solvent such as ethanol, water, or acetone. Derivatives include compounds modified at non-critical functional groups to enhance pharmacokinetic properties without loss of biological activity. Hydrates refer to crystalline forms containing stoichiometric or non-stoichiometric water molecules, which may improve stability during storage. Pharmaceutical products encompass tablets, capsules, suspensions, injectables, transdermal patches, or controlled-release formulations containing the compound in combination with excipients such as lactose, microcrystalline cellulose, magnesium stearate, or polysorbate 80. Metabolites include oxidized, reduced, conjugated, or cleaved products of the compound formed in vivo, which may contribute to the overall therapeutic effect. The method for increasing utrophin promoter activity involves contacting muscle cells with the compound at concentrations ranging from 1 nM to 200 µM for a period of 6 to 72 hours, resulting in a statistically significant increase in luciferase reporter activity driven by the utrophin A promoter. The method for increasing utrophin expression or activity includes administration of the compound to a subject, followed by detection of elevated utrophin mRNA levels by quantitative RT-PCR and increased utrophin protein levels by Western blot or immunohistochemistry in skeletal or cardiac muscle tissue. The method for correcting dystrophin deficiency entails the restoration of sarcolemmal integrity, reduction in serum creatine kinase levels, and improvement in muscle force generation as a consequence of utrophin-mediated stabilization of the DAPC. The method for treating muscular dystrophy involves daily or intermittent administration of the compound to a patient diagnosed with Duchenne or Becker muscular dystrophy, resulting in delayed disease progression, prolonged ambulation, and improved respiratory function. The method for reducing muscular dystrophy symptoms includes alleviation of muscle fatigue, decreased frequency of contractures, and improved performance on functional tests such as the six-minute walk test. The administration of piperine composition, whether orally or parenterally, results in a dose-dependent increase in utrophin promoter activity and protein expression in C2C12 and mdx mouse muscle tissue. Similarly, administration of apigenin, chrysin, nabumetone, riluzole, leflunomide, kawain, clorgyline, equilin, resveratrol, hesperetin, phenazopyridine, or tiabendazole compositions, orally or parenterally, leads to significant upregulation of utrophin expression and amelioration of dystrophic pathology in preclinical models. The compound may be administered as a single agent or in combination with other utrophin-enhancing therapies, such as biglycan, micro-dystrophin, or antisense oligonucleotides, to achieve synergistic effects. The invention further encompasses methods for increasing utrophin promoter activity with nabumetone orally at doses of 100–1000 mg/day or parenterally at 5–50 mg/kg, resulting in plasma concentrations sufficient to activate the utrophin promoter. The same principles apply to riluzole, hesperetin, resveratrol, and other compounds, with dosing adjusted according to pharmacokinetic profiles. The administration of any of the disclosed compounds to a patient with muscular dystrophy results in measurable clinical improvement, including enhanced muscle strength, reduced fibrosis, and prolonged survival in animal models, thereby validating the therapeutic utility of utrophin upregulation as a disease-modifying strategy.
+
+## Pharmaceutical Compositions and Methods of Administration
+
+- introduce administration methods  
+- describe oral administration  
+- formulate for oral administration  
+- describe capsule formulation  
+- introduce injectable administration  
+- formulate for intravenous administration  
+- formulate for intra-arterial administration  
+- formulate for intra-muscular administration  
+- introduce topical administration  
+- formulate for topical administration  
+- introduce suppository administration  
+- introduce pellet administration  
+- describe controlled release pellet  
+- introduce vesicle delivery  
+- list carriers and diluents  
+- describe liquid formulations  
+- list parenteral vehicles  
+- list additives and excipients  
+- describe controlled-release compositions  
+- describe combination therapy
+
+The compounds of the invention may be administered via a variety of routes, including oral, parenteral, topical, rectal, or implantable delivery systems, depending on the clinical context, patient age, and desired pharmacokinetic profile. Oral administration is preferred for chronic treatment due to its convenience, patient compliance, and established safety profile. For oral delivery, the compound may be formulated into solid dosage forms such as tablets, capsules, or powders, using pharmaceutically acceptable carriers including lactose, microcrystalline cellulose, starch, or hydroxypropyl methylcellulose. Capsule formulations may contain the compound in powder or granule form enclosed within gelatin or enteric-coated shells to protect against gastric degradation and ensure targeted release in the small intestine. Injectable administration is suitable for acute settings or patients with gastrointestinal dysfunction and may be delivered intravenously, intra-arterially, or intramuscularly. Intravenous formulations are prepared as sterile, isotonic solutions in saline, dextrose, or buffered aqueous media, containing the compound at concentrations ranging from 0.1 to 10 mg/mL, with optional stabilizers such as polysorbate 80 or citrate buffer. Intra-arterial administration allows for targeted delivery to skeletal muscle beds, minimizing systemic exposure. Intramuscular injections may be formulated as suspensions in oil-based vehicles such as sesame or castor oil for sustained release. Topical administration may be employed for localized muscle involvement, using gels, creams, or transdermal patches containing the compound dissolved in ethanol, propylene glycol, or liposomes for enhanced skin penetration. Suppository formulations, composed of cocoa butter or polyethylene glycol bases, are useful for pediatric or non-ambulatory patients. Pellet administration involves the encapsulation of the compound in biodegradable polymers such as polylactic acid or polyglycolic acid to provide controlled release over weeks or months. Controlled-release pellets may be administered orally or implanted subcutaneously, with release kinetics tailored to maintain therapeutic plasma concentrations for 12 to 24 hours. Vesicle delivery systems, including liposomes, niosomes, or polymeric nanoparticles, may be engineered to target muscle tissue via surface ligands such as peptides recognizing integrins or dystroglycan. Carriers and diluents include water, ethanol, glycerol, propylene glycol, dimethyl sulfoxide, cyclodextrins, and polyethylene glycol, selected based on solubility and compatibility. Liquid formulations for oral or parenteral use may contain solubilizing agents such as cremophor, polysorbate, or hydroxypropyl-β-cyclodextrin, and preservatives such as benzalkonium chloride or parabens. Parenteral vehicles include sterile water for injection, 0.9% sodium chloride, 5% dextrose, or Ringer’s lactate, with optional tonicity modifiers such as mannitol or sodium chloride. Additives and excipients include antioxidants (e.g., ascorbic acid), chelating agents (e.g., EDTA), buffering agents (e.g., phosphate or citrate), and surfactants (e.g., poloxamer). Controlled-release compositions may be prepared using matrix systems, osmotic pumps, or coated microspheres to prolong drug exposure and reduce dosing frequency. Combination therapy may involve co-administration of the utrophin-upregulating compound with anti-inflammatory agents, antioxidants, or muscle growth promoters such as myostatin inhibitors to enhance overall therapeutic efficacy. The invention further encompasses fixed-dose combinations in single dosage forms, such as tablets containing both the compound and a co-therapeutic agent, for simplified treatment regimens.
+
+## EXAMPLES
+
+- introduce cell line C2C12utrn  
+- screen chemical library for utrophin promoter activators  
+- rescreen compounds at multiple concentrations  
+- identify dose-dependent utrophin promoter activators  
+- evaluate compounds in C2C12 muscle cells  
+- measure utrophin A mRNA upregulation  
+- perform in vivo experiments in mice  
+- discuss therapeutic potential and scope of invention
+
+A stable C2C12 mouse myoblast cell line, designated C2C12utrn, was generated by transfecting cells with a luciferase reporter construct containing the 2.3 kb human utrophin A promoter region fused to the firefly luciferase gene, followed by selection with hygromycin B. This cell line exhibited robust, reproducible luciferase activity responsive to known utrophin inducers such as trichostatin A and heregulin. Using this system, a high-throughput screen of the Prestwick Chemical Library, comprising 1120 approved drugs and natural compounds, was conducted at a concentration of 2 µg/mL. Twenty compounds demonstrated ≥20% upregulation of luciferase activity relative to vehicle controls, with a Z-factor of 0.6 indicating high assay robustness. Of these, fourteen compounds exhibited dose-dependent activation across a concentration range of 1.6 nM to 25 µM, confirming their activity as true utrophin promoter activators. Nabumetone emerged as the most promising candidate, inducing a 1.8-fold increase in utrophin A mRNA levels in C2C12 cells at 25 µM, as measured by quantitative RT-PCR, and a 1.2-fold increase in utrophin protein expression by Western blot after four days of treatment. In vivo studies in mdx mice, a model of Duchenne muscular dystrophy, demonstrated that oral administration of nabumetone at 100 mg/kg/day for four weeks resulted in significant upregulation of utrophin protein in diaphragm and quadriceps muscle, concomitant with reduced serum creatine kinase levels, decreased fibrosis, and improved grip strength. Histological analysis revealed enhanced sarcolemmal integrity and reduced inflammatory infiltrates. Similar results were obtained with piperine, apigenin, and riluzole, each showing dose-dependent increases in utrophin expression and functional improvement. These findings establish that pharmacological upregulation of utrophin by small molecule compounds is a viable and translatable therapeutic strategy for muscular dystrophy. The scope of the invention extends to all compounds capable of activating the utrophin promoter, regardless of their original indication, and encompasses their use in human patients with dystrophin-deficient myopathies. The invention provides a foundation for rapid clinical translation, as many of the identified compounds are already approved for human use, thereby circumventing the lengthy and costly early stages of drug development.
