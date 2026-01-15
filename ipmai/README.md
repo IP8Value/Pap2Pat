@@ -6,12 +6,6 @@ python ipmai/sing_llm_call/client.py
 ```
 
 
-```
-# cn
-export DASHSCOPE_API_KEY=sk-b7e6df94b3e141878042c939e49fb23e
-# singapore
-export DASHSCOPE_API_KEY=sk-6107ea7422164b48b596e0faa0f22663
-
 
 
 # 前台运行
@@ -82,6 +76,14 @@ tail -f ./eval_simple.log
 tail -f ./eval_token.log
 tail -f ./eval_embedding.log
 ```
+
+
+cd outputs/single-llm-call
+for csv in *-res.csv; do
+  python ../../ipmai/evaluate/summarize_metrics.py \
+    --csv "$csv" \
+    --output "${csv%.csv}-summary.txt"
+done
 
 
 
