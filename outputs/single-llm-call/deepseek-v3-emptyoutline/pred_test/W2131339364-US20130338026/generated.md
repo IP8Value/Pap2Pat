@@ -1,0 +1,35 @@
+Here is the complete patent application following the provided outline:
+
+## DESCRIPTION OF THE INVENTION
+
+The present invention relates to methods and compositions for diagnosing, prognosing, and treating endometrial cancer and other cancers characterized by 8q24 amplification and MYC pathway activation. Specifically, the invention identifies ATAD2 as a key target of the 8q24 amplification in endometrial cancer and demonstrates its role in MYC signaling activation and cancer progression. The invention provides diagnostic methods for identifying patients at high risk of disease progression based on ATAD2 expression levels or 8q24 amplification status, as well as therapeutic methods targeting ATAD2 in MYC-dependent cancers.
+
+## PRIOR ART
+
+Endometrial carcinoma represents the most common gynecologic malignancy, with approximately 75% of tumors being confined to the uterine corpus at diagnosis. However, 15-20% of these tumors relapse, and metastatic tumors generally respond poorly to existing therapies. The 8q24 chromosomal region, containing the MYC oncogene, is the most frequently amplified region across multiple cancer types and serves as a negative prognostic marker in several cancers. While MYC has been implicated as a potential target of this amplification, the complete molecular consequences of 8q24 amplification in endometrial cancer remain poorly understood. Previous studies have identified ATAD2 as a neighboring gene to MYC that may function as a co-regulator, with overexpression associated with poor prognosis in breast, lung, and prostate cancers. However, the specific role of ATAD2 in endometrial cancer pathogenesis, its relationship to MYC signaling, and its potential as a therapeutic target have not been previously characterized.
+
+## SUMMARY OF THE PRESENT INVENTION
+
+The present invention provides novel methods for diagnosing and treating endometrial cancer and other cancers characterized by 8q24 amplification. Through comprehensive genomic analyses of primary and metastatic endometrial cancers, the invention demonstrates that ATAD2 represents an additional target of the 8q24 amplification in these cancers. The invention establishes that copy number gain of ATAD2 regulates ATAD2 expression and provides the first evidence linking ATAD2 overexpression to MYC activation in human tumors. The invention further demonstrates that ATAD2 expression levels and 8q24 amplification status serve as prognostic markers for disease progression and survival in endometrial cancer patients. Additionally, the invention provides functional data establishing ATAD2 as a therapeutic target in MYC-dependent cancers, including methods for identifying patients likely to respond to ATAD2-targeted therapies and HDAC inhibitors.
+
+## DETAILED DESCRIPTION OF THE PRESENT INVENTION
+
+### Patient Series
+
+The invention encompasses analysis of endometrial carcinoma primaries and metastases collected from patients treated at a university hospital. Tumor samples were collected under appropriate ethical approvals and informed consent. Specimens for primary investigation and quantitative PCR validation were frozen immediately upon resection, while tumors collected for fluorescence in situ hybridization (FISH) analysis were formalin-fixed and paraffin-embedded. Patients were followed from primary surgery until death or study conclusion. The invention includes comprehensive clinical data associated with these samples, including tumor characteristics, treatment history, and outcome measures. Copy-number profiles of the primary investigation series and expression profiles from subsets of tumors were generated and analyzed.
+
+### RNA Analysis
+
+The invention includes methods for RNA extraction and hybridization to microarray platforms according to manufacturer instructions. Signal intensities were evaluated using specialized array analysis tools, with batch median normalization applied to ensure data quality. The invention demonstrates the utility of these methods for detecting differential gene expression patterns associated with 8q24 amplification status and clinical outcomes. Specific protocols for RNA quality assessment, cDNA synthesis, and microarray processing are encompassed within the invention.
+
+### DNA Analysis
+
+The invention provides methods for DNA analysis including real-time quantitative PCR and fluorescence in situ hybridization (FISH). For quantitative PCR, cDNA was synthesized from RNA using high-capacity reverse transcription kits. Expression of ATAD2 and MYC was determined using specific TaqMan gene expression assays with GAPDH as an endogenous control. Samples were run in triplicate and analyzed using specialized software. For FISH analysis, tissue microarrays were prepared and hybridized with specific probes according to standardized protocols. Probe and control signals were counted in optimal tissue areas, with amplifications scored based on established ratio thresholds. The invention demonstrates how these DNA analysis methods can identify 8q24 amplifications and correlate them with clinical outcomes.
+
+### Statistics
+
+The invention includes statistical methods for relating molecular data to clinical phenotypes using appropriate tests including Pearson's χ2 and two-sided Student's t-tests. Multivariate linear regression analysis was employed for predicting ATAD2 expression levels. Survival analyses were performed using log-rank and Mantel-Cox methods for univariate and multivariate analyses, respectively. The invention demonstrates the application of these statistical methods to establish ATAD2 expression and 8q24 amplification as independent prognostic factors after adjusting for established clinical variables. Specific statistical approaches for analyzing gene expression data, including calculation of Z-scores and assessment of signature strengths, are encompassed within the invention.
+
+### Results and Discussion
+
+The invention provides comprehensive results demonstrating that 8q24 amplification in endometrial cancer targets both MYC and ATAD2, with ATAD2 expression showing stronger correlation with amplification status than MYC itself. The invention establishes that ATAD2 expression correlates more strongly with MYC signaling strength than MYC expression does across multiple cancer types. Clinical outcome analyses show that 8q24 amplification and high ATAD2 expression are associated with reduced progression-free survival and increased risk of disease-specific death in endometrial cancer patients. The invention demonstrates that metastases exhibit higher rates of 8q24 amplification, ATAD2 expression, and MYC signaling strength than primary tumors. Functional studies show that cancer cell lines dependent on MYC are also dependent on ATAD2 expression, and that these cell lines show sensitivity to HDAC inhibitors. These findings support ATAD2 as both a prognostic marker and therapeutic target in endometrial and other MYC-driven cancers. The invention further provides methods for identifying patients likely to benefit from ATAD2-targeted therapies based on molecular profiling of their tumors.

@@ -1,0 +1,41 @@
+Here is the complete patent application following the provided outline:
+
+# DESCRIPTION  
+
+## BACKGROUND  
+
+The field of symmetric key cryptography has long sought to provide secure and efficient methods for encryption and authentication. Conventional authenticated encryption algorithms suffer from various limitations, including performance bottlenecks, security vulnerabilities, and complex key management requirements. Many existing solutions require multiple passes per block of plaintext, significantly reducing throughput, while others have demonstrated security weaknesses or operational complexities that make them impractical for widespread deployment.  
+
+Government and military applications particularly demand cryptographic solutions that balance stringent security requirements with practical implementation considerations. There exists an unmet need for an authenticated encryption algorithm that maintains robust security while offering flexibility in customization, enabling unique instantiations without requiring exhaustive cryptanalysis for each variation. Current approaches based on sponge and duplex constructions show promise but lack optimizations for hardware implementation and sufficient resistance against advanced cryptanalytic techniques.  
+
+## SUMMARY OF THE INVENTION  
+
+The present invention discloses a novel authenticated encryption algorithm based on an enhanced duplex construction, specifically optimized for hardware implementation while maintaining provable security against known cryptanalytic attacks. The system utilizes a customizable permutation function operating on a 512-bit state, featuring innovative 16×16 bijective substitution boxes (S-boxes) that provide substantially higher non-linearity and algebraic complexity compared to conventional 8-bit S-box implementations.  
+
+Key aspects of the invention include:  
+
+The algorithm supports both 128-bit and 256-bit key sizes while maintaining a constant 128-bit rate parameter, enabling seamless switching between security levels without architectural modifications. The underlying permutation function employs a configurable number of rounds (10 for 128-bit keys, 16 for 256-bit keys) with each round comprising four distinct operations: substitution using large 16-bit S-boxes, a carefully designed bitwise permutation, a mixing layer with optimal diffusion properties, and the addition of cryptographically significant round constants.  
+
+A critical innovation involves the implementation of 16×16 S-boxes based on finite field arithmetic in GF(2¹⁶), providing substantially higher resistance against algebraic attacks compared to smaller S-boxes while maintaining efficient hardware implementability. The substitution layer utilizes 32 parallel S-boxes operating on the state, followed by a bitwise permutation specifically designed to maximize diffusion and active S-box counts across rounds. The mixing layer employs matrix multiplication in GF(2¹⁶) to achieve optimal linear and differential branch numbers, while round constants derived from cryptographic hash functions prevent symmetry-based attacks.  
+
+The invention further provides extensive customization capabilities, allowing modifications to the S-box implementations, bitwise permutations, mixing matrices, and round constants while maintaining security guarantees. This enables unique instantiations tailored to specific applications without requiring complete re-analysis of each variant. The algorithm's security has been rigorously analyzed against differential, linear, and algebraic attacks, with mathematical proofs establishing its resistance to these attack vectors.  
+
+## DETAILED DESCRIPTION  
+
+The authenticated encryption algorithm of the present invention implements an enhanced duplex construction operating on a 512-bit internal state divided into an outer (public) portion of 128 bits and an inner (hidden) portion of 384 bits. This state organization provides optimal balance between processing speed (determined by the rate parameter) and security (determined by the capacity parameter). The construction maintains state between operations, enabling efficient authenticated encryption through sequential duplexing calls that simultaneously absorb input data and generate output streams.  
+
+The core permutation function operates through multiple rounds of transformation, with the number of rounds determined by the selected key size (10 rounds for 128-bit keys, 16 rounds for 256-bit keys). Each round implements four distinct cryptographic operations:  
+
+1. **Substitution Layer**: The state undergoes parallel processing through 32 identical 16×16 bijective S-boxes implemented using finite field arithmetic in GF(2¹⁶)/p(x), where p(x) = x¹⁶ + x⁵ + x³ + x + 1. Each S-box performs multiplicative inversion followed by an affine transformation, providing optimal non-linearity while enabling compact hardware implementation requiring only 1238 XOR gates and 144 AND gates per S-box.  
+
+2. **Bitwise Permutation**: A carefully designed permutation π operates on the entire 512-bit state according to the function π(x) = (33x + 1) mod 512. This permutation satisfies critical cryptographic properties including being a derangement (no fixed points), having high order (32), and ensuring outputs from each S-box distribute to distinct mixing components. The permutation's mathematical formulation enables efficient hardware implementation through simple wire routing.  
+
+3. **Mixing Layer**: The state undergoes local diffusion through a mixing operation based on 2×2 matrix multiplication in GF(2¹⁶)/q(x), where q(x) = x¹⁶ + x⁵ + x³ + x² + 1. The symmetric matrix [[1, x], [x, x+1]] provides optimal differential and linear branch numbers of 3, ensuring at least three active S-boxes between consecutive rounds. This mixing operation requires minimal hardware resources while providing robust diffusion properties.  
+
+4. **Round Constant Addition**: Each round incorporates a unique 512-bit constant derived through cryptographic hashing (SHA3-512) of the round index, disrupting symmetry and preventing slide attacks. The constants follow the formula RC_i = SHA3-512(ASCII(i)), ensuring distinct values for each round while maintaining cryptographic pseudorandomness.  
+
+The algorithm's security derives from careful mathematical analysis of each component. Differential cryptanalysis resistance is ensured through the S-box's maximum differential probability of 2⁻¹⁴ and the mixing layer's guaranteed three active S-boxes between rounds. Linear cryptanalysis resistance stems from the S-box's maximum linear bias of 2⁻⁸ and the mixing layer's identical linear and differential branch numbers. Algebraic attack resistance is provided by the S-boxes' high algebraic complexity in GF(2¹⁶), substantially exceeding the complexity of smaller S-box constructions.  
+
+Customization capabilities form a critical aspect of the invention, allowing parameter modifications while maintaining security. The inner state initialization may be varied to create unique algorithm instances. Alternative 16-bit S-boxes may be substituted following analysis of their linear and differential properties. The bitwise permutation may be replaced with any derangement satisfying the specified diffusion criteria. Different mixing matrices may be employed provided they maintain the required branch numbers. Round constants may be generated through alternative cryptographic methods while preserving uniqueness and pseudorandomness.  
+
+Implementation advantages include efficient hardware realization through parallel S-box operations, wire-routed permutations, and compact mixing circuits. The constant rate parameter enables consistent performance across different key sizes, while the large internal state provides substantial security margins against collision and preimage attacks. The algorithm's mathematical foundations ensure provable security against known attack vectors while maintaining flexibility for customization and optimization across different deployment scenarios.

@@ -1,0 +1,33 @@
+Here is the drafted patent application following your outline and guidelines:
+
+# DESCRIPTION  
+
+## BACKGROUND  
+
+The field of turbomachinery has long grappled with the challenge of mitigating excessive vibrations in rotating structures such as bladed disks (blisks). These vibrations, if left unchecked, can lead to high-cycle fatigue and catastrophic failures. Conventional damping methods including blade friction damping, friction ring dampers, viscoelastic treatments, and piezoelectric shunts have been employed with varying degrees of success. Among these, piezoelectric shunt damping has emerged as a particularly promising approach due to its ability to convert mechanical vibration energy into electrical energy that can be dissipated through carefully designed electrical networks.  
+
+Traditional piezoelectric shunt damping systems fall into two main categories: resistive (R) shunts and resistive-inductive (RL) shunts. While R shunts offer simplicity and robustness, their damping performance is fundamentally limited. RL shunts, when properly tuned to the target vibration mode, can provide superior damping effectiveness. However, this approach presents significant practical challenges. The inductance values required for effective tuning are often impractically large, necessitating the use of synthetic inductors implemented through active electronic circuits. Furthermore, RL shunts are highly sensitive to variations in natural frequencies and typically only damp the specific modes they are tuned for, leaving other vibration modes unaffected. These limitations make conventional RL shunts particularly unsuitable for implementation in rotating machinery where reliability and passive operation are paramount.  
+
+In rotationally periodic structures such as bladed disks, vibration modes are characterized by nodal diameters - lines of zero displacement that occur at regular angular intervals. The excitation of these structures typically occurs at frequencies that are integer multiples of the rotational speed, with specific modes becoming critically excited depending on operational conditions and stator geometry. This characteristic presents an opportunity for targeted damping approaches that can address the most problematic vibration modes while minimizing system complexity.  
+
+## DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT  
+
+The present invention discloses a novel piezoelectric shunt damping system specifically optimized for rotationally periodic structures that overcomes the limitations of conventional approaches. The system takes advantage of the harmonic nature of vibration modes in such structures to dramatically reduce the inductance requirements while maintaining effective damping performance.  
+
+At the core of the invention is the organization of piezoelectric transducer elements into parallel electrical loops that are geometrically aligned with the targeted vibration mode's nodal diameter pattern. For a mode having n nodal diameters, the system utilizes 4n piezoelectric patches (or integer multiples thereof) arranged in a specific circumferential pattern. These patches are electrically connected to form two independent parallel loops, each containing 2n patches connected in series.  
+
+The polarization of adjacent patches within each loop alternates such that patches experiencing opposite strain phases during vibration are paired together. This arrangement ensures that the electrical outputs of the paired patches reinforce each other when the structure vibrates in the targeted mode. Specifically, patches separated by an angular distance of π/n radians are connected together, corresponding to opposite lobes of the vibration mode shape.  
+
+The electrical characteristics of the system are carefully designed to maximize damping effectiveness. Each parallel loop presents a total capacitance of 2nC, where C is the capacitance of an individual piezoelectric patch. The required inductance for each loop is given by L = 1/((2nC)ω_i^2), where ω_i is the natural frequency of the targeted mode. This represents a reduction in required inductance by a factor of 4n^2 compared to conventional independent-loop RL shunt implementations.  
+
+The optimal resistance for each loop is determined by R = (2/(ω_iC))√(2nK_i^2), where K_i is the effective electromechanical coupling factor for the targeted mode. This resistance value ensures critical damping of the targeted vibration mode while maintaining system stability.  
+
+In practical implementation, the piezoelectric patches are preferably mounted on non-aerodynamic surfaces of the turbomachinery component to avoid interference with fluid flow. For bladed disks, the inner surface of the blade support rim has been found to be particularly effective location that provides sufficient strain coupling with blade-dominated vibration modes while being protected from harsh operational environments.  
+
+The invention has been successfully demonstrated on both simplified test structures (circular plates) and actual bladed drum configurations with 76 blades. Experimental results show that the parallel loop organization provides equivalent damping performance to conventional independent-loop implementations for the targeted modes while reducing inductance requirements to practical levels that can be achieved with passive components.  
+
+The system maintains effectiveness even in the presence of moderate blade mistuning, where manufacturing variations cause small deviations from perfect rotational periodicity. For cases of severe mistuning, the invention can be adapted by increasing the number of independent loops while still maintaining significant advantages over conventional approaches.  
+
+A key advantage of the present invention is its purely passive nature, making it particularly suitable for implementation in rotating machinery where active components and complex control systems are undesirable. The dramatic reduction in required inductance enables the use of practical passive components rather than synthetic inductors, greatly improving reliability and simplifying integration into operational systems.  
+
+The invention represents a significant advance in vibration control for turbomachinery by providing targeted, effective damping of critical modes while overcoming the practical limitations that have previously hindered the implementation of piezoelectric shunt damping in rotating systems. The geometric organization of piezoelectric elements in harmony with the vibration mode patterns enables performance optimization with minimal system complexity, offering a robust solution to a long-standing challenge in the field.

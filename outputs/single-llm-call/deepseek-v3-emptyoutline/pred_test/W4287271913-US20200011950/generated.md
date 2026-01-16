@@ -1,0 +1,36 @@
+Here is the drafted patent application following the provided outline:
+
+# DESCRIPTION  
+
+## FEDERAL FUNDING NOTICE  
+This invention was made with government support under [Grant Number] awarded by [Agency]. The government has certain rights in the invention.  
+
+## BACKGROUND  
+Glioblastoma (GBM) is among the most aggressive and lethal primary brain tumors, characterized by rapid proliferation and diffuse infiltration into surrounding brain tissue. Despite advances in surgical techniques, radiation therapy, and chemotherapy, median survival for GBM patients remains approximately 15 months post-diagnosis. A critical challenge in managing GBM is the tumor's ability to exert mechanical forces on adjacent brain structures, leading to substantial tissue deformation beyond visible tumor margins. This phenomenon, known as mass effect, contributes significantly to patient morbidity and mortality through increased intracranial pressure, midline shift, and brainstem herniation.  
+
+Current prognostic approaches for GBM primarily rely on clinical parameters such as age, performance status, and molecular markers including MGMT promoter methylation and IDH mutation status. While these factors provide some predictive value, they fail to account for the biomechanical impact of the tumor on surrounding brain structures. Radiographic assessment using conventional MRI sequences has focused predominantly on morphological characteristics within the visible tumor boundaries, neglecting the potentially prognostic information contained in tumor-induced deformations of adjacent normal-appearing brain tissue.  
+
+Recent advances in medical image analysis have enabled quantitative characterization of tumor heterogeneity through radiomic feature extraction. However, existing radiomic approaches have been limited to textural analysis of the tumor core and immediate peritumoral regions without incorporating measurements of tumor-induced tissue deformation in distal brain regions. There exists an unmet need for comprehensive prognostic tools that integrate both morphological tumor characteristics and biomechanical deformation patterns to better predict patient outcomes and guide therapeutic decision-making.  
+
+## DETAILED DESCRIPTION  
+The present invention provides a novel integrated radiomic-deformation and textural heterogeneity (r-DepTH) descriptor for comprehensive characterization of tumor field effect in glioblastoma. The r-DepTH framework combines quantitative measurements of tumor-induced tissue deformation in brain regions surrounding the tumor (BAT) with advanced textural analysis of the tumor core and peritumoral regions to generate a prognostic signature for patient survival stratification.  
+
+The system operates through several key computational components:  
+
+First, the invention employs diffeomorphic image registration to quantify tissue deformation in BAT regions. A healthy brain atlas is non-rigidly aligned to each patient's MRI scan using constrained cost-function masking that excludes the tumor region from the registration process. This approach generates a voxel-wise deformation field that captures the magnitude of tissue displacement caused by tumor mass effect. The deformation field is analyzed within concentric annular sub-volumes extending from 5mm to 60mm beyond the tumor margin, with first-order statistical features (mean, median, standard deviation, skewness, and kurtosis) computed for each annular band.  
+
+Concurrently, the system extracts three-dimensional texture features from the tumor core and peritumoral regions using the Co-occurrence of Local Anisotropic Gradient Orientations (COLLAGE) algorithm. COLLAGE quantifies local heterogeneity through voxel-wise gradient orientation analysis, computing Haralick texture features from gradient co-occurrence matrices. Thirteen Haralick features are calculated for each voxel, with first-order statistics aggregated across the tumor and peritumoral compartments.  
+
+The r-DepTH descriptor is constructed by concatenating the deformation features from BAT regions with the COLLAGE texture features from tumor and peritumoral areas. This integrated feature set undergoes dimensionality reduction via least absolute shrinkage and selection operator (LASSO) regression coupled with Cox proportional hazards modeling. The selected features are weighted by their regression coefficients to generate a continuous risk score (Risc) for each patient.  
+
+An optimal risk threshold is determined through grid search analysis to stratify patients into high-risk and low-risk survival groups. The prognostic performance of the r-DepTH descriptor is validated through Kaplan-Meier survival analysis, log-rank testing, and calculation of hazard ratios with 95% confidence intervals.  
+
+In experimental evaluations across multi-institutional datasets, the r-DepTH descriptor demonstrated superior prognostic performance compared to conventional clinical parameters, standalone radiomic approaches, and deep learning methods. The integration of biomechanical deformation features with textural heterogeneity metrics provided statistically significant stratification of patient survival outcomes (p < 0.001), with high-risk patients showing median survival of 8.7 months versus 19.3 months for low-risk patients.  
+
+The invention further includes specialized preprocessing steps to ensure robust feature extraction. MRI scans undergo intensity normalization, bias field correction, and skull stripping prior to analysis. Tumor regions are manually or semi-automatically segmented into enhancing core and non-enhancing peritumoral components across multiple MRI sequences (T1-weighted post-contrast, T2-weighted, and FLAIR). All sequences are co-registered to a common anatomical space to enable multi-modal feature extraction.  
+
+The r-DepTH framework represents a significant advancement in neuro-oncologic prognostication by providing the first quantitative integration of tumor-induced biomechanical effects with intratumoral heterogeneity patterns. This comprehensive characterization of tumor field effect offers improved predictive accuracy for patient survival, enabling more personalized treatment planning and clinical trial stratification. Future applications may extend this methodology to other solid tumors exhibiting significant mass effect and infiltrative growth patterns.  
+
+The technical implementation utilizes advanced medical image computing libraries including the Advanced Normalization Tools (ANTs) for deformable registration and specialized radiomic feature extraction algorithms optimized for neuro-oncologic applications. The system architecture supports integration with clinical picture archiving and communication systems (PACS) and electronic medical records for seamless deployment in healthcare settings.  
+
+While particular embodiments have been described, the invention encompasses all modifications, equivalents, and alternatives falling within the scope of the claims. The examples provided illustrate the invention's principles but do not limit its potential applications or implementations. Various adaptations may be made to suit specific clinical requirements or technological constraints without departing from the inventive concept.
