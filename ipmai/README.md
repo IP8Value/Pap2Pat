@@ -32,7 +32,7 @@ nohup python ipmai/sing_llm_call/run_single_llm_call.py \
   --split test \
   --outline_suffix long \
   --temperature 0.3 \
-  > ./qwen3max.log3 2>&1 &
+  > ./qwen3max.log 2>&1 &
 
 nohup python ipmai/sing_llm_call/run_single_llm_call.py \
   --output_dir "/Users/kevin/project_python/Pap2Pat/outputs/single-llm-call/deepseek-v3" \
@@ -40,9 +40,54 @@ nohup python ipmai/sing_llm_call/run_single_llm_call.py \
   --split test \
   --outline_suffix long \
   --temperature 0.3 \
-  > ./deepseek-v3.log3 2>&1 &
+  > ./deepseek-v3.log 2>&1 &
 
 ```
+
+
+Run with empty outline
+```
+nohup python ipmai/sing_llm_call/run_single_llm_call.py \
+  --output_dir "/Users/kevin/project_python/Pap2Pat/outputs/single-llm-call/qwen3-emptyoutline" \
+  --model_profile qwen3 \
+  --split test \
+  --outline_suffix empty \
+  --temperature 0.3 \
+  > ./qwen3.log4 2>&1 &
+
+
+nohup python ipmai/sing_llm_call/run_single_llm_call.py \
+  --output_dir "/Users/kevin/project_python/Pap2Pat/outputs/single-llm-call/qwen3max-emptyoutline" \
+  --model_profile qwen3-max \
+  --split test \
+  --outline_suffix empty \
+  --temperature 0.3 \
+  > ./qwen3max.log3 2>&1 &
+
+
+nohup python ipmai/sing_llm_call/run_single_llm_call.py \
+  --output_dir "/Users/kevin/project_python/Pap2Pat/outputs/single-llm-call/deepseek-v3-emptyoutline" \
+  --model_profile deepseek-v3 \
+  --split test \
+  --outline_suffix empty \
+  --temperature 0.3 \
+  > ./deepseek-v3.log3 2>&1 &
+
+
+nohup python ipmai/sing_llm_call/run_single_llm_call.py \
+  --output_dir "/Users/kevin/project_python/Pap2Pat/outputs/single-llm-call/qwen2" \
+  --model_profile qwen2 \
+  --split test \
+  --outline_suffix empty \
+  --temperature 0.3 \
+  --max_tokens 8000 \
+  > ./qwen2.log5 2>&1 &
+
+```
+
+
+
+
 
 
 # Evaluate Result
@@ -77,6 +122,9 @@ tail -f ./eval_token.log
 tail -f ./eval_embedding.log
 ```
 
+
+
+## Summary the result 
 
 cd outputs/single-llm-call
 for csv in *-res.csv; do

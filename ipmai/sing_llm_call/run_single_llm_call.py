@@ -27,7 +27,7 @@ OUTLINE_GRANULARITIES = {
     "long": 800,
     "medium": 1000,
     "short": 2000,
-    "empty": 0,
+    "empty": 4000,
 }
 
 SYSTEM_PROMPT = """### ROLE
@@ -77,26 +77,42 @@ def read_text(path: Path) -> str:
 
 
 def build_user_prompt(outline_text: str, paper_text: str, outline_suffix: str) -> str:
-    n_words = OUTLINE_GRANULARITIES.get(outline_suffix, OUTLINE_GRANULARITIES["long"])
+    n_words = OUTLINE_GRANULARITIES.get(outline_suffix)
     length_hint = f"Per bullet point, write roughly {n_words} words.\n"
-
-    return (
-        "Here is the outline of the desired patent application.\n"
-        f"{length_hint}\n"
-        "Example outline (bullet points are the lines starting with '- '):\n"
-        "## DESCRIPTION OF THE INVENTION\n"
-        "- describe discovery of ODAM protein in human epithelial cancers\n"
-        "- describe method for aiding in diagnosis and management of cancer\n"
-        "- describe specific embodiments of the invention\n"
-        "- describe methods for determining presence of ODAM or anti-ODAM antibodies\n\n"
-        "In the example above, each line beginning with '- ' is a bullet point.\n\n"
-        f"```md\n{outline_text.strip()}\n```\n\n"
-        "You need to draft a complete patent application that strictly follows the outline's section order "
-        "and headings. Do not skip any bullet points. Use formal patent language. "
-        "The generated patent must not be shorter than the research paper in word count.\n\n"
-        "Here is the research paper that describes the invention:\n\n"
-        f"```md\n{paper_text.strip()}\n```\n"
-    )
+    if outline_suffix == "empty":
+        print("--------empty outline------------")
+        return (
+            "Here is the outline of the desired patent application.\n"
+            f"{length_hint}\n"
+            "Example outline (bullet points are the lines starting with '##'):\n"
+            "## DESCRIPTION OF THE INVENTION\n"
+            "In the example above, each line beginning with '##' is a bullet point.\n\n"
+            f"```md\n{outline_text.strip()}\n```\n\n"
+            "You need to draft a complete patent application that strictly follows the outline's section order "
+            "and headings. Do not skip any bullet points. Use formal patent language. "
+            "The generated patent must not be shorter than the research paper in word count.\n\n"
+            "Here is the research paper that describes the invention:\n\n"
+            f"```md\n{paper_text.strip()}\n```\n"
+        )
+    else:
+        print(f"--------{outline_suffix} outline------------")
+        return (
+            "Here is the outline of the desired patent application.\n"
+            f"{length_hint}\n"
+            "Example outline (bullet points are the lines starting with '- '):\n"
+            "## DESCRIPTION OF THE INVENTION\n"
+            "- describe discovery of ODAM protein in human epithelial cancers\n"
+            "- describe method for aiding in diagnosis and management of cancer\n"
+            "- describe specific embodiments of the invention\n"
+            "- describe methods for determining presence of ODAM or anti-ODAM antibodies\n\n"
+            "In the example above, each line beginning with '- ' is a bullet point.\n\n"
+            f"```md\n{outline_text.strip()}\n```\n\n"
+            "You need to draft a complete patent application that strictly follows the outline's section order "
+            "and headings. Do not skip any bullet points. Use formal patent language. "
+            "The generated patent must not be shorter than the research paper in word count.\n\n"
+            "Here is the research paper that describes the invention:\n\n"
+            f"```md\n{paper_text.strip()}\n```\n"
+        )
 
 
 def remove_outline_bullets(text: str) -> str:
@@ -105,7 +121,7 @@ def remove_outline_bullets(text: str) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run Single LLM-call baseline on Pap2Pat.")
-    parser.add_argument("--model_profile", default="qwen3", choices=["qwen3", "deepseek-v3", "qwen3-max"], help="Model profile to use.")
+    parser.add_argument("--model_profile", default="qwen3", choices=["qwen3", "deepseek-v3", "qwen3-max", "qwen2"], help="Model profile to use.")
     parser.add_argument("--enable_thinking", action="store_true", help="Enable reasoning mode if supported (default: disabled).")
     parser.add_argument("--split", default="test")
     parser.add_argument("--outline_suffix", default="long", choices=list(OUTLINE_GRANULARITIES.keys()))

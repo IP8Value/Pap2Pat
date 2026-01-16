@@ -10,6 +10,7 @@ DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 
 # 默认模型（可按需改）
+QWEN2_MODEL = "qwen2.5-72b-instruct"
 QWEN3_MODEL = "qwen3-next-80b-a3b-instruct"
 DEEPSEEK_V3_MODEL = "deepseek-v3"
 QWEN3_MAX_MODEL = "qwen3-max"
@@ -39,6 +40,16 @@ def get_qwen3_max_profile(
     client = get_client(api_key=api_key)
     return client, (model or QWEN3_MAX_MODEL), None
 
+
+def get_qwen2_profile(
+    api_key: str | None = None,
+    model: str | None = None,
+    enable_thinking: bool | None = None,
+) -> tuple[OpenAI, str, dict | None]:
+    client = get_client(api_key=api_key)
+    return client, (model or QWEN2_MODEL), None
+
+
 def get_deepseek_v3_profile(
     api_key: str | None = None,
     model: str | None = None,
@@ -59,6 +70,7 @@ def get_profile(
         "qwen3": get_qwen3_profile,
         "deepseek-v3": get_deepseek_v3_profile,
         "qwen3-max": get_qwen3_max_profile,
+        "qwen2": get_qwen2_profile,
     }
     if name not in profiles:
         raise ValueError(f"Unknown profile '{name}'. Available: {list(profiles.keys())}")
@@ -66,7 +78,7 @@ def get_profile(
 
 
 if __name__ == "__main__":
-    profiles_to_test = ["qwen3", "deepseek-v3", "qwen3-max"]
+    profiles_to_test = ["qwen2", "qwen3", "deepseek-v3", "qwen3-max"]
     
     for profile_name in profiles_to_test:
         print(f"\n[Testing {profile_name}]", flush=True)
