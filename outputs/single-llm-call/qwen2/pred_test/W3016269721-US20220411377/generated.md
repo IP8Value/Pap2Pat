@@ -1,0 +1,206 @@
+# DESCRIPTION
+
+## BACKGROUND
+
+Neurodegenerative diseases such as Alzheimer's, Huntington's, Parkinson's, and amyotrophic lateral sclerosis (ALS) are characterized by the gradual loss of neuronal integrity and are responsible for a wide range of neurological deficiencies. Neuronal damage or death associated with stroke, ischemic events, and cerebral palsy, as well as acute or chronic brain injuries, has also been linked to similarly debilitating motor, cognitive, and psychological impairments. The overproduction of the vital secondary messenger nitric oxide (NO), produced by neuronal nitric oxide synthase (nNOS) in tissues of the central (CNS) and peripheral nervous system (PNS), is directly implicated in these disorders. Because NO plays a key role in these diseases, rational control of NO levels in neuronal tissues via nNOS-specific inhibition is therapeutically desirable.
+
+Nitric oxide synthases (NOS) are a family of homodimeric enzymes responsible for the biosynthesis of NO. Functional regulation of NO is differentiated by subcellular localization, tissue distribution, and regulatory gene expression of three isoforms of NOS: endothelial NOS (eNOS), inducible NOS (iNOS), and neuronal NOS (nNOS), which are responsible for regulating blood pressure and vascular tone, immune activation, and normal neuronal communication, respectively. Functional NOS is a homodimer. Each NOS monomer contains a reductase domain and an oxygenase domain, separated by a flexible region where calmodulin binds when activated by calcium ions. The reductase domain contains binding sites for flavin adenine dinucleotide (FAD), flavin mononucleotide (FMN), and reduced nicotinamide adenine dinucleotide phosphate (NADPH), whereas the oxygenase domain contains binding sites for (6R)-5,6,7,8-tetrahydrobiopterin (H4B), the metallocofactor heme, and the substrate L-arginine. Electron flow proceeds from one monomer's reductase domain, sequentially through NADPH, FAD, and FMN, to the opposite monomer's oxygenase domain, where the electron is transferred between FMN and heme, by which L-arginine is oxidized to L-citrulline and NO.
+
+Most compounds initially investigated for nNOS inhibition were designed as competitive mimics of L-arginine. These inhibitors have high basicity and polarity, a large total polar surface area (tPSA), and an overabundance of hydrogen bond donors, and as a result, suffer from poor pharmacokinetic properties. Efforts have been made to develop a set of compounds with modifications at the 5-position of the central phenyl ring to investigate whether additional interactions could be made with the heme propionate or another active site residue. Because of the high n/eNOS selectivity of certain compounds, it was hypothesized that the flexible tail amino group might be contacting a specific aspartate residue (Asp597/Asp602 in rnNOS/hnNOS, respectively), which is missing in eNOS isoforms, replaced by asparagine. Contact (hydrogen bonding or electrostatic) between an inhibitor and this residue can impart very high n/eNOS selectivity (1000-fold or more).
+
+## SUMMARY
+
+The present invention relates to a series of novel 7-phenyl-2-aminoquinoline derivatives designed to specifically inhibit neuronal nitric oxide synthase (nNOS) with high selectivity over other NOS isoforms, particularly endothelial NOS (eNOS) and inducible NOS (iNOS). The compounds of the invention exhibit high potency and selectivity for nNOS, making them useful for treating neurodegenerative diseases and conditions associated with excessive NO production.
+
+The invention provides compounds of the formula (I):
+
+\[ \text{Formula (I)} \]
+
+where:
+- R1 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R2 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R3 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R4 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R5 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R6 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R7 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R8 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R9 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R10 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R11 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R12 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R13 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R14 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R15 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R16 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R17 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R18 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R19 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R20 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R21 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R22 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R23 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R24 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R25 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R26 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R27 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R28 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R29 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R30 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R31 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R32 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R33 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R34 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R35 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R36 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R37 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R38 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R39 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R40 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R41 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R42 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R43 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R44 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R45 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R46 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R47 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R48 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R49 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R50 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R51 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R52 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R53 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R54 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R55 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R56 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R57 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R58 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R59 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R60 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R61 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R62 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R63 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R64 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R65 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R66 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R67 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R68 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R69 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R70 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R71 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R72 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R73 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R74 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R75 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R76 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R77 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R78 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R79 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R80 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R81 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R82 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R83 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R84 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R85 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R86 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R87 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R88 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R89 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R90 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R91 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R92 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R93 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R94 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R95 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R96 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R97 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R98 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R99 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R100 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R101 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R102 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R103 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R104 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R105 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R106 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R107 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R108 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R109 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R110 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R111 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R112 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R113 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R114 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R115 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R116 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R117 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R118 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R119 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R120 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R121 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R122 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R123 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R124 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R125 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R126 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R127 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R128 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R129 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R130 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R131 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R132 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R133 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R134 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R135 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R136 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R137 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R138 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R139 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R140 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R141 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R142 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R143 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R144 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R145 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R146 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R147 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R148 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R149 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R150 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R151 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R152 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R153 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R154 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R155 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R156 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R157 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R158 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R159 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R160 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R161 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R162 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R163 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R164 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R165 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R166 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R167 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R168 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R169 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R170 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R171 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R172 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R173 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R174 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R175 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R176 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R177 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R178 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R179 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R180 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R181 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R182 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R183 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R184 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R185 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R186 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl, and heterocyclyl;
+- R187 is selected from the group consisting of hydrogen, alkyl, alkenyl, alkynyl, aryl, heteroaryl

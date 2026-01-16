@@ -1,0 +1,49 @@
+# DESCRIPTION
+
+## BACKGROUND OF INVENTION
+
+The present invention relates to a novel type of fully magnetically levitated bearingless motor. More specifically, the invention pertains to a motor design that eliminates the need for mechanical bearings by integrating levitation and rotation functions within the same motor windings. Traditional rotating machinery often relies on mechanical bearings to support the rotor and stator. While this approach is cost-effective for many applications, it is not suitable for high-performance systems that operate at high speeds, in extreme environments, or in locations where maintenance is difficult or impossible. Examples of such applications include flywheel energy storage in spacecraft and motors/generators on jet engines.
+
+High-speed operation and extreme environmental conditions can lead to premature bearing failure, necessitating frequent maintenance or replacement. Furthermore, the presence of mechanical bearings adds to the overall weight and complexity of the system, which can be detrimental in applications where weight and size are critical factors. Magnetic bearings offer a solution to these challenges by providing non-contact support for the rotor, thereby eliminating wear and reducing friction. However, traditional magnetic bearing systems often require additional components, such as separate windings for levitation and rotation, which increase the axial length of the rotor and lower its bending mode frequencies. This can pose significant control problems, especially in high-speed applications.
+
+To address these issues, the present invention introduces a bearingless motor design that integrates levitation and rotation functions within the same windings. This design allows all the copper and iron in the motor to contribute to either levitation or rotation, depending on the system's needs. By eliminating the need for separate bearing and motor windings, the invention minimizes the axial length of the rotor, raises its bending mode frequencies, and provides inherent fault tolerance. The motor is wound without internally connecting the pole pairs, and force is controlled by varying the rotor reference frame d-axis current to each pole pair. This variation in current creates a flux imbalance on the periphery of the rotor, generating a net force that can be used for both radial and axial levitation.
+
+## SUMMARY OF INVENTION
+
+The present invention provides a fully magnetically levitated bearingless motor capable of achieving five-axis levitation and rotation. The motor is designed to eliminate the need for mechanical bearings by integrating levitation and rotation functions within the same windings. The key features of the invention include:
+
+1. **Pole Pair Separation**: The motor windings are configured such that the pole pairs are left deliberately disconnected. This allows for the generation of different q-axis and d-axis rotor reference frame currents in each pole pair, enabling the creation of net forces on the rotor for levitation.
+
+2. **Conical Air Gap**: The motor incorporates a conical air gap, which allows for the generation of forces in both radial and axial directions. Two conical motors are combined on a single rotor with cones in opposite directions, enabling the creation of a net z-directed force proportional to the difference in d-axis currents between the top and bottom motors.
+
+3. **Field-Oriented Control**: The motor utilizes field-oriented control to manage both torque and levitation forces. The control system calculates the required d-axis currents for each pole pair to achieve the desired levitation and rotation, ensuring optimal performance and stability.
+
+4. **Fault Tolerance**: The design of the motor provides inherent fault tolerance due to the separation of pole pairs and the ability to redistribute power between levitation and rotation functions as needed.
+
+The invention offers several advantages over existing bearingless motor designs, including reduced axial length, higher bending mode frequencies, and the ability to use all motor iron and copper for both levitation and rotation. These features make the invention particularly suitable for high-performance applications in extreme environments where maintenance is limited or impractical.
+
+## DETAILED DESCRIPTION
+
+### Pole Pair Separated Bearingless Motor
+
+The first innovation of the present invention is the method of controlling both motor torque and rotor levitation forces using field-oriented control. In traditional motor designs, the windings are connected such that no lateral forces are induced in the rotor, which is desirable to prevent vibrations. This is achieved through the motor design, where the windings comprising pole pairs are connected together, either in series or parallel. As a result, the forces induced by each pole pair are the same in magnitude, and due to motor symmetry, the vector addition of these forces always results in a net force of zero on the rotor. Consequently, motors built with standard windings cannot achieve levitation.
+
+In contrast, the bearingless motor of the present invention is wound with the pole pairs left deliberately disconnected. This configuration allows for the generation of different q-axis and d-axis rotor reference frame currents in each pole pair, enabling the creation of net forces on the rotor for levitation. The power electronics required to drive this motor are more complex than those for a standard 3-phase motor, as they must generate arbitrary rotor reference frame d and q axis currents in each of the three individual pole pairs. Specifically, 18 switches are used in the drive system, compared to the 6 switches required for a standard 3-phase motor. However, this increased complexity is offset by the reduced voltage and current requirements of the switches, which can be tailored to the specific needs of the application.
+
+A magnetic circuit model of the motor was developed to analyze the forces generated by varying the d-axis currents. The model includes the yoke, backiron, and each gap, tooth, and magnet. By applying positive and negative constant d-axis currents to each pole pair, the force applied to the rotor was calculated for each tooth and then summed to obtain the net force. The results of these simulations over a motor rotation of 360 degrees show that the magnitude of the forces is consistent, and the phases of the forces vary predictably with the electrical angle of the rotor. These findings form the basis for the control scheme used to achieve levitation and rotation.
+
+### Conical Air-Gap
+
+The second innovation of the present invention is the use of a conical air gap in the motor design. The conical gap allows for the generation of forces in both radial and axial directions, enabling full five-axis levitation. In the prototype motor, two conical motors are combined on a single rotor with cones in opposite directions. The net z-directed force is proportional to the difference between the sums of the rotor reference frame d-axis currents in the top and bottom motors. This configuration allows for the creation of a z-axis force with no impact on radial force by adding a constant current to the d-axis currents of the top motor and subtracting the same current from the bottom motor.
+
+The control system for the motor calculates the required d-axis currents to achieve the desired radial and axial forces. The d-axis currents for radial levitation are determined using a process similar to that described for the pole pair separated motor. The axial force is then calculated by summing the d-axis currents in the top and bottom motors and multiplying the difference by the axial stiffness. Any unintended axial force created by the radial control is corrected using a z-force block, which adjusts the d-axis currents to maintain the desired radial and axial forces.
+
+### Results and Testing
+
+A prototype of the conical air-gap bearingless motor was designed, built, and tested to validate the theoretical and simulation results. The test setup included a dSPACE system with a 0.3 ms sample time for the motor controller. The prototype demonstrated successful five-axis levitation and rotation, with experimental results closely matching the simulations. The motor's performance was evaluated under various operating conditions, and the control system was able to maintain stable levitation and rotation even in the presence of external disturbances.
+
+To further validate the motor's performance, a standard rap test was conducted to identify any mechanical modes that might affect the control system. The test revealed a clear dip in magnitude at 32.5 Hz, which was attributed to a rigid body mode of the motor baseplate interacting with the mounting isolation dampers. This finding was consistent with the experimental loop gain data, confirming the robustness of the motor design and control system.
+
+### Conclusion
+
+The present invention provides a novel fully magnetically levitated bearingless motor that integrates levitation and rotation functions within the same windings. The motor design minimizes the axial length of the rotor, raises its bending mode frequencies, and allows all the copper and iron in the motor to contribute to either levitation or rotation. The use of a conical air gap and field-oriented control enables full five-axis levitation and rotation, making the invention particularly suitable for high-performance applications in extreme environments. The prototype motor demonstrated successful operation, validating the theoretical and simulation results and highlighting the potential of the invention for a wide range of applications.
