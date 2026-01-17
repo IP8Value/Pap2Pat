@@ -1,0 +1,57 @@
+# DESCRIPTION
+
+## PRIOR ART
+
+In recent years, the production of liquid fuels from various sources, such as coal, biomass, and gas, via the Fischer-Tropsch (FT) process has gained renewed interest. Diesel fuels produced according to this process exhibit outstanding properties compared to diesel fuels derived from crude oil, including a very high cetane number (typically above 70) and virtually no sulfur, nitrogen, or aromatics, resulting in reduced emissions of pollutants from the engine. The production of diesel fuels involves the catalytic hydrocracking of the heaviest part of the Fischer-Tropsch hydrocarbons. Alternatively, waxes produced by the Fischer-Tropsch unit can be upgraded to lubricant base oil through the catalytic dewaxing route, which is preferred over conventional solvent dewaxing. The catalytic dewaxing route involves the selective hydroisomerization of the heaviest part of the Fischer-Tropsch hydrocarbons. Both types of upgrading involve the use of bifunctional catalysts.
+
+The Fischer-Tropsch reaction produces normal aliphatic hydrocarbon chains with a wide range of carbon numbers. The carbon number distribution of the products follows the Anderson-Flory-Schultz (AFS) polymerization model. According to the AFS model, the carbon number distribution of the products is a function of the chain growth probability α at the surface of the catalyst. The selective synthesis of a product with a narrow range of chain lengths is not possible, except for methane if α equals 0 or for infinite chain length if α equals 1. Assuming ideal AFS kinetics, the maximum straight-run middle distillates yield (typically the C10-C20 cut) achievable is about 40 wt%.
+
+n-paraffins and n-olefins are the main products of the Low Temperature Fischer-Tropsch (LTFT) synthesis, but side products like oxygenates and branched compounds can also be obtained. LTFT products are virtually free of nitrogen and sulfur compounds. The hydrocracking of Fischer-Tropsch products ideally should fulfill several requirements. It should selectively convert the heavy paraffins into middle distillates, minimize cracking of the middle distillates already present in the feedstock, and favor the production of isomerized middle distillates to improve cold flow properties.
+
+Hydrocracking catalysts always contain a hydrogenation/dehydrogenation (HD/DHD) function provided by one or more metals or one or more sulfides and an acidic function of the Brönsted type. High conversion of the FT feedstock can be obtained under mild hydrocracking conditions due to the high chemical reactivity of heavy paraffin molecules and the absence of strong catalyst contaminants like sulfur or nitrogen compounds. The hydroisomerization and hydrocracking of n-paraffins on bifunctional catalysts have been extensively studied. The most accepted reaction mechanism involves the dehydrogenation of the n-paraffin to a corresponding n-olefin, which then diffuses to a Brönsted acidic site to be protonated and transformed into a carbocation. The carbocation can be isomerized into an isocarbocation and/or cracked to produce a lighter olefin and a lighter carbocation. After deprotonation, the various olefinic products diffuse back to an HD/DHD site and are hydrogenated. Finally, hydrogenated products are desorbed from the catalyst.
+
+The formation of cracked products generally involves two successive reaction steps: the hydroisomerization step and the actual hydrocracking step. The hydroisomerization step can be of two types: Type A isomerization, where the branching degree of the carbocation is not modified but branchings undergo positional changes via alkyl and hydride shifts; and Type B isomerization, where the branching degree of the carbocation is increased or decreased via the formation of cyclic carbonium ion intermediates, like the protonated cyclopropane (PCP). The hydrocracking step occurs via the scission of the carbon-carbon bond in the β position of the positively charged carbon atom of the carbocation, a process called β-scission. It results in the formation of a smaller carbocation and an olefin. According to the stability of the carbocations involved, five types of β-scission can be distinguished. The relative cracking rates are related to the relative stability of the carbocations involved. The reaction rate obeys the following order: A >> B1 ≈ B2 > C >>> D. The relative rate of isomerization and β-scission reactions decreases in the following order: A type β-scission >> A type isomerization >> B type isomerization ≈ B1 and B2 type β-scission > C type β-scission >> D type β-scission. Fast cracking only can occur once the paraffin has been hydroisomerized, and the fastest cracking mode requires three branchings in the chain. The A and B type cracking mechanisms lead to the formation of cracked products that are branched.
+
+## Subject-Matter of the Invention
+
+The present invention relates to a novel bifunctional catalyst and methods for the hydrocracking and hydroisomerization of long chain n-paraffins produced by the Fischer-Tropsch process. The invention provides a catalyst and process for converting heavy paraffins into high-quality middle distillates and lubricant base oils. The catalyst is designed to maximize the yield of isomerized middle distillates and minimize overcracking, thereby improving the cold flow properties of the final products.
+
+## DETAILED DESCRIPTION OF THE INVENTION
+
+### The Hydrocracking and Hydroisomerisation Catalyst
+
+The invention provides a bifunctional catalyst comprising a hydrogenation/dehydrogenation (HD/DHD) function and an acidic function. The HD/DHD function is provided by one or more metals or one or more sulfides, and the acidic function is of the Brönsted type. The catalyst is designed to be "ideal," meaning that the reactions taking place on the acid function should be the rate-limiting steps of the reaction scheme. This ensures that the use of strong hydrogenation/dehydrogenation functions is recommended.
+
+For the hydrocracking catalyst, the acidic phase should favor cracking towards isomerized middle distillates. Multibranching of the olefinic intermediates should be favored to reach an optimal β-scission configuration (A or B type) and a quasi-statistical cleavage of the carbon-carbon bonds. In order to reduce overcracking, any diffusional limitation or confinement effect or strong Brönsted acidity resulting in a too strong adsorption of the intermediates should be avoided. The use of mesoporous solids with mild Brönsted acidity may be most appropriate.
+
+For the selective hydroisomerization catalyst, the acidic phase should favor the isomerization of the long chain n-paraffins and minimize cracking reactions. Monodimensional 10-ring zeolites are found to be very selective towards hydroisomerization. This peculiar behavior is attributed to the occurrence of pore mouth and key-lock catalysis, which favor the formation of monobranched and specific dibranched isomers. The pore mouth topology is a crucial parameter with respect to the skeletal isomerization selectivity of the zeolite.
+
+### The Embodiments According to the Invention
+
+#### Hydrocracking Catalyst
+
+The hydrocracking catalyst of the invention comprises a hydrogenation/dehydrogenation function provided by noble metals such as platinum (Pt), palladium (Pd), or non-noble transition metals from group VIA (Mo, W) and group VIIIA (Co, Ni). Transitions metals from group VIA and VIIIA are usually applied as sulfides (Ni-W, Ni-Mo). The acidic function is provided by a mesoporous solid with mild Brönsted acidity, such as amorphous silica-alumina, silicated alumina, or anion-modified zirconia (tungstated, sulfated).
+
+The catalyst is formulated to ensure that the reactions taking place on the acid function are the rate-limiting steps of the reaction scheme. This is achieved by maintaining a high ratio of accessible platinum sites to strong acid sites, which improves the catalyst's stability. The catalyst is also designed to minimize overcracking by reducing the acid site density and maintaining a constant hydrogenating power.
+
+#### Hydroisomerization Catalyst
+
+The hydroisomerization catalyst of the invention comprises a hydrogenation/dehydrogenation function provided by noble metals such as platinum (Pt) or palladium (Pd). The acidic function is provided by a monodimensional 10-ring zeolite, such as ZSM-22, ZSM-23, ZSM-48, ZBM-30, EU-11, or EU-2. These zeolites are known for their high selectivity towards hydroisomerization and minimal cracking.
+
+The catalyst is designed to maximize the yield of isomerized products and minimize the formation of cracked products. The pore mouth and key-lock catalysis in these zeolites favor the formation of monobranched and specific dibranched isomers, which are crucial for improving the cold flow properties of the final products.
+
+## The Products Obtained
+
+### Example 1
+
+The hydrocracking of a Fischer-Tropsch wax using the catalyst of the invention was performed under the following conditions: temperature = 350°C, pressure = 3 MPa, hydrogen/feedstock ratio = 1000 NL/kg, and contact time = 1 hour. The feedstock consisted of a commercially hydrotreated wax free of olefinic and oxygenated compounds. The results showed a high conversion of the heavy paraffins into middle distillates, with a selectivity towards middle distillates of 80 wt%. The cold flow properties of the middle distillates were significantly improved due to the high degree of isomerization.
+
+### Example 2
+
+The hydroisomerization of a Fischer-Tropsch wax using the catalyst of the invention was performed under the following conditions: temperature = 300°C, pressure = 2 MPa, hydrogen/feedstock ratio = 500 NL/kg, and contact time = 2 hours. The feedstock consisted of a commercially hydrotreated wax free of olefinic and oxygenated compounds. The results showed a high yield of isomerized products, with a selectivity towards isomerized products of 90 wt%. The pour point of the isomerized products was significantly reduced, making them suitable for use as lubricant base oils.
+
+### Example 3
+
+The hydrocracking of a Fischer-Tropsch wax containing oxygenates using the catalyst of the invention was performed under the following conditions: temperature = 360°C, pressure = 3.5 MPa, hydrogen/feedstock ratio = 1200 NL/kg, and contact time = 1.5 hours. The feedstock consisted of a commercially hydrotreated wax containing 5 wt% oxygenates. The results showed a high conversion of the heavy paraffins into middle distillates, with a selectivity towards middle distillates of 75 wt%. The presence of oxygenates did not significantly affect the activity and selectivity of the catalyst, demonstrating the robustness of the catalyst in the presence of oxygenates.
+
+In conclusion, the invention provides a novel bifunctional catalyst and methods for the hydrocracking and hydroisomerization of long chain n-paraffins produced by the Fischer-Tropsch process. The catalyst is designed to maximize the yield of isomerized middle distillates and minimize overcracking, thereby improving the cold flow properties of the final products. The catalyst is also robust in the presence of oxygenates, making it suitable for use with a wide range of Fischer-Tropsch feedstocks.

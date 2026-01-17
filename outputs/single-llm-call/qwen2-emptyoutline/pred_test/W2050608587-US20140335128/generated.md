@@ -1,0 +1,33 @@
+# DESCRIPTION
+
+## BACKGROUND OF THE INVENTION
+
+Malaria remains a significant global health burden, causing millions of clinical cases and hundreds of thousands of deaths annually. Effective vaccines are urgently needed to combat this disease. Traditional approaches to malaria vaccines have focused on inducing antibody responses, but recent advances suggest that cell-mediated immunity (CMI), particularly involving cytotoxic CD8+ T cells, may be crucial for protecting against the intracellular stages of the parasite. Gene-based vaccines, which can induce robust CMI, offer a promising alternative to traditional subunit vaccines. This invention relates to a novel gene-based vaccine regimen that combines DNA priming with adenovirus (Ad) boosting to induce protective immunity against Plasmodium falciparum malaria. The vaccine targets two key antigens: circumsporozoite protein (CSP) and apical membrane antigen-1 (AMA1), both of which are expressed by sporozoites and liver stage parasites. The invention aims to provide a safe, effective, and scalable vaccine strategy that can induce strong CMI and potentially sterilizing immunity against malaria.
+
+## BRIEF SUMMARY OF THE INVENTION
+
+The present invention provides a gene-based vaccine regimen for inducing protective immunity against Plasmodium falciparum malaria. The vaccine regimen comprises a heterologous prime-boost strategy, where subjects are primed with a mixture of two DNA plasmids encoding CSP and AMA1, followed by a boost with a mixture of two non-replicating recombinant human serotype 5 adenovirus vectors (Ad) expressing the same antigens. The DNA plasmids and adenovirus vectors are designed to express the antigens within the cytoplasm of host cells, leading to activation of MHC Class I (endogenous) antigen presentation and generation of cell-mediated immunity, including cytotoxic CD8+ T cells. The invention also includes methods for administering the vaccine regimen and assessing the immunogenicity and protective efficacy of the vaccine in human subjects.
+
+## DETAILED DESCRIPTION OF THE INVENTION
+
+### Example 1
+
+#### DNA Priming Component
+
+The DNA priming component of the vaccine regimen consists of two DNA plasmids, each encoding one of the target antigens: CSP and AMA1. The CSP gene is modified by deleting 16 of the central repeat sequences and adding a human tissue plasminogen activator (TPA) signal sequence at the N terminus and a 23 amino acid segment from the transcriptional terminator of bovine growth hormone at the C terminus. The AMA1 gene expresses the AMA1 ectodomain and is modified by replacing the native signal sequence with a TPA signal sequence. Both genes are codon-optimized for expression in mammalian cells and are inserted into the plasmid VR1020, which is controlled by the promoter/enhancer of the human cytomegalovirus immediate early (CMV IE) gene. The plasmids are produced under cGMP conditions and are administered intramuscularly at 2 mg per dose (1 mg each construct) by needle-free jet injection.
+
+#### Adenovirus Boosting Component
+
+The adenovirus boosting component of the vaccine regimen consists of two non-replicating recombinant human serotype 5 adenovirus vectors (Ad), each expressing one of the target antigens: CSP and AMA1. The CSP gene is identical to the DNA construct but lacks the TPA signal sequence, while the AMA1 gene is full-length, including the transmembrane and cytoplasmic domains, and contains the native signal sequence. Both genes are codon-optimized for expression in mammalian cells and are inserted into the E1 region of the adenovirus vector under the transcriptional control of a modified human cytomegalovirus promoter (CMV-IE). The adenovirus vectors are derived from GV11D and are missing the E1 and E4 regions required for replication as well as part of the E3 region. The vectors are administered intramuscularly at 2 × 10^10 particle units (pu) per dose (1 × 10^10 pu each construct) by needle injection.
+
+### Example 2
+
+#### Safety and Tolerability
+
+The safety and tolerability of the vaccine regimen were evaluated in a Phase 1 clinical trial involving healthy malaria-naïve adults. Participants received DNA priming at weeks 0, 4, and 8, followed by Ad boosting at week 24. Adverse events (AEs) were recorded and categorized as mild, moderate, or severe. Solicited AEs were recorded on days 0, 1, 2, and 7, while unsolicited AEs were recorded on days 0, 1, 2, 7, 14, and 28. Laboratory tests, including complete blood count, aspartate aminotransferase (AST), alanine aminotransferase (ALT), creatinine, and total bilirubin, were performed on days 0, 2, 7, and 28 following each immunization. Serious AEs (SAEs) were monitored until the end of the study. The results showed that the vaccine regimen was generally safe and well-tolerated, with primarily mild AEs observed. One serious AE, a saphenous venous thrombosis, was reported but was unlikely related to the vaccine.
+
+### Example 3
+
+#### Immunogenicity and Protective Efficacy
+
+The immunogenicity and protective efficacy of the vaccine regimen were assessed in the same Phase 1 clinical trial. Participants were challenged with P. falciparum-infected mosquitoes at week 28, and the onset of parasitemia was monitored by quantitative polymerase chain reaction (qPCR) and microscopic examination of Giemsa-stained thick smears. Antibody responses to CSP and AMA1 were measured by enzyme-linked immunosorbent assay (ELISA) and immunofluorescent antibody assay (IFA). T cell responses were measured by interferon-gamma (IFN-γ) enzyme-linked immunospot (ELISpot) assay and flow cytometry with intracellular cytokine staining (ICS). The results showed that the vaccine regimen induced significant IFN-γ ELISpot and CD8+ T cell responses to both CSP and AMA1, with a stronger response to AMA1. Four of 15 vaccinated participants were fully protected against malaria, demonstrating sterile immunity. Protection was significantly associated with IFN-γ ELISpot and CD8+ T cell responses to AMA1, with possible contributions from CD4+ T cell responses to AMA1 and CD8+ T cell responses to CSP. Antibody responses were low and did not correlate with protection. Pre-existing neutralizing antibodies to adenovirus serotype 5 (NAb) were associated with reduced antibody responses to AMA1 and cellular ELISpot responses to both antigens, but not with CD8+ T cell responses detected by flow cytometry. These findings support the potential of the DNA/Ad prime-boost strategy to induce protective cell-mediated immunity against malaria.
